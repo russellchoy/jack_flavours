@@ -94,3 +94,7 @@ The user accepted free scheduled operation and public dashboard hosting, and exp
 ## Launch amendment — approved house vanilla alias
 
 On 18 October the user confirmed house vanilla and vanilla are the same flavour. Live version v4 adds precisely that mapping on top of v3. V3 normalization remains unchanged for historical scoring; v4 has separate model/forecast/issuance identities and a newly fitted reference model. The user requested an additional manual candidate review; no unapproved proposals are applied.
+
+
+### Approved candidate review — 18 October 2026
+The user subsequently approved all 83 reviewed candidate groups. Live v5 adds 86 explicit alias mappings, preserving v3/v4 normalization for archived forecasts. The reference and daily refit both support 513 labels. These are exact mappings, not a global word-order rule. First v5 target: 19 October. The one-time migration used the existing validated 18 October observations without resetting the three-attempt daily collection cap.

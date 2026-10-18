@@ -171,7 +171,7 @@ The summary gallery includes within-shop flavour co-occurrence: frequent pairs, 
 
 ## Daily prospective forecasts
 
-The daily pipeline evaluates forecasts issued before the target day, starting with the saved 18 October 2026 forecast. It collects dated menu snapshots, scores immutable predictions, refits the fixed-settings logistic model using v3 cleaned names, and saves the following day's forecasts alongside a frozen model and persistence comparator.
+The daily pipeline evaluates forecasts issued before the target day, starting with the saved 18 October 2026 forecast. It collects dated menu snapshots, scores immutable predictions, refits the fixed-settings logistic model using the current approved v5 aliases, and saves the following day's forecasts alongside a frozen model and persistence comparator.
 
 ```sh
 uv sync --locked

@@ -12,7 +12,7 @@ A data update generates at most one Pages build per pipeline attempt (normally o
 
 1. Publish the verified source on `main`, with local assistant notes and credentials excluded.
 2. Create `daily-data` containing validated initial state and `.gitignore` excluding `models/` and temporary files.
-3. Upload each locally issued model as release asset `v5-YYYY-MM-DD.joblib` under tag `daily-model-v5-YYYY-MM-DD`; verify its hash against `issued-v4/YYYY-MM-DD.json` before publishing the data commit.
+3. Upload each locally issued model as release asset `v5-YYYY-MM-DD.joblib` under tag `daily-model-v5-YYYY-MM-DD`; verify its hash against `issued-v5/YYYY-MM-DD.json` before publishing the data commit.
 4. Run **Verify model and daily pipeline**, then manually run **Daily menu forecast**. Inspect Actions results, saved data and any release assets.
 5. The committed cron schedule then runs automatically. GitHub schedules can be delayed or disabled after prolonged repository inactivity; the dashboard shows freshness. GitHub's own workflow notification settings can notify the account owner of failures.
 

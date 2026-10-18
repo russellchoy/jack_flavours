@@ -31,6 +31,7 @@ dist/
 # Reproducibility artifacts and gallery are deliberately included
 /artifacts/*
 !/artifacts/latest/
+!/artifacts/production-v3/
 !/artifacts/final/
 !/artifacts/validation/
 !/artifacts/baselines/

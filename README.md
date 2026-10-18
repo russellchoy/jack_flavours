@@ -171,7 +171,7 @@ The summary gallery includes within-shop flavour co-occurrence: frequent pairs, 
 
 ## Daily prospective forecasts
 
-The daily pipeline evaluates forecasts issued before the target day, starting with the saved 18 October 2026 forecast. It collects dated menu snapshots, scores immutable predictions, refits the existing fixed-settings logistic model, and saves the following day's forecasts alongside a frozen model and persistence comparator.
+The daily pipeline evaluates forecasts issued before the target day, starting with the saved 18 October 2026 forecast. It collects dated menu snapshots, scores immutable predictions, refits the fixed-settings logistic model using v3 cleaned names, and saves the following day's forecasts alongside a frozen model and persistence comparator.
 
 ```sh
 uv sync --locked
@@ -181,7 +181,7 @@ uv run --locked python -m jack_flavours.daily run --state daily-state
 
 The command uses today's Europe/London date and writes separate live state; it never changes the frozen experiment. Maximum three collection attempts per day, with stale or missing menus excluded. Manual runs count toward that limit. A failed refit preserves scores but does not issue a new adaptive forecast. The workflow is capped at 30 minutes and serializes data writes.
 
-The public `daily-data` branch contains the permanent observations, forecasts, accuracy records and static dashboard under `site/`. Models are versioned release assets named by their issue date. Model bundles are Python pickle-based artifacts: load only trusted, checksum-verified versions from this project. The dashboard reports top-ten hit rate, all-menu coverage, missing shops and shared-label probability comparisons.
+The public `daily-data` branch contains the permanent observations, forecasts, accuracy records and static dashboard under `site/`. V3 models are versioned release assets named `v3-YYYY-MM-DD.joblib`. Original-name forecasts and the 18 October score remain separately labelled in the archive. V3 prospective accuracy starts with 19 October outcomes. Model bundles are Python pickle-based artifacts: load only trusted, checksum-verified versions from this project. The dashboard reports top-ten hit rate, all-menu coverage, missing shops and shared-label probability comparisons.
 
 Hosting uses **free GitHub Actions on a public repository and Cloudflare Pages Free**. No Workers paid plan, paid runner, database or LLM API is required. The workflow refuses to run on a private repository. Cloudflare Pages should deploy only `daily-data`, with no build command and output directory `site`; disable preview builds. Use its free `pages.dev` address. Instructions: [deployment guide](reports/daily-deployment.md).
 

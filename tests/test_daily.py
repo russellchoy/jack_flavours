@@ -72,7 +72,7 @@ def test_score_is_idempotent_and_shared_brier_excludes_unknowns(tmp_path):
     original=(tmp_path/'scores/2026-10-18/all_saints-adaptive.json').read_bytes()
     daily.score_pending(tmp_path)
     assert (tmp_path/'scores/2026-10-18/all_saints-adaptive.json').read_bytes()==original
-    shared=daily.read(tmp_path/'comparisons/2026-10-18/all_saints.json')
+    shared=daily.read(tmp_path/'comparisons/2026-10-18/all_saints-original-v1.json')
     assert shared['shared_labels']==1
     assert shared['shared_brier']['adaptive']==pytest.approx(.04)
 
@@ -112,7 +112,7 @@ def test_refit_failure_preserves_scores_and_reports_failure(tmp_path,monkeypatch
     with pytest.raises(RuntimeError,match='synthetic'):daily.run(tmp_path)
     assert len(list((tmp_path/'scores/2026-10-18').glob('*.json')))==2
     assert daily.read(tmp_path/'outcomes/2026-10-18/1.json')['status']=='failed'
-    assert not (tmp_path/'issued').exists()
+    assert not (tmp_path/'issued-v3').exists()
 
 
 def test_issue_then_retry_and_interrupted_recovery(tmp_path,monkeypatch):
@@ -129,10 +129,33 @@ def test_issue_then_retry_and_interrupted_recovery(tmp_path,monkeypatch):
     assert len(paths)==6
     saved={str(p):p.read_bytes() for p in paths}
     assert daily.issue(tmp_path,day,{'seed':42},frozen,lambda:None)==result
-    (tmp_path/'issued'/f'{day}.json').unlink()
+    (tmp_path/'issued-v3'/f'{day}.json').unlink()
     paths[0].unlink()
     def no_refit(*args):raise AssertionError('Must reuse interrupted issuance')
     monkeypatch.setattr(daily,'fit_bundle',no_refit)
     recovered=daily.issue(tmp_path,day,{'seed':42},frozen,lambda:None)
     assert recovered['model_sha256']==result['model_sha256']
     assert all(Path(p).read_bytes()==v for p,v in saved.items())
+
+
+def test_v3_scoring_merges_only_approved_aliases():
+    p=prediction();p.update(normalization='v3',model='adaptive-v3')
+    p['predictions']=[{'flavour':'vanilla mascarpone','probability':.9,'top_k':True},
+                      {'flavour':'pandan','probability':.2,'top_k':True}]
+    o=observation();o['flavours']=['mascarpone & vanilla','mascarpone and vanilla','pandan']
+    r=daily.score_forecast(p,o)
+    assert r['hits']==2 and r['actual']==2 and r['unsupported_actual']==0
+    original=deepcopy(p);original['normalization']='original-v1'
+    assert daily.score_forecast(original,o)['hits']==1
+
+
+def test_v3_history_matches_approved_cleaning_without_mutating_original(tmp_path):
+    from jack_flavours.cleaning import canonical_title
+    o=observation();o['items']=[{'raw_name':'mascarpone & vanilla','canonical_name':'mascarpone & vanilla','annotations':'[]'},
+                              {'raw_name':'vanilla mascarpone','canonical_name':'vanilla mascarpone','annotations':'[]'}]
+    daily.immutable(tmp_path/'observations/2026-10-18/all_saints.json',o)
+    before=Path('data/processed/appearances.parquet').read_bytes()
+    data=daily.live_dataset(tmp_path,'2026-10-18')
+    assert all(n==canonical_title(n) for n in data.names)
+    assert data.presence[-1,0].sum()==1
+    assert Path('data/processed/appearances.parquet').read_bytes()==before

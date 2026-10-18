@@ -12,7 +12,7 @@ A data update generates at most one Pages build per pipeline attempt (normally o
 
 1. Publish the verified source on `main`, with local assistant notes and credentials excluded.
 2. Create `daily-data` containing validated initial state and `.gitignore` excluding `models/` and temporary files.
-3. Upload each locally issued model as release asset `YYYY-MM-DD.joblib` under tag `daily-model-YYYY-MM-DD`; verify its hash against `issued/YYYY-MM-DD.json` before publishing the data commit.
+3. Upload each locally issued model as release asset `v3-YYYY-MM-DD.joblib` under tag `daily-model-v3-YYYY-MM-DD`; verify its hash against `issued-v3/YYYY-MM-DD.json` before publishing the data commit.
 4. Run **Verify model and daily pipeline**, then manually run **Daily menu forecast**. Inspect Actions results, saved data and any release assets.
 5. The committed cron schedule then runs automatically. GitHub schedules can be delayed or disabled after prolonged repository inactivity; the dashboard shows freshness. GitHub's own workflow notification settings can notify the account owner of failures.
 
@@ -43,3 +43,7 @@ The user may need to sign into Cloudflare and approve its GitHub installation. D
 - Raw historical scores and per-model probability scores use different support sets; compare probability quality via the saved shared-label comparison.
 - Manual recovery must preserve source timestamps. Backfilling missing forecasts is forbidden as prospective evidence.
 - Review storage and model retention after 90 days. Review predictive performance after 30 scored days per shop. No automatic hyperparameter tuning or promotion is enabled.
+
+## Production naming boundary
+
+The user selected v3 cleaning on 18 October: conjunction removal and the three approved word-order aliases apply to training, inference and scoring. Adaptive/frozen/persistence v3 forecasts first target 19 October. The original-name 18 October score remains an archival result, not v3 accuracy. Original forecasts already issued for 19 October are also retained.

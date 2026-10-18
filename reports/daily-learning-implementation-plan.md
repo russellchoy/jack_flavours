@@ -1,6 +1,6 @@
 # Daily forecasting and prospective evaluation
 
-Prepared 18 October 2026. Status: proposed implementation, not activated or deployed. This document authorizes no scheduled work. The requested scoring start is 18 October 2026.
+Prepared 18 October 2026. Implementation accepted subsequently on 18 October; deployment is in progress using free GitHub Actions and Cloudflare Pages. The requested scoring start is 18 October 2026.
 
 ## Outcome
 
@@ -11,8 +11,8 @@ Automatically collect each shop's daily menu, score the forecast issued the prec
 - GitHub Actions runs the Python pipeline on a standard Linux runner. Use a new workflow written for this project, not the upstream scraping workflow.
 - A dedicated `daily-data` branch stores append-only raw observations, normalized observations, forecasts, scores, manifests and run statuses. Update it with a single serialized writer and an atomic Git commit; never force-push it.
 - Versioned GitHub release assets hold model bundles, with checksums referenced from the data branch. Upload and verify assets before committing manifests that reference them. Reconcile orphaned assets on retry. Keep every issued model initially and review storage after 90 days; do not silently delete evidence.
-- GitHub Pages hosts a generated static accuracy/forecast dashboard. Publish only after the data commit succeeds. The data history remains authoritative if dashboard publication fails.
-- Workflow artifacts and caches are temporary conveniences, never the sole permanent record. Cloudflare is optional later; it is not required for the first version.
+- Cloudflare Pages Free hosts a generated static accuracy/forecast dashboard. Publish only after the data commit succeeds. The data history remains authoritative if dashboard publication fails.
+- Workflow artifacts and caches are temporary conveniences, never the sole permanent record. Cloudflare Pages is the selected website host; only static hosting is used.
 
 GitHub standard hosted runners are free for public repositories; storage has separate limits. Schedules can be delayed and inactive public repositories can have schedules disabled after 60 days. See [billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions) and [schedule behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 
@@ -42,9 +42,9 @@ Persist completed scoring even if refitting fails. Mark that run partial and pre
 
 ## Initial model and naming policy
 
-Start with the current production normalization and latest model, which uses the original label scheme. The separate v3 cleaned experiment is not yet integrated into the default forecast pipeline. Changing naming and daily refitting simultaneously would complicate comparison with the saved 18 October forecast.
+The user explicitly selected v3 for production on 18 October. Normalize all live training and inference data with the existing v3 function: remove ampersands and whole-word “and”, then apply only the three approved word-order aliases. Preserve raw names and deduplicate normalized presence within each menu.
 
-Freeze and version normalization at launch. Preserve raw labels. A later switch to the user-approved aliases must be an explicit pipeline version with matched training/inference normalization and a documented scoring boundary. Do not add new inferred aliases automatically.
+Use distinct adaptive-v3, frozen-v3 and persistence-v3 forecast identities. The frozen v3 reference is the previously fitted confirmed-alias model trained through 17 October. New v3 predictions begin with target date 19 October. Preserve the original 18 October score and original 19 October issuance in the archive, without relabelling them as v3 evidence. Score every forecast using its own recorded normalization contract, and compare probabilities only within a shared normalization version.
 
 ## Metrics and records
 
@@ -83,10 +83,10 @@ Each implementation milestone is limited to 90 minutes and three repair cycles. 
 
 ## Next steps and manual involvement
 
-The immediate next step is local implementation of milestones 1–4, then a reviewable workflow and deployment package. The user has requested a plan, not activated implementation or hosting in this turn.
+The immediate next step is local implementation of milestones 1–4, then a reviewable workflow and deployment package. The user subsequently accepted implementation and free hosting.
 
 No manual data collection, Cloudflare account, server, or API key is expected. Public menu access must be verified during implementation.
 
-This checkout currently has no Git remote. Previous publication notes record GitHub authentication as pending; recheck current authentication before asking the user to sign in. If unauthenticated, the user needs to complete GitHub browser/device login. The agent can then use the previously authorized public-repository publication scope to create/push the repository after verification. Resolve an existing intended repository if one exists instead of creating a duplicate.
+GitHub CLI authentication and public repository publication completed on 18 October: russellchoy/jack_flavours. If unauthenticated, the user needs to complete GitHub browser/device login. The agent can then use the previously authorized public-repository publication scope to create/push the repository after verification. Resolve an existing intended repository if one exists instead of creating a duplicate.
 
-At the deployment milestone, the user needs to authorize activation of scheduled jobs and public dashboard hosting, which remain outside the existing publication authorization. Prepare and show the final workflow, schedule and published-content scope first. GitHub Actions/Pages settings can be configured programmatically when permitted; ask the user to click settings only if account or organization restrictions prevent this. Use the repository-provided token where sufficient, not a user-supplied personal token. No recurring manual work is intended after launch.
+The user accepted free scheduled operation and public dashboard hosting, and explicitly approved the Cloudflare GitHub installation scoped only to jack_flavours. GitHub Actions/Pages settings can be configured programmatically when permitted; ask the user to click settings only if account or organization restrictions prevent this. Use the repository-provided token where sufficient, not a user-supplied personal token. No recurring manual work is intended after launch.

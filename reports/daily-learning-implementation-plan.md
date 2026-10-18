@@ -90,3 +90,7 @@ No manual data collection, Cloudflare account, server, or API key is expected. P
 GitHub CLI authentication and public repository publication completed on 18 October: russellchoy/jack_flavours. If unauthenticated, the user needs to complete GitHub browser/device login. The agent can then use the previously authorized public-repository publication scope to create/push the repository after verification. Resolve an existing intended repository if one exists instead of creating a duplicate.
 
 The user accepted free scheduled operation and public dashboard hosting, and explicitly approved the Cloudflare GitHub installation scoped only to jack_flavours. GitHub Actions/Pages settings can be configured programmatically when permitted; ask the user to click settings only if account or organization restrictions prevent this. Use the repository-provided token where sufficient, not a user-supplied personal token. No recurring manual work is intended after launch.
+
+## Launch amendment — approved house vanilla alias
+
+On 18 October the user confirmed house vanilla and vanilla are the same flavour. Live version v4 adds precisely that mapping on top of v3. V3 normalization remains unchanged for historical scoring; v4 has separate model/forecast/issuance identities and a newly fitted reference model. The user requested an additional manual candidate review; no unapproved proposals are applied.

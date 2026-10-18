@@ -12,7 +12,7 @@ A data update generates at most one Pages build per pipeline attempt (normally o
 
 1. Publish the verified source on `main`, with local assistant notes and credentials excluded.
 2. Create `daily-data` containing validated initial state and `.gitignore` excluding `models/` and temporary files.
-3. Upload each locally issued model as release asset `v3-YYYY-MM-DD.joblib` under tag `daily-model-v3-YYYY-MM-DD`; verify its hash against `issued-v3/YYYY-MM-DD.json` before publishing the data commit.
+3. Upload each locally issued model as release asset `v4-YYYY-MM-DD.joblib` under tag `daily-model-v4-YYYY-MM-DD`; verify its hash against `issued-v4/YYYY-MM-DD.json` before publishing the data commit.
 4. Run **Verify model and daily pipeline**, then manually run **Daily menu forecast**. Inspect Actions results, saved data and any release assets.
 5. The committed cron schedule then runs automatically. GitHub schedules can be delayed or disabled after prolonged repository inactivity; the dashboard shows freshness. GitHub's own workflow notification settings can notify the account owner of failures.
 
@@ -47,3 +47,5 @@ The user may need to sign into Cloudflare and approve its GitHub installation. D
 ## Production naming boundary
 
 The user selected v3 cleaning on 18 October: conjunction removal and the three approved word-order aliases apply to training, inference and scoring. Adaptive/frozen/persistence v3 forecasts first target 19 October. The original-name 18 October score remains an archival result, not v3 accuracy. Original forecasts already issued for 19 October are also retained.
+
+The current live version is **v4**: v3 cleaning plus the explicitly approved `house vanilla → vanilla` alias. Earlier v3 and original-name forecasts remain archived. Additional proposed aliases are pending in [the review list](https://github.com/russellchoy/jack_flavours/blob/main/reports/alias-review.md); they are not applied automatically.

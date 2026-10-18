@@ -1,0 +1,3564 @@
+{
+  "input_sha256": "3214156d86b1d4d0ee1d221637c14652883d497c6c8bb2bbceb13255e1999530",
+  "cutoff": "2026-10-17",
+  "normalization": "v4",
+  "proposals": [
+    {
+      "id": "C01",
+      "names": [
+        "strawberries cream",
+        "strawberry cream"
+      ],
+      "reason": "Singular/plural strawberry",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "strawberries cream",
+          "count": 611,
+          "first": "2024-10-04",
+          "last": "2026-10-17",
+          "raw_examples": [
+            "Strawberries & Cream"
+          ],
+          "source_example": {
+            "date": "2024-10-04",
+            "shop": "all_saints",
+            "raw_name": "Strawberries & Cream"
+          }
+        },
+        {
+          "name": "strawberry cream",
+          "count": 16,
+          "first": "2025-05-02",
+          "last": "2026-07-26",
+          "raw_examples": [
+            "Strawberry & Cream"
+          ],
+          "source_example": {
+            "date": "2025-05-02",
+            "shop": "benet_street",
+            "raw_name": "Strawberry & Cream"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "strawberries cream"
+    },
+    {
+      "id": "C02",
+      "names": [
+        "king's college lavender",
+        "king’s college lavender"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "king's college lavender",
+          "count": 2,
+          "first": "2024-11-29",
+          "last": "2024-11-30",
+          "raw_examples": [
+            "King's College Lavender"
+          ],
+          "source_example": {
+            "date": "2024-11-29",
+            "shop": "benet_street",
+            "raw_name": "King's College Lavender"
+          }
+        },
+        {
+          "name": "king’s college lavender",
+          "count": 211,
+          "first": "2024-10-05",
+          "last": "2026-10-17",
+          "raw_examples": [
+            "King’s College Lavender"
+          ],
+          "source_example": {
+            "date": "2024-10-05",
+            "shop": "benet_street",
+            "raw_name": "King’s College Lavender"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "king’s college lavender"
+    },
+    {
+      "id": "C03",
+      "names": [
+        "alphonso mango sorbet",
+        "alphoso mango sorbet"
+      ],
+      "reason": "Possible missing n in Alphonso",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "alphonso mango sorbet",
+          "count": 163,
+          "first": "2025-03-31",
+          "last": "2026-10-17",
+          "raw_examples": [
+            "Alphonso Mango Sorbet (vegan)",
+            "Alphonso Mango Sorbet"
+          ],
+          "source_example": {
+            "date": "2025-03-31",
+            "shop": "benet_street",
+            "raw_name": "Alphonso Mango Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "alphoso mango sorbet",
+          "count": 4,
+          "first": "2025-08-04",
+          "last": "2025-08-07",
+          "raw_examples": [
+            "Alphoso Mango Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-08-04",
+            "shop": "all_saints",
+            "raw_name": "Alphoso Mango Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "alphonso mango sorbet"
+    },
+    {
+      "id": "C04",
+      "names": [
+        "blackcurrant cream",
+        "blackcurrants cream"
+      ],
+      "reason": "Singular/plural blackcurrant",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "blackcurrant cream",
+          "count": 30,
+          "first": "2025-05-02",
+          "last": "2026-10-04",
+          "raw_examples": [
+            "Blackcurrant & Cream"
+          ],
+          "source_example": {
+            "date": "2025-05-02",
+            "shop": "all_saints",
+            "raw_name": "Blackcurrant & Cream"
+          }
+        },
+        {
+          "name": "blackcurrants cream",
+          "count": 135,
+          "first": "2025-03-06",
+          "last": "2026-10-17",
+          "raw_examples": [
+            "Blackcurrants & Cream"
+          ],
+          "source_example": {
+            "date": "2025-03-06",
+            "shop": "benet_street",
+            "raw_name": "Blackcurrants & Cream"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "blackcurrants cream"
+    },
+    {
+      "id": "C05",
+      "names": [
+        "mint stracciatella",
+        "mint straccitella"
+      ],
+      "reason": "Possible missing a in stracciatella",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "mint stracciatella",
+          "count": 86,
+          "first": "2024-10-30",
+          "last": "2026-10-10",
+          "raw_examples": [
+            "Mint Stracciatella",
+            "Mint Stracciatella (vegan)"
+          ],
+          "source_example": {
+            "date": "2024-10-30",
+            "shop": "benet_street",
+            "raw_name": "Mint Stracciatella"
+          }
+        },
+        {
+          "name": "mint straccitella",
+          "count": 1,
+          "first": "2026-09-30",
+          "last": "2026-09-30",
+          "raw_examples": [
+            "MInt Straccitella"
+          ],
+          "source_example": {
+            "date": "2026-09-30",
+            "shop": "benet_street",
+            "raw_name": "MInt Straccitella"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "mint stracciatella"
+    },
+    {
+      "id": "C06",
+      "names": [
+        "coconut raspberry ripple",
+        "coconut, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut raspberry ripple",
+          "count": 43,
+          "first": "2025-06-15",
+          "last": "2026-09-05",
+          "raw_examples": [
+            "Coconut & Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-06-15",
+            "shop": "benet_street",
+            "raw_name": "Coconut & Raspberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "coconut, raspberry ripple",
+          "count": 42,
+          "first": "2025-02-10",
+          "last": "2026-09-10",
+          "raw_examples": [
+            "Coconut, Raspberry Ripple (vegan)",
+            "Coconut, Raspberry Ripple(vegan)",
+            "Coconut, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-02-10",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Raspberry Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut raspberry ripple"
+    },
+    {
+      "id": "C07",
+      "names": [
+        "chocolate raspberry ripple",
+        "chocolate, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate raspberry ripple",
+          "count": 6,
+          "first": "2025-07-21",
+          "last": "2026-06-13",
+          "raw_examples": [
+            "Chocolate Raspberry Ripple",
+            "Chocolate & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-07-21",
+            "shop": "all_saints",
+            "raw_name": "Chocolate Raspberry Ripple"
+          }
+        },
+        {
+          "name": "chocolate, raspberry ripple",
+          "count": 77,
+          "first": "2024-10-04",
+          "last": "2026-09-26",
+          "raw_examples": [
+            "Chocolate, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2024-10-04",
+            "shop": "all_saints",
+            "raw_name": "Chocolate, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "chocolate, raspberry ripple"
+    },
+    {
+      "id": "C08",
+      "names": [
+        "cardamom rose",
+        "cardamon rose"
+      ],
+      "reason": "Cardamom/cardamon spelling",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "cardamom rose",
+          "count": 64,
+          "first": "2024-10-14",
+          "last": "2026-07-22",
+          "raw_examples": [
+            "Cardamom & Rose"
+          ],
+          "source_example": {
+            "date": "2024-10-14",
+            "shop": "benet_street",
+            "raw_name": "Cardamom & Rose"
+          }
+        },
+        {
+          "name": "cardamon rose",
+          "count": 3,
+          "first": "2025-07-30",
+          "last": "2025-08-01",
+          "raw_examples": [
+            "Cardamon & Rose"
+          ],
+          "source_example": {
+            "date": "2025-07-30",
+            "shop": "benet_street",
+            "raw_name": "Cardamon & Rose"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cardamom rose"
+    },
+    {
+      "id": "C09",
+      "names": [
+        "cashew manuka honey",
+        "manuka honey cashew"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cashew manuka honey",
+          "count": 27,
+          "first": "2025-08-11",
+          "last": "2025-12-03",
+          "raw_examples": [
+            "Cashew & Manuka Honey"
+          ],
+          "source_example": {
+            "date": "2025-08-11",
+            "shop": "benet_street",
+            "raw_name": "Cashew & Manuka Honey"
+          }
+        },
+        {
+          "name": "manuka honey cashew",
+          "count": 15,
+          "first": "2025-11-02",
+          "last": "2025-11-21",
+          "raw_examples": [
+            "Manuka Honey & Cashew"
+          ],
+          "source_example": {
+            "date": "2025-11-02",
+            "shop": "benet_street",
+            "raw_name": "Manuka Honey & Cashew"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cashew manuka honey"
+    },
+    {
+      "id": "C10",
+      "names": [
+        "chocolate sour cherry ripple",
+        "chocolate, sour cherry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate sour cherry ripple",
+          "count": 3,
+          "first": "2025-08-03",
+          "last": "2025-08-05",
+          "raw_examples": [
+            "Chocolate & Sour Cherry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-08-03",
+            "shop": "benet_street",
+            "raw_name": "Chocolate & Sour Cherry Ripple"
+          }
+        },
+        {
+          "name": "chocolate, sour cherry ripple",
+          "count": 31,
+          "first": "2025-02-22",
+          "last": "2026-10-09",
+          "raw_examples": [
+            "Chocolate, Sour Cherry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-02-22",
+            "shop": "benet_street",
+            "raw_name": "Chocolate, Sour Cherry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "chocolate, sour cherry ripple"
+    },
+    {
+      "id": "C11",
+      "names": [
+        "coconut blueberry ripple",
+        "coconut, blueberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut blueberry ripple",
+          "count": 1,
+          "first": "2025-06-14",
+          "last": "2025-06-14",
+          "raw_examples": [
+            "Coconut & Blueberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-06-14",
+            "shop": "benet_street",
+            "raw_name": "Coconut & Blueberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "coconut, blueberry ripple",
+          "count": 31,
+          "first": "2025-05-29",
+          "last": "2026-07-03",
+          "raw_examples": [
+            "Coconut, Blueberry Ripple (vegan)",
+            "Coconut, Blueberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-05-29",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Blueberry Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, blueberry ripple"
+    },
+    {
+      "id": "C12",
+      "names": [
+        "coconut passion fruit ripple",
+        "coconut, passion fruit ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut passion fruit ripple",
+          "count": 10,
+          "first": "2025-12-03",
+          "last": "2026-04-22",
+          "raw_examples": [
+            "Coconut & Passion Fruit Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-12-03",
+            "shop": "benet_street",
+            "raw_name": "Coconut & Passion Fruit Ripple (vegan)"
+          }
+        },
+        {
+          "name": "coconut, passion fruit ripple",
+          "count": 22,
+          "first": "2025-03-10",
+          "last": "2025-12-19",
+          "raw_examples": [
+            "Coconut, Passion Fruit Ripple (vegan)",
+            "Coconut, Passion Fruit Ripple(vegan)",
+            "Coconut, Passion Fruit Ripple"
+          ],
+          "source_example": {
+            "date": "2025-03-10",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Passion Fruit Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, passion fruit ripple"
+    },
+    {
+      "id": "C13",
+      "names": [
+        "chocolate whole hazelnuts",
+        "chocolate, whole hazelnuts"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate whole hazelnuts",
+          "count": 22,
+          "first": "2025-04-06",
+          "last": "2026-07-15",
+          "raw_examples": [
+            "Chocolate & Whole Hazelnuts"
+          ],
+          "source_example": {
+            "date": "2025-04-06",
+            "shop": "benet_street",
+            "raw_name": "Chocolate & Whole Hazelnuts"
+          }
+        },
+        {
+          "name": "chocolate, whole hazelnuts",
+          "count": 7,
+          "first": "2025-04-13",
+          "last": "2025-04-19",
+          "raw_examples": [
+            "Chocolate, Whole Hazelnuts"
+          ],
+          "source_example": {
+            "date": "2025-04-13",
+            "shop": "all_saints",
+            "raw_name": "Chocolate, Whole Hazelnuts"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "chocolate whole hazelnuts"
+    },
+    {
+      "id": "C14",
+      "names": [
+        "coconut strawberry ripple",
+        "coconut, strawberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut strawberry ripple",
+          "count": 5,
+          "first": "2026-03-02",
+          "last": "2026-03-12",
+          "raw_examples": [
+            "Coconut & Strawberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-03-02",
+            "shop": "benet_street",
+            "raw_name": "Coconut & Strawberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "coconut, strawberry ripple",
+          "count": 22,
+          "first": "2025-05-19",
+          "last": "2026-09-11",
+          "raw_examples": [
+            "Coconut, Strawberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-05-19",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Strawberry Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, strawberry ripple"
+    },
+    {
+      "id": "C15",
+      "names": [
+        "manuka honey white miso",
+        "white miso manuka honey"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "manuka honey white miso",
+          "count": 5,
+          "first": "2025-03-09",
+          "last": "2025-03-13",
+          "raw_examples": [
+            "Manuka Honey & White Miso"
+          ],
+          "source_example": {
+            "date": "2025-03-09",
+            "shop": "benet_street",
+            "raw_name": "Manuka Honey & White Miso"
+          }
+        },
+        {
+          "name": "white miso manuka honey",
+          "count": 22,
+          "first": "2025-03-02",
+          "last": "2026-08-17",
+          "raw_examples": [
+            "White Miso & Manuka Honey",
+            "White Miso and Manuka Honey",
+            "White Miso & Manuka Honey (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-03-02",
+            "shop": "benet_street",
+            "raw_name": "White Miso & Manuka Honey"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "white miso manuka honey"
+    },
+    {
+      "id": "C16",
+      "names": [
+        "manuka honey purple fig",
+        "purple fig manuka honey"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "manuka honey purple fig",
+          "count": 17,
+          "first": "2025-01-26",
+          "last": "2025-02-28",
+          "raw_examples": [
+            "Manuka Honey & Purple Fig"
+          ],
+          "source_example": {
+            "date": "2025-01-26",
+            "shop": "benet_street",
+            "raw_name": "Manuka Honey & Purple Fig"
+          }
+        },
+        {
+          "name": "purple fig manuka honey",
+          "count": 9,
+          "first": "2024-12-01",
+          "last": "2025-02-22",
+          "raw_examples": [
+            "Purple Fig & Manuka Honey"
+          ],
+          "source_example": {
+            "date": "2024-12-01",
+            "shop": "benet_street",
+            "raw_name": "Purple Fig & Manuka Honey"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "manuka honey purple fig"
+    },
+    {
+      "id": "C17",
+      "names": [
+        "pistachio (vegan!)",
+        "vegan pistachio"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "pistachio (vegan!)",
+          "count": 7,
+          "first": "2025-07-12",
+          "last": "2025-07-18",
+          "raw_examples": [
+            "Pistachio (+£1)(vegan!)"
+          ],
+          "source_example": {
+            "date": "2025-07-12",
+            "shop": "all_saints",
+            "raw_name": "Pistachio (+£1)(vegan!)"
+          }
+        },
+        {
+          "name": "vegan pistachio",
+          "count": 18,
+          "first": "2025-07-24",
+          "last": "2026-03-21",
+          "raw_examples": [
+            "Vegan Pistachio (+£1)",
+            "Vegan Pistachio"
+          ],
+          "source_example": {
+            "date": "2025-07-24",
+            "shop": "all_saints",
+            "raw_name": "Vegan Pistachio (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vegan pistachio"
+    },
+    {
+      "id": "C18",
+      "names": [
+        "apricot yuzu sorbet",
+        "yuzu apricot sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "apricot yuzu sorbet",
+          "count": 18,
+          "first": "2026-02-13",
+          "last": "2026-04-19",
+          "raw_examples": [
+            "Apricot & Yuzu Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-02-13",
+            "shop": "benet_street",
+            "raw_name": "Apricot & Yuzu Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "yuzu apricot sorbet",
+          "count": 6,
+          "first": "2026-03-07",
+          "last": "2026-04-09",
+          "raw_examples": [
+            "Yuzu & Apricot Sorbet (vegan)",
+            "Yuzu & Apricot  Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-03-07",
+            "shop": "benet_street",
+            "raw_name": "Yuzu & Apricot Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "apricot yuzu sorbet"
+    },
+    {
+      "id": "C19",
+      "names": [
+        "liquorice passion fruit sorbet",
+        "passion fruit liquorice sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "liquorice passion fruit sorbet",
+          "count": 5,
+          "first": "2025-12-23",
+          "last": "2025-12-28",
+          "raw_examples": [
+            "Liquorice & Passion Fruit Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-12-23",
+            "shop": "benet_street",
+            "raw_name": "Liquorice & Passion Fruit Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "passion fruit liquorice sorbet",
+          "count": 19,
+          "first": "2026-03-02",
+          "last": "2026-06-23",
+          "raw_examples": [
+            "Passion Fruit & Liquorice Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-03-02",
+            "shop": "benet_street",
+            "raw_name": "Passion Fruit & Liquorice Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "passion fruit liquorice sorbet"
+    },
+    {
+      "id": "C20",
+      "names": [
+        "almond cherry cake",
+        "cherry almond cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "almond cherry cake",
+          "count": 18,
+          "first": "2026-03-12",
+          "last": "2026-10-03",
+          "raw_examples": [
+            "Almond & Cherry Cake"
+          ],
+          "source_example": {
+            "date": "2026-03-12",
+            "shop": "benet_street",
+            "raw_name": "Almond & Cherry Cake"
+          }
+        },
+        {
+          "name": "cherry almond cake",
+          "count": 5,
+          "first": "2026-06-08",
+          "last": "2026-06-12",
+          "raw_examples": [
+            "Cherry & Almond Cake"
+          ],
+          "source_example": {
+            "date": "2026-06-08",
+            "shop": "all_saints",
+            "raw_name": "Cherry & Almond Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "almond cherry cake"
+    },
+    {
+      "id": "C21",
+      "names": [
+        "raspberry",
+        "raspberry raspberry"
+      ],
+      "reason": "Repeated word; could also be intentional emphasis",
+      "category": "spelling or wording",
+      "variants": [
+        {
+          "name": "raspberry",
+          "count": 20,
+          "first": "2025-08-03",
+          "last": "2026-04-18",
+          "raw_examples": [
+            "Raspberry"
+          ],
+          "source_example": {
+            "date": "2025-08-03",
+            "shop": "benet_street",
+            "raw_name": "Raspberry"
+          }
+        },
+        {
+          "name": "raspberry raspberry",
+          "count": 2,
+          "first": "2026-04-18",
+          "last": "2026-04-27",
+          "raw_examples": [
+            "Raspberry Raspberry",
+            "Raspberry & Raspberry"
+          ],
+          "source_example": {
+            "date": "2026-04-18",
+            "shop": "benet_street",
+            "raw_name": "Raspberry Raspberry"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "raspberry"
+    },
+    {
+      "id": "C22",
+      "names": [
+        "chocolate passion fruit ripple",
+        "chocolate, passion fruit ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate passion fruit ripple",
+          "count": 6,
+          "first": "2025-11-19",
+          "last": "2025-11-24",
+          "raw_examples": [
+            "Chocolate & Passion Fruit Ripple"
+          ],
+          "source_example": {
+            "date": "2025-11-19",
+            "shop": "benet_street",
+            "raw_name": "Chocolate & Passion Fruit Ripple"
+          }
+        },
+        {
+          "name": "chocolate, passion fruit ripple",
+          "count": 15,
+          "first": "2024-10-05",
+          "last": "2026-06-06",
+          "raw_examples": [
+            "Chocolate, Passion Fruit Ripple"
+          ],
+          "source_example": {
+            "date": "2024-10-05",
+            "shop": "benet_street",
+            "raw_name": "Chocolate, Passion Fruit Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "chocolate, passion fruit ripple"
+    },
+    {
+      "id": "C23",
+      "names": [
+        "coconut cardamom rose",
+        "coconut, cardamom rose",
+        "coconut, rose cardamom"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut cardamom rose",
+          "count": 4,
+          "first": "2025-10-28",
+          "last": "2025-11-01",
+          "raw_examples": [
+            "Coconut Cardamom & Rose (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-10-28",
+            "shop": "benet_street",
+            "raw_name": "Coconut Cardamom & Rose (vegan)"
+          }
+        },
+        {
+          "name": "coconut, cardamom rose",
+          "count": 10,
+          "first": "2025-05-12",
+          "last": "2026-04-18",
+          "raw_examples": [
+            "Coconut, Cardamom & Rose (vegan)",
+            "Coconut, Cardamom & Rose"
+          ],
+          "source_example": {
+            "date": "2025-05-12",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Cardamom & Rose (vegan)"
+          }
+        },
+        {
+          "name": "coconut, rose cardamom",
+          "count": 7,
+          "first": "2025-11-12",
+          "last": "2025-11-18",
+          "raw_examples": [
+            "Coconut, Rose & Cardamom (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-11-12",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Rose & Cardamom (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, cardamom rose"
+    },
+    {
+      "id": "C24",
+      "names": [
+        "fig manuka honey",
+        "manuka honey fig"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "fig manuka honey",
+          "count": 1,
+          "first": "2025-03-22",
+          "last": "2025-03-22",
+          "raw_examples": [
+            "Fig & Manuka Honey"
+          ],
+          "source_example": {
+            "date": "2025-03-22",
+            "shop": "all_saints",
+            "raw_name": "Fig & Manuka Honey"
+          }
+        },
+        {
+          "name": "manuka honey fig",
+          "count": 19,
+          "first": "2024-12-26",
+          "last": "2025-04-12",
+          "raw_examples": [
+            "Manuka Honey & Fig"
+          ],
+          "source_example": {
+            "date": "2024-12-26",
+            "shop": "benet_street",
+            "raw_name": "Manuka Honey & Fig"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "manuka honey fig"
+    },
+    {
+      "id": "C25",
+      "names": [
+        "hibiscus yuzu sorbet",
+        "yuzu hibiscus sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "hibiscus yuzu sorbet",
+          "count": 18,
+          "first": "2025-08-24",
+          "last": "2026-08-12",
+          "raw_examples": [
+            "Hibiscus & Yuzu Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-08-24",
+            "shop": "benet_street",
+            "raw_name": "Hibiscus & Yuzu Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "yuzu hibiscus sorbet",
+          "count": 2,
+          "first": "2025-10-14",
+          "last": "2025-10-15",
+          "raw_examples": [
+            "Yuzu & Hibiscus Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-10-14",
+            "shop": "benet_street",
+            "raw_name": "Yuzu & Hibiscus Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "hibiscus yuzu sorbet"
+    },
+    {
+      "id": "C26",
+      "names": [
+        "mascarpone raspberry cake",
+        "raspberry mascarpone cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "mascarpone raspberry cake",
+          "count": 13,
+          "first": "2025-04-10",
+          "last": "2025-11-09",
+          "raw_examples": [
+            "Mascarpone & Raspberry Cake"
+          ],
+          "source_example": {
+            "date": "2025-04-10",
+            "shop": "benet_street",
+            "raw_name": "Mascarpone & Raspberry Cake"
+          }
+        },
+        {
+          "name": "raspberry mascarpone cake",
+          "count": 7,
+          "first": "2024-10-07",
+          "last": "2025-08-25",
+          "raw_examples": [
+            "Raspberry Mascarpone Cake",
+            "Raspberry & Mascarpone Cake"
+          ],
+          "source_example": {
+            "date": "2024-10-07",
+            "shop": "benet_street",
+            "raw_name": "Raspberry Mascarpone Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "mascarpone raspberry cake"
+    },
+    {
+      "id": "C27",
+      "names": [
+        "redcurrant, ginger lemon sorbet",
+        "redcurrant, lemon ginger sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "redcurrant, ginger lemon sorbet",
+          "count": 13,
+          "first": "2026-01-18",
+          "last": "2026-03-09",
+          "raw_examples": [
+            "Redcurrant, Ginger & Lemon Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-01-18",
+            "shop": "benet_street",
+            "raw_name": "Redcurrant, Ginger & Lemon Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "redcurrant, lemon ginger sorbet",
+          "count": 6,
+          "first": "2026-01-06",
+          "last": "2026-03-06",
+          "raw_examples": [
+            "Redcurrant, Lemon & Ginger Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-01-06",
+            "shop": "benet_street",
+            "raw_name": "Redcurrant, Lemon & Ginger Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "redcurrant, ginger lemon sorbet"
+    },
+    {
+      "id": "C28",
+      "names": [
+        "coconut, rose ube",
+        "coconut, ube rose"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut, rose ube",
+          "count": 1,
+          "first": "2025-04-05",
+          "last": "2025-04-05",
+          "raw_examples": [
+            "Coconut, Rose & Ube (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-04-05",
+            "shop": "all_saints",
+            "raw_name": "Coconut, Rose & Ube (vegan)"
+          }
+        },
+        {
+          "name": "coconut, ube rose",
+          "count": 17,
+          "first": "2025-04-06",
+          "last": "2026-07-29",
+          "raw_examples": [
+            "Coconut, Ube & Rose (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-04-06",
+            "shop": "all_saints",
+            "raw_name": "Coconut, Ube & Rose (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, ube rose"
+    },
+    {
+      "id": "C29",
+      "names": [
+        "miso caramel ripple",
+        "miso, caramel ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "miso caramel ripple",
+          "count": 16,
+          "first": "2025-10-08",
+          "last": "2026-09-19",
+          "raw_examples": [
+            "Miso Caramel Ripple"
+          ],
+          "source_example": {
+            "date": "2025-10-08",
+            "shop": "benet_street",
+            "raw_name": "Miso Caramel Ripple"
+          }
+        },
+        {
+          "name": "miso, caramel ripple",
+          "count": 2,
+          "first": "2026-07-14",
+          "last": "2026-07-15",
+          "raw_examples": [
+            "Miso, Caramel Ripple"
+          ],
+          "source_example": {
+            "date": "2026-07-14",
+            "shop": "benet_street",
+            "raw_name": "Miso, Caramel Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "miso caramel ripple"
+    },
+    {
+      "id": "C30",
+      "names": [
+        "mascarpone sour cherry cake",
+        "sour cherry mascarpone cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "mascarpone sour cherry cake",
+          "count": 7,
+          "first": "2025-08-31",
+          "last": "2025-09-06",
+          "raw_examples": [
+            "Mascarpone & Sour Cherry Cake"
+          ],
+          "source_example": {
+            "date": "2025-08-31",
+            "shop": "all_saints",
+            "raw_name": "Mascarpone & Sour Cherry Cake"
+          }
+        },
+        {
+          "name": "sour cherry mascarpone cake",
+          "count": 8,
+          "first": "2025-02-02",
+          "last": "2025-07-25",
+          "raw_examples": [
+            "Sour Cherry & Mascarpone Cake"
+          ],
+          "source_example": {
+            "date": "2025-02-02",
+            "shop": "benet_street",
+            "raw_name": "Sour Cherry & Mascarpone Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "sour cherry mascarpone cake"
+    },
+    {
+      "id": "C31",
+      "names": [
+        "coconut lemongrass, raspberry ripple",
+        "coconut, lemongrass raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut lemongrass, raspberry ripple",
+          "count": 3,
+          "first": "2024-11-15",
+          "last": "2024-11-17",
+          "raw_examples": [
+            "Coconut & Lemongrass, Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2024-11-15",
+            "shop": "all_saints",
+            "raw_name": "Coconut & Lemongrass, Raspberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "coconut, lemongrass raspberry ripple",
+          "count": 10,
+          "first": "2026-09-13",
+          "last": "2026-10-02",
+          "raw_examples": [
+            "Coconut, Lemongrass & Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-09-13",
+            "shop": "all_saints",
+            "raw_name": "Coconut, Lemongrass & Raspberry Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, lemongrass raspberry ripple"
+    },
+    {
+      "id": "C32",
+      "names": [
+        "pistachio rose",
+        "rose pistachio"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "pistachio rose",
+          "count": 7,
+          "first": "2025-04-23",
+          "last": "2026-07-29",
+          "raw_examples": [
+            "Pistachio & Rose (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-04-23",
+            "shop": "all_saints",
+            "raw_name": "Pistachio & Rose (+£1)"
+          }
+        },
+        {
+          "name": "rose pistachio",
+          "count": 6,
+          "first": "2025-05-30",
+          "last": "2025-07-09",
+          "raw_examples": [
+            "Rose & Pistachio (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-05-30",
+            "shop": "benet_street",
+            "raw_name": "Rose & Pistachio (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "pistachio rose"
+    },
+    {
+      "id": "C33",
+      "names": [
+        "white chocolate raspberry ripple",
+        "white chocolate, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "white chocolate raspberry ripple",
+          "count": 3,
+          "first": "2024-11-24",
+          "last": "2024-11-26",
+          "raw_examples": [
+            "White Chocolate & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2024-11-24",
+            "shop": "benet_street",
+            "raw_name": "White Chocolate & Raspberry Ripple"
+          }
+        },
+        {
+          "name": "white chocolate, raspberry ripple",
+          "count": 10,
+          "first": "2024-12-21",
+          "last": "2025-02-18",
+          "raw_examples": [
+            "White Chocolate, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2024-12-21",
+            "shop": "all_saints",
+            "raw_name": "White Chocolate, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "white chocolate, raspberry ripple"
+    },
+    {
+      "id": "C34",
+      "names": [
+        "cardamom rose pistachios",
+        "cardamom, rose pistachios"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cardamom rose pistachios",
+          "count": 5,
+          "first": "2026-02-28",
+          "last": "2026-03-04",
+          "raw_examples": [
+            "Cardamom Rose & Pistachios (+£1)",
+            "Cardamom Rose & Pistachios"
+          ],
+          "source_example": {
+            "date": "2026-02-28",
+            "shop": "benet_street",
+            "raw_name": "Cardamom Rose & Pistachios (+£1)"
+          }
+        },
+        {
+          "name": "cardamom, rose pistachios",
+          "count": 7,
+          "first": "2026-01-07",
+          "last": "2026-02-01",
+          "raw_examples": [
+            "Cardamom, Rose & Pistachios",
+            "Cardamom, Rose & Pistachios (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-01-07",
+            "shop": "benet_street",
+            "raw_name": "Cardamom, Rose & Pistachios"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cardamom, rose pistachios"
+    },
+    {
+      "id": "C35",
+      "names": [
+        "cold infused cocoa nib",
+        "cold-infused cocoa nib"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cold infused cocoa nib",
+          "count": 7,
+          "first": "2024-11-04",
+          "last": "2026-10-01",
+          "raw_examples": [
+            "Cold Infused Cocoa Nib"
+          ],
+          "source_example": {
+            "date": "2024-11-04",
+            "shop": "benet_street",
+            "raw_name": "Cold Infused Cocoa Nib"
+          }
+        },
+        {
+          "name": "cold-infused cocoa nib",
+          "count": 5,
+          "first": "2024-11-14",
+          "last": "2026-10-05",
+          "raw_examples": [
+            "Cold-Infused Cocoa Nib"
+          ],
+          "source_example": {
+            "date": "2024-11-14",
+            "shop": "all_saints",
+            "raw_name": "Cold-Infused Cocoa Nib"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cold infused cocoa nib"
+    },
+    {
+      "id": "C36",
+      "names": [
+        "almond raspberry cake",
+        "raspberry almond cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "almond raspberry cake",
+          "count": 9,
+          "first": "2025-02-26",
+          "last": "2026-06-22",
+          "raw_examples": [
+            "Almond & Raspberry Cake",
+            "Almond Raspberry Cake"
+          ],
+          "source_example": {
+            "date": "2025-02-26",
+            "shop": "benet_street",
+            "raw_name": "Almond & Raspberry Cake"
+          }
+        },
+        {
+          "name": "raspberry almond cake",
+          "count": 2,
+          "first": "2026-06-18",
+          "last": "2026-06-19",
+          "raw_examples": [
+            "Raspberry & Almond Cake"
+          ],
+          "source_example": {
+            "date": "2026-06-18",
+            "shop": "all_saints",
+            "raw_name": "Raspberry & Almond Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "almond raspberry cake"
+    },
+    {
+      "id": "C37",
+      "names": [
+        "house vanilla yoghurt",
+        "vanilla house yoghurt"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "house vanilla yoghurt",
+          "count": 3,
+          "first": "2026-07-10",
+          "last": "2026-07-12",
+          "raw_examples": [
+            "House Vanilla Yoghurt"
+          ],
+          "source_example": {
+            "date": "2026-07-10",
+            "shop": "all_saints",
+            "raw_name": "House Vanilla Yoghurt"
+          }
+        },
+        {
+          "name": "vanilla house yoghurt",
+          "count": 8,
+          "first": "2026-05-02",
+          "last": "2026-05-09",
+          "raw_examples": [
+            "Vanilla House Yoghurt"
+          ],
+          "source_example": {
+            "date": "2026-05-02",
+            "shop": "all_saints",
+            "raw_name": "Vanilla House Yoghurt"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vanilla house yoghurt"
+    },
+    {
+      "id": "C38",
+      "names": [
+        "house yoghurt manuka honey",
+        "house yoghurt, manuka honey"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "house yoghurt manuka honey",
+          "count": 10,
+          "first": "2026-06-21",
+          "last": "2026-07-16",
+          "raw_examples": [
+            "House Yoghurt & Manuka Honey",
+            "House Yoghurt & Manuka Honey (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-06-21",
+            "shop": "all_saints",
+            "raw_name": "House Yoghurt & Manuka Honey"
+          }
+        },
+        {
+          "name": "house yoghurt, manuka honey",
+          "count": 1,
+          "first": "2026-06-12",
+          "last": "2026-06-12",
+          "raw_examples": [
+            "House Yoghurt, Manuka Honey"
+          ],
+          "source_example": {
+            "date": "2026-06-12",
+            "shop": "benet_street",
+            "raw_name": "House Yoghurt, Manuka Honey"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "house yoghurt manuka honey"
+    },
+    {
+      "id": "C39",
+      "names": [
+        "treacle vanilla",
+        "vanilla treacle"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "treacle vanilla",
+          "count": 1,
+          "first": "2026-04-27",
+          "last": "2026-04-27",
+          "raw_examples": [
+            "Treacle Vanilla"
+          ],
+          "source_example": {
+            "date": "2026-04-27",
+            "shop": "benet_street",
+            "raw_name": "Treacle Vanilla"
+          }
+        },
+        {
+          "name": "vanilla treacle",
+          "count": 10,
+          "first": "2026-02-28",
+          "last": "2026-03-25",
+          "raw_examples": [
+            "Vanilla Treacle"
+          ],
+          "source_example": {
+            "date": "2026-02-28",
+            "shop": "all_saints",
+            "raw_name": "Vanilla Treacle"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vanilla treacle"
+    },
+    {
+      "id": "C40",
+      "names": [
+        "rose raspberry ripple",
+        "rose, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "rose raspberry ripple",
+          "count": 4,
+          "first": "2025-06-20",
+          "last": "2026-03-22",
+          "raw_examples": [
+            "Rose & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-06-20",
+            "shop": "benet_street",
+            "raw_name": "Rose & Raspberry Ripple"
+          }
+        },
+        {
+          "name": "rose, raspberry ripple",
+          "count": 6,
+          "first": "2025-08-18",
+          "last": "2026-06-27",
+          "raw_examples": [
+            "Rose, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-08-18",
+            "shop": "benet_street",
+            "raw_name": "Rose, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "rose, raspberry ripple"
+    },
+    {
+      "id": "C41",
+      "names": [
+        "rose vanilla",
+        "vanilla rose"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "rose vanilla",
+          "count": 2,
+          "first": "2025-08-25",
+          "last": "2025-08-26",
+          "raw_examples": [
+            "Rose Vanilla"
+          ],
+          "source_example": {
+            "date": "2025-08-25",
+            "shop": "all_saints",
+            "raw_name": "Rose Vanilla"
+          }
+        },
+        {
+          "name": "vanilla rose",
+          "count": 7,
+          "first": "2025-02-15",
+          "last": "2025-04-10",
+          "raw_examples": [
+            "Vanilla & Rose"
+          ],
+          "source_example": {
+            "date": "2025-02-15",
+            "shop": "benet_street",
+            "raw_name": "Vanilla & Rose"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vanilla rose"
+    },
+    {
+      "id": "C42",
+      "names": [
+        "cadenhead’s whiskey, cognac cask",
+        "cadenhead’s whiskey; cognac cask"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cadenhead’s whiskey, cognac cask",
+          "count": 1,
+          "first": "2025-07-06",
+          "last": "2025-07-06",
+          "raw_examples": [
+            "Cadenhead’s Whiskey, Cognac Cask (+£4)"
+          ],
+          "source_example": {
+            "date": "2025-07-06",
+            "shop": "all_saints",
+            "raw_name": "Cadenhead’s Whiskey, Cognac Cask (+£4)"
+          }
+        },
+        {
+          "name": "cadenhead’s whiskey; cognac cask",
+          "count": 7,
+          "first": "2025-07-12",
+          "last": "2025-07-18",
+          "raw_examples": [
+            "Cadenhead’s Whiskey; Cognac Cask (+£3)"
+          ],
+          "source_example": {
+            "date": "2025-07-12",
+            "shop": "all_saints",
+            "raw_name": "Cadenhead’s Whiskey; Cognac Cask (+£3)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cadenhead’s whiskey; cognac cask"
+    },
+    {
+      "id": "C43",
+      "names": [
+        "coconut sugar vanilla",
+        "vanilla coconut sugar"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut sugar vanilla",
+          "count": 3,
+          "first": "2026-05-11",
+          "last": "2026-05-28",
+          "raw_examples": [
+            "Coconut Sugar & Vanilla",
+            "Coconut Sugar Vanilla"
+          ],
+          "source_example": {
+            "date": "2026-05-11",
+            "shop": "benet_street",
+            "raw_name": "Coconut Sugar & Vanilla"
+          }
+        },
+        {
+          "name": "vanilla coconut sugar",
+          "count": 5,
+          "first": "2026-05-12",
+          "last": "2026-05-16",
+          "raw_examples": [
+            "Vanilla & Coconut Sugar"
+          ],
+          "source_example": {
+            "date": "2026-05-12",
+            "shop": "benet_street",
+            "raw_name": "Vanilla & Coconut Sugar"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vanilla coconut sugar"
+    },
+    {
+      "id": "C44",
+      "names": [
+        "house mascarpone (splash of marsala wine)",
+        "house mascarpone, splash of marsala wine"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "house mascarpone (splash of marsala wine)",
+          "count": 2,
+          "first": "2026-04-27",
+          "last": "2026-04-28",
+          "raw_examples": [
+            "House Mascarpone (Splash of Marsala Wine)"
+          ],
+          "source_example": {
+            "date": "2026-04-27",
+            "shop": "benet_street",
+            "raw_name": "House Mascarpone (Splash of Marsala Wine)"
+          }
+        },
+        {
+          "name": "house mascarpone, splash of marsala wine",
+          "count": 6,
+          "first": "2026-01-25",
+          "last": "2026-03-01",
+          "raw_examples": [
+            "House Mascarpone, Splash of Marsala Wine"
+          ],
+          "source_example": {
+            "date": "2026-01-25",
+            "shop": "benet_street",
+            "raw_name": "House Mascarpone, Splash of Marsala Wine"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "house mascarpone, splash of marsala wine"
+    },
+    {
+      "id": "C45",
+      "names": [
+        "chocolate hazelnut pie",
+        "hazelnut chocolate pie"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate hazelnut pie",
+          "count": 2,
+          "first": "2025-06-05",
+          "last": "2025-06-06",
+          "raw_examples": [
+            "Chocolate & Hazelnut Pie"
+          ],
+          "source_example": {
+            "date": "2025-06-05",
+            "shop": "benet_street",
+            "raw_name": "Chocolate & Hazelnut Pie"
+          }
+        },
+        {
+          "name": "hazelnut chocolate pie",
+          "count": 5,
+          "first": "2026-04-18",
+          "last": "2026-05-23",
+          "raw_examples": [
+            "Hazelnut Chocolate Pie",
+            "Hazelnut & Chocolate Pie"
+          ],
+          "source_example": {
+            "date": "2026-04-18",
+            "shop": "all_saints",
+            "raw_name": "Hazelnut Chocolate Pie"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "hazelnut chocolate pie"
+    },
+    {
+      "id": "C46",
+      "names": [
+        "coffee hazelnut",
+        "hazelnut coffee"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coffee hazelnut",
+          "count": 2,
+          "first": "2026-04-14",
+          "last": "2026-04-16",
+          "raw_examples": [
+            "Coffee & Hazelnut"
+          ],
+          "source_example": {
+            "date": "2026-04-14",
+            "shop": "benet_street",
+            "raw_name": "Coffee & Hazelnut"
+          }
+        },
+        {
+          "name": "hazelnut coffee",
+          "count": 5,
+          "first": "2024-11-08",
+          "last": "2025-08-30",
+          "raw_examples": [
+            "Hazelnut & Coffee"
+          ],
+          "source_example": {
+            "date": "2024-11-08",
+            "shop": "benet_street",
+            "raw_name": "Hazelnut & Coffee"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "hazelnut coffee"
+    },
+    {
+      "id": "C47",
+      "names": [
+        "lime leaf raspberry ripple",
+        "lime leaf, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "lime leaf raspberry ripple",
+          "count": 3,
+          "first": "2025-11-30",
+          "last": "2025-12-02",
+          "raw_examples": [
+            "Lime Leaf & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-11-30",
+            "shop": "benet_street",
+            "raw_name": "Lime Leaf & Raspberry Ripple"
+          }
+        },
+        {
+          "name": "lime leaf, raspberry ripple",
+          "count": 4,
+          "first": "2025-12-07",
+          "last": "2026-02-21",
+          "raw_examples": [
+            "Lime Leaf, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-12-07",
+            "shop": "benet_street",
+            "raw_name": "Lime Leaf, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "lime leaf, raspberry ripple"
+    },
+    {
+      "id": "C48",
+      "names": [
+        "lychee matcha sorbet",
+        "matcha lychee sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "lychee matcha sorbet",
+          "count": 5,
+          "first": "2024-10-29",
+          "last": "2024-11-02",
+          "raw_examples": [
+            "Lychee & Matcha Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2024-10-29",
+            "shop": "benet_street",
+            "raw_name": "Lychee & Matcha Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "matcha lychee sorbet",
+          "count": 2,
+          "first": "2024-10-07",
+          "last": "2024-10-14",
+          "raw_examples": [
+            "Matcha & Lychee Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2024-10-07",
+            "shop": "benet_street",
+            "raw_name": "Matcha & Lychee Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "lychee matcha sorbet"
+    },
+    {
+      "id": "C49",
+      "names": [
+        "mascarpone raspberry ripple",
+        "mascarpone, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "mascarpone raspberry ripple",
+          "count": 2,
+          "first": "2025-06-07",
+          "last": "2025-06-08",
+          "raw_examples": [
+            "Mascarpone Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-06-07",
+            "shop": "benet_street",
+            "raw_name": "Mascarpone Raspberry Ripple"
+          }
+        },
+        {
+          "name": "mascarpone, raspberry ripple",
+          "count": 5,
+          "first": "2025-05-13",
+          "last": "2025-05-17",
+          "raw_examples": [
+            "Mascarpone, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-05-13",
+            "shop": "all_saints",
+            "raw_name": "Mascarpone, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "mascarpone, raspberry ripple"
+    },
+    {
+      "id": "C50",
+      "names": [
+        "saffron, cardamom rose",
+        "saffron, rose cardamom"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "saffron, cardamom rose",
+          "count": 5,
+          "first": "2026-02-18",
+          "last": "2026-03-05",
+          "raw_examples": [
+            "Saffron, Cardamom & Rose (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-02-18",
+            "shop": "benet_street",
+            "raw_name": "Saffron, Cardamom & Rose (+£1)"
+          }
+        },
+        {
+          "name": "saffron, rose cardamom",
+          "count": 2,
+          "first": "2026-01-18",
+          "last": "2026-01-19",
+          "raw_examples": [
+            "Saffron, Rose & Cardamom (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-01-18",
+            "shop": "benet_street",
+            "raw_name": "Saffron, Rose & Cardamom (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "saffron, cardamom rose"
+    },
+    {
+      "id": "C51",
+      "names": [
+        "salted caramel vanilla",
+        "salted vanilla caramel",
+        "vanilla salted caramel"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "salted caramel vanilla",
+          "count": 1,
+          "first": "2025-06-13",
+          "last": "2025-06-13",
+          "raw_examples": [
+            "Salted Caramel Vanilla"
+          ],
+          "source_example": {
+            "date": "2025-06-13",
+            "shop": "benet_street",
+            "raw_name": "Salted Caramel Vanilla"
+          }
+        },
+        {
+          "name": "salted vanilla caramel",
+          "count": 2,
+          "first": "2025-05-10",
+          "last": "2025-05-11",
+          "raw_examples": [
+            "Salted Vanilla Caramel"
+          ],
+          "source_example": {
+            "date": "2025-05-10",
+            "shop": "benet_street",
+            "raw_name": "Salted Vanilla Caramel"
+          }
+        },
+        {
+          "name": "vanilla salted caramel",
+          "count": 4,
+          "first": "2025-05-27",
+          "last": "2025-05-30",
+          "raw_examples": [
+            "Vanilla Salted Caramel"
+          ],
+          "source_example": {
+            "date": "2025-05-27",
+            "shop": "all_saints",
+            "raw_name": "Vanilla Salted Caramel"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "vanilla salted caramel"
+    },
+    {
+      "id": "C52",
+      "names": [
+        "ube raspberry ripple",
+        "ube, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "ube raspberry ripple",
+          "count": 1,
+          "first": "2025-07-11",
+          "last": "2025-07-11",
+          "raw_examples": [
+            "Ube & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-07-11",
+            "shop": "benet_street",
+            "raw_name": "Ube & Raspberry Ripple"
+          }
+        },
+        {
+          "name": "ube, raspberry ripple",
+          "count": 6,
+          "first": "2025-06-11",
+          "last": "2025-10-25",
+          "raw_examples": [
+            "Ube, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-06-11",
+            "shop": "all_saints",
+            "raw_name": "Ube, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "ube, raspberry ripple"
+    },
+    {
+      "id": "C53",
+      "names": [
+        "bristol whisky: circumstance, sherry cask rye",
+        "bristol whisky; circumstance, sherry cask rye"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "bristol whisky: circumstance, sherry cask rye",
+          "count": 2,
+          "first": "2025-10-23",
+          "last": "2025-10-24",
+          "raw_examples": [
+            "Bristol Whisky: Circumstance, Sherry Cask Rye (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-10-23",
+            "shop": "benet_street",
+            "raw_name": "Bristol Whisky: Circumstance, Sherry Cask Rye (+£2)"
+          }
+        },
+        {
+          "name": "bristol whisky; circumstance, sherry cask rye",
+          "count": 4,
+          "first": "2025-10-16",
+          "last": "2025-10-19",
+          "raw_examples": [
+            "Bristol Whisky; Circumstance, Sherry Cask Rye (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-10-16",
+            "shop": "benet_street",
+            "raw_name": "Bristol Whisky; Circumstance, Sherry Cask Rye (+£2)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "bristol whisky; circumstance, sherry cask rye"
+    },
+    {
+      "id": "C54",
+      "names": [
+        "cardamom rose, raspberry ripple",
+        "cardamom, rose raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cardamom rose, raspberry ripple",
+          "count": 2,
+          "first": "2026-05-24",
+          "last": "2026-05-26",
+          "raw_examples": [
+            "Cardamom & Rose, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2026-05-24",
+            "shop": "benet_street",
+            "raw_name": "Cardamom & Rose, Raspberry Ripple"
+          }
+        },
+        {
+          "name": "cardamom, rose raspberry ripple",
+          "count": 4,
+          "first": "2026-06-20",
+          "last": "2026-07-14",
+          "raw_examples": [
+            "Cardamom, Rose & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2026-06-20",
+            "shop": "all_saints",
+            "raw_name": "Cardamom, Rose & Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cardamom, rose raspberry ripple"
+    },
+    {
+      "id": "C55",
+      "names": [
+        "cashew cinnamon biscuit",
+        "cashew, cinnamon biscuit"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cashew cinnamon biscuit",
+          "count": 4,
+          "first": "2024-11-25",
+          "last": "2024-11-29",
+          "raw_examples": [
+            "Cashew & Cinnamon Biscuit (vegan)"
+          ],
+          "source_example": {
+            "date": "2024-11-25",
+            "shop": "benet_street",
+            "raw_name": "Cashew & Cinnamon Biscuit (vegan)"
+          }
+        },
+        {
+          "name": "cashew, cinnamon biscuit",
+          "count": 2,
+          "first": "2025-04-09",
+          "last": "2025-04-10",
+          "raw_examples": [
+            "Cashew, Cinnamon Biscuit (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-04-09",
+            "shop": "benet_street",
+            "raw_name": "Cashew, Cinnamon Biscuit (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cashew cinnamon biscuit"
+    },
+    {
+      "id": "C56",
+      "names": [
+        "chocolate fudge chunk",
+        "chocolate, fudge chunk"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "chocolate fudge chunk",
+          "count": 5,
+          "first": "2025-07-02",
+          "last": "2026-08-04",
+          "raw_examples": [
+            "Chocolate Fudge Chunk"
+          ],
+          "source_example": {
+            "date": "2025-07-02",
+            "shop": "benet_street",
+            "raw_name": "Chocolate Fudge Chunk"
+          }
+        },
+        {
+          "name": "chocolate, fudge chunk",
+          "count": 1,
+          "first": "2025-07-01",
+          "last": "2025-07-01",
+          "raw_examples": [
+            "Chocolate, Fudge Chunk"
+          ],
+          "source_example": {
+            "date": "2025-07-01",
+            "shop": "benet_street",
+            "raw_name": "Chocolate, Fudge Chunk"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "chocolate fudge chunk"
+    },
+    {
+      "id": "C57",
+      "names": [
+        "house mascarpone brownie dough",
+        "house mascarpone, brownie dough"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "house mascarpone brownie dough",
+          "count": 1,
+          "first": "2025-10-10",
+          "last": "2025-10-10",
+          "raw_examples": [
+            "House Mascarpone & Brownie Dough"
+          ],
+          "source_example": {
+            "date": "2025-10-10",
+            "shop": "benet_street",
+            "raw_name": "House Mascarpone & Brownie Dough"
+          }
+        },
+        {
+          "name": "house mascarpone, brownie dough",
+          "count": 5,
+          "first": "2025-10-08",
+          "last": "2025-10-12",
+          "raw_examples": [
+            "House Mascarpone, Brownie Dough"
+          ],
+          "source_example": {
+            "date": "2025-10-08",
+            "shop": "all_saints",
+            "raw_name": "House Mascarpone, Brownie Dough"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "house mascarpone, brownie dough"
+    },
+    {
+      "id": "C58",
+      "names": [
+        "almond blueberry cake",
+        "blueberry almond cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "almond blueberry cake",
+          "count": 1,
+          "first": "2026-05-24",
+          "last": "2026-05-24",
+          "raw_examples": [
+            "Almond & Blueberry Cake"
+          ],
+          "source_example": {
+            "date": "2026-05-24",
+            "shop": "benet_street",
+            "raw_name": "Almond & Blueberry Cake"
+          }
+        },
+        {
+          "name": "blueberry almond cake",
+          "count": 4,
+          "first": "2025-08-18",
+          "last": "2026-08-06",
+          "raw_examples": [
+            "Blueberry & Almond Cake"
+          ],
+          "source_example": {
+            "date": "2025-08-18",
+            "shop": "benet_street",
+            "raw_name": "Blueberry & Almond Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "blueberry almond cake"
+    },
+    {
+      "id": "C59",
+      "names": [
+        "cashew cookie dough",
+        "cashew, cookie dough"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cashew cookie dough",
+          "count": 4,
+          "first": "2025-05-09",
+          "last": "2025-06-02",
+          "raw_examples": [
+            "Cashew Cookie Dough  (vegan)",
+            "Cashew Cookie Dough (vegan)",
+            "Cashew Cookie Dough"
+          ],
+          "source_example": {
+            "date": "2025-05-09",
+            "shop": "benet_street",
+            "raw_name": "Cashew Cookie Dough  (vegan)"
+          }
+        },
+        {
+          "name": "cashew, cookie dough",
+          "count": 1,
+          "first": "2025-06-03",
+          "last": "2025-06-03",
+          "raw_examples": [
+            "Cashew, Cookie Dough (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-06-03",
+            "shop": "benet_street",
+            "raw_name": "Cashew, Cookie Dough (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cashew cookie dough"
+    },
+    {
+      "id": "C60",
+      "names": [
+        "gooseberry orange blossom sorbet",
+        "gooseberry, orange blossom sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "gooseberry orange blossom sorbet",
+          "count": 4,
+          "first": "2025-09-22",
+          "last": "2025-11-23",
+          "raw_examples": [
+            "Gooseberry & Orange Blossom Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-09-22",
+            "shop": "benet_street",
+            "raw_name": "Gooseberry & Orange Blossom Sorbet (vegan)"
+          }
+        },
+        {
+          "name": "gooseberry, orange blossom sorbet",
+          "count": 1,
+          "first": "2025-07-17",
+          "last": "2025-07-17",
+          "raw_examples": [
+            "Gooseberry, Orange Blossom Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2025-07-17",
+            "shop": "benet_street",
+            "raw_name": "Gooseberry, Orange Blossom Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "gooseberry orange blossom sorbet"
+    },
+    {
+      "id": "C61",
+      "names": [
+        "hazelnut brownie dough",
+        "hazelnut, brownie dough"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "hazelnut brownie dough",
+          "count": 2,
+          "first": "2026-04-24",
+          "last": "2026-05-09",
+          "raw_examples": [
+            "Hazelnut & Brownie Dough"
+          ],
+          "source_example": {
+            "date": "2026-04-24",
+            "shop": "benet_street",
+            "raw_name": "Hazelnut & Brownie Dough"
+          }
+        },
+        {
+          "name": "hazelnut, brownie dough",
+          "count": 3,
+          "first": "2026-04-26",
+          "last": "2026-04-28",
+          "raw_examples": [
+            "Hazelnut, Brownie Dough"
+          ],
+          "source_example": {
+            "date": "2026-04-26",
+            "shop": "all_saints",
+            "raw_name": "Hazelnut, Brownie Dough"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "hazelnut, brownie dough"
+    },
+    {
+      "id": "C62",
+      "names": [
+        "hazelnut fudge brownie",
+        "hazelnut, fudge brownie"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "hazelnut fudge brownie",
+          "count": 2,
+          "first": "2025-08-10",
+          "last": "2025-08-11",
+          "raw_examples": [
+            "Hazelnut Fudge Brownie"
+          ],
+          "source_example": {
+            "date": "2025-08-10",
+            "shop": "all_saints",
+            "raw_name": "Hazelnut Fudge Brownie"
+          }
+        },
+        {
+          "name": "hazelnut, fudge brownie",
+          "count": 3,
+          "first": "2026-08-22",
+          "last": "2026-08-28",
+          "raw_examples": [
+            "Hazelnut, Fudge Brownie"
+          ],
+          "source_example": {
+            "date": "2026-08-22",
+            "shop": "all_saints",
+            "raw_name": "Hazelnut, Fudge Brownie"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "hazelnut, fudge brownie"
+    },
+    {
+      "id": "C63",
+      "names": [
+        "house mascarpone (with a splash of marsala wine)",
+        "house mascarpone (with a splash of marsala wine))"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "house mascarpone (with a splash of marsala wine)",
+          "count": 3,
+          "first": "2026-02-05",
+          "last": "2026-02-19",
+          "raw_examples": [
+            "House Mascarpone (with a splash of marsala wine)",
+            "House Mascarpone (with a splash of Marsala wine)"
+          ],
+          "source_example": {
+            "date": "2026-02-05",
+            "shop": "benet_street",
+            "raw_name": "House Mascarpone (with a splash of marsala wine)"
+          }
+        },
+        {
+          "name": "house mascarpone (with a splash of marsala wine))",
+          "count": 2,
+          "first": "2026-02-03",
+          "last": "2026-02-04",
+          "raw_examples": [
+            "House Mascarpone (with a splash of marsala wine))"
+          ],
+          "source_example": {
+            "date": "2026-02-03",
+            "shop": "benet_street",
+            "raw_name": "House Mascarpone (with a splash of marsala wine))"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "house mascarpone (with a splash of marsala wine)"
+    },
+    {
+      "id": "C64",
+      "names": [
+        "lychee sorbet raspberry ripple",
+        "lychee sorbet, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "lychee sorbet raspberry ripple",
+          "count": 1,
+          "first": "2026-03-18",
+          "last": "2026-03-18",
+          "raw_examples": [
+            "Lychee Sorbet & Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-03-18",
+            "shop": "benet_street",
+            "raw_name": "Lychee Sorbet & Raspberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "lychee sorbet, raspberry ripple",
+          "count": 4,
+          "first": "2026-01-29",
+          "last": "2026-03-24",
+          "raw_examples": [
+            "Lychee Sorbet, Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-01-29",
+            "shop": "benet_street",
+            "raw_name": "Lychee Sorbet, Raspberry Ripple (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "lychee sorbet, raspberry ripple"
+    },
+    {
+      "id": "C65",
+      "names": [
+        "pistachio cardamom rose",
+        "pistachio, cardamom rose",
+        "pistachio, rose cardamom"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "pistachio cardamom rose",
+          "count": 2,
+          "first": "2025-06-14",
+          "last": "2025-06-15",
+          "raw_examples": [
+            "Pistachio Cardamom Rose (+£2)",
+            "Pistachio Cardamom Rose (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-06-14",
+            "shop": "benet_street",
+            "raw_name": "Pistachio Cardamom Rose (+£2)"
+          }
+        },
+        {
+          "name": "pistachio, cardamom rose",
+          "count": 2,
+          "first": "2025-06-30",
+          "last": "2025-07-01",
+          "raw_examples": [
+            "Pistachio, Cardamom & Rose (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-06-30",
+            "shop": "benet_street",
+            "raw_name": "Pistachio, Cardamom & Rose (+£1)"
+          }
+        },
+        {
+          "name": "pistachio, rose cardamom",
+          "count": 1,
+          "first": "2025-06-29",
+          "last": "2025-06-29",
+          "raw_examples": [
+            "Pistachio, Rose & Cardamom (+£1)"
+          ],
+          "source_example": {
+            "date": "2025-06-29",
+            "shop": "benet_street",
+            "raw_name": "Pistachio, Rose & Cardamom (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "pistachio cardamom rose"
+    },
+    {
+      "id": "C66",
+      "names": [
+        "bristol whisky: circumstance",
+        "bristol whisky; circumstance"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "bristol whisky: circumstance",
+          "count": 2,
+          "first": "2025-08-16",
+          "last": "2025-08-17",
+          "raw_examples": [
+            "Bristol Whisky: Circumstance  (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-08-16",
+            "shop": "benet_street",
+            "raw_name": "Bristol Whisky: Circumstance  (+£2)"
+          }
+        },
+        {
+          "name": "bristol whisky; circumstance",
+          "count": 2,
+          "first": "2025-08-20",
+          "last": "2025-08-21",
+          "raw_examples": [
+            "Bristol Whisky; Circumstance (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-08-20",
+            "shop": "benet_street",
+            "raw_name": "Bristol Whisky; Circumstance (+£2)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "bristol whisky: circumstance"
+    },
+    {
+      "id": "C67",
+      "names": [
+        "cardamom coffee",
+        "coffee cardamom"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cardamom coffee",
+          "count": 2,
+          "first": "2025-07-05",
+          "last": "2025-07-06",
+          "raw_examples": [
+            "Cardamom Coffee"
+          ],
+          "source_example": {
+            "date": "2025-07-05",
+            "shop": "all_saints",
+            "raw_name": "Cardamom Coffee"
+          }
+        },
+        {
+          "name": "coffee cardamom",
+          "count": 2,
+          "first": "2026-07-05",
+          "last": "2026-07-06",
+          "raw_examples": [
+            "Coffee & Cardamom"
+          ],
+          "source_example": {
+            "date": "2026-07-05",
+            "shop": "benet_street",
+            "raw_name": "Coffee & Cardamom"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cardamom coffee"
+    },
+    {
+      "id": "C68",
+      "names": [
+        "milk chocolate caramel ripple",
+        "milk chocolate, caramel ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "milk chocolate caramel ripple",
+          "count": 2,
+          "first": "2025-02-10",
+          "last": "2025-02-11",
+          "raw_examples": [
+            "Milk Chocolate Caramel Ripple"
+          ],
+          "source_example": {
+            "date": "2025-02-10",
+            "shop": "benet_street",
+            "raw_name": "Milk Chocolate Caramel Ripple"
+          }
+        },
+        {
+          "name": "milk chocolate, caramel ripple",
+          "count": 2,
+          "first": "2025-02-12",
+          "last": "2025-02-13",
+          "raw_examples": [
+            "Milk Chocolate, Caramel Ripple"
+          ],
+          "source_example": {
+            "date": "2025-02-12",
+            "shop": "benet_street",
+            "raw_name": "Milk Chocolate, Caramel Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "milk chocolate caramel ripple"
+    },
+    {
+      "id": "C69",
+      "names": [
+        "white choc cardamom, raspberry ripple",
+        "white choc, cardamom raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "white choc cardamom, raspberry ripple",
+          "count": 2,
+          "first": "2026-05-10",
+          "last": "2026-05-11",
+          "raw_examples": [
+            "White Choc & Cardamom, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2026-05-10",
+            "shop": "benet_street",
+            "raw_name": "White Choc & Cardamom, Raspberry Ripple"
+          }
+        },
+        {
+          "name": "white choc, cardamom raspberry ripple",
+          "count": 2,
+          "first": "2026-07-19",
+          "last": "2026-07-20",
+          "raw_examples": [
+            "White Choc, Cardamom & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2026-07-19",
+            "shop": "all_saints",
+            "raw_name": "White Choc, Cardamom & Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "white choc cardamom, raspberry ripple"
+    },
+    {
+      "id": "C70",
+      "names": [
+        "coconut fudge brownie",
+        "coconut, fudge brownie"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "coconut fudge brownie",
+          "count": 1,
+          "first": "2025-10-04",
+          "last": "2025-10-04",
+          "raw_examples": [
+            "Coconut Fudge Brownie"
+          ],
+          "source_example": {
+            "date": "2025-10-04",
+            "shop": "benet_street",
+            "raw_name": "Coconut Fudge Brownie"
+          }
+        },
+        {
+          "name": "coconut, fudge brownie",
+          "count": 2,
+          "first": "2025-10-08",
+          "last": "2025-10-09",
+          "raw_examples": [
+            "Coconut, Fudge Brownie"
+          ],
+          "source_example": {
+            "date": "2025-10-08",
+            "shop": "benet_street",
+            "raw_name": "Coconut, Fudge Brownie"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "coconut, fudge brownie"
+    },
+    {
+      "id": "C71",
+      "names": [
+        "gin, lemon yoghurt cake",
+        "lemon, gin yoghurt cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "gin, lemon yoghurt cake",
+          "count": 2,
+          "first": "2026-07-11",
+          "last": "2026-07-12",
+          "raw_examples": [
+            "Gin, Lemon & Yoghurt Cake",
+            "Gin, Lemon & Yoghurt Cake (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-07-11",
+            "shop": "benet_street",
+            "raw_name": "Gin, Lemon & Yoghurt Cake"
+          }
+        },
+        {
+          "name": "lemon, gin yoghurt cake",
+          "count": 1,
+          "first": "2026-06-02",
+          "last": "2026-06-02",
+          "raw_examples": [
+            "Lemon, Gin & Yoghurt Cake"
+          ],
+          "source_example": {
+            "date": "2026-06-02",
+            "shop": "benet_street",
+            "raw_name": "Lemon, Gin & Yoghurt Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "gin, lemon yoghurt cake"
+    },
+    {
+      "id": "C72",
+      "names": [
+        "pump street stracciatella, 100%",
+        "stracciatella; pump street 100%"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "pump street stracciatella, 100%",
+          "count": 1,
+          "first": "2025-05-24",
+          "last": "2025-05-24",
+          "raw_examples": [
+            "Pump Street Stracciatella, 100%"
+          ],
+          "source_example": {
+            "date": "2025-05-24",
+            "shop": "benet_street",
+            "raw_name": "Pump Street Stracciatella, 100%"
+          }
+        },
+        {
+          "name": "stracciatella; pump street 100%",
+          "count": 2,
+          "first": "2025-04-01",
+          "last": "2025-04-02",
+          "raw_examples": [
+            "Stracciatella; Pump Street 100%"
+          ],
+          "source_example": {
+            "date": "2025-04-01",
+            "shop": "benet_street",
+            "raw_name": "Stracciatella; Pump Street 100%"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "stracciatella; pump street 100%"
+    },
+    {
+      "id": "C73",
+      "names": [
+        "sherry: la gitana manzanilla",
+        "sherry; la gitana manzanilla"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "sherry: la gitana manzanilla",
+          "count": 2,
+          "first": "2026-08-17",
+          "last": "2026-08-18",
+          "raw_examples": [
+            "Sherry: La Gitana Manzanilla (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-08-17",
+            "shop": "benet_street",
+            "raw_name": "Sherry: La Gitana Manzanilla (+£1)"
+          }
+        },
+        {
+          "name": "sherry; la gitana manzanilla",
+          "count": 1,
+          "first": "2026-08-15",
+          "last": "2026-08-15",
+          "raw_examples": [
+            "Sherry; La Gitana Manzanilla (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-08-15",
+            "shop": "benet_street",
+            "raw_name": "Sherry; La Gitana Manzanilla (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "sherry: la gitana manzanilla"
+    },
+    {
+      "id": "C74",
+      "names": [
+        "white chocolate blueberry cake",
+        "white chocolate, blueberry cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "white chocolate blueberry cake",
+          "count": 1,
+          "first": "2024-11-27",
+          "last": "2024-11-27",
+          "raw_examples": [
+            "White Chocolate Blueberry Cake"
+          ],
+          "source_example": {
+            "date": "2024-11-27",
+            "shop": "benet_street",
+            "raw_name": "White Chocolate Blueberry Cake"
+          }
+        },
+        {
+          "name": "white chocolate, blueberry cake",
+          "count": 2,
+          "first": "2024-11-18",
+          "last": "2024-11-20",
+          "raw_examples": [
+            "White Chocolate, Blueberry Cake"
+          ],
+          "source_example": {
+            "date": "2024-11-18",
+            "shop": "benet_street",
+            "raw_name": "White Chocolate, Blueberry Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "white chocolate, blueberry cake"
+    },
+    {
+      "id": "C75",
+      "names": [
+        "banana, almond chocolate crumble",
+        "banana, chocolate almond crumble"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "banana, almond chocolate crumble",
+          "count": 1,
+          "first": "2026-03-18",
+          "last": "2026-03-18",
+          "raw_examples": [
+            "Banana, Almond & Chocolate Crumble"
+          ],
+          "source_example": {
+            "date": "2026-03-18",
+            "shop": "benet_street",
+            "raw_name": "Banana, Almond & Chocolate Crumble"
+          }
+        },
+        {
+          "name": "banana, chocolate almond crumble",
+          "count": 1,
+          "first": "2026-03-14",
+          "last": "2026-03-14",
+          "raw_examples": [
+            "Banana, Chocolate & Almond Crumble"
+          ],
+          "source_example": {
+            "date": "2026-03-14",
+            "shop": "all_saints",
+            "raw_name": "Banana, Chocolate & Almond Crumble"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "banana, almond chocolate crumble"
+    },
+    {
+      "id": "C76",
+      "names": [
+        "cinnamon house dulce de leche",
+        "cinnamon, house dulce de leche"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "cinnamon house dulce de leche",
+          "count": 1,
+          "first": "2025-12-29",
+          "last": "2025-12-29",
+          "raw_examples": [
+            "Cinnamon & House Dulce de Leche"
+          ],
+          "source_example": {
+            "date": "2025-12-29",
+            "shop": "benet_street",
+            "raw_name": "Cinnamon & House Dulce de Leche"
+          }
+        },
+        {
+          "name": "cinnamon, house dulce de leche",
+          "count": 1,
+          "first": "2026-01-23",
+          "last": "2026-01-23",
+          "raw_examples": [
+            "Cinnamon, House Dulce de Leche"
+          ],
+          "source_example": {
+            "date": "2026-01-23",
+            "shop": "benet_street",
+            "raw_name": "Cinnamon, House Dulce de Leche"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "cinnamon house dulce de leche"
+    },
+    {
+      "id": "C77",
+      "names": [
+        "mascarpone strawberry cake",
+        "strawberry mascarpone cake"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "mascarpone strawberry cake",
+          "count": 1,
+          "first": "2025-05-09",
+          "last": "2025-05-09",
+          "raw_examples": [
+            "Mascarpone & Strawberry Cake"
+          ],
+          "source_example": {
+            "date": "2025-05-09",
+            "shop": "benet_street",
+            "raw_name": "Mascarpone & Strawberry Cake"
+          }
+        },
+        {
+          "name": "strawberry mascarpone cake",
+          "count": 1,
+          "first": "2025-06-26",
+          "last": "2025-06-26",
+          "raw_examples": [
+            "Strawberry & Mascarpone Cake"
+          ],
+          "source_example": {
+            "date": "2025-06-26",
+            "shop": "all_saints",
+            "raw_name": "Strawberry & Mascarpone Cake"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "mascarpone strawberry cake"
+    },
+    {
+      "id": "C78",
+      "names": [
+        "milk salted brownies",
+        "salted milk brownies"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "milk salted brownies",
+          "count": 1,
+          "first": "2025-02-22",
+          "last": "2025-02-22",
+          "raw_examples": [
+            "Milk & Salted Brownies"
+          ],
+          "source_example": {
+            "date": "2025-02-22",
+            "shop": "benet_street",
+            "raw_name": "Milk & Salted Brownies"
+          }
+        },
+        {
+          "name": "salted milk brownies",
+          "count": 1,
+          "first": "2026-06-26",
+          "last": "2026-06-26",
+          "raw_examples": [
+            "Salted Milk & Brownies"
+          ],
+          "source_example": {
+            "date": "2026-06-26",
+            "shop": "benet_street",
+            "raw_name": "Salted Milk & Brownies"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "milk salted brownies"
+    },
+    {
+      "id": "C79",
+      "names": [
+        "nikka whiskey; from the barrel",
+        "whiskey; nikka, from the barrel"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "nikka whiskey; from the barrel",
+          "count": 1,
+          "first": "2025-06-29",
+          "last": "2025-06-29",
+          "raw_examples": [
+            "Nikka Whiskey; from the barrel (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-06-29",
+            "shop": "benet_street",
+            "raw_name": "Nikka Whiskey; from the barrel (+£2)"
+          }
+        },
+        {
+          "name": "whiskey; nikka, from the barrel",
+          "count": 1,
+          "first": "2025-06-22",
+          "last": "2025-06-22",
+          "raw_examples": [
+            "Whiskey; Nikka, from the barrel (+£2)"
+          ],
+          "source_example": {
+            "date": "2025-06-22",
+            "shop": "benet_street",
+            "raw_name": "Whiskey; Nikka, from the barrel (+£2)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "nikka whiskey; from the barrel"
+    },
+    {
+      "id": "C80",
+      "names": [
+        "olive oil cake raspberry ripple",
+        "olive oil cake, raspberry ripple"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "olive oil cake raspberry ripple",
+          "count": 1,
+          "first": "2025-04-07",
+          "last": "2025-04-07",
+          "raw_examples": [
+            "Olive Oil Cake & Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-04-07",
+            "shop": "benet_street",
+            "raw_name": "Olive Oil Cake & Raspberry Ripple"
+          }
+        },
+        {
+          "name": "olive oil cake, raspberry ripple",
+          "count": 1,
+          "first": "2025-04-06",
+          "last": "2025-04-06",
+          "raw_examples": [
+            "Olive Oil Cake, Raspberry Ripple"
+          ],
+          "source_example": {
+            "date": "2025-04-06",
+            "shop": "benet_street",
+            "raw_name": "Olive Oil Cake, Raspberry Ripple"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "olive oil cake raspberry ripple"
+    },
+    {
+      "id": "C81",
+      "names": [
+        "salted caramel cookie dough",
+        "salted caramel, cookie dough"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "salted caramel cookie dough",
+          "count": 1,
+          "first": "2026-07-03",
+          "last": "2026-07-03",
+          "raw_examples": [
+            "Salted Caramel Cookie Dough"
+          ],
+          "source_example": {
+            "date": "2026-07-03",
+            "shop": "benet_street",
+            "raw_name": "Salted Caramel Cookie Dough"
+          }
+        },
+        {
+          "name": "salted caramel, cookie dough",
+          "count": 1,
+          "first": "2026-07-04",
+          "last": "2026-07-04",
+          "raw_examples": [
+            "Salted Caramel, Cookie Dough"
+          ],
+          "source_example": {
+            "date": "2026-07-04",
+            "shop": "all_saints",
+            "raw_name": "Salted Caramel, Cookie Dough"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "salted caramel cookie dough"
+    },
+    {
+      "id": "C82",
+      "names": [
+        "sea buckthorn sorbet, raspberry ripple",
+        "sea buckthorn, raspberry ripple sorbet"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "sea buckthorn sorbet, raspberry ripple",
+          "count": 1,
+          "first": "2026-05-01",
+          "last": "2026-05-01",
+          "raw_examples": [
+            "Sea Buckthorn Sorbet, Raspberry Ripple (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-05-01",
+            "shop": "benet_street",
+            "raw_name": "Sea Buckthorn Sorbet, Raspberry Ripple (vegan)"
+          }
+        },
+        {
+          "name": "sea buckthorn, raspberry ripple sorbet",
+          "count": 1,
+          "first": "2026-07-10",
+          "last": "2026-07-10",
+          "raw_examples": [
+            "Sea Buckthorn, Raspberry Ripple Sorbet (vegan)"
+          ],
+          "source_example": {
+            "date": "2026-07-10",
+            "shop": "benet_street",
+            "raw_name": "Sea Buckthorn, Raspberry Ripple Sorbet (vegan)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "sea buckthorn sorbet, raspberry ripple"
+    },
+    {
+      "id": "C83",
+      "names": [
+        "sherry: palo cortado",
+        "sherry; palo cortado"
+      ],
+      "reason": "Same words in a different order / punctuation",
+      "category": "word order",
+      "variants": [
+        {
+          "name": "sherry: palo cortado",
+          "count": 1,
+          "first": "2026-08-08",
+          "last": "2026-08-08",
+          "raw_examples": [
+            "Sherry: Palo Cortado(+£1)"
+          ],
+          "source_example": {
+            "date": "2026-08-08",
+            "shop": "benet_street",
+            "raw_name": "Sherry: Palo Cortado(+£1)"
+          }
+        },
+        {
+          "name": "sherry; palo cortado",
+          "count": 1,
+          "first": "2026-08-10",
+          "last": "2026-08-10",
+          "raw_examples": [
+            "Sherry; Palo Cortado (+£1)"
+          ],
+          "source_example": {
+            "date": "2026-08-10",
+            "shop": "benet_street",
+            "raw_name": "Sherry; Palo Cortado (+£1)"
+          }
+        }
+      ],
+      "same_menu_pairs": 0,
+      "decision": "pending",
+      "suggested_canonical": "sherry: palo cortado"
+    }
+  ]
+}

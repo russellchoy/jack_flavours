@@ -32,6 +32,7 @@ dist/
 /artifacts/*
 !/artifacts/latest/
 !/artifacts/production-v3/
+!/artifacts/production-v4/
 !/artifacts/final/
 !/artifacts/validation/
 !/artifacts/baselines/

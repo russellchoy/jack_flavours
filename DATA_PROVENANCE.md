@@ -9,3 +9,7 @@ Included processed history covers 4 October 2024–17 October 2026. Of 1,417 sou
 The frozen manifests record source/configuration/data/model checksums. Flavour matching is deliberately conservative; naming variants can remain distinct. Missing records are unknown, never negative labels. Historical data availability is assumed rather than timestamp-verified.
 
 No license file was present in the pinned upstream checkout. This repository does not grant or imply a new license over third-party source material. Attribution records provenance; it does not change upstream rights.
+
+## Prospective collection from 18 October 2026
+
+The `daily-data` branch records direct, timestamped downloads of Jack’s public Google-document menus using Edmund Goodman’s MIT-licensed [jacks-menu](https://github.com/EdmundGoodman/jacks-menu), pinned to commit `ccdfca95d4eef554052ebab63d0c9733bc96624f`. Its source/license remain in the upstream dependency; menu content remains Jack’s Gelato’s material. Live records include raw text, document ID, source date, retrieval time and hashes. This collection is distinct from the pinned historical dataset above. Normalization versions are recorded per forecast; the original 18 October result is preserved separately from cleaned-model results.

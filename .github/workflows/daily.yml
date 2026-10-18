@@ -36,9 +36,9 @@ jobs:
         shell: bash
         run: |
           DAY=$(TZ=Europe/London date +%F)
-          if [ -f "daily-state/issuance-v3/$DAY.json" ] && [ ! -f "daily-state/issued-v3/$DAY.json" ]; then
+          if [ -f "daily-state/issuance-v4/$DAY.json" ] && [ ! -f "daily-state/issued-v4/$DAY.json" ]; then
             mkdir -p daily-state/models
-            gh release download "daily-model-v3-$DAY" --pattern "v3-$DAY.joblib" --dir daily-state/models
+            gh release download "daily-model-v4-$DAY" --pattern "v4-$DAY.joblib" --dir daily-state/models
           fi
       - name: Collect, score and forecast
         id: pipeline

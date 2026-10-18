@@ -18,6 +18,7 @@ import pandas as pd
 from sklearn.metrics import average_precision_score
 
 from .cleaning import canonical_title, clean_appearances
+from .live_cleaning import canonical_title_v4
 from .data import parse_text
 from .features import Dataset
 from .final import digest, fit_bundle
@@ -29,7 +30,7 @@ SHOPS = ['all_saints', 'benet_street']
 DOCS = {'all_saints': '1kDBSxPb8X4L2TKXWUmm2A-VGuPVTyxmfbq9iwUQQ2nc',
         'benet_street': '1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8'}
 START = '2026-10-18'
-NORMALIZATION = 'v3'
+NORMALIZATION = 'v4'
 
 
 def now_utc():
@@ -97,13 +98,13 @@ def trusted_latest():
 
 def production_model():
     trusted_latest()  # Verify preserved history and the original bootstrap model.
-    manifest = read('artifacts/production-v3/manifest.json')
+    manifest = read('artifacts/production-v4/manifest.json')
     for path, expected in manifest['implementation_sha256'].items():
         if digest(path) != expected:
             raise ValueError('Production normalization or model implementation changed')
-    if digest('artifacts/production-v3/model.joblib') != manifest['model_sha256']:
-        raise ValueError('Production v3 model checksum mismatch')
-    return joblib.load('artifacts/production-v3/model.joblib')
+    if digest('artifacts/production-v4/model.joblib') != manifest['model_sha256']:
+        raise ValueError('Production v4 model checksum mismatch')
+    return joblib.load('artifacts/production-v4/model.joblib')
 
 
 def bootstrap(state):
@@ -147,7 +148,8 @@ def score_forecast(prediction, observation):
     labels = [p['flavour'] for p in items]
     if len(labels) != len(set(labels)) or not labels:
         raise ValueError('Duplicate or empty prediction labels')
-    actual = {canonical_title(n) for n in observation['flavours']} if prediction.get('normalization') == 'v3' else set(observation['flavours'])
+    normalizer = {'v3': canonical_title, 'v4': canonical_title_v4}.get(prediction.get('normalization'), lambda x: x)
+    actual = {normalizer(n) for n in observation['flavours']}
     y = np.array([name in actual for name in labels], dtype=float)
     p = np.array([item['probability'] for item in items])
     if not np.isfinite(p).all() or ((p < 0) | (p > 1)).any():
@@ -183,7 +185,7 @@ def score_pending(state):
             if not observation.exists():
                 continue
             paths = sorted((state/'forecasts'/day.name).glob(f'{shop}-*.json'))
-            for version in ['original-v1', 'v3']:
+            for version in ['original-v1', 'v3', 'v4']:
                 forecasts = [p for p in paths if read(p).get('normalization', 'original-v1') == version]
                 output = state/'comparisons'/day.name/f'{shop}-{version}.json'
                 if len(forecasts) < 2 or output.exists():
@@ -193,8 +195,9 @@ def score_pending(state):
                     score_forecast(record, read(observation))
                 shared = set.intersection(*[{p['flavour'] for p in r['predictions']} for r in records])
                 actual = set(read(observation)['flavours'])
-                if version == 'v3':
-                    actual = {canonical_title(n) for n in actual}
+                if version in ('v3', 'v4'):
+                    normalizer = canonical_title if version == 'v3' else canonical_title_v4
+                    actual = {normalizer(n) for n in actual}
                 scores = {}
                 for record in records:
                     probabilities = {p['flavour']: p['probability'] for p in record['predictions']}
@@ -224,23 +227,24 @@ def live_dataset(state, day):
     if items:
         appearances = pd.concat([appearances, pd.DataFrame(items)], ignore_index=True)
     appearances = clean_appearances(appearances, confirmed_aliases=True)
+    appearances['canonical_name'] = appearances.raw_name.map(canonical_title_v4)
     return Dataset.from_tables(snapshots, appearances, SHOPS)
 
 
 def issue(state, day, config, frozen, check):
-    marker = state / 'issued-v3' / f'{day}.json'
+    marker = state / 'issued-v4' / f'{day}.json'
     if marker.exists():
         return read(marker)
-    pending = state/'issuance-v3'/f'{day}.json'
+    pending = state/'issuance-v4'/f'{day}.json'
     if pending.exists():
         issuance = read(pending)
-        model_path = state/'models'/f'v3-{day}.joblib'
+        model_path = state/'models'/f'v4-{day}.joblib'
         if not model_path.exists() or digest(model_path) != issuance['model_sha256']:
             raise ValueError('Interrupted issuance requires its checksum-verified saved model')
         for record in issuance['records']:
             immutable(state/'forecasts'/record['target_date']/f"{record['shop']}-{record['model']}.json", record)
         result = {'status': 'issued', 'date': day, 'model_sha256': issuance['model_sha256'],
-                  'model_asset': f'v3-{day}.joblib', 'history_sha256': issuance['records'][0]['history_sha256'],
+                  'model_asset': f'v4-{day}.joblib', 'history_sha256': issuance['records'][0]['history_sha256'],
                   'shops': sorted({r['shop'] for r in issuance['records']})}
         immutable(marker, result)
         return result
@@ -252,9 +256,9 @@ def issue(state, day, config, frozen, check):
                      test_period={'train_end': day})
     trained = fit_bundle(data, selection, config, check)
     trained.update(recommended='logit', operating_point={'k': 10, 'threshold': .2},
-                   training_role='prospective_daily_v3', normalization_version='v3')
-    immutable(state/'provenance'/f'v3-{day}.json', {'files': {p: digest(p) for p in ['src/jack_flavours/daily.py', 'src/jack_flavours/cleaning.py', 'src/jack_flavours/features.py', 'src/jack_flavours/models.py', 'src/jack_flavours/final.py', 'uv.lock', 'integrations/menu-collector/uv.lock']}})
-    model_path = state / 'models' / f'v3-{day}.joblib'
+                   training_role='prospective_daily_v4', normalization_version='v4')
+    immutable(state/'provenance'/f'v4-{day}.json', {'files': {p: digest(p) for p in ['src/jack_flavours/daily.py', 'src/jack_flavours/cleaning.py', 'src/jack_flavours/live_cleaning.py', 'src/jack_flavours/features.py', 'src/jack_flavours/models.py', 'src/jack_flavours/final.py', 'uv.lock', 'integrations/menu-collector/uv.lock']}})
+    model_path = state / 'models' / f'v4-{day}.joblib'
     model_path.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(trained, model_path)
     model_hash = digest(model_path)
@@ -263,7 +267,7 @@ def issue(state, day, config, frozen, check):
          'live': {str(p.relative_to(state)): digest(p) for p in sorted((state/'observations').glob('*/*.json')) if p.parent.name <= day}},
         sort_keys=True).encode()).hexdigest()
     frames = {}
-    for name, model, sha in [('adaptive-v3', trained, model_hash), ('frozen-v3', frozen, digest('artifacts/production-v3/model.joblib'))]:
+    for name, model, sha in [('adaptive-v4', trained, model_hash), ('frozen-v4', frozen, digest('artifacts/production-v4/model.joblib'))]:
         check()
         frame, meta = build_forecast(model, data, day)
         frames[name] = (frame, meta, sha)
@@ -278,18 +282,18 @@ def issue(state, day, config, frozen, check):
         for rank, j in enumerate(order, 1):
             persistence.append({'shop': shop, 'flavour': data.names[j], 'probability': float(current[j]),
                                 'rank': rank, 'top_k': bool(current[j] and rank <= 10)})
-    frames['persistence-v3'] = (pd.DataFrame(persistence), frames['adaptive-v3'][1], 'persistence-v3')
+    frames['persistence-v4'] = (pd.DataFrame(persistence), frames['adaptive-v4'][1], 'persistence-v4')
     created = now_utc()
     if created.astimezone(LONDON).date().isoformat() != day:
         raise ValueError('Run crossed midnight; refusing retrospective forecast')
     # Construct the entire issuance before writing, and freeze metadata for resumable retries.
-    issuance_path = state / 'issuance-v3' / f'{day}.json'
+    issuance_path = state / 'issuance-v4' / f'{day}.json'
     if issuance_path.exists():
         issuance = read(issuance_path)
     else:
         records = []
         for name, (frame, meta, sha) in frames.items():
-            meta.update(created_utc=created.isoformat(), model_train_end=day if name != 'frozen-v3' else frozen['train_end'], history_sha256=history_hash, normalization='v3')
+            meta.update(created_utc=created.isoformat(), model_train_end=day if name != 'frozen-v4' else frozen['train_end'], history_sha256=history_hash, normalization='v4')
             for shop, rows in frame.groupby('shop'):
                 records.append(forecast_record(rows, meta, name, sha))
         issuance = {'records': records, 'model_sha256': model_hash}
@@ -299,7 +303,7 @@ def issue(state, day, config, frozen, check):
     for record in issuance['records']:
         immutable(state/'forecasts'/record['target_date']/f"{record['shop']}-{record['model']}.json", record)
     result = {'status': 'issued', 'date': day, 'model_sha256': model_hash,
-              'model_asset': f'v3-{day}.joblib', 'history_sha256': history_hash,
+              'model_asset': f'v4-{day}.joblib', 'history_sha256': history_hash,
               'shops': [s for s, valid in zip(SHOPS, data.observed[-1]) if valid]}
     immutable(marker, result)
     return result
@@ -321,7 +325,7 @@ def run(state, scheduled=False):
     frozen = production_model()
     bootstrap(state)
     attempts = list((state/'runs'/day).glob('*.json'))
-    if len(attempts) >= 3 or (state/'issued-v3'/f'{day}.json').exists():
+    if len(attempts) >= 3 or (state/'issued-v4'/f'{day}.json').exists():
         dashboard(state)
         return {'status': 'already_complete_or_attempt_limit'}
     attempt = len(attempts) + 1

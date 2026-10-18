@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "shop": "benet_street",
+  "fetched_utc": "2026-10-18T10:18:09.269246+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nOctober 18th, 2026\n-\nCoconut Sugar \nHouse Vanilla\nMilk & Peanut Butter Cookies\nApricot Sorbet (vegan)\nVictoria Sponge\nChocolate\nCoconut, Lemongrass & Raspberry (vegan)\nStrawberries & Cream\nDouble Honeycomb \nGin & Tonic Sorbet (+£1)(vegan)\nDark Chocolate & Sea Salt (vegan)\nKing’s College Lavender\nMaple Syrup & Pecans\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "2ed115f671ae1e7bd26e4852982548b0237bf9a165a8eb2d0275ce7217f34699",
+  "menu_date": "2026-10-18",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "apricot sorbet",
+    "chocolate",
+    "coconut sugar",
+    "coconut, lemongrass & raspberry",
+    "dark chocolate & sea salt",
+    "double honeycomb",
+    "gin & tonic sorbet",
+    "house vanilla",
+    "king’s college lavender",
+    "maple syrup & pecans",
+    "milk & peanut butter cookies",
+    "strawberries & cream",
+    "victoria sponge"
+  ],
+  "items": [
+    {
+      "raw_name": "Coconut Sugar",
+      "canonical_name": "coconut sugar",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "House Vanilla",
+      "canonical_name": "house vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Milk & Peanut Butter Cookies",
+      "canonical_name": "milk & peanut butter cookies",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Apricot Sorbet (vegan)",
+      "canonical_name": "apricot sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Victoria Sponge",
+      "canonical_name": "victoria sponge",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Chocolate",
+      "canonical_name": "chocolate",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut, Lemongrass & Raspberry (vegan)",
+      "canonical_name": "coconut, lemongrass & raspberry",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Strawberries & Cream",
+      "canonical_name": "strawberries & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Double Honeycomb",
+      "canonical_name": "double honeycomb",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Gin & Tonic Sorbet (+£1)(vegan)",
+      "canonical_name": "gin & tonic sorbet",
+      "annotations": "[\"(+£1)\", \"(vegan)\"]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "King’s College Lavender",
+      "canonical_name": "king’s college lavender",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Maple Syrup & Pecans",
+      "canonical_name": "maple syrup & pecans",
+      "annotations": "[]"
+    }
+  ]
+}

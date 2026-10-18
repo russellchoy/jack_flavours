@@ -49,3 +49,8 @@ The user may need to sign into Cloudflare and approve its GitHub installation. D
 The user selected v3 cleaning on 18 October: conjunction removal and the three approved word-order aliases apply to training, inference and scoring. Adaptive/frozen/persistence v3 forecasts first target 19 October. The original-name 18 October score remains an archival result, not v3 accuracy. Original forecasts already issued for 19 October are also retained.
 
 The current live version is **v5**: conjunction cleaning, the earlier confirmed aliases, `house vanilla → vanilla`, and all 83 candidate groups explicitly approved on 18 October. The [approved review list](https://github.com/russellchoy/jack_flavours/blob/main/reports/alias-review.md) records the decisions. Only these exact aliases are merged; ingredient order is not globally sorted. Earlier model versions remain archived with their original naming rules. The frozen v5 reference supports 513 labels; prospective v5 accuracy begins with 19 October outcomes.
+
+
+## Public GitHub Pages address
+
+The primary public URL is https://russellchoy.github.io/jack_flavours/. GitHub Pages uses the free public-repository Actions deployment workflow (`pages.yml`). It reads the saved `daily-data/site` records and overlays the latest `main/web` frontend and assets. It runs after changes to the frontend or publishing workflow, after completion of the daily forecast workflow (including partial-progress failures), or on manual dispatch. It never collects an extra menu or refits a model. Relative asset/data links support the repository subpath. The existing Cloudflare address continues to work. No custom domain or paid service is enabled.

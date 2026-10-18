@@ -197,6 +197,7 @@ def test_v5_exact_approved_groups_and_archive_preservation():
 
 def test_dashboard_publishes_animation_assets_with_daily_refresh(tmp_path):
     daily.dashboard(tmp_path)
-    assert (tmp_path/'site/assets/gelato-atlas.png').read_bytes() == Path('web/assets/gelato-atlas.png').read_bytes()
+    for asset in ['gelato-atlas-v2.png', 'joined-gelato.png', 'vendor/lenis-1.3.27.min.js', 'vendor/lenis-1.3.27.css']:
+        assert (tmp_path/'site/assets'/asset).read_bytes() == (Path('web/assets')/asset).read_bytes()
     assert (tmp_path/'site/index.html').read_text() == Path('web/daily.html').read_text()
     assert json.loads((tmp_path/'site/data.json').read_text())['scores'] == []

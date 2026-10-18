@@ -7,6 +7,7 @@ from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import time
@@ -369,6 +370,9 @@ def dashboard(state):
     (output/'data.json').write_text(json.dumps(payload, ensure_ascii=False, allow_nan=False))
     template = Path('web/daily.html').read_text()
     (output/'index.html').write_text(template)
+    assets = Path('web/assets')
+    if assets.is_dir():
+        shutil.copytree(assets, output/'assets', dirs_exist_ok=True)
 
 
 def main():

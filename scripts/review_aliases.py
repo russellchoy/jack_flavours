@@ -5,6 +5,9 @@ from pathlib import Path
 import pandas as pd
 from jack_flavours.live_cleaning import canonical_title_v4
 
+decisions=Path('reports/alias-review.json')
+if decisions.exists() and any(p.get('decision') != 'pending' for p in json.loads(decisions.read_text())['proposals']):
+    raise SystemExit('Approved decisions exist; preserve this review and create a separately versioned review for new candidates.')
 source=Path('data/processed/appearances.parquet')
 a=pd.read_parquet(source)
 a['review_name']=a.raw_name.map(canonical_title_v4)

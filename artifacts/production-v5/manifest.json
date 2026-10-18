@@ -1,0 +1,17 @@
+{
+  "normalization": "v5",
+  "train_end": "2026-10-17",
+  "source": "Fixed settings with all 83 user-approved candidate groups and house vanilla alias; fitted 18 October",
+  "model_sha256": "5ef618bef1ade66ccf81fe2db8f280c6745443bbc128052dedf0559b0cf43037",
+  "implementation_sha256": {
+    "src/jack_flavours/cleaning.py": "caa57e33376b600c3efeb4131f37cb8d670111f7ec5bc50474b2cad8c163c79e",
+    "src/jack_flavours/live_cleaning.py": "ee7f5739fd625256050d3e80a41b34ade97ed81bcaec33d60c30cb3b8d3c6467",
+    "src/jack_flavours/approved_aliases_v5.json": "a70b5c1bc19bcaeeac75fc2416a6834d166b5c8bec7c5c85a1443c027f871705",
+    "src/jack_flavours/features.py": "5bbec35835fca097c8e04ec9f198a10df414208a85eee3f36c5647952102b07d",
+    "src/jack_flavours/models.py": "c51005a2a152274160d43f956647e4fb1ba2ba9698f7f330f94c5687e34a68c0"
+  },
+  "processed_data": {
+    "data/processed/snapshots.parquet": "7ce6751ac99ab1a0748e0b1f58ba078d249822c70433c68953a32de4a46470b9",
+    "data/processed/appearances.parquet": "3214156d86b1d4d0ee1d221637c14652883d497c6c8bb2bbceb13255e1999530"
+  }
+}

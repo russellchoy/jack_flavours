@@ -43,3 +43,5 @@ dist/
 
 # Prospective data is published separately on the daily-data branch
 /daily-state/
+
+!/artifacts/production-v5/

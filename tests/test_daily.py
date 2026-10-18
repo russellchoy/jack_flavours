@@ -112,7 +112,7 @@ def test_refit_failure_preserves_scores_and_reports_failure(tmp_path,monkeypatch
     with pytest.raises(RuntimeError,match='synthetic'):daily.run(tmp_path)
     assert len(list((tmp_path/'scores/2026-10-18').glob('*.json')))==2
     assert daily.read(tmp_path/'outcomes/2026-10-18/1.json')['status']=='failed'
-    assert not (tmp_path/'issued-v4').exists()
+    assert not (tmp_path/'issued-v5').exists()
 
 
 def test_issue_then_retry_and_interrupted_recovery(tmp_path,monkeypatch):
@@ -129,7 +129,7 @@ def test_issue_then_retry_and_interrupted_recovery(tmp_path,monkeypatch):
     assert len(paths)==6
     saved={str(p):p.read_bytes() for p in paths}
     assert daily.issue(tmp_path,day,{'seed':42},frozen,lambda:None)==result
-    (tmp_path/'issued-v4'/f'{day}.json').unlink()
+    (tmp_path/'issued-v5'/f'{day}.json').unlink()
     paths[0].unlink()
     def no_refit(*args):raise AssertionError('Must reuse interrupted issuance')
     monkeypatch.setattr(daily,'fit_bundle',no_refit)
@@ -173,3 +173,23 @@ def test_approved_house_vanilla_merge_is_versioned_and_specific():
     o=observation();o['flavours']=['house vanilla','vanilla']
     assert daily.score_forecast(p,o)['actual']==1
     assert daily.score_forecast(p,o)['hits']==1
+
+
+def test_v5_exact_approved_groups_and_archive_preservation():
+    from jack_flavours.live_cleaning import canonical_title_v4, canonical_title_v5, APPROVED_ALIASES_V5
+    review=json.loads(Path('reports/alias-review.json').read_text())
+    assert len(APPROVED_ALIASES_V5)==86
+    for source,target in APPROVED_ALIASES_V5.items():
+        assert canonical_title_v5(source)==target
+        assert canonical_title_v5(target)==target
+    assert canonical_title_v5('strawberry & cream')=='strawberries cream'
+    assert canonical_title_v4('strawberry & cream')=='strawberry cream'
+    assert canonical_title_v5('vanilla rose')=='vanilla rose'
+    assert canonical_title_v5('strawberry sorbet')=='strawberry sorbet'
+    p=prediction();p.update(normalization='v5',model='adaptive-v5')
+    p['predictions']=[{'flavour':'strawberries cream','probability':.8,'top_k':True}]
+    o=observation();o['flavours']=['strawberry cream','strawberries cream']
+    before=deepcopy(o)
+    result=daily.score_forecast(p,o)
+    assert result['hits']==1 and result['actual']==1
+    assert o==before

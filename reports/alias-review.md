@@ -1,12 +1,12 @@
 # Flavour alias candidates for manual approval
 
-Status: proposals only. No candidate in this report has been merged. The separately approved house vanilla → vanilla rule is already handled by live version v4.
+Status: **all 83 candidate groups approved by the user on 18 October 2026**. These explicit aliases are being applied in live version v5, on top of the separately approved house vanilla → vanilla rule. Earlier versions remain preserved.
 
 Counts are unique shop/date menu appearances through **17 October 2026**, combining both shops; they are not serving or sales counts. Names below already use v3 cleaning plus the approved house-vanilla rule. Original raw names and dated source examples are retained in the companion JSON.
 
 This reuses the existing Cleanlab audit approach: ingredient-token collisions and a curated set of spelling candidates. It does not rerun Cleanlab, and similarity is not proof of recipe identity. Same-menu pairs would be a reason to investigate; zero overlap is not proof of equivalence.
 
-Reply with IDs, for example **approve C01, C03, C08; reject C02; leave the rest pending**. You can also change a proposed canonical name.
+Overlapping approved groups resolve to **83 alias families** and **86 explicit mappings**. Each family uses its most frequent historical name, with alphabetical tie-breaking. This is not a global word-sorting rule.
 
 | ID | Candidate variants (appearances) | Reason | Same-menu pairs |
 |---|---|---|---:|

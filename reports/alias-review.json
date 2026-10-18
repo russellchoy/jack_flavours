@@ -42,8 +42,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "strawberries cream"
+      "decision": "approved",
+      "suggested_canonical": "strawberries cream",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C02",
@@ -84,8 +85,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "king’s college lavender"
+      "decision": "approved",
+      "suggested_canonical": "king’s college lavender",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C03",
@@ -127,8 +129,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "alphonso mango sorbet"
+      "decision": "approved",
+      "suggested_canonical": "alphonso mango sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C04",
@@ -169,8 +172,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "blackcurrants cream"
+      "decision": "approved",
+      "suggested_canonical": "blackcurrants cream",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C05",
@@ -212,8 +216,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "mint stracciatella"
+      "decision": "approved",
+      "suggested_canonical": "mint stracciatella",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C06",
@@ -256,8 +261,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "coconut raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C07",
@@ -299,8 +305,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "chocolate, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "chocolate, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C08",
@@ -341,8 +348,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cardamom rose"
+      "decision": "approved",
+      "suggested_canonical": "cardamom rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C09",
@@ -383,8 +391,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cashew manuka honey"
+      "decision": "approved",
+      "suggested_canonical": "cashew manuka honey",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C10",
@@ -425,8 +434,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "chocolate, sour cherry ripple"
+      "decision": "approved",
+      "suggested_canonical": "chocolate, sour cherry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C11",
@@ -468,8 +478,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, blueberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "coconut, blueberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C12",
@@ -512,8 +523,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, passion fruit ripple"
+      "decision": "approved",
+      "suggested_canonical": "coconut, passion fruit ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C13",
@@ -554,8 +566,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "chocolate whole hazelnuts"
+      "decision": "approved",
+      "suggested_canonical": "chocolate whole hazelnuts",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C14",
@@ -596,8 +609,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, strawberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "coconut, strawberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C15",
@@ -640,8 +654,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "white miso manuka honey"
+      "decision": "approved",
+      "suggested_canonical": "white miso manuka honey",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C16",
@@ -682,8 +697,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "manuka honey purple fig"
+      "decision": "approved",
+      "suggested_canonical": "manuka honey purple fig",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C17",
@@ -725,8 +741,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vegan pistachio"
+      "decision": "approved",
+      "suggested_canonical": "vegan pistachio",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C18",
@@ -768,8 +785,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "apricot yuzu sorbet"
+      "decision": "approved",
+      "suggested_canonical": "apricot yuzu sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C19",
@@ -810,8 +828,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "passion fruit liquorice sorbet"
+      "decision": "approved",
+      "suggested_canonical": "passion fruit liquorice sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C20",
@@ -852,8 +871,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "almond cherry cake"
+      "decision": "approved",
+      "suggested_canonical": "almond cherry cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C21",
@@ -895,8 +915,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "raspberry"
+      "decision": "approved",
+      "suggested_canonical": "raspberry",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C22",
@@ -937,8 +958,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "chocolate, passion fruit ripple"
+      "decision": "approved",
+      "suggested_canonical": "chocolate, passion fruit ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C23",
@@ -995,8 +1017,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, cardamom rose"
+      "decision": "approved",
+      "suggested_canonical": "coconut, cardamom rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C24",
@@ -1037,8 +1060,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "manuka honey fig"
+      "decision": "approved",
+      "suggested_canonical": "manuka honey fig",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C25",
@@ -1079,8 +1103,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "hibiscus yuzu sorbet"
+      "decision": "approved",
+      "suggested_canonical": "hibiscus yuzu sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C26",
@@ -1122,8 +1147,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "mascarpone raspberry cake"
+      "decision": "approved",
+      "suggested_canonical": "mascarpone raspberry cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C27",
@@ -1164,8 +1190,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "redcurrant, ginger lemon sorbet"
+      "decision": "approved",
+      "suggested_canonical": "redcurrant, ginger lemon sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C28",
@@ -1206,8 +1233,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, ube rose"
+      "decision": "approved",
+      "suggested_canonical": "coconut, ube rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C29",
@@ -1248,8 +1276,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "miso caramel ripple"
+      "decision": "approved",
+      "suggested_canonical": "miso caramel ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C30",
@@ -1290,8 +1319,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "sour cherry mascarpone cake"
+      "decision": "approved",
+      "suggested_canonical": "sour cherry mascarpone cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C31",
@@ -1332,8 +1362,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, lemongrass raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "coconut, lemongrass raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C32",
@@ -1374,8 +1405,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "pistachio rose"
+      "decision": "approved",
+      "suggested_canonical": "pistachio rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C33",
@@ -1416,8 +1448,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "white chocolate, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "white chocolate, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C34",
@@ -1460,8 +1493,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cardamom, rose pistachios"
+      "decision": "approved",
+      "suggested_canonical": "cardamom, rose pistachios",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C35",
@@ -1502,8 +1536,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cold infused cocoa nib"
+      "decision": "approved",
+      "suggested_canonical": "cold infused cocoa nib",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C36",
@@ -1545,8 +1580,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "almond raspberry cake"
+      "decision": "approved",
+      "suggested_canonical": "almond raspberry cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C37",
@@ -1587,8 +1623,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vanilla house yoghurt"
+      "decision": "approved",
+      "suggested_canonical": "vanilla house yoghurt",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C38",
@@ -1630,8 +1667,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "house yoghurt manuka honey"
+      "decision": "approved",
+      "suggested_canonical": "house yoghurt manuka honey",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C39",
@@ -1672,8 +1710,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vanilla treacle"
+      "decision": "approved",
+      "suggested_canonical": "vanilla treacle",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C40",
@@ -1714,8 +1753,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "rose, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "rose, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C41",
@@ -1756,8 +1796,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vanilla rose"
+      "decision": "approved",
+      "suggested_canonical": "vanilla rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C42",
@@ -1798,8 +1839,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cadenhead’s whiskey; cognac cask"
+      "decision": "approved",
+      "suggested_canonical": "cadenhead’s whiskey; cognac cask",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C43",
@@ -1841,8 +1883,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vanilla coconut sugar"
+      "decision": "approved",
+      "suggested_canonical": "vanilla coconut sugar",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C44",
@@ -1883,8 +1926,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "house mascarpone, splash of marsala wine"
+      "decision": "approved",
+      "suggested_canonical": "house mascarpone, splash of marsala wine",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C45",
@@ -1926,8 +1970,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "hazelnut chocolate pie"
+      "decision": "approved",
+      "suggested_canonical": "hazelnut chocolate pie",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C46",
@@ -1968,8 +2013,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "hazelnut coffee"
+      "decision": "approved",
+      "suggested_canonical": "hazelnut coffee",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C47",
@@ -2010,8 +2056,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "lime leaf, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "lime leaf, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C48",
@@ -2052,8 +2099,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "lychee matcha sorbet"
+      "decision": "approved",
+      "suggested_canonical": "lychee matcha sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C49",
@@ -2094,8 +2142,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "mascarpone, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "mascarpone, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C50",
@@ -2136,8 +2185,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "saffron, cardamom rose"
+      "decision": "approved",
+      "suggested_canonical": "saffron, cardamom rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C51",
@@ -2193,8 +2243,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "vanilla salted caramel"
+      "decision": "approved",
+      "suggested_canonical": "vanilla salted caramel",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C52",
@@ -2235,8 +2286,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "ube, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "ube, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C53",
@@ -2277,8 +2329,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "bristol whisky; circumstance, sherry cask rye"
+      "decision": "approved",
+      "suggested_canonical": "bristol whisky; circumstance, sherry cask rye",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C54",
@@ -2319,8 +2372,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cardamom, rose raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "cardamom, rose raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C55",
@@ -2361,8 +2415,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cashew cinnamon biscuit"
+      "decision": "approved",
+      "suggested_canonical": "cashew cinnamon biscuit",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C56",
@@ -2403,8 +2458,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "chocolate fudge chunk"
+      "decision": "approved",
+      "suggested_canonical": "chocolate fudge chunk",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C57",
@@ -2445,8 +2501,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "house mascarpone, brownie dough"
+      "decision": "approved",
+      "suggested_canonical": "house mascarpone, brownie dough",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C58",
@@ -2487,8 +2544,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "blueberry almond cake"
+      "decision": "approved",
+      "suggested_canonical": "blueberry almond cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C59",
@@ -2531,8 +2589,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cashew cookie dough"
+      "decision": "approved",
+      "suggested_canonical": "cashew cookie dough",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C60",
@@ -2573,8 +2632,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "gooseberry orange blossom sorbet"
+      "decision": "approved",
+      "suggested_canonical": "gooseberry orange blossom sorbet",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C61",
@@ -2615,8 +2675,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "hazelnut, brownie dough"
+      "decision": "approved",
+      "suggested_canonical": "hazelnut, brownie dough",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C62",
@@ -2657,8 +2718,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "hazelnut, fudge brownie"
+      "decision": "approved",
+      "suggested_canonical": "hazelnut, fudge brownie",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C63",
@@ -2700,8 +2762,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "house mascarpone (with a splash of marsala wine)"
+      "decision": "approved",
+      "suggested_canonical": "house mascarpone (with a splash of marsala wine)",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C64",
@@ -2742,8 +2805,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "lychee sorbet, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "lychee sorbet, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C65",
@@ -2800,8 +2864,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "pistachio cardamom rose"
+      "decision": "approved",
+      "suggested_canonical": "pistachio cardamom rose",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C66",
@@ -2842,8 +2907,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "bristol whisky: circumstance"
+      "decision": "approved",
+      "suggested_canonical": "bristol whisky: circumstance",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C67",
@@ -2884,8 +2950,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cardamom coffee"
+      "decision": "approved",
+      "suggested_canonical": "cardamom coffee",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C68",
@@ -2926,8 +2993,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "milk chocolate caramel ripple"
+      "decision": "approved",
+      "suggested_canonical": "milk chocolate caramel ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C69",
@@ -2968,8 +3036,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "white choc cardamom, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "white choc cardamom, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C70",
@@ -3010,8 +3079,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "coconut, fudge brownie"
+      "decision": "approved",
+      "suggested_canonical": "coconut, fudge brownie",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C71",
@@ -3053,8 +3123,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "gin, lemon yoghurt cake"
+      "decision": "approved",
+      "suggested_canonical": "gin, lemon yoghurt cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C72",
@@ -3095,8 +3166,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "stracciatella; pump street 100%"
+      "decision": "approved",
+      "suggested_canonical": "stracciatella; pump street 100%",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C73",
@@ -3137,8 +3209,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "sherry: la gitana manzanilla"
+      "decision": "approved",
+      "suggested_canonical": "sherry: la gitana manzanilla",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C74",
@@ -3179,8 +3252,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "white chocolate, blueberry cake"
+      "decision": "approved",
+      "suggested_canonical": "white chocolate, blueberry cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C75",
@@ -3221,8 +3295,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "banana, almond chocolate crumble"
+      "decision": "approved",
+      "suggested_canonical": "banana, almond chocolate crumble",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C76",
@@ -3263,8 +3338,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "cinnamon house dulce de leche"
+      "decision": "approved",
+      "suggested_canonical": "cinnamon house dulce de leche",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C77",
@@ -3305,8 +3381,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "mascarpone strawberry cake"
+      "decision": "approved",
+      "suggested_canonical": "mascarpone strawberry cake",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C78",
@@ -3347,8 +3424,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "milk salted brownies"
+      "decision": "approved",
+      "suggested_canonical": "milk salted brownies",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C79",
@@ -3389,8 +3467,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "nikka whiskey; from the barrel"
+      "decision": "approved",
+      "suggested_canonical": "nikka whiskey; from the barrel",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C80",
@@ -3431,8 +3510,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "olive oil cake raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "olive oil cake raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C81",
@@ -3473,8 +3553,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "salted caramel cookie dough"
+      "decision": "approved",
+      "suggested_canonical": "salted caramel cookie dough",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C82",
@@ -3515,8 +3596,9 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "sea buckthorn sorbet, raspberry ripple"
+      "decision": "approved",
+      "suggested_canonical": "sea buckthorn sorbet, raspberry ripple",
+      "approval_date": "2026-10-18"
     },
     {
       "id": "C83",
@@ -3557,8 +3639,12 @@
         }
       ],
       "same_menu_pairs": 0,
-      "decision": "pending",
-      "suggested_canonical": "sherry: palo cortado"
+      "decision": "approved",
+      "suggested_canonical": "sherry: palo cortado",
+      "approval_date": "2026-10-18"
     }
-  ]
+  ],
+  "approval": "User approved all 83 listed candidate groups on 18 October 2026.",
+  "resolved_groups": 83,
+  "explicit_alias_count": 86
 }

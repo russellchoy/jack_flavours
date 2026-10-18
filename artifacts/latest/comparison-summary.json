@@ -1,0 +1,36 @@
+{
+  "old_train_end": "2026-07-19",
+  "new_train_end": "2026-10-17",
+  "target_date": "2026-10-18",
+  "old_training_forecasts": 980,
+  "new_training_forecasts": 1158,
+  "old_supported_flavours": 461,
+  "new_supported_flavours": 526,
+  "shops": {
+    "all_saints": {
+      "retained_top10": 7,
+      "entrants": [
+        "pink guava & mezcal",
+        "victoria sponge",
+        "mascarpone vanilla"
+      ],
+      "departures": [
+        "blackcurrants & cream",
+        "tiramisu",
+        "coconut & ube"
+      ],
+      "mean_absolute_probability_change_pp_shared": 0.28831026655240005
+    },
+    "benet_street": {
+      "retained_top10": 10,
+      "entrants": [],
+      "departures": [],
+      "mean_absolute_probability_change_pp_shared": 0.3428780401545757
+    }
+  },
+  "forecast_files": {
+    "forecast": "artifacts/forecasts/latest/forecast-2026-10-18.csv",
+    "top_forecast": "artifacts/forecasts/latest/forecast-2026-10-18-top.csv",
+    "metadata": "artifacts/forecasts/latest/forecast-2026-10-18.json"
+  }
+}

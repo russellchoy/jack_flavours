@@ -1,0 +1,28 @@
+{
+  "issue_date": "2026-10-17",
+  "target_date": "2026-10-18",
+  "model": "logit",
+  "model_train_end": "2026-10-17",
+  "supported_flavours": 526,
+  "forecast_shops": [
+    "all_saints",
+    "benet_street"
+  ],
+  "unavailable_shops": [],
+  "operating_point": {
+    "threshold": 0.2,
+    "k": 10
+  },
+  "scope": "Next snapshot presence, not all-day stock. New/unsupported flavours cannot be predicted. Probability calibration remains imperfect. Training cutoff is reported explicitly; original evaluation scores do not validate a later refit.",
+  "created_utc": "2026-10-17T21:12:08.560798+00:00",
+  "model_sha256": "9c1f8a3a867c142c55cd68f4e6aa11e7c6fa84f3db5e9e8160d8af8df6c9bd67",
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "history_hashes": {
+    "data/processed/snapshots.parquet": "7ce6751ac99ab1a0748e0b1f58ba078d249822c70433c68953a32de4a46470b9",
+    "data/processed/appearances.parquet": "3214156d86b1d4d0ee1d221637c14652883d497c6c8bb2bbceb13255e1999530"
+  },
+  "model_directory": "artifacts/latest",
+  "training_role": "latest_history_refit",
+  "csv_sha256": "48c8aab2dc8a2d3c65ca4f26d17c733c9aefeb80424d143d0db20cf5648db9c6",
+  "top_csv_sha256": "3f35218fb75801ba17d22ff23df8bdb779fc38db9e1225c753c971b16ff0fcea"
+}

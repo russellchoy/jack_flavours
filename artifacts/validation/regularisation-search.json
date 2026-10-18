@@ -1,0 +1,22 @@
+{
+  "logit_C0.01": {
+    "micro_ap": 0.5758442839162435,
+    "brier": 0.01190642897527212,
+    "label_forecast_pairs": 75784
+  },
+  "logit_C0.1": {
+    "micro_ap": 0.5480442610493422,
+    "brier": 0.011965070252940496,
+    "label_forecast_pairs": 75784
+  },
+  "logit_C1": {
+    "micro_ap": 0.4511435253671127,
+    "brier": 0.01354994533455102,
+    "label_forecast_pairs": 75784
+  },
+  "logit_C10": {
+    "micro_ap": 0.33249551767203045,
+    "brier": 0.017093548980450027,
+    "label_forecast_pairs": 75784
+  }
+}

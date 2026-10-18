@@ -1,0 +1,1384 @@
+flavour,model,train_support,test_positives,ap,brier
+1792 full proof bourbon whisky,frequency,7,0,,7.928571944814696e-05
+1792 full proof bourbon whisky,persistence,7,0,,0.0
+1792 full proof bourbon whisky,logit,7,0,,8.728800054314975e-06
+almond & cherry cake,frequency,7,11,0.057189876290999885,0.06096768363699191
+almond & cherry cake,persistence,7,11,0.6806574426594857,0.02247191011235955
+almond & cherry cake,logit,7,11,0.6546974353974586,0.027010233674000194
+almond & raspberry cake,frequency,8,0,,8.207504033028997e-05
+almond & raspberry cake,persistence,8,0,,0.0
+almond & raspberry cake,logit,8,0,,4.362401813409093e-05
+almond cookie dough,frequency,9,0,,0.0001149782349210939
+almond cookie dough,persistence,9,0,,0.0
+almond cookie dough,logit,9,0,,3.6880637055295356e-05
+almond pie,frequency,9,0,,0.00013106414847550822
+almond pie,persistence,9,0,,0.0
+almond pie,logit,9,0,,4.0545424048513214e-05
+alphonso mango & mezcal sorbet,frequency,17,0,,0.0006340695021105987
+alphonso mango & mezcal sorbet,persistence,17,0,,0.0
+alphonso mango & mezcal sorbet,logit,17,0,,2.6620045759429804e-05
+alphonso mango sorbet,frequency,121,37,0.2593690472903956,0.16653877118414953
+alphonso mango sorbet,persistence,121,37,0.8400394776799271,0.03932584269662921
+alphonso mango sorbet,logit,121,37,0.8861582342440228,0.05995229262841956
+"alphonso mango, chili & salt",frequency,5,0,,2.5719966692517415e-05
+"alphonso mango, chili & salt",persistence,5,0,,0.0
+"alphonso mango, chili & salt",logit,5,0,,1.5972950902342824e-05
+aniseed,frequency,7,0,,7.928571944814696e-05
+aniseed,persistence,7,0,,0.0
+aniseed,logit,7,0,,2.2834947011165343e-05
+apple & almond cake,frequency,19,0,,0.0005841254024649194
+apple & almond cake,persistence,19,0,,0.0
+apple & almond cake,logit,19,0,,0.00018787637536143441
+apple & mascarpone cake,frequency,5,6,0.033707865168539325,0.033748317066216955
+apple & mascarpone cake,persistence,5,6,0.4556803995006242,0.02247191011235955
+apple & mascarpone cake,logit,5,6,0.4412336484617651,0.025314592021328387
+apricot & lemon water sorbet,frequency,8,0,,0.00010355685805472251
+apricot & lemon water sorbet,persistence,8,0,,0.0
+apricot & lemon water sorbet,logit,8,0,,1.4247410469424298e-05
+apricot & mezcal sorbet,frequency,16,0,,0.0005531791965284512
+apricot & mezcal sorbet,persistence,16,0,,0.0
+apricot & mezcal sorbet,logit,16,0,,8.113590012202847e-05
+apricot & yuzu sorbet,frequency,16,0,,0.0003779597244169309
+apricot & yuzu sorbet,persistence,16,0,,0.0
+apricot & yuzu sorbet,logit,16,0,,3.560005246866646e-05
+apricot rum,frequency,6,0,,5.82507326557814e-05
+apricot rum,persistence,6,0,,0.0
+apricot rum,logit,6,0,,1.599934962125691e-05
+apricot sorbet,frequency,25,11,0.12222222222222222,0.05757954732928381
+apricot sorbet,persistence,25,11,0.5986721144024516,0.028089887640449437
+apricot sorbet,logit,25,11,0.5502599423012098,0.03508109655917273
+baileys,frequency,15,0,,0.00036406707909863393
+baileys,persistence,15,0,,0.0
+baileys,logit,15,0,,3.53586851006957e-05
+baileys & cake,frequency,5,0,,4.045189767762599e-05
+baileys & cake,persistence,5,0,,0.0
+baileys & cake,logit,5,0,,7.54219955897257e-06
+baked vanilla,frequency,48,3,0.03409090909090909,0.01746195739520203
+baked vanilla,persistence,48,3,0.17790262172284643,0.016853932584269662
+baked vanilla,logit,48,3,0.28318135764944274,0.015798566278278314
+baked vanilla (with a splash of marsala wine),frequency,7,0,,6.104005353792442e-05
+baked vanilla (with a splash of marsala wine),persistence,7,0,,0.0
+baked vanilla (with a splash of marsala wine),logit,7,0,,9.906565474268032e-06
+basque cheesecake,frequency,8,7,0.036757624398073833,0.03881993910518811
+basque cheesecake,persistence,8,7,0.23675762439807382,0.03932584269662921
+basque cheesecake,logit,8,7,0.27674132620853886,0.0364170882841928
+black forest,frequency,9,0,,0.00014314902685342795
+black forest,persistence,9,0,,0.0
+black forest,logit,9,0,,3.348602770976498e-05
+black sesame,frequency,89,0,,0.008160135086315402
+black sesame,persistence,89,0,,0.0
+black sesame,logit,89,0,,0.00251190543964206
+black sesame cake,frequency,14,0,,0.0003171428777925878
+black sesame cake,persistence,14,0,,0.0
+black sesame cake,logit,14,0,,2.8138144043171363e-05
+black sesame cookie dough,frequency,21,0,,0.0006858479311379599
+black sesame cookie dough,persistence,21,0,,0.0
+black sesame cookie dough,logit,21,0,,0.0001748767331004975
+blackcurrant,frequency,81,9,0.1,0.048858240709887195
+blackcurrant,persistence,81,9,0.46129837702871407,0.033707865168539325
+blackcurrant,logit,81,9,0.49635283324799456,0.03257435658207315
+blackcurrant & cream,frequency,6,22,0.11906862289906212,0.12209459740875894
+blackcurrant & cream,persistence,6,22,0.4499024979106695,0.0898876404494382
+blackcurrant & cream,logit,6,22,0.4154321870102385,0.08763253424712913
+blackcurrant & mascarpone cake,frequency,11,3,0.03333333333333333,0.016386416518843448
+blackcurrant & mascarpone cake,persistence,11,3,0.4500624219725343,0.011235955056179775
+blackcurrant & mascarpone cake,logit,11,3,0.4106280193236715,0.013010626593755105
+blackcurrant & violet,frequency,9,2,0.011235955056179775,0.011461890047633358
+blackcurrant & violet,persistence,9,2,0.2556179775280899,0.011235955056179775
+blackcurrant & violet,logit,9,2,0.25689655172413794,0.011154448290945685
+blackcurrant crumble,frequency,10,0,,0.00011018491973120136
+blackcurrant crumble,persistence,10,0,,0.0
+blackcurrant crumble,logit,10,0,,5.805503867473197e-05
+blackcurrants & cream,frequency,91,39,0.30122639532751894,0.18656267616563754
+blackcurrants & cream,persistence,91,39,0.6091054820527596,0.11235955056179775
+blackcurrants & cream,logit,91,39,0.6200778556199519,0.11435239897713427
+blue matcha,frequency,5,0,,6.973302205357536e-05
+blue matcha,persistence,5,0,,0.0
+blue matcha,logit,5,0,,2.5315614845672525e-06
+blueberry & girton thai basil sorbet,frequency,14,0,,0.0003171428777925878
+blueberry & girton thai basil sorbet,persistence,14,0,,0.0
+blueberry & girton thai basil sorbet,logit,14,0,,8.22500321761353e-05
+blueberry & violet sorbet,frequency,7,0,,5.919181727823359e-05
+blueberry & violet sorbet,persistence,7,0,,0.0
+blueberry & violet sorbet,logit,7,0,,4.078954984975511e-05
+blueberry cobbler,frequency,9,0,,0.0002259349914535842
+blueberry cobbler,persistence,9,0,,0.0
+blueberry cobbler,logit,9,0,,1.7260728869437205e-05
+blueberry crumble,frequency,8,0,,7.051834862796886e-05
+blueberry crumble,persistence,8,0,,0.0
+blueberry crumble,logit,8,0,,4.9854639561887155e-05
+blueberry pavlova,frequency,8,0,,7.051834862796886e-05
+blueberry pavlova,persistence,8,0,,0.0
+blueberry pavlova,logit,8,0,,6.590580119337103e-05
+blueberry ripple,frequency,15,0,,0.00036406707909863393
+blueberry ripple,persistence,15,0,,0.0
+blueberry ripple,logit,15,0,,0.00010688413237998107
+blueberry sorbet,frequency,91,0,,0.0086610538385845
+blueberry sorbet,persistence,91,0,,0.0
+blueberry sorbet,logit,91,0,,0.0008684179608635777
+bourbon whisky; eagle rare,frequency,6,0,,5.82507326557814e-05
+bourbon whisky; eagle rare,persistence,6,0,,0.0
+bourbon whisky; eagle rare,logit,6,0,,6.486677119212602e-06
+brandy butter,frequency,27,0,,0.0011795773362795739
+brandy butter,persistence,27,0,,0.0
+brandy butter,logit,27,0,,9.733030262920664e-05
+brazil nut,frequency,44,0,,0.0032333576254134524
+brazil nut,persistence,44,0,,0.0
+brazil nut,logit,44,0,,6.395300344035865e-05
+"brazil nut, house cinnamon biscuit",frequency,5,0,,4.045189767762599e-05
+"brazil nut, house cinnamon biscuit",persistence,5,0,,0.0
+"brazil nut, house cinnamon biscuit",logit,5,0,,6.375891489976349e-06
+"brazil nut, sour cherry ripple",frequency,6,0,,5.82507326557814e-05
+"brazil nut, sour cherry ripple",persistence,6,0,,0.0
+"brazil nut, sour cherry ripple",logit,6,0,,1.712538501366521e-05
+bristol whisky; circumstance distillery,frequency,13,0,,0.0002734548283007516
+bristol whisky; circumstance distillery,persistence,13,0,,0.0
+bristol whisky; circumstance distillery,logit,13,0,,2.0952960575831637e-05
+bronte pistachio,frequency,14,0,,0.0003171428777925878
+bronte pistachio,persistence,14,0,,0.0
+bronte pistachio,logit,14,0,,2.4116713089537872e-05
+bronte pistachio & rose,frequency,9,0,,0.00013106414847550822
+bronte pistachio & rose,persistence,9,0,,0.0
+bronte pistachio & rose,logit,9,0,,1.6475965155973782e-05
+brown butter,frequency,32,0,,0.0012803996667543796
+brown butter,persistence,32,0,,0.0
+brown butter,logit,32,0,,0.00036716347971564817
+brown sugar vanilla,frequency,39,10,0.056179775280898875,0.05542622992136329
+brown sugar vanilla,persistence,39,10,0.81561797752809,0.011235955056179775
+brown sugar vanilla,logit,39,10,0.7196031746031746,0.024887857646725443
+brownie dough,frequency,18,7,0.03708229972274916,0.03829910541654649
+brownie dough,persistence,18,7,0.3433845448291676,0.033707865168539325
+brownie dough,logit,18,7,0.27979799618780793,0.03342519966746525
+burnt sugar & salt,frequency,5,0,,4.045189767762599e-05
+burnt sugar & salt,persistence,5,0,,0.0
+burnt sugar & salt,logit,5,0,,3.4016402885580734e-06
+butterscotch ripple,frequency,34,2,0.011235955056179775,0.01200396401901756
+butterscotch ripple,persistence,34,2,0.2556179775280899,0.011235955056179775
+butterscotch ripple,logit,34,2,0.26052631578947366,0.010061933215045043
+cadenhead’s whiskey; cognac cask,frequency,7,0,,0.00013667672322500779
+cadenhead’s whiskey; cognac cask,persistence,7,0,,0.0
+cadenhead’s whiskey; cognac cask,logit,7,0,,1.163019038218184e-05
+cambridge elderflower sorbet,frequency,31,0,,0.0010143308300533877
+cambridge elderflower sorbet,persistence,31,0,,0.0
+cambridge elderflower sorbet,logit,31,0,,0.0005395461187188531
+"canadian maple syrup, amber grade",frequency,9,0,,0.0002259349914535842
+"canadian maple syrup, amber grade",persistence,9,0,,0.0
+"canadian maple syrup, amber grade",logit,9,0,,3.132254965012249e-05
+caramel ripple,frequency,8,0,,0.00010355685805472251
+caramel ripple,persistence,8,0,,0.0
+caramel ripple,logit,8,0,,3.6226468574309076e-05
+caramelised milk,frequency,20,3,0.03409090909090909,0.016555059068043873
+caramelised milk,persistence,20,3,0.3389513108614232,0.016853932584269662
+caramelised milk,logit,20,3,0.3391472868217054,0.012896436979749393
+"caramelised scone, raspberry ripple",frequency,6,0,,3.704649804225269e-05
+"caramelised scone, raspberry ripple",persistence,6,0,,0.0
+"caramelised scone, raspberry ripple",logit,6,0,,2.3781372900087397e-05
+"caramelised scone, strawberry ripple",frequency,10,0,,0.0001849888400855731
+"caramelised scone, strawberry ripple",persistence,10,0,,0.0
+"caramelised scone, strawberry ripple",logit,10,0,,3.785322542406274e-05
+caramelised vanilla,frequency,37,0,,0.0030634596551674235
+caramelised vanilla,persistence,37,0,,0.0
+caramelised vanilla,logit,37,0,,0.00022424561562938168
+cardamom & rose,frequency,60,1,0.0056179775280898875,0.008694833416529645
+cardamom & rose,persistence,60,1,0.0056179775280898875,0.011235955056179775
+cardamom & rose,logit,60,1,0.14285714285714285,0.00720495239617398
+cardamom rose & pistachios,frequency,5,0,,4.045189767762599e-05
+cardamom rose & pistachios,persistence,5,0,,0.0
+cardamom rose & pistachios,logit,5,0,,8.025057410739232e-06
+"cardamom, rose & pistachios",frequency,6,0,,5.82507326557814e-05
+"cardamom, rose & pistachios",persistence,6,0,,0.0
+"cardamom, rose & pistachios",logit,6,0,,1.182946802673937e-05
+carrot cake,frequency,36,8,0.06237231869254341,0.04269247050579577
+carrot cake,persistence,36,8,0.40747893258426965,0.033707865168539325
+carrot cake,logit,36,8,0.3722808441558441,0.03568194485008607
+carrot cake & pistachios,frequency,9,0,,0.0002259349914535842
+carrot cake & pistachios,persistence,9,0,,0.0
+carrot cake & pistachios,logit,9,0,,1.4867526425677272e-05
+cashew & choc chip cookie dough,frequency,11,0,,0.0003375078267393049
+cashew & choc chip cookie dough,persistence,11,0,,0.0
+cashew & choc chip cookie dough,logit,11,0,,6.771676228798911e-06
+cashew & manuka honey,frequency,25,0,,0.000909670592994054
+cashew & manuka honey,persistence,25,0,,0.0
+cashew & manuka honey,logit,25,0,,0.00020881972808479903
+cashew nut & manuka honey,frequency,9,0,,0.00013106414847550822
+cashew nut & manuka honey,persistence,9,0,,0.0
+cashew nut & manuka honey,logit,9,0,,1.677042136915489e-05
+"cashew, chocolate chip cookie dough",frequency,8,0,,0.00010355685805472251
+"cashew, chocolate chip cookie dough",persistence,8,0,,0.0
+"cashew, chocolate chip cookie dough",logit,8,0,,1.7564040097080766e-05
+"cashew, raspberry ripple",frequency,7,0,,7.928571944814696e-05
+"cashew, raspberry ripple",persistence,7,0,,0.0
+"cashew, raspberry ripple",logit,7,0,,8.794244443490368e-06
+"cashew, sour cherry ripple",frequency,10,0,,0.00016180759071050395
+"cashew, sour cherry ripple",persistence,10,0,,0.0
+"cashew, sour cherry ripple",logit,10,0,,2.7024149097272225e-05
+chamoy hot sauce,frequency,5,0,,4.045189767762599e-05
+chamoy hot sauce,persistence,5,0,,0.0
+chamoy hot sauce,logit,5,0,,6.428489152470797e-06
+cherry & almond cake,frequency,5,0,,6.973302205357536e-05
+cherry & almond cake,persistence,5,0,,0.0
+cherry & almond cake,logit,5,0,,1.629509142110143e-05
+cherry & mascarpone cake,frequency,13,0,,0.0002518242059672648
+cherry & mascarpone cake,persistence,13,0,,0.0
+cherry & mascarpone cake,logit,13,0,,2.9035139924290432e-05
+cherry sorbet,frequency,5,0,,4.045189767762599e-05
+cherry sorbet,persistence,5,0,,0.0
+cherry sorbet,logit,5,0,,1.3342910855708089e-05
+choc chip cookie dough,frequency,10,0,,0.0001043896073874341
+choc chip cookie dough,persistence,10,0,,0.0
+choc chip cookie dough,logit,10,0,,5.7353502784831616e-05
+chocolate,frequency,54,6,0.06666666666666667,0.03186399839250606
+chocolate,persistence,54,6,0.26685393258426965,0.033707865168539325
+chocolate,logit,54,6,0.2853174603174603,0.027531570258637898
+chocolate & bourbon whisky,frequency,12,15,0.11210153974198916,0.08184945285122774
+chocolate & bourbon whisky,persistence,12,15,0.3937078651685393,0.06741573033707865
+chocolate & bourbon whisky,logit,12,15,0.4536359611077859,0.06061868303595891
+chocolate & cardamom,frequency,12,0,,0.0002330029306231256
+chocolate & cardamom,persistence,12,0,,0.0
+chocolate & cardamom,logit,12,0,,5.768128508570262e-05
+chocolate & cherry,frequency,5,8,0.051576154806491886,0.04450790633795681
+chocolate & cherry,persistence,5,8,0.5737359550561798,0.02247191011235955
+chocolate & cherry,logit,5,8,0.5069193430796977,0.032549771815199816
+chocolate & cinnamon,frequency,15,5,0.025742821473158553,0.027850951764833598
+chocolate & cinnamon,persistence,15,5,0.3712359550561798,0.02247191011235955
+chocolate & cinnamon,logit,15,5,0.30543113827915164,0.02328404501146152
+chocolate & coconut,frequency,78,1,0.0056179775280898875,0.0161229627933592
+chocolate & coconut,persistence,78,1,0.0056179775280898875,0.011235955056179775
+chocolate & coconut,logit,78,1,0.006666666666666667,0.006139813659728272
+chocolate & ginger,frequency,26,10,0.1111111111111111,0.05386633541316443
+chocolate & ginger,persistence,26,10,0.6512359550561799,0.02247191011235955
+chocolate & ginger,logit,26,10,0.5616012467988752,0.030076761691546872
+chocolate & hazelnuts,frequency,6,0,,0.00010041555175714855
+chocolate & hazelnuts,persistence,6,0,,0.0
+chocolate & hazelnuts,logit,6,0,,1.0452668415873461e-05
+chocolate & passion fruit ripple,frequency,6,0,,5.82507326557814e-05
+chocolate & passion fruit ripple,persistence,6,0,,0.0
+chocolate & passion fruit ripple,logit,6,0,,9.871715372305041e-06
+chocolate & raspberry,frequency,9,0,,0.00014314902685342795
+chocolate & raspberry,persistence,9,0,,0.0
+chocolate & raspberry,logit,9,0,,4.009164420488427e-05
+chocolate & rose,frequency,8,7,0.034439093989655785,0.03910779797883621
+chocolate & rose,persistence,8,7,0.10972254070167392,0.056179775280898875
+chocolate & rose,logit,8,7,0.24786109399214967,0.03798527027970711
+chocolate & whole hazelnuts,frequency,21,0,,0.0006500196837241588
+chocolate & whole hazelnuts,persistence,21,0,,0.0
+chocolate & whole hazelnuts,logit,21,0,,0.0002944310046069602
+chocolate & whole pistachios,frequency,8,0,,0.00010355685805472251
+chocolate & whole pistachios,persistence,8,0,,0.0
+chocolate & whole pistachios,logit,8,0,,1.861844780699069e-05
+chocolate chip cookie dough,frequency,65,21,0.15546111192178608,0.10360565216176039
+chocolate chip cookie dough,persistence,65,21,0.37709240999770693,0.10112359550561797
+chocolate chip cookie dough,logit,65,21,0.38780498091747245,0.08487730837810814
+chocolate fudge ripple,frequency,17,0,,0.0002962027365168584
+chocolate fudge ripple,persistence,17,0,,0.0
+chocolate fudge ripple,logit,17,0,,0.0002026941584922592
+chocolate pie,frequency,5,1,0.0056179775280898875,0.005609353522676631
+chocolate pie,persistence,5,1,0.0056179775280898875,0.011235955056179775
+chocolate pie,logit,5,1,0.007518796992481203,0.005682642511610803
+"chocolate, caramel ripple",frequency,36,1,0.0056179775280898875,0.008238466301054534
+"chocolate, caramel ripple",persistence,36,1,0.0056179775280898875,0.011235955056179775
+"chocolate, caramel ripple",logit,36,1,0.024390243902439025,0.006204871952677835
+"chocolate, cherry ripple",frequency,8,5,0.028089887640449437,0.02819344449850416
+"chocolate, cherry ripple",persistence,8,5,0.64561797752809,0.011235955056179775
+"chocolate, cherry ripple",logit,8,5,0.5489513108614232,0.018316655094807826
+"chocolate, hazelnut & allspice",frequency,7,0,,0.0001020336276642536
+"chocolate, hazelnut & allspice",persistence,7,0,,0.0
+"chocolate, hazelnut & allspice",logit,7,0,,1.1484275890356119e-05
+"chocolate, passion fruit ripple",frequency,15,0,,0.0004162248901925396
+"chocolate, passion fruit ripple",persistence,15,0,,0.0
+"chocolate, passion fruit ripple",logit,15,0,,7.51383724581845e-05
+"chocolate, raspberry ripple",frequency,71,1,0.0056179775280898875,0.012438232730124864
+"chocolate, raspberry ripple",persistence,71,1,0.0056179775280898875,0.011235955056179775
+"chocolate, raspberry ripple",logit,71,1,0.008264462809917356,0.006353482082900848
+"chocolate, salted caramel ripple",frequency,8,0,,6.940801618435347e-05
+"chocolate, salted caramel ripple",persistence,8,0,,0.0
+"chocolate, salted caramel ripple",logit,8,0,,2.694522981397845e-05
+"chocolate, sour cherry ripple",frequency,21,6,0.04153898535921008,0.03255118815681576
+"chocolate, sour cherry ripple",persistence,21,6,0.26685393258426965,0.033707865168539325
+"chocolate, sour cherry ripple",logit,21,6,0.2611534812142715,0.029314006197762255
+"chocolate, whole hazelnuts",frequency,7,0,,0.00013667672322500779
+"chocolate, whole hazelnuts",persistence,7,0,,0.0
+"chocolate, whole hazelnuts",logit,7,0,,7.504306201611539e-06
+cinnamon,frequency,32,0,,0.0010818971463121502
+cinnamon,persistence,32,0,,0.0
+cinnamon,logit,32,0,,0.0002978746195591602
+cinnamon brownie,frequency,14,0,,0.0003520705099032502
+cinnamon brownie,persistence,14,0,,0.0
+cinnamon brownie,logit,14,0,,7.132678793208691e-05
+cinnamon waffle,frequency,31,32,0.16235955056179774,0.17199872957014284
+cinnamon waffle,persistence,31,32,0.6074438202247191,0.0898876404494382
+cinnamon waffle,logit,31,32,0.5553494301774496,0.10506418471568013
+circumstance whisky & whole hazelnuts,frequency,5,0,,4.045189767762599e-05
+circumstance whisky & whole hazelnuts,persistence,5,0,,0.0
+circumstance whisky & whole hazelnuts,logit,5,0,,1.674724932311523e-05
+clotted cream fudge,frequency,5,0,,4.045189767762599e-05
+clotted cream fudge,persistence,5,0,,0.0
+clotted cream fudge,logit,5,0,,1.1485252875684837e-05
+clotted cream fudge chunk,frequency,9,0,,0.00010634617893686554
+clotted cream fudge chunk,persistence,9,0,,0.0
+clotted cream fudge chunk,logit,9,0,,1.6470640962610214e-05
+coconut,frequency,38,3,0.03333333333333333,0.016718847420968144
+coconut,persistence,38,3,0.4500624219725343,0.011235955056179775
+coconut,logit,38,3,0.409297052154195,0.012192678682953505
+coconut & black sesame,frequency,23,0,,0.0005425836155557869
+coconut & black sesame,persistence,23,0,,0.0
+coconut & black sesame,logit,23,0,,0.00011936779998473656
+coconut & coffee,frequency,8,0,,0.00010355685805472251
+coconut & coffee,persistence,8,0,,0.0
+coconut & coffee,logit,8,0,,2.90243782204929e-05
+coconut & ginger,frequency,6,0,,5.82507326557814e-05
+coconut & ginger,persistence,6,0,,0.0
+coconut & ginger,logit,6,0,,1.3558266402403895e-05
+coconut & lime leaf,frequency,10,2,0.022222222222222223,0.011008006752708736
+coconut & lime leaf,persistence,10,2,0.2556179775280899,0.011235955056179775
+coconut & lime leaf,logit,10,2,0.3269230769230769,0.010115786844702091
+coconut & lime leaf sorbet,frequency,6,1,0.0056179775280898875,0.005669228527560084
+coconut & lime leaf sorbet,persistence,6,1,0.0056179775280898875,0.011235955056179775
+coconut & lime leaf sorbet,logit,6,1,0.014285714285714285,0.0056700506627387235
+coconut & liquorice,frequency,8,0,,0.00010688785538556874
+coconut & liquorice,persistence,8,0,,0.0
+coconut & liquorice,logit,8,0,,2.969044064942127e-05
+coconut & mint choc chip,frequency,6,0,,0.00010041555175714855
+coconut & mint choc chip,persistence,6,0,,0.0
+coconut & mint choc chip,logit,6,0,,2.1626760367582705e-05
+coconut & passion fruit ripple,frequency,9,0,,0.00013106414847550822
+coconut & passion fruit ripple,persistence,9,0,,0.0
+coconut & passion fruit ripple,logit,9,0,,2.888024879853766e-05
+coconut & raspberry ripple,frequency,35,5,0.028089887640449437,0.027363060500553957
+coconut & raspberry ripple,persistence,35,5,0.64561797752809,0.011235955056179775
+coconut & raspberry ripple,logit,35,5,0.5494683026584867,0.01636351206120357
+coconut & rose,frequency,14,1,0.0056179775280898875,0.005693239281329664
+coconut & rose,persistence,14,1,0.0056179775280898875,0.011235955056179775
+coconut & rose,logit,14,1,0.058823529411764705,0.005677062426197829
+coconut & rum,frequency,11,6,0.06818181818181818,0.032283916858205315
+coconut & rum,persistence,11,6,0.4556803995006242,0.02247191011235955
+coconut & rum,logit,11,6,0.5465277777777777,0.02070188344571593
+coconut & strawberry ripple,frequency,5,0,,4.045189767762599e-05
+coconut & strawberry ripple,persistence,5,0,,0.0
+coconut & strawberry ripple,logit,5,0,,1.1931139246343107e-05
+coconut & treacle,frequency,17,0,,0.00046762393715335656
+coconut & treacle,persistence,17,0,,0.0
+coconut & treacle,logit,17,0,,4.388783478660094e-05
+coconut & ube,frequency,286,28,0.23801052256108435,0.13841446433081966
+coconut & ube,persistence,286,28,0.5551479018573722,0.0898876404494382
+coconut & ube,logit,286,28,0.5891918995721597,0.08401898956645378
+coconut choc chip,frequency,6,0,,5.1101437742708385e-05
+coconut choc chip,persistence,6,0,,0.0
+coconut choc chip,logit,6,0,,1.2769612778786124e-05
+coconut coffee,frequency,12,0,,0.00024049767461752953
+coconut coffee,persistence,12,0,,0.0
+coconut coffee,logit,12,0,,3.9788096620473327e-05
+coconut matcha,frequency,6,0,,0.00010041555175714855
+coconut matcha,persistence,6,0,,0.0
+coconut matcha,logit,6,0,,1.6691448182430004e-05
+coconut mint choc chip,frequency,7,7,0.05182037064059536,0.03873065933597264
+coconut mint choc chip,persistence,7,7,0.5214400366888329,0.02247191011235955
+coconut mint choc chip,logit,7,7,0.5072752721819561,0.029385553413993248
+coconut mint stracciatella,frequency,48,9,0.05056179775280899,0.04908959660117138
+coconut mint stracciatella,persistence,48,9,0.7957414343182133,0.011235955056179775
+coconut mint stracciatella,logit,48,9,0.6936067019400352,0.01810583394693788
+coconut stracciatella,frequency,15,0,,0.00023147970023265675
+coconut stracciatella,persistence,15,0,,0.0
+coconut stracciatella,logit,15,0,,5.090766841925174e-05
+coconut sugar,frequency,7,11,0.12222222222222222,0.06032933094466975
+coconut sugar,persistence,7,11,0.467926455566905,0.03932584269662921
+coconut sugar,logit,7,11,0.39649029094876254,0.0524804804852142
+coconut ube,frequency,84,38,0.20709639266706092,0.18766762922667715
+coconut ube,persistence,84,38,0.668212518285661,0.0898876404494382
+coconut ube,logit,84,38,0.7321445324696123,0.10038005734162789
+coconut vanilla,frequency,19,0,,0.000728628828992557
+coconut vanilla,persistence,19,0,,0.0
+coconut vanilla,logit,19,0,,5.757035390413394e-05
+"coconut, blueberry ripple",frequency,31,0,,0.0011771947941150883
+"coconut, blueberry ripple",persistence,31,0,,0.0
+"coconut, blueberry ripple",logit,31,0,,0.00039686232414455787
+"coconut, cardamom & raspberry",frequency,8,0,,0.00010355685805472251
+"coconut, cardamom & raspberry",persistence,8,0,,0.0
+"coconut, cardamom & raspberry",logit,8,0,,2.2545862505589036e-05
+"coconut, cardamom & rose",frequency,9,0,,0.00013106414847550822
+"coconut, cardamom & rose",persistence,9,0,,0.0
+"coconut, cardamom & rose",logit,9,0,,3.230716250212102e-05
+"coconut, ginger & chilli",frequency,8,0,,0.00017851653645715293
+"coconut, ginger & chilli",persistence,8,0,,0.0
+"coconut, ginger & chilli",logit,8,0,,1.333067498076704e-05
+"coconut, passion fruit ripple",frequency,22,0,,0.0006024593775576777
+"coconut, passion fruit ripple",persistence,22,0,,0.0
+"coconut, passion fruit ripple",logit,22,0,,0.00017507286553182478
+"coconut, raspberry ripple",frequency,36,4,0.03061797752808989,0.022009115898217253
+"coconut, raspberry ripple",persistence,36,4,0.2612359550561798,0.02247191011235955
+"coconut, raspberry ripple",logit,36,4,0.3153041563446188,0.01877374070719914
+"coconut, rose & cardamom",frequency,7,0,,7.928571944814696e-05
+"coconut, rose & cardamom",persistence,7,0,,0.0
+"coconut, rose & cardamom",logit,7,0,,1.2327940778550771e-05
+"coconut, strawberry ripple",frequency,16,6,0.033707865168539325,0.03289020072175377
+"coconut, strawberry ripple",persistence,16,6,0.4556803995006242,0.02247191011235955
+"coconut, strawberry ripple",logit,16,6,0.5227384464110129,0.023174299467325687
+"coconut, ube & rose",frequency,10,6,0.06818181818181818,0.0323854734957779
+"coconut, ube & rose",persistence,10,6,0.7000624219725344,0.011235955056179775
+"coconut, ube & rose",logit,10,6,0.6044871794871796,0.01922307138062277
+"coconut, ube, rose & oreo",frequency,10,0,,0.0001849888400855731
+"coconut, ube, rose & oreo",persistence,10,0,,0.0
+"coconut, ube, rose & oreo",logit,10,0,,1.8221124309087113e-05
+"coconut, ube, rose & pistachios",frequency,5,0,,6.973302205357536e-05
+"coconut, ube, rose & pistachios",persistence,5,0,,0.0
+"coconut, ube, rose & pistachios",logit,5,0,,5.236435378670237e-06
+coffee,frequency,91,18,0.11401720072132057,0.09074937015055945
+coffee,persistence,91,18,0.5496948259120543,0.056179775280898875
+coffee,logit,91,18,0.605904720219833,0.05375055141963769
+coffee meringue,frequency,13,0,,0.0002518242059672648
+coffee meringue,persistence,13,0,,0.0
+coffee meringue,logit,13,0,,7.242828628535838e-05
+cold-infused cacao nib,frequency,5,0,,2.867853539582365e-05
+cold-infused cacao nib,persistence,5,0,,0.0
+cold-infused cacao nib,logit,5,0,,1.727215133408105e-05
+cold-infused cocoa,frequency,8,0,,0.00017851653645715293
+cold-infused cocoa,persistence,8,0,,0.0
+cold-infused cocoa,logit,8,0,,1.5402677027858278e-05
+condensed milk,frequency,8,0,,0.00010355685805472251
+condensed milk,persistence,8,0,,0.0
+condensed milk,logit,8,0,,1.9075089726456665e-05
+cookie dough,frequency,12,1,0.011111111111111112,0.0056097792768272205
+cookie dough,persistence,12,1,0.0056179775280898875,0.011235955056179775
+cookie dough,logit,12,1,0.017241379310344827,0.005645551199453686
+cranberry sorbet,frequency,6,0,,5.82507326557814e-05
+cranberry sorbet,persistence,6,0,,0.0
+cranberry sorbet,logit,6,0,,1.553151538682248e-05
+"creme pat, cherry ripple",frequency,5,0,,6.973302205357536e-05
+"creme pat, cherry ripple",persistence,5,0,,0.0
+"creme pat, cherry ripple",logit,5,0,,7.1137535700606055e-06
+creme patissiere,frequency,6,2,0.022727272727272728,0.011115489251185433
+creme patissiere,persistence,6,2,0.2556179775280899,0.011235955056179775
+creme patissiere,logit,6,2,0.2578125,0.010466438369502137
+"creme patissiere, chocolate fudge ripple",frequency,9,0,,0.0002259349914535842
+"creme patissiere, chocolate fudge ripple",persistence,9,0,,0.0
+"creme patissiere, chocolate fudge ripple",logit,9,0,,2.883404143215907e-05
+custard,frequency,21,0,,0.0008320029494530121
+custard,persistence,21,0,,0.0
+custard,logit,21,0,,5.37322390452719e-05
+damson & cherry ripple,frequency,9,0,,0.0002259349914535842
+damson & cherry ripple,persistence,9,0,,0.0
+damson & cherry ripple,logit,9,0,,9.697283230577678e-05
+damson & mezcal,frequency,5,0,,4.045189767762599e-05
+damson & mezcal,persistence,5,0,,0.0
+damson & mezcal,logit,5,0,,8.154913928808065e-06
+damson sorbet,frequency,104,23,0.12921348314606743,0.11428099247588294
+damson sorbet,persistence,104,23,0.5800216647904674,0.06741573033707865
+damson sorbet,logit,104,23,0.6297708057377497,0.06763684514887812
+dark chocolate & chili,frequency,10,1,0.0056179775280898875,0.005896909616304189
+dark chocolate & chili,persistence,10,1,0.0056179775280898875,0.011235955056179775
+dark chocolate & chili,logit,10,1,0.006493506493506494,0.005654432673843387
+dark chocolate & coconut,frequency,8,0,,0.00010688785538556874
+dark chocolate & coconut,persistence,8,0,,0.0
+dark chocolate & coconut,logit,8,0,,4.447999616463544e-05
+dark chocolate & hazelnut,frequency,14,0,,0.0003171428777925878
+dark chocolate & hazelnut,persistence,14,0,,0.0
+dark chocolate & hazelnut,logit,14,0,,1.1572157445556952e-05
+dark chocolate & orange,frequency,30,0,,0.0014562683163945357
+dark chocolate & orange,persistence,30,0,,0.0
+dark chocolate & orange,logit,30,0,,0.00010866045607520192
+dark chocolate & sea salt,frequency,835,134,0.9096083254141278,0.18240011373461829
+dark chocolate & sea salt,persistence,835,134,0.9530210735626589,0.06179775280898876
+dark chocolate & sea salt,logit,835,134,0.9829187349465214,0.05266757279167819
+dark chocolate & violet,frequency,12,0,,0.00028540439184272163
+dark chocolate & violet,persistence,12,0,,0.0
+dark chocolate & violet,logit,12,0,,2.364760600939523e-05
+double chocolate,frequency,94,5,0.03169050051072522,0.03347914346544228
+double chocolate,persistence,94,5,0.17685393258426968,0.033707865168539325
+double chocolate,logit,94,5,0.2153170189098999,0.026220727463294492
+double chocolate mint chip,frequency,20,0,,0.0005052190650833168
+double chocolate mint chip,persistence,20,0,,0.0
+double chocolate mint chip,logit,20,0,,8.93723779386031e-05
+double cinnamon biscuit,frequency,14,0,,0.0004730133049892745
+double cinnamon biscuit,persistence,14,0,,0.0
+double cinnamon biscuit,logit,14,0,,5.666503909518733e-05
+double hazelnut,frequency,11,0,,0.00012866074599400968
+double hazelnut,persistence,11,0,,0.0
+double hazelnut,logit,11,0,,0.00013419521535718872
+double honeycomb,frequency,7,0,,7.928571944814696e-05
+double honeycomb,persistence,7,0,,0.0
+double honeycomb,logit,7,0,,2.7645581829359615e-05
+double house pistachio,frequency,15,0,,0.0002402335812797303
+double house pistachio,persistence,15,0,,0.0
+double house pistachio,logit,15,0,,5.1343772352893365e-05
+double oreo,frequency,11,0,,0.00012866074599400968
+double oreo,persistence,11,0,,0.0
+double oreo,logit,11,0,,5.6266177033078335e-05
+double pistachio,frequency,28,0,,0.0008502481982583303
+double pistachio,persistence,28,0,,0.0
+double pistachio,logit,28,0,,0.0004006584598754313
+double pistachio & rose,frequency,10,0,,0.00027893208821430144
+double pistachio & rose,persistence,10,0,,0.0
+double pistachio & rose,logit,10,0,,1.9192036898751966e-05
+double pistachio (dairy or vegan!),frequency,5,0,,4.045189767762599e-05
+double pistachio (dairy or vegan!),persistence,5,0,,0.0
+double pistachio (dairy or vegan!),logit,5,0,,8.010823546676547e-06
+dulce de leche,frequency,56,0,,0.0032982964980673274
+dulce de leche,persistence,56,0,,0.0
+dulce de leche,logit,56,0,,0.0010448390745486256
+dulce de leche & coffee,frequency,7,0,,7.620532568199551e-05
+dulce de leche & coffee,persistence,7,0,,0.0
+dulce de leche & coffee,logit,7,0,,0.00010587339608223794
+earl grey & plum sorbet,frequency,11,1,0.0056179775280898875,0.005955485354829192
+earl grey & plum sorbet,persistence,11,1,0.0056179775280898875,0.011235955056179775
+earl grey & plum sorbet,logit,11,1,0.005714285714285714,0.00561326362571584
+earl grey & plum sorbet sorbet,frequency,6,0,,0.00010041555175714855
+earl grey & plum sorbet sorbet,persistence,6,0,,0.0
+earl grey & plum sorbet sorbet,logit,6,0,,1.2864668140068578e-05
+elderflower sorbet,frequency,17,0,,0.00046762393715335656
+elderflower sorbet,persistence,17,0,,0.0
+elderflower sorbet,logit,17,0,,8.520035236256244e-05
+english meyer lemon sorbet,frequency,18,0,,0.000642159881646124
+english meyer lemon sorbet,persistence,18,0,,0.0
+english meyer lemon sorbet,logit,18,0,,2.5365563821855525e-05
+english whisky; circumstance distillery,frequency,19,0,,0.0005841254024649194
+english whisky; circumstance distillery,persistence,19,0,,0.0
+english whisky; circumstance distillery,logit,19,0,,0.00011131030866834108
+eton mess,frequency,46,4,0.044444444444444446,0.022487621650120627
+eton mess,persistence,46,4,0.2612359550561798,0.02247191011235955
+eton mess,logit,46,4,0.3254901960784313,0.01784602405173471
+fior di latte,frequency,24,10,0.1111111111111111,0.05228776336567556
+fior di latte,persistence,24,10,0.5068539325842696,0.033707865168539325
+fior di latte,logit,24,10,0.49249999999999994,0.03645074039679247
+fior di panna,frequency,5,4,0.02247191011235955,0.022541643134413127
+fior di panna,persistence,5,4,0.07935393258426966,0.033707865168539325
+fior di panna,logit,5,4,0.1883102852203976,0.023620377329557542
+flourish farm pumpkin,frequency,7,0,,7.928571944814696e-05
+flourish farm pumpkin,persistence,7,0,,0.0
+flourish farm pumpkin,logit,7,0,,9.136535448518442e-06
+frascati sorbet,frequency,5,0,,4.045189767762599e-05
+frascati sorbet,persistence,5,0,,0.0
+frascati sorbet,logit,5,0,,7.22918430756053e-06
+fudge,frequency,5,0,,4.045189767762599e-05
+fudge,persistence,5,0,,0.0
+fudge,logit,5,0,,1.2423420091760216e-05
+fudge chunk,frequency,39,0,,0.002382614756359834
+fudge chunk,persistence,39,0,,0.0
+fudge chunk,logit,39,0,,0.0008572461597340132
+genmaicha,frequency,5,0,,2.867853539582365e-05
+genmaicha,persistence,5,0,,0.0
+genmaicha,logit,5,0,,2.2362206121559457e-05
+gianduja,frequency,26,17,0.09550561797752809,0.09121640049499163
+gianduja,persistence,26,17,0.6573768084012631,0.03932584269662921
+gianduja,logit,26,17,0.6041096769161524,0.04358045549732796
+gin & tonic sorbet,frequency,12,3,0.016853932584269662,0.016729559727815056
+gin & tonic sorbet,persistence,12,3,0.6722846441947565,0.0056179775280898875
+gin & tonic sorbet,logit,12,3,0.673611111111111,0.011927556326995915
+ginger,frequency,16,1,0.011111111111111112,0.0057106033844610575
+ginger,persistence,16,1,0.0056179775280898875,0.011235955056179775
+ginger,logit,16,1,0.011235955056179775,0.005703203764615126
+ginger cake,frequency,15,4,0.02247191011235955,0.02228530676164002
+ginger cake,persistence,15,4,0.2612359550561798,0.02247191011235955
+ginger cake,logit,15,4,0.2894308943089431,0.02079131586761637
+ginger stracciatella,frequency,7,0,,0.00013667672322500779
+ginger stracciatella,persistence,7,0,,0.0
+ginger stracciatella,logit,7,0,,9.496978258698447e-06
+"ginger, raspberry ripple",frequency,9,0,,0.0001149782349210939
+"ginger, raspberry ripple",persistence,9,0,,0.0
+"ginger, raspberry ripple",logit,9,0,,1.9108679058280225e-05
+gingerbread,frequency,17,0,,0.0003957585593950863
+gingerbread,persistence,17,0,,0.0
+gingerbread,logit,17,0,,7.37100777501698e-05
+gingerbread spice,frequency,7,0,,7.928571944814696e-05
+gingerbread spice,persistence,7,0,,0.0
+gingerbread spice,logit,7,0,,1.361199531088217e-05
+girton apple & cardamom sorbet,frequency,9,0,,0.00014314902685342795
+girton apple & cardamom sorbet,persistence,9,0,,0.0
+girton apple & cardamom sorbet,logit,9,0,,2.643564470764443e-05
+girton apple & miso sorbet,frequency,6,0,,7.135109796068041e-05
+girton apple & miso sorbet,persistence,6,0,,0.0
+girton apple & miso sorbet,logit,6,0,,9.385341147480883e-06
+girton apple sorbet,frequency,139,14,0.0782147315855181,0.07657835022686585
+girton apple sorbet,persistence,139,14,0.47314483269539453,0.05056179775280899
+girton apple sorbet,logit,139,14,0.5190479797012899,0.04993567096277934
+"girton cucumber, apple & gin sorbet",frequency,5,0,,4.045189767762599e-05
+"girton cucumber, apple & gin sorbet",persistence,5,0,,0.0
+"girton cucumber, apple & gin sorbet",logit,5,0,,8.428513521942784e-06
+girton pumpkin & almond cake,frequency,8,0,,0.00017851653645715293
+girton pumpkin & almond cake,persistence,8,0,,0.0
+girton pumpkin & almond cake,logit,8,0,,1.5700579579851806e-05
+gooseberry & gin sorbet,frequency,15,0,,0.0004162248901925396
+gooseberry & gin sorbet,persistence,15,0,,0.0
+gooseberry & gin sorbet,logit,15,0,,5.2586784188321166e-05
+gooseberry & lemon sorbet,frequency,9,0,,0.000180134612364258
+gooseberry & lemon sorbet,persistence,9,0,,0.0
+gooseberry & lemon sorbet,logit,9,0,,1.9124872358966804e-05
+gooseberry sorbet,frequency,68,0,,0.006003589802035295
+gooseberry sorbet,persistence,68,0,,0.0
+gooseberry sorbet,logit,68,0,,0.0007054224611916874
+"gooseberry sorbet (textured (skins and seeds),vegan)",frequency,6,0,,5.82507326557814e-05
+"gooseberry sorbet (textured (skins and seeds),vegan)",persistence,6,0,,0.0
+"gooseberry sorbet (textured (skins and seeds),vegan)",logit,6,0,,6.54642576219358e-06
+gorgonzola,frequency,6,0,,5.82507326557814e-05
+gorgonzola,persistence,6,0,,0.0
+gorgonzola,logit,6,0,,8.117948602385011e-06
+grapefruit & aperol sorbet,frequency,15,0,,0.0005483249688071362
+grapefruit & aperol sorbet,persistence,15,0,,0.0
+grapefruit & aperol sorbet,logit,15,0,,5.132777251138426e-05
+grapefruit & caius tarragon sorbet,frequency,7,0,,7.620532568199551e-05
+grapefruit & caius tarragon sorbet,persistence,7,0,,0.0
+grapefruit & caius tarragon sorbet,logit,7,0,,2.1102926615028284e-05
+grilled milk chocolate,frequency,15,7,0.034439093989655785,0.038394858743545306
+grilled milk chocolate,persistence,15,7,0.5214400366888329,0.02247191011235955
+grilled milk chocolate,logit,15,7,0.4782109714440541,0.03110462100472806
+grilled white chocolate,frequency,49,19,0.2159090909090909,0.09074345813130996
+grilled white chocolate,persistence,49,19,0.6803666469544649,0.03932584269662921
+grilled white chocolate,logit,49,19,0.7590411867114653,0.04779277528890123
+guava & pink peppercorn sorbet,frequency,8,0,,0.0001382947991321128
+guava & pink peppercorn sorbet,persistence,8,0,,0.0
+guava & pink peppercorn sorbet,logit,8,0,,6.174976625572744e-06
+guava sorbet,frequency,21,0,,0.0012300905090250694
+guava sorbet,persistence,21,0,,0.0
+guava sorbet,logit,21,0,,1.1030322959724306e-05
+hazelnut & allspice,frequency,10,1,0.0056179775280898875,0.005627661955368676
+hazelnut & allspice,persistence,10,1,0.0056179775280898875,0.011235955056179775
+hazelnut & allspice,logit,10,1,0.09090909090909091,0.005651633963459431
+hazelnut & chocolate tart,frequency,8,0,,0.00017851653645715293
+hazelnut & chocolate tart,persistence,8,0,,0.0
+hazelnut & chocolate tart,logit,8,0,,3.357819706298167e-05
+hazelnut & coffee,frequency,5,0,,4.6247210021393275e-05
+hazelnut & coffee,persistence,5,0,,0.0
+hazelnut & coffee,logit,5,0,,1.3077901751350584e-05
+hazelnut & honeycomb,frequency,17,0,,0.00044211410470622027
+hazelnut & honeycomb,persistence,17,0,,0.0
+hazelnut & honeycomb,logit,17,0,,8.467760806421336e-05
+hazelnut & oreo,frequency,7,5,0.028089887640449437,0.02796509198122661
+hazelnut & oreo,persistence,7,5,0.3712359550561798,0.02247191011235955
+hazelnut & oreo,logit,7,5,0.34409420289855075,0.022991178348435906
+hazelnut brownie,frequency,9,0,,0.0001149782349210939
+hazelnut brownie,persistence,9,0,,0.0
+hazelnut brownie,logit,9,0,,5.4765373248637416e-05
+hazelnut cookie dough,frequency,16,0,,0.00028207339451187546
+hazelnut cookie dough,persistence,16,0,,0.0
+hazelnut cookie dough,logit,16,0,,0.00015631025265265905
+hazelnut oreo,frequency,7,0,,5.919181727823359e-05
+hazelnut oreo,persistence,7,0,,0.0
+hazelnut oreo,logit,7,0,,2.0354147163234685e-05
+hazelnut tart,frequency,6,0,,4.3241218559769006e-05
+hazelnut tart,persistence,6,0,,0.0
+hazelnut tart,logit,6,0,,1.4489896629089216e-05
+hazelnut; tonda gentile delle langhe,frequency,6,0,,5.82507326557814e-05
+hazelnut; tonda gentile delle langhe,persistence,6,0,,0.0
+hazelnut; tonda gentile delle langhe,logit,6,0,,7.758290087179608e-06
+hibiscus & ginger sorbet,frequency,24,0,,0.0011416175673708865
+hibiscus & ginger sorbet,persistence,24,0,,0.0
+hibiscus & ginger sorbet,logit,24,0,,0.0001293662220464988
+hibiscus & lime leaf sorbet,frequency,8,0,,0.00010355685805472251
+hibiscus & lime leaf sorbet,persistence,8,0,,0.0
+hibiscus & lime leaf sorbet,logit,8,0,,2.8503015297545472e-05
+hibiscus & pink peppercorn sorbet,frequency,7,0,,0.00013667672322500779
+hibiscus & pink peppercorn sorbet,persistence,7,0,,0.0
+hibiscus & pink peppercorn sorbet,logit,7,0,,1.0642896312864635e-05
+hibiscus & yuzu sorbet,frequency,17,1,0.0056179775280898875,0.0059398244320179
+hibiscus & yuzu sorbet,persistence,17,1,0.0056179775280898875,0.011235955056179775
+hibiscus & yuzu sorbet,logit,17,1,0.007142857142857143,0.005806650048945899
+hibiscus sorbet,frequency,18,6,0.06666666666666667,0.03271372257615219
+hibiscus sorbet,persistence,18,6,0.26685393258426965,0.033707865168539325
+hibiscus sorbet,logit,18,6,0.336036036036036,0.029328855102231426
+honeycomb,frequency,244,47,0.5222222222222223,0.13037569886703534
+honeycomb,persistence,244,47,0.4354978484341382,0.2303370786516854
+honeycomb,logit,244,47,0.6710656190282629,0.12049478669907807
+hong kong milk tea,frequency,27,24,0.16615594143684032,0.12673270364444886
+hong kong milk tea,persistence,27,24,0.5410619538077404,0.07865168539325842
+hong kong milk tea,logit,27,24,0.6298278498350526,0.07499448850222593
+house cinnamon biscuit,frequency,18,17,0.13543982455086223,0.09226631031271848
+house cinnamon biscuit,persistence,18,17,0.5263597838342211,0.056179775280898875
+house cinnamon biscuit,logit,18,17,0.4717649300910547,0.069154138633793
+house dulce de leche,frequency,43,0,,0.002013239248063909
+house dulce de leche,persistence,43,0,,0.0
+house dulce de leche,logit,43,0,,0.0005266719103477118
+house lemon yoghurt,frequency,5,22,0.1461834896462067,0.12198638319649768
+house lemon yoghurt,persistence,5,22,0.6251973256569783,0.056179775280898875
+house lemon yoghurt,logit,5,22,0.5213423262272266,0.08299407570896546
+house mascarpone,frequency,23,0,,0.0005939896159556083
+house mascarpone,persistence,23,0,,0.0
+house mascarpone,logit,23,0,,0.00019263404940611064
+house mascarpone & marsala wine,frequency,25,5,0.041981613891726256,0.027010469050564208
+house mascarpone & marsala wine,persistence,25,5,0.3712359550561798,0.02247191011235955
+house mascarpone & marsala wine,logit,25,5,0.367746582136542,0.020938131596566944
+"house mascarpone, brownie dough",frequency,5,0,,6.973302205357536e-05
+"house mascarpone, brownie dough",persistence,5,0,,0.0
+"house mascarpone, brownie dough",logit,5,0,,8.910397176306617e-06
+"house mascarpone, cherry ripple",frequency,8,0,,6.940801618435347e-05
+"house mascarpone, cherry ripple",persistence,8,0,,0.0
+"house mascarpone, cherry ripple",logit,8,0,,2.6376543251085863e-05
+"house mascarpone, cocoa powder",frequency,8,0,,0.00010688785538556874
+"house mascarpone, cocoa powder",persistence,8,0,,0.0
+"house mascarpone, cocoa powder",logit,8,0,,1.9989750114415445e-05
+"house mascarpone, splash of marsala wine",frequency,5,0,,4.045189767762599e-05
+"house mascarpone, splash of marsala wine",persistence,5,0,,0.0
+"house mascarpone, splash of marsala wine",logit,5,0,,1.058763636798294e-05
+house mincemeat,frequency,7,0,,7.928571944814696e-05
+house mincemeat,persistence,7,0,,0.0
+house mincemeat,logit,7,0,,9.357022053103852e-06
+house panettone,frequency,8,0,,0.00010355685805472251
+house panettone,persistence,8,0,,0.0
+house panettone,logit,8,0,,1.0775584206632522e-05
+house ricotta,frequency,13,0,,0.000343980130367725
+house ricotta,persistence,13,0,,0.0
+house ricotta,logit,13,0,,6.078693161749359e-05
+house speculaas,frequency,19,0,,0.0005871587905776571
+house speculaas,persistence,19,0,,0.0
+house speculaas,logit,19,0,,0.00011201973877483508
+house vanilla,frequency,14,28,0.29490369181380416,0.15197602600151294
+house vanilla,persistence,14,28,0.5110209814262784,0.10112359550561797
+house vanilla,logit,14,28,0.5836475655449441,0.08270616610819836
+house yoghurt,frequency,245,39,0.19205887745213587,0.18524584961829105
+house yoghurt,persistence,245,39,0.4895655578455925,0.15730337078651685
+house yoghurt,logit,245,39,0.5705308557664974,0.12418284477442215
+house yoghurt & lime leaf,frequency,26,0,,0.0009371778834148397
+house yoghurt & lime leaf,persistence,26,0,,0.0
+house yoghurt & lime leaf,logit,26,0,,0.00016399948112308287
+house yoghurt & manuka honey,frequency,10,0,,0.0001849888400855731
+house yoghurt & manuka honey,persistence,10,0,,0.0
+house yoghurt & manuka honey,logit,10,0,,0.0020765636664466154
+house yoghurt & rose,frequency,12,0,,0.00017712862090263375
+house yoghurt & rose,persistence,12,0,,0.0
+house yoghurt & rose,logit,12,0,,8.319426527043209e-05
+"house yoghurt, cherry ripple",frequency,8,0,,6.555578561691314e-05
+"house yoghurt, cherry ripple",persistence,8,0,,0.0
+"house yoghurt, cherry ripple",logit,8,0,,3.4835924461744936e-05
+"house yoghurt, rose & pistachios",frequency,6,0,,0.00010041555175714855
+"house yoghurt, rose & pistachios",persistence,6,0,,0.0
+"house yoghurt, rose & pistachios",logit,6,0,,5.420133034960244e-06
+"house yoghurt, sour cherry ripple",frequency,33,0,,0.001846882409394107
+"house yoghurt, sour cherry ripple",persistence,33,0,,0.0
+"house yoghurt, sour cherry ripple",logit,33,0,,0.0002453483706709698
+"house yoghurt, strawberry ripple",frequency,9,2,0.011235955056179775,0.011120035103066861
+"house yoghurt, strawberry ripple",persistence,9,2,0.2556179775280899,0.011235955056179775
+"house yoghurt, strawberry ripple",logit,9,2,0.2708333333333333,0.01013577811443205
+"house yoghut, cherry ripple",frequency,7,0,,0.00013667672322500779
+"house yoghut, cherry ripple",persistence,7,0,,0.0
+"house yoghut, cherry ripple",logit,7,0,,1.2440566312077034e-05
+iranian polished pistachio,frequency,5,0,,4.045189767762599e-05
+iranian polished pistachio,persistence,5,0,,0.0
+iranian polished pistachio,logit,5,0,,7.491220709222001e-06
+"james eadie, 29yr single grain whisky",frequency,5,0,,4.045189767762599e-05
+"james eadie, 29yr single grain whisky",persistence,5,0,,0.0
+"james eadie, 29yr single grain whisky",logit,5,0,,7.284172790334556e-06
+"japanese whisky; nikka, from the barrel",frequency,5,0,,4.045189767762599e-05
+"japanese whisky; nikka, from the barrel",persistence,5,0,,0.0
+"japanese whisky; nikka, from the barrel",logit,5,0,,8.629957246701896e-06
+"japanese whisky; nikka, front the barrel",frequency,6,0,,5.82507326557814e-05
+"japanese whisky; nikka, front the barrel",persistence,6,0,,0.0
+"japanese whisky; nikka, front the barrel",logit,6,0,,5.945169116991636e-06
+jg farm rhubarb sorbet,frequency,7,0,,0.0001020336276642536
+jg farm rhubarb sorbet,persistence,7,0,,0.0
+jg farm rhubarb sorbet,logit,7,0,,9.117755076494209e-05
+jgf rhubarb,frequency,7,0,,7.928571944814696e-05
+jgf rhubarb,persistence,7,0,,0.0
+jgf rhubarb,logit,7,0,,2.311356290676064e-05
+jgf rhubarb & rose sorbet,frequency,13,0,,0.00017569328258979647
+jgf rhubarb & rose sorbet,persistence,13,0,,0.0
+jgf rhubarb & rose sorbet,logit,13,0,,7.267862308296826e-05
+jgf rhubarb sorbet,frequency,24,4,0.044444444444444446,0.021598161051601363
+jgf rhubarb sorbet,persistence,24,4,0.8,0.0056179775280898875
+jgf rhubarb sorbet,logit,24,4,0.6791666666666667,0.006940113526352931
+kewpie,frequency,11,0,,0.0001625659377386884
+kewpie,persistence,11,0,,0.0
+kewpie,logit,11,0,,4.161492206160737e-05
+kewpie mayo,frequency,14,0,,0.0003171428777925878
+kewpie mayo,persistence,14,0,,0.0
+kewpie mayo,logit,14,0,,7.391774636901128e-05
+king’s college lavender,frequency,165,40,0.31750624219725343,0.16528507836717346
+king’s college lavender,persistence,165,40,0.6665874387784501,0.09550561797752809
+king’s college lavender,logit,165,40,0.6574986577573881,0.09820560962903216
+king’s college lavender & oreo,frequency,5,0,,2.5719966692517415e-05
+king’s college lavender & oreo,persistence,5,0,,0.0
+king’s college lavender & oreo,logit,5,0,,2.0075911698594572e-05
+king’s college lavender brownie,frequency,23,0,,0.0008643644675951129
+king’s college lavender brownie,persistence,23,0,,0.0
+king’s college lavender brownie,logit,23,0,,0.00018894868125193527
+king’s college lavender fudge brownie,frequency,6,0,,0.00010041555175714855
+king’s college lavender fudge brownie,persistence,6,0,,0.0
+king’s college lavender fudge brownie,logit,6,0,,6.419139714746741e-06
+king’s college lavender stracciatella,frequency,5,0,,4.045189767762599e-05
+king’s college lavender stracciatella,persistence,5,0,,0.0
+king’s college lavender stracciatella,logit,5,0,,1.8517574162632002e-05
+"king’s college lavender, raspberry ripple",frequency,6,0,,0.00010041555175714855
+"king’s college lavender, raspberry ripple",persistence,6,0,,0.0
+"king’s college lavender, raspberry ripple",logit,6,0,,1.3093587426850887e-05
+lemon,frequency,30,9,0.0612983770287141,0.04840004834091666
+lemon,persistence,30,9,0.6161742266611181,0.02247191011235955
+lemon,logit,30,9,0.5586459329075363,0.03368031240816392
+lemon & basil sorbet,frequency,6,0,,4.3241218559769006e-05
+lemon & basil sorbet,persistence,6,0,,0.0
+lemon & basil sorbet,logit,6,0,,2.9713367817013448e-05
+lemon & girton basil sorbet,frequency,17,0,,0.0004170167531010332
+lemon & girton basil sorbet,persistence,17,0,,0.0
+lemon & girton basil sorbet,logit,17,0,,0.0001338548246571074
+lemon & mint sorbet,frequency,18,0,,0.0009037399658143368
+lemon & mint sorbet,persistence,18,0,,0.0
+lemon & mint sorbet,logit,18,0,,5.9213400929016155e-06
+lemon sorbet,frequency,17,6,0.033707865168539325,0.032932040534985926
+lemon sorbet,persistence,17,6,0.7000624219725344,0.011235955056179775
+lemon sorbet,logit,17,6,0.6065920398009951,0.017084320438815942
+lemon stracciatella,frequency,8,0,,6.940801618435347e-05
+lemon stracciatella,persistence,8,0,,0.0
+lemon stracciatella,logit,8,0,,6.433616159127815e-05
+lemon yoghurt,frequency,9,23,0.12921348314606743,0.12934454729454292
+lemon yoghurt,persistence,9,23,0.8827774570324644,0.016853932584269662
+lemon yoghurt,logit,9,23,0.9228540017968833,0.021652274789395843
+lemongrass,frequency,8,7,0.03932584269662921,0.039504359233086365
+lemongrass,persistence,8,7,0.5214400366888329,0.02247191011235955
+lemongrass,logit,8,7,0.51781462585034,0.028701901488459806
+"lemongrass, chocolate fudge ripple",frequency,8,0,,0.00010688785538556874
+"lemongrass, chocolate fudge ripple",persistence,8,0,,0.0
+"lemongrass, chocolate fudge ripple",logit,8,0,,3.9282094369006574e-05
+lime leaf,frequency,11,1,0.011111111111111112,0.005579298073679621
+lime leaf,persistence,11,1,0.5,0.0056179775280898875
+lime leaf,logit,11,1,0.5,0.004110615245175526
+liquorice,frequency,10,0,,0.0001043896073874341
+liquorice,persistence,10,0,,0.0
+liquorice,logit,10,0,,3.364307825987356e-05
+lychee & matcha sorbet,frequency,5,0,,4.045189767762599e-05
+lychee & matcha sorbet,persistence,5,0,,0.0
+lychee & matcha sorbet,logit,5,0,,4.043592362642851e-06
+lychee & rose sorbet,frequency,25,0,,0.0007169633848955911
+lychee & rose sorbet,persistence,25,0,,0.0
+lychee & rose sorbet,logit,25,0,,0.00011755870941612489
+lychee sorbet,frequency,136,7,0.03708229972274916,0.056718775586666534
+lychee sorbet,persistence,136,7,0.30256821829855535,0.03932584269662921
+lychee sorbet,logit,136,7,0.37482137433286566,0.029735338540371123
+macadamia nut,frequency,5,0,,4.6247210021393275e-05
+macadamia nut,persistence,5,0,,0.0
+macadamia nut,logit,5,0,,1.1525698734275045e-05
+malted caramel ripple,frequency,7,0,,7.928571944814696e-05
+malted caramel ripple,persistence,7,0,,0.0
+malted caramel ripple,logit,7,0,,1.906341519418144e-05
+malted milk,frequency,31,7,0.07777777777777778,0.03675113055232186
+malted milk,persistence,31,7,0.3433845448291676,0.033707865168539325
+malted milk,logit,31,7,0.34415685116124506,0.02908904568017366
+malted milk (closest flavour to vanilla today),frequency,5,0,,6.973302205357536e-05
+malted milk (closest flavour to vanilla today),persistence,5,0,,0.0
+malted milk (closest flavour to vanilla today),logit,5,0,,8.154264499748518e-06
+manor farm lemon basil & rhubarb sorbet,frequency,6,0,,5.82507326557814e-05
+manor farm lemon basil & rhubarb sorbet,persistence,6,0,,0.0
+manor farm lemon basil & rhubarb sorbet,logit,6,0,,9.841812367311527e-06
+manuka honey,frequency,9,0,,0.000180134612364258
+manuka honey,persistence,9,0,,0.0
+manuka honey,logit,9,0,,1.2829007026745876e-05
+manuka honey & cashew,frequency,15,0,,0.00023154061276407933
+manuka honey & cashew,persistence,15,0,,0.0
+manuka honey & cashew,logit,15,0,,7.66816580441473e-05
+manuka honey & fig,frequency,17,0,,0.000302735952676701
+manuka honey & fig,persistence,17,0,,0.0
+manuka honey & fig,logit,17,0,,3.527886138305719e-05
+manuka honey & purple fig,frequency,15,0,,0.00036406707909863393
+manuka honey & purple fig,persistence,15,0,,0.0
+manuka honey & purple fig,logit,15,0,,2.8922849012166775e-05
+maple waffle,frequency,11,0,,0.0001957871847597098
+maple waffle,persistence,11,0,,0.0
+maple waffle,logit,11,0,,3.8888033888897755e-05
+marmalade,frequency,27,0,,0.000746556025367658
+marmalade,persistence,27,0,,0.0
+marmalade,logit,27,0,,0.0002695865396804146
+marmalade sorbet,frequency,11,21,0.10588550026752275,0.11751001202446142
+marmalade sorbet,persistence,11,21,0.6778007082983006,0.0449438202247191
+marmalade sorbet,logit,11,21,0.6500566881205154,0.06216575583971927
+marmite,frequency,6,0,,5.82507326557814e-05
+marmite,persistence,6,0,,0.0
+marmite,logit,6,0,,1.2526305205244704e-05
+mascarpone,frequency,21,0,,0.0005327263555041025
+mascarpone,persistence,21,0,,0.0
+mascarpone,logit,21,0,,0.0001587912503180381
+mascarpone & raspberry cake,frequency,12,0,,0.00017712862090263375
+mascarpone & raspberry cake,persistence,12,0,,0.0
+mascarpone & raspberry cake,logit,12,0,,6.551890605462837e-05
+mascarpone & sour cherry cake,frequency,7,0,,0.00013667672322500779
+mascarpone & sour cherry cake,persistence,7,0,,0.0
+mascarpone & sour cherry cake,logit,7,0,,1.2847492979920304e-05
+"mascarpone, raspberry ripple",frequency,5,0,,6.973302205357536e-05
+"mascarpone, raspberry ripple",persistence,5,0,,0.0
+"mascarpone, raspberry ripple",logit,5,0,,7.212043059658583e-06
+matcha,frequency,41,16,0.0898876404494382,0.08563564930430838
+matcha,persistence,41,16,0.7768609550561798,0.02247191011235955
+matcha,logit,41,16,0.7651467973637305,0.035713631219501496
+matcha & almond cake,frequency,8,0,,0.0001382947991321128
+matcha & almond cake,persistence,8,0,,0.0
+matcha & almond cake,logit,8,0,,2.5717723041878185e-05
+"matcha & almond cake, strawberry ripple",frequency,8,0,,0.00010688785538556874
+"matcha & almond cake, strawberry ripple",persistence,8,0,,0.0
+"matcha & almond cake, strawberry ripple",logit,8,0,,2.6854663211317354e-05
+matcha & lime leaf,frequency,5,0,,3.15761915677073e-05
+matcha & lime leaf,persistence,5,0,,0.0
+matcha & lime leaf,logit,5,0,,2.192295604407178e-05
+matcha sorbet,frequency,16,0,,0.00048595791224611477
+matcha sorbet,persistence,16,0,,0.0
+matcha sorbet,logit,16,0,,4.1776980045764894e-05
+"matcha sorbet, raspberry ripple",frequency,12,0,,0.00028540439184272163
+"matcha sorbet, raspberry ripple",persistence,12,0,,0.0
+"matcha sorbet, raspberry ripple",logit,12,0,,5.110871509671158e-05
+"matcha, blueberry ripple",frequency,14,10,0.08396322778345251,0.05394539138003278
+"matcha, blueberry ripple",persistence,14,10,0.5068539325842696,0.033707865168539325
+"matcha, blueberry ripple",logit,14,10,0.5062605042016807,0.037735249107428634
+"matcha, raspberry ripple",frequency,7,2,0.022222222222222223,0.011086563252481148
+"matcha, raspberry ripple",persistence,7,2,0.2556179775280899,0.011235955056179775
+"matcha, raspberry ripple",logit,7,2,0.3125,0.00940023060554593
+milk,frequency,24,0,,0.001047396736131254
+milk,persistence,24,0,,0.0
+milk,logit,24,0,,2.5221956347795258e-05
+milk & brownies,frequency,60,0,,0.003846661101983969
+milk & brownies,persistence,60,0,,0.0
+milk & brownies,logit,60,0,,0.001236782162553991
+milk & manuka honey,frequency,28,24,0.11870637555328564,0.12829599152785467
+milk & manuka honey,persistence,28,24,0.5737078651685393,0.07303370786516854
+milk & manuka honey,logit,28,24,0.556817759819767,0.07829084535769824
+milk & molasses cookies,frequency,8,0,,0.00010355685805472251
+milk & molasses cookies,persistence,8,0,,0.0
+milk & molasses cookies,logit,8,0,,2.4903664440231312e-05
+milk & nutter butter cookies,frequency,7,0,,0.0001020336276642536
+milk & nutter butter cookies,persistence,7,0,,0.0
+milk & nutter butter cookies,logit,7,0,,1.728190016495714e-05
+milk & peanut butter cookies,frequency,10,2,0.011235955056179775,0.011266593871625834
+milk & peanut butter cookies,persistence,10,2,0.011235955056179775,0.02247191011235955
+milk & peanut butter cookies,logit,10,2,0.031888997078870496,0.01118236623770325
+milk chocolate & ginger,frequency,7,0,,7.928571944814696e-05
+milk chocolate & ginger,persistence,7,0,,0.0
+milk chocolate & ginger,logit,7,0,,8.076405962321351e-06
+mince pie,frequency,11,0,,0.0001957871847597098
+mince pie,persistence,11,0,,0.0
+mince pie,logit,11,0,,4.204742842884092e-05
+mint stracciatella,frequency,72,9,0.1,0.045925039433408796
+mint stracciatella,persistence,72,9,0.33111388542100156,0.0449438202247191
+mint stracciatella,logit,72,9,0.43158350029970194,0.03525284300898405
+mint straciatella,frequency,8,0,,0.00010355685805472251
+mint straciatella,persistence,8,0,,0.0
+mint straciatella,logit,8,0,,1.3131934341240084e-05
+miso blondie,frequency,80,4,0.02247191011235955,0.02613803662150349
+miso blondie,persistence,80,4,0.2612359550561798,0.02247191011235955
+miso blondie,logit,80,4,0.3957259450171821,0.017630351887075166
+oftd plantation rum,frequency,5,0,,4.045189767762599e-05
+oftd plantation rum,persistence,5,0,,0.0
+oftd plantation rum,logit,5,0,,5.174029167228556e-06
+oftd rum,frequency,27,0,,0.0011795773362795739
+oftd rum,persistence,27,0,,0.0
+oftd rum,logit,27,0,,0.00011824034672580057
+oftd rum & apricot,frequency,11,0,,0.0001957871847597098
+oftd rum & apricot,persistence,11,0,,0.0
+oftd rum & apricot,logit,11,0,,2.2100724055613055e-05
+oftd rum & raisin,frequency,53,0,,0.004545175223058056
+oftd rum & raisin,persistence,53,0,,0.0
+oftd rum & raisin,logit,53,0,,0.00033644910261432877
+orange blossom & bronte pistachios,frequency,6,0,,5.82507326557814e-05
+orange blossom & bronte pistachios,persistence,6,0,,0.0
+orange blossom & bronte pistachios,logit,6,0,,9.539339978179587e-06
+orange blossom & pistachios,frequency,16,0,,0.0003283001613211599
+orange blossom & pistachios,persistence,16,0,,0.0
+orange blossom & pistachios,logit,16,0,,0.00014777108676971372
+orange blossom & raspberry,frequency,5,0,,6.973302205357536e-05
+orange blossom & raspberry,persistence,5,0,,0.0
+orange blossom & raspberry,logit,5,0,,8.663358464935364e-06
+"orange blossom, raspberry ripple",frequency,7,1,0.011111111111111112,0.0055565625581046555
+"orange blossom, raspberry ripple",persistence,7,1,0.0056179775280898875,0.011235955056179775
+"orange blossom, raspberry ripple",logit,7,1,0.027777777777777776,0.005762343103827773
+orange flower & cardamom,frequency,5,0,,6.973302205357536e-05
+orange flower & cardamom,persistence,5,0,,0.0
+orange flower & cardamom,logit,5,0,,6.6760938645686896e-06
+palets bretons,frequency,5,0,,4.045189767762599e-05
+palets bretons,persistence,5,0,,0.0
+palets bretons,logit,5,0,,1.1146499571810441e-05
+pandan,frequency,9,0,,0.00013106414847550822
+pandan,persistence,9,0,,0.0
+pandan,logit,9,0,,6.671898530969269e-05
+panela,frequency,20,0,,0.0006049576255558125
+panela,persistence,20,0,,0.0
+panela,logit,20,0,,7.774858752412871e-05
+parsnip cake,frequency,7,0,,7.928571944814696e-05
+parsnip cake,persistence,7,0,,0.0
+parsnip cake,logit,7,0,,2.2473354309463607e-06
+passion fruit & aleppo chili sorbet,frequency,5,0,,4.045189767762599e-05
+passion fruit & aleppo chili sorbet,persistence,5,0,,0.0
+passion fruit & aleppo chili sorbet,logit,5,0,,8.513405141898713e-06
+passion fruit & basil sorbet,frequency,19,1,0.011363636363636364,0.005831494107773206
+passion fruit & basil sorbet,persistence,19,1,0.0056179775280898875,0.011235955056179775
+passion fruit & basil sorbet,logit,19,1,0.00847457627118644,0.005729410237548602
+passion fruit & girton thai basil sorbet,frequency,16,0,,0.0007140661458286117
+passion fruit & girton thai basil sorbet,persistence,16,0,,0.0
+passion fruit & girton thai basil sorbet,logit,16,0,,5.69466841981177e-05
+passion fruit & liquorice,frequency,5,0,,6.973302205357536e-05
+passion fruit & liquorice,persistence,5,0,,0.0
+passion fruit & liquorice,logit,5,0,,1.017094696885788e-05
+passion fruit & liquorice sorbet,frequency,18,0,,0.0008077318108464363
+passion fruit & liquorice sorbet,persistence,18,0,,0.0
+passion fruit & liquorice sorbet,logit,18,0,,8.709435891368606e-05
+passion fruit sorbet,frequency,90,34,0.17320628625982226,0.16505755663481872
+passion fruit sorbet,persistence,90,34,0.6699486800668714,0.07865168539325842
+passion fruit sorbet,logit,90,34,0.6852684661857871,0.08380369909591384
+"passion fruit, basil & mezcal",frequency,7,0,,0.00013667672322500779
+"passion fruit, basil & mezcal",persistence,7,0,,0.0
+"passion fruit, basil & mezcal",logit,7,0,,1.735855471117253e-05
+"passion fruit, basil & mezcal sorbet",frequency,5,0,,4.6247210021393275e-05
+"passion fruit, basil & mezcal sorbet",persistence,5,0,,0.0
+"passion fruit, basil & mezcal sorbet",logit,5,0,,4.95631627479737e-05
+passionfruit & gochujang sorbet,frequency,6,0,,5.82507326557814e-05
+passionfruit & gochujang sorbet,persistence,6,0,,0.0
+passionfruit & gochujang sorbet,logit,6,0,,9.385664736311273e-06
+pastis,frequency,10,0,,0.00013385346935765124
+pastis,persistence,10,0,,0.0
+pastis,logit,10,0,,7.156080954775235e-05
+pbj,frequency,51,8,0.06237231869254341,0.042591842716821725
+pbj,persistence,51,8,0.40747893258426965,0.033707865168539325
+pbj,logit,51,8,0.39321428571428574,0.034875080443016154
+pear & cardamom,frequency,25,0,,0.0012559797235387501
+pear & cardamom,persistence,25,0,,0.0
+pear & cardamom,logit,25,0,,7.4954850903297e-05
+pecan pie,frequency,44,17,0.10617076248272547,0.08836526206562559
+pecan pie,persistence,44,17,0.4523929862758058,0.06741573033707865
+pecan pie,logit,44,17,0.41584967735340955,0.06958515725160984
+peppermint brownie,frequency,16,0,,0.00041422743221889005
+peppermint brownie,persistence,16,0,,0.0
+peppermint brownie,logit,16,0,,7.220281381150417e-05
+pimm’s cup sorbet,frequency,5,0,,4.045189767762599e-05
+pimm’s cup sorbet,persistence,5,0,,0.0
+pimm’s cup sorbet,logit,5,0,,0.005575418723009081
+pimm’s sorbet,frequency,6,0,,5.82507326557814e-05
+pimm’s sorbet,persistence,6,0,,0.0
+pimm’s sorbet,logit,6,0,,1.0420185928362616e-05
+pineapple & coconut,frequency,14,0,,0.0005467068929000311
+pineapple & coconut,persistence,14,0,,0.0
+pineapple & coconut,logit,14,0,,2.8900188382069853e-05
+pink grapefruit & tarragon sorbet,frequency,18,0,,0.000720538449457032
+pink grapefruit & tarragon sorbet,persistence,18,0,,0.0
+pink grapefruit & tarragon sorbet,logit,18,0,,0.00011467197393412321
+pink grapefruit sorbet,frequency,6,5,0.03169050051072522,0.02774032393203507
+pink grapefruit sorbet,persistence,6,5,0.3712359550561798,0.02247191011235955
+pink grapefruit sorbet,logit,6,5,0.3514778325123153,0.02416427147390664
+pink guava & lime leaf sorbet,frequency,22,0,,0.0005007438023236417
+pink guava & lime leaf sorbet,persistence,22,0,,0.0
+pink guava & lime leaf sorbet,logit,22,0,,0.00023861897246313209
+pink guava sorbet,frequency,28,16,0.08458957553058677,0.0859777850468989
+pink guava sorbet,persistence,28,16,0.5849719101123596,0.0449438202247191
+pink guava sorbet,logit,28,16,0.5714225047358759,0.051723392010195345
+pistachio,frequency,10,1,0.011111111111111112,0.005600256803917064
+pistachio,persistence,10,1,0.0056179775280898875,0.011235955056179775
+pistachio,logit,10,1,0.045454545454545456,0.005716445278567187
+pistachio & rose,frequency,5,1,0.0056179775280898875,0.005687710550143464
+pistachio & rose,persistence,5,1,0.0056179775280898875,0.011235955056179775
+pistachio & rose,logit,5,1,0.005681818181818182,0.005664015919679058
+pistachio (vegan!),frequency,7,0,,0.00013667672322500779
+pistachio (vegan!),persistence,7,0,,0.0
+pistachio (vegan!),logit,7,0,,1.163019038218184e-05
+pistachio brownie,frequency,17,0,,0.00046762393715335656
+pistachio brownie,persistence,17,0,,0.0
+pistachio brownie,logit,17,0,,7.131904652751001e-05
+pistachio cookie dough,frequency,5,0,,4.045189767762599e-05
+pistachio cookie dough,persistence,5,0,,0.0
+pistachio cookie dough,logit,5,0,,5.452317312627688e-05
+"pistachio, raspberry ripple",frequency,10,0,,0.00015123940638895312
+"pistachio, raspberry ripple",persistence,10,0,,0.0
+"pistachio, raspberry ripple",logit,10,0,,4.15867440118263e-05
+pump street stracciatella,frequency,9,0,,0.00013106414847550822
+pump street stracciatella,persistence,9,0,,0.0
+pump street stracciatella,logit,9,0,,7.354210119764752e-05
+purple fig & manuka honey,frequency,9,0,,0.00013106414847550822
+purple fig & manuka honey,persistence,9,0,,0.0
+purple fig & manuka honey,logit,9,0,,2.4736209561426133e-05
+raspberries & cream,frequency,29,3,0.02076949267960504,0.016744431270060072
+raspberries & cream,persistence,29,3,0.3389513108614232,0.016853932584269662
+raspberries & cream,logit,29,3,0.39736346516007526,0.012499733212135749
+raspberry,frequency,20,0,,0.0004407396789248054
+raspberry,persistence,20,0,,0.0
+raspberry,logit,20,0,,0.00011453833422122355
+raspberry & mascarpone cake,frequency,6,0,,3.966657110323249e-05
+raspberry & mascarpone cake,persistence,6,0,,0.0
+raspberry & mascarpone cake,logit,6,0,,2.5891886192534608e-05
+raspberry & rose,frequency,36,2,0.022727272727272728,0.012526632042924144
+raspberry & rose,persistence,36,2,0.2556179775280899,0.011235955056179775
+raspberry & rose,logit,36,2,0.3,0.010502726890994343
+raspberry pavlova,frequency,27,0,,0.0008139870267904712
+raspberry pavlova,persistence,27,0,,0.0
+raspberry pavlova,logit,27,0,,0.0004038447947671667
+raspberry ripple,frequency,42,13,0.07303370786516854,0.06888668540982644
+raspberry ripple,persistence,42,13,0.5017618509407619,0.0449438202247191
+raspberry ripple,logit,42,13,0.5113079719713902,0.044192214898629574
+raspberry seed & black tea sorbet,frequency,8,0,,0.00017851653645715293
+raspberry seed & black tea sorbet,persistence,8,0,,0.0
+raspberry seed & black tea sorbet,logit,8,0,,1.1295568579270017e-05
+raspberry sorbet,frequency,9,0,,9.5622236567256e-05
+raspberry sorbet,persistence,9,0,,0.0
+raspberry sorbet,logit,9,0,,6.60562498490631e-05
+"redcurrant, ginger & lemon sorbet",frequency,13,0,,0.0002734548283007516
+"redcurrant, ginger & lemon sorbet",persistence,13,0,,0.0
+"redcurrant, ginger & lemon sorbet",logit,13,0,,4.8593806075110333e-05
+"redcurrant, lemon & ginger sorbet",frequency,5,0,,4.045189767762599e-05
+"redcurrant, lemon & ginger sorbet",persistence,5,0,,0.0
+"redcurrant, lemon & ginger sorbet",logit,5,0,,6.175050656436548e-06
+rhubarb & cardamom sorbet,frequency,32,0,,0.001822611270787531
+rhubarb & cardamom sorbet,persistence,32,0,,0.0
+rhubarb & cardamom sorbet,logit,32,0,,0.00017166780278734097
+rhubarb & ginger sorbet,frequency,5,0,,6.973302205357536e-05
+rhubarb & ginger sorbet,persistence,5,0,,0.0
+rhubarb & ginger sorbet,logit,5,0,,6.161604656649303e-06
+rhubarb & orange blossom sorbet,frequency,5,0,,4.045189767762599e-05
+rhubarb & orange blossom sorbet,persistence,5,0,,0.0
+rhubarb & orange blossom sorbet,logit,5,0,,8.545381058505724e-06
+rhubarb & rose,frequency,5,0,,4.045189767762599e-05
+rhubarb & rose,persistence,5,0,,0.0
+rhubarb & rose,logit,5,0,,6.693092937399017e-06
+rhubarb & rose sorbet,frequency,40,0,,0.0032827056724131077
+rhubarb & rose sorbet,persistence,40,0,,0.0
+rhubarb & rose sorbet,logit,40,0,,0.0003324678642370757
+rhubarb sorbet,frequency,71,0,,0.005382222091265655
+rhubarb sorbet,persistence,71,0,,0.0
+rhubarb sorbet,logit,71,0,,0.0007103030850700755
+roasted banana,frequency,108,23,0.12244082248967447,0.11313015376630463
+roasted banana,persistence,108,23,0.4210721947282344,0.10112359550561797
+roasted banana,logit,108,23,0.4062578051022968,0.0870944928168785
+roasted banana & cinnamon,frequency,5,1,0.0056179775280898875,0.005609353522676632
+roasted banana & cinnamon,persistence,5,1,0.0056179775280898875,0.011235955056179775
+roasted banana & cinnamon,logit,5,1,0.00980392156862745,0.0056447547488734755
+roasted banana & cinnamon stracciatella,frequency,6,0,,0.00010041555175714855
+roasted banana & cinnamon stracciatella,persistence,6,0,,0.0
+roasted banana & cinnamon stracciatella,logit,6,0,,5.205746272712184e-06
+roasted girton pumpkin,frequency,5,0,,4.045189767762599e-05
+roasted girton pumpkin,persistence,5,0,,0.0
+roasted girton pumpkin,logit,5,0,,8.697324697310383e-06
+roasted girton pumpkin brownie,frequency,10,0,,0.00027893208821430144
+roasted girton pumpkin brownie,persistence,10,0,,0.0
+roasted girton pumpkin brownie,logit,10,0,,2.465134485093536e-05
+roasted hazelnut,frequency,20,10,0.055867665418227214,0.0546392930006901
+roasted hazelnut,persistence,20,10,0.38247191011235954,0.0449438202247191
+roasted hazelnut,logit,20,10,0.4413095174820838,0.04370903983214016
+roasted macadamia nut,frequency,8,0,,0.00017851653645715293
+roasted macadamia nut,persistence,8,0,,0.0
+roasted macadamia nut,logit,8,0,,1.4863740489478337e-05
+roasted pear & cardamom,frequency,8,0,,0.00010355685805472251
+roasted pear & cardamom,persistence,8,0,,0.0
+roasted pear & cardamom,logit,8,0,,2.0630511690813223e-05
+rose & pistachio,frequency,6,0,,7.135109796068041e-05
+rose & pistachio,persistence,6,0,,0.0
+rose & pistachio,logit,6,0,,1.4834384912723604e-05
+rose stracciatella,frequency,11,0,,0.00012866074599400968
+rose stracciatella,persistence,11,0,,0.0
+rose stracciatella,logit,11,0,,4.9856922025695226e-05
+"rose, chocolate fudge ripple",frequency,5,0,,4.045189767762599e-05
+"rose, chocolate fudge ripple",persistence,5,0,,0.0
+"rose, chocolate fudge ripple",logit,5,0,,1.6861731006838144e-05
+"rose, raspberry ripple",frequency,6,0,,5.82507326557814e-05
+"rose, raspberry ripple",persistence,6,0,,0.0
+"rose, raspberry ripple",logit,6,0,,2.5065756776314376e-05
+saffron,frequency,30,0,,0.0009916642775808125
+saffron,persistence,30,0,,0.0
+saffron,logit,30,0,,0.00022126215052587368
+salted caramel,frequency,34,41,0.305700191833379,0.2141401913207892
+salted caramel,persistence,34,41,0.6105782406138669,0.11797752808988764
+salted caramel,logit,34,41,0.6045925114666985,0.13557069697847635
+salted caramel & bourbon whisky,frequency,10,5,0.05555555555555555,0.027246690306635804
+salted caramel & bourbon whisky,persistence,10,5,0.3712359550561798,0.02247191011235955
+salted caramel & bourbon whisky,logit,10,5,0.4661483906164757,0.020645998988630933
+salted caramel ripple,frequency,31,0,,0.0010686884457175101
+salted caramel ripple,persistence,31,0,,0.0
+salted caramel ripple,logit,31,0,,0.0004971065917949503
+salted carmel ripple,frequency,5,0,,6.973302205357536e-05
+salted carmel ripple,persistence,5,0,,0.0
+salted carmel ripple,logit,5,0,,7.52727407324195e-06
+salted liquorice,frequency,33,1,0.0056179775280898875,0.00651671711940039
+salted liquorice,persistence,33,1,0.0056179775280898875,0.011235955056179775
+salted liquorice,logit,33,1,0.012345679012345678,0.006390626563670803
+salted macadamia,frequency,21,0,,0.0012300905090250694
+salted macadamia,persistence,21,0,,0.0
+salted macadamia,logit,21,0,,0.0001331705231320643
+salted oreo,frequency,105,18,0.08846580663060064,0.0922502729366028
+salted oreo,persistence,105,18,0.41278263282008604,0.07865168539325842
+salted oreo,logit,105,18,0.46638385265420845,0.06650247107941655
+salted peanut,frequency,71,3,0.016853932584269662,0.019682321336578334
+salted peanut,persistence,71,3,0.4500624219725343,0.011235955056179775
+salted peanut,logit,71,3,0.3952991452991452,0.012843349803679918
+salted peanut butter,frequency,7,0,,7.928571944814696e-05
+salted peanut butter,persistence,7,0,,0.0
+salted peanut butter,logit,7,0,,1.324910035020327e-05
+salted peanut stracciatella,frequency,39,3,0.016853932584269662,0.018758556082147958
+salted peanut stracciatella,persistence,39,3,0.4500624219725343,0.011235955056179775
+salted peanut stracciatella,logit,39,3,0.3983228511530398,0.012963320879116192
+salted rose & pistachios,frequency,7,0,,0.00013667672322500779
+salted rose & pistachios,persistence,7,0,,0.0
+salted rose & pistachios,logit,7,0,,1.4399764014102094e-05
+salted treacle,frequency,68,10,0.1111111111111111,0.05122267211197523
+salted treacle,persistence,68,10,0.5068539325842696,0.033707865168539325
+salted treacle,logit,68,10,0.52421768707483,0.033797927034777964
+sea buckthorn sorbet,frequency,29,0,,0.000910773971998665
+sea buckthorn sorbet,persistence,29,0,,0.0
+sea buckthorn sorbet,logit,29,0,,0.00020648150293078676
+sheep’s milk fior di latte,frequency,6,0,,5.1101437742708385e-05
+sheep’s milk fior di latte,persistence,6,0,,0.0
+sheep’s milk fior di latte,logit,6,0,,3.272047094617139e-05
+sour cherry & mascarpone cake,frequency,7,0,,5.919181727823359e-05
+sour cherry & mascarpone cake,persistence,7,0,,0.0
+sour cherry & mascarpone cake,logit,7,0,,2.1286278053130348e-05
+sour cherry ripple,frequency,49,0,,0.0024765301907325446
+sour cherry ripple,persistence,49,0,,0.0
+sour cherry ripple,logit,49,0,,0.0008602503304977232
+sour cherry sorbet,frequency,10,0,,0.00013385346935765124
+sour cherry sorbet,persistence,10,0,,0.0
+sour cherry sorbet,logit,10,0,,5.657038897522431e-05
+spanish saffron,frequency,27,0,,0.0007517352589581951
+spanish saffron,persistence,27,0,,0.0
+spanish saffron,logit,27,0,,0.00023570146221153418
+spiced pumpkin,frequency,5,0,,4.045189767762599e-05
+spiced pumpkin,persistence,5,0,,0.0
+spiced pumpkin,logit,5,0,,6.925498220205023e-06
+stem ginger,frequency,10,0,,0.00016180759071050395
+stem ginger,persistence,10,0,,0.0
+stem ginger,logit,10,0,,5.285706623209466e-05
+sticky toffee pudding,frequency,18,4,0.044444444444444446,0.021708076608799396
+sticky toffee pudding,persistence,18,4,0.06685393258426967,0.03932584269662921
+sticky toffee pudding,logit,18,4,0.0830162580864828,0.021316860654683335
+stracciatella,frequency,22,3,0.03333333333333333,0.016317456260716363
+stracciatella,persistence,22,3,0.12234706616729088,0.02247191011235955
+stracciatella,logit,22,3,0.26825396825396824,0.015640682280639966
+strawberries & aged balsamic,frequency,13,0,,0.0004713952290821694
+strawberries & aged balsamic,persistence,13,0,,0.0
+strawberries & aged balsamic,logit,13,0,,4.203958630191008e-06
+strawberries & cream,frequency,527,43,0.33757512411810814,0.24433309511065826
+strawberries & cream,persistence,527,43,0.8276469197556211,0.05056179775280899
+strawberries & cream,logit,527,43,0.8382466484813161,0.05652114513453259
+strawberries & stem ginger,frequency,8,0,,0.00017851653645715293
+strawberries & stem ginger,persistence,8,0,,0.0
+strawberries & stem ginger,logit,8,0,,7.0478754809714315e-06
+strawberry,frequency,186,9,0.04829190784246964,0.07660486659785878
+strawberry,persistence,186,9,0.4168539325842696,0.03932584269662921
+strawberry,logit,186,9,0.5159272825939492,0.03178047342676571
+strawberry & cardamom,frequency,9,0,,0.0002259349914535842
+strawberry & cardamom,persistence,9,0,,0.0
+strawberry & cardamom,logit,9,0,,1.086190123462277e-05
+strawberry & cream,frequency,13,2,0.011235955056179775,0.011509409884480529
+strawberry & cream,persistence,13,2,0.2556179775280899,0.011235955056179775
+strawberry & cream,logit,13,2,0.25578034682080925,0.011041386929488792
+strawberry balsamic,frequency,8,0,,0.00017851653645715293
+strawberry balsamic,persistence,8,0,,0.0
+strawberry balsamic,logit,8,0,,1.0288801088751274e-05
+strawberry pavlova,frequency,5,0,,4.045189767762599e-05
+strawberry pavlova,persistence,5,0,,0.0
+strawberry pavlova,logit,5,0,,1.039160385364179e-05
+strawberry sorbet,frequency,58,27,0.13298244618469338,0.13776754821706436
+strawberry sorbet,persistence,58,27,0.7760331636736131,0.03932584269662921
+strawberry sorbet,logit,58,27,0.7082274077953745,0.05889689886578508
+stroopwafel,frequency,45,30,0.1486593462717058,0.15552680858793738
+stroopwafel,persistence,45,30,0.6737078651685394,0.06741573033707865
+stroopwafel,logit,45,30,0.6622916170749528,0.0861298373330502
+sugar & spice,frequency,24,0,,0.0006538584245184947
+sugar & spice,persistence,24,0,,0.0
+sugar & spice,logit,24,0,,0.00036098570167738007
+tiramisu,frequency,69,8,0.06237231869254341,0.045959857400504955
+tiramisu,persistence,69,8,0.18880417335473515,0.05056179775280899
+tiramisu,logit,69,8,0.23631310122606528,0.03919775074390972
+tomato & hibiscus sorbet,frequency,20,0,,0.0008206764181032769
+tomato & hibiscus sorbet,persistence,20,0,,0.0
+tomato & hibiscus sorbet,logit,20,0,,1.776838144554419e-05
+treacle,frequency,5,0,,4.045189767762599e-05
+treacle,persistence,5,0,,0.0
+treacle,logit,5,0,,1.2086917669661147e-05
+treacle & ginger,frequency,6,0,,0.00010041555175714855
+treacle & ginger,persistence,6,0,,0.0
+treacle & ginger,logit,6,0,,1.1441872721824056e-05
+ube,frequency,10,0,,0.00016180759071050395
+ube,persistence,10,0,,0.0
+ube,logit,10,0,,3.0140897847613178e-05
+ube brownie,frequency,18,0,,0.000382488946269024
+ube brownie,persistence,18,0,,0.0
+ube brownie,logit,18,0,,3.955162420434845e-05
+"ube, raspberry ripple",frequency,6,0,,3.966657110323249e-05
+"ube, raspberry ripple",persistence,6,0,,0.0
+"ube, raspberry ripple",logit,6,0,,1.6667430601886184e-05
+vanilla,frequency,486,64,0.39676186017478154,0.24999787252169406
+vanilla,persistence,486,64,0.7370381374243734,0.12921348314606743
+vanilla,logit,486,64,0.8181360878025526,0.114720082003491
+vanilla & coconut sugar,frequency,5,0,,4.045189767762599e-05
+vanilla & coconut sugar,persistence,5,0,,0.0
+vanilla & coconut sugar,logit,5,0,,1.0715678977795491e-05
+vanilla & marsala wine,frequency,22,0,,0.0010215075216175732
+vanilla & marsala wine,persistence,22,0,,0.0
+vanilla & marsala wine,logit,22,0,,3.648465432101432e-05
+vanilla & rose,frequency,6,0,,7.135109796068041e-05
+vanilla & rose,persistence,6,0,,0.0
+vanilla & rose,logit,6,0,,9.347776577055137e-06
+vanilla (with a splash of marsala wine),frequency,5,0,,4.045189767762599e-05
+vanilla (with a splash of marsala wine),persistence,5,0,,0.0
+vanilla (with a splash of marsala wine),logit,5,0,,7.902765893432046e-06
+vanilla brown sugar,frequency,86,11,0.12222222222222222,0.056603924895162326
+vanilla brown sugar,persistence,86,11,0.6806574426594857,0.02247191011235955
+vanilla brown sugar,logit,86,11,0.6742472572616113,0.02718740874985561
+vanilla creme patisierre,frequency,5,0,,6.973302205357536e-05
+vanilla creme patisierre,persistence,5,0,,0.0
+vanilla creme patisierre,logit,5,0,,1.5274055427107457e-05
+vanilla creme patissiere,frequency,36,0,,0.003614959863257347
+vanilla creme patissiere,persistence,36,0,,0.0
+vanilla creme patissiere,logit,36,0,,0.00020533988063635924
+vanilla custard,frequency,17,0,,0.00032949184950830675
+vanilla custard,persistence,17,0,,0.0
+vanilla custard,logit,17,0,,5.613406925630328e-05
+vanilla house yoghurt,frequency,8,0,,0.00017851653645715293
+vanilla house yoghurt,persistence,8,0,,0.0
+vanilla house yoghurt,logit,8,0,,1.707524084574393e-05
+vanilla mascarpone,frequency,101,0,,0.011563249247909739
+vanilla mascarpone,persistence,101,0,,0.0
+vanilla mascarpone,logit,101,0,,0.0010561166451189192
+vanilla treacle,frequency,6,0,,0.00010041555175714855
+vanilla treacle,persistence,6,0,,0.0
+vanilla treacle,logit,6,0,,2.612968446704138e-06
+vanilla yoghurt,frequency,17,0,,0.0006340695021105987
+vanilla yoghurt,persistence,17,0,,0.0
+vanilla yoghurt,logit,17,0,,4.681693804517223e-05
+vegan double hazelnut,frequency,9,0,,9.5622236567256e-05
+vegan double hazelnut,persistence,9,0,,0.0
+vegan double hazelnut,logit,9,0,,3.99968025759962e-05
+vegan pistachio,frequency,14,0,,0.0005467068929000311
+vegan pistachio,persistence,14,0,,0.0
+vegan pistachio,logit,14,0,,4.250541215498817e-05
+vicky sponge,frequency,10,9,0.0612983770287141,0.04958178465944979
+vicky sponge,persistence,10,9,0.2058676654182272,0.06179775280898876
+vicky sponge,logit,10,9,0.20709907446521197,0.0458924515024894
+violet,frequency,6,0,,5.82507326557814e-05
+violet,persistence,6,0,,0.0
+violet,logit,6,0,,9.772274573764615e-06
+virgin bloody mary sorbet,frequency,5,0,,4.045189767762599e-05
+virgin bloody mary sorbet,persistence,5,0,,0.0
+virgin bloody mary sorbet,logit,5,0,,1.1285451713273685e-05
+whisky; torabhaig allt gleann,frequency,5,0,,4.045189767762599e-05
+whisky; torabhaig allt gleann,persistence,5,0,,0.0
+whisky; torabhaig allt gleann,logit,5,0,,1.8909442778811806e-05
+white chocolate,frequency,6,0,,5.82507326557814e-05
+white chocolate,persistence,6,0,,0.0
+white chocolate,logit,6,0,,1.1737409287753647e-05
+white chocolate & cardamom,frequency,15,6,0.033707865168539325,0.03342424619971677
+white chocolate & cardamom,persistence,15,6,0.4556803995006242,0.02247191011235955
+white chocolate & cardamom,logit,15,6,0.42300804093567246,0.02669387385161882
+"white chocolate, raspberry ripple",frequency,6,0,,7.135109796068041e-05
+"white chocolate, raspberry ripple",persistence,6,0,,0.0
+"white chocolate, raspberry ripple",logit,6,0,,4.530048877137747e-06
+white miso,frequency,7,16,0.0814294631710362,0.0896855247900196
+white miso,persistence,7,16,0.5849719101123596,0.0449438202247191
+white miso,logit,7,16,0.6775921055506049,0.041860327010739766
+white miso & manuka honey,frequency,11,3,0.03333333333333333,0.01645345135703071
+white miso & manuka honey,persistence,11,3,0.4500624219725343,0.011235955056179775
+white miso & manuka honey,logit,11,3,0.4152046783625731,0.013149466254635851
+white miso and manuka honey,frequency,8,0,,0.00017851653645715293
+white miso and manuka honey,persistence,8,0,,0.0
+white miso and manuka honey,logit,8,0,,1.4223978415631857e-05
+wisconsin pecan pie,frequency,11,0,,0.0002805501641214065
+wisconsin pecan pie,persistence,11,0,,0.0
+wisconsin pecan pie,logit,11,0,,4.236553008997388e-05
+yoghurt & rose,frequency,16,0,,0.00033718282087008284
+yoghurt & rose,persistence,16,0,,0.0
+yoghurt & rose,logit,16,0,,2.8703964524245276e-05
+"yoghurt, rose & pistachios",frequency,6,0,,0.00010041555175714855
+"yoghurt, rose & pistachios",persistence,6,0,,0.0
+"yoghurt, rose & pistachios",logit,6,0,,5.808199208884409e-06
+yuzu,frequency,21,0,,0.0006500196837241588
+yuzu,persistence,21,0,,0.0
+yuzu,logit,21,0,,0.00011533696851680797
+yuzu & apricot sorbet,frequency,6,0,,4.3241218559769006e-05
+yuzu & apricot sorbet,persistence,6,0,,0.0
+yuzu & apricot sorbet,logit,6,0,,1.3635796798165035e-05
+yuzu & liquorice,frequency,6,0,,7.135109796068041e-05
+yuzu & liquorice,persistence,6,0,,0.0
+yuzu & liquorice,logit,6,0,,1.671123017641067e-05
+yuzu sorbet,frequency,28,0,,0.0012192852109119282
+yuzu sorbet,persistence,28,0,,0.0
+yuzu sorbet,logit,28,0,,0.00016950794223193806
+"yuzu, raspberry ripple",frequency,12,0,,0.00020440575097083354
+"yuzu, raspberry ripple",persistence,12,0,,0.0
+"yuzu, raspberry ripple",logit,12,0,,3.335789527119036e-05
+"yuzu, strawberry ripple",frequency,7,0,,0.0001020336276642536
+"yuzu, strawberry ripple",persistence,7,0,,0.0
+"yuzu, strawberry ripple",logit,7,0,,3.0695515413398616e-05

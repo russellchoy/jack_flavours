@@ -1,0 +1,1053 @@
+shop,flavour,probability_old,rank_old,top_k_old,probability_new,rank_new,top_k_new,support_change,probability_change_pp,entered_top10,left_top10
+all_saints,pink guava & mezcal,,,,0.9958599209785461,1,True,newly_supported,,True,False
+all_saints,victoria sponge,,,,0.9876483678817749,2,True,newly_supported,,True,False
+all_saints,lemon yoghurt,0.9990550875663757,1.0,True,0.9825807213783264,3,True,shared,-1.6474366188049316,False,False
+all_saints,mascarpone vanilla,,,,0.9800225496292114,4,True,newly_supported,,True,False
+all_saints,dark chocolate & sea salt,0.9561029076576233,2.0,True,0.9597580432891846,5,True,shared,0.36551356315612793,False,False
+all_saints,coconut ube,0.8903396129608154,3.0,True,0.9278934597969055,6,True,shared,3.755384683609009,False,False
+all_saints,alphonso mango sorbet,0.8735994696617126,4.0,True,0.921601414680481,7,True,shared,4.800194501876831,False,False
+all_saints,hong kong milk tea,0.8435851335525513,5.0,True,0.8770283460617065,8,True,shared,3.3443212509155273,False,False
+all_saints,grilled white chocolate,0.8006089925765991,6.0,True,0.8458520770072937,9,True,shared,4.524308443069458,False,False
+all_saints,girton apple sorbet,0.6882715225219727,7.0,True,0.7054635882377625,10,True,shared,1.7192065715789795,False,False
+all_saints,blackcurrants & cream,0.6340582370758057,8.0,True,0.6862614154815674,11,False,shared,5.220317840576172,False,True
+all_saints,lemongrass & oreo,,,,0.6043800115585327,12,False,newly_supported,,False,False
+all_saints,"chocolate, passion fruit curd",,,,0.6041016578674316,13,False,newly_supported,,False,False
+all_saints,maple pecan,,,,0.5238494873046875,14,False,newly_supported,,False,False
+all_saints,tiramisu,0.2804625332355499,9.0,True,0.315813809633255,15,False,shared,3.535127639770508,False,True
+all_saints,coconut & ube,0.1478978395462036,10.0,True,0.1262315809726715,16,False,shared,-2.1666258573532104,False,True
+all_saints,strawberries & cream,0.11946926265954971,11.0,False,0.10884403437376022,17,False,shared,-1.062522828578949,False,False
+all_saints,vanilla,0.11867073178291321,12.0,False,0.08522115647792816,18,False,shared,-3.3449575304985046,False,False
+all_saints,house yoghurt,0.09388604015111923,14.0,False,0.07713258266448975,19,False,shared,-1.6753457486629486,False,False
+all_saints,king’s college lavender,0.07029680907726288,16.0,False,0.07063280791044235,20,False,shared,0.03359988331794739,False,False
+all_saints,honeycomb,0.07743090391159058,15.0,False,0.06846286356449127,21,False,shared,-0.8968040347099304,False,False
+all_saints,chocolate chip cookie dough,0.03923585265874863,26.0,False,0.05281452089548111,22,False,shared,1.3578668236732483,False,False
+all_saints,pecan pie,0.04914376512169838,19.0,False,0.051426637917757034,23,False,shared,0.22828727960586548,False,False
+all_saints,salted oreo,0.04856453463435173,20.0,False,0.05115637183189392,24,False,shared,0.25918371975421906,False,False
+all_saints,roasted banana,0.04583325982093811,21.0,False,0.04836578667163849,25,False,shared,0.25325268507003784,False,False
+all_saints,house cinnamon biscuit,0.014728648588061333,88.0,False,0.04493364691734314,26,False,shared,3.0204998329281807,False,False
+all_saints,passion fruit sorbet,0.03999027609825134,23.0,False,0.04391106218099594,27,False,shared,0.39207860827445984,False,False
+all_saints,coffee,0.04557931423187256,22.0,False,0.04337131604552269,28,False,shared,-0.22079981863498688,False,False
+all_saints,double chocolate,0.050667036324739456,17.0,False,0.04192086309194565,29,False,shared,-0.8746173232793808,False,False
+all_saints,salted caramel,0.0234664436429739,46.0,False,0.039252329617738724,30,False,shared,1.5785885974764824,False,False
+all_saints,strawberry,0.04944353178143501,18.0,False,0.03623315691947937,31,False,shared,-1.3210374861955643,False,False
+all_saints,salted treacle,0.0393231064081192,25.0,False,0.03599700331687927,32,False,shared,-0.3326103091239929,False,False
+all_saints,sesame,,,,0.03486992418766022,33,False,newly_supported,,False,False
+all_saints,gin & lemon tonic sorbet,,,,0.03439697250723839,34,False,newly_supported,,False,False
+all_saints,stroopwafel,0.030528541654348373,32.0,False,0.03381892666220665,35,False,shared,0.32903850078582764,False,False
+all_saints,lychee sorbet,0.03902357444167137,27.0,False,0.03360062837600708,36,False,shared,-0.5422946065664291,False,False
+all_saints,matcha,0.039355237036943436,24.0,False,0.030814245343208313,37,False,shared,-0.8540991693735123,False,False
+all_saints,damson sorbet,0.0271501075476408,35.0,False,0.03055911511182785,38,False,shared,0.340900756418705,False,False
+all_saints,"coconut, lemongrass & raspberry ripple",,,,0.02868419885635376,39,False,newly_supported,,False,False
+all_saints,raspberry ripple,0.026877235621213913,36.0,False,0.027644027024507523,40,False,shared,0.07667914032936096,False,False
+all_saints,house lemon yoghurt,0.10712333023548126,13.0,False,0.02673320285975933,41,False,shared,-8.039012737572193,False,False
+all_saints,salted peanut,0.03126358240842819,30.0,False,0.02533107064664364,42,False,shared,-0.5932511761784554,False,False
+all_saints,lemon,0.024762775748968124,41.0,False,0.025035610422492027,43,False,shared,0.02728346735239029,False,False
+all_saints,strawberry sorbet,0.017945894971489906,72.0,False,0.02501073107123375,44,False,shared,0.7064836099743843,False,False
+all_saints,marmalade sorbet,0.009995383210480213,133.0,False,0.0248104277998209,45,False,shared,1.4815044589340687,False,False
+all_saints,cinnamon waffle,0.01675122044980526,75.0,False,0.024427924305200577,46,False,shared,0.7676703855395317,False,False
+all_saints,dulce de leche,0.032039303332567215,28.0,False,0.02400515228509903,47,False,shared,-0.8034151047468185,False,False
+all_saints,mint stracciatella,0.026084084063768387,38.0,False,0.023723594844341278,48,False,shared,-0.23604892194271088,False,False
+all_saints,vanilla mascarpone,0.030687810853123665,31.0,False,0.023287715390324593,49,False,shared,-0.7400095462799072,False,False
+all_saints,miso blondie,0.028976578265428543,34.0,False,0.022773848846554756,50,False,shared,-0.6202729418873787,False,False
+all_saints,cardamom & rose,0.029035421088337898,33.0,False,0.022058632224798203,51,False,shared,-0.6976788863539696,False,False
+all_saints,black sesame,0.031417641788721085,29.0,False,0.021363547071814537,52,False,shared,-1.0054094716906548,False,False
+all_saints,coconut & raspberry ripple,0.02454758994281292,43.0,False,0.021162565797567368,53,False,shared,-0.3385024145245552,False,False
+all_saints,eton mess,0.024988019838929176,40.0,False,0.0208981242030859,54,False,shared,-0.4089895635843277,False,False
+all_saints,milk & brownies,0.02667633630335331,37.0,False,0.020159965381026268,55,False,shared,-0.6516370922327042,False,False
+all_saints,kiwi sorbet,,,,0.019924085587263107,56,False,newly_supported,,False,False
+all_saints,gianduja,0.014486715197563171,91.0,False,0.01988953724503517,57,False,shared,0.5402822047472,False,False
+all_saints,carrot cake,0.022165462374687195,50.0,False,0.019819246605038643,58,False,shared,-0.2346215769648552,False,False
+all_saints,vanilla brown sugar,0.020756183192133904,59.0,False,0.019692489877343178,59,False,shared,-0.10636933147907257,False,False
+all_saints,stracciatella,0.02248428948223591,49.0,False,0.01963413506746292,60,False,shared,-0.28501544147729874,False,False
+all_saints,pink guava sorbet,0.014724710956215858,89.0,False,0.019602475687861443,61,False,shared,0.4877764731645584,False,False
+all_saints,blackcurrant,0.020802056416869164,58.0,False,0.01948087103664875,62,False,shared,-0.13211853802204132,False,False
+all_saints,coconut mint stracciatella,0.02216189168393612,51.0,False,0.019343584775924683,63,False,shared,-0.28183069080114365,False,False
+all_saints,pbj,0.01969956047832966,61.0,False,0.01932387985289097,64,False,shared,-0.03756806254386902,False,False
+all_saints,chocolate & bourbon whisky,0.011125437915325165,127.0,False,0.019296400249004364,65,False,shared,0.8170962333679199,False,False
+all_saints,malted milk,0.01781390607357025,73.0,False,0.018649974837899208,66,False,shared,0.08360687643289566,False,False
+all_saints,butterscotch ripple,0.022801732644438744,48.0,False,0.018592653796076775,67,False,shared,-0.4209078848361969,False,False
+all_saints,apricot sorbet,0.018497783690690994,69.0,False,0.018458982929587364,68,False,shared,-0.0038800761103630066,False,False
+all_saints,sour cherry ripple,0.024706661701202393,42.0,False,0.018453169614076614,69,False,shared,-0.6253492087125778,False,False
+all_saints,strawberries sorbet,,,,0.01836852915585041,70,False,newly_supported,,False,False
+all_saints,blueberry sorbet,0.024267932400107384,44.0,False,0.01831451803445816,71,False,shared,-0.5953414365649223,False,False
+all_saints,house vanilla,0.0059693725779652596,231.0,False,0.018235385417938232,72,False,shared,1.2266012839972973,False,False
+all_saints,roasted hazelnut,0.01398024708032608,95.0,False,0.017946390435099602,73,False,shared,0.39661433547735214,False,False
+all_saints,salted peanut stracciatella,0.020917393267154694,57.0,False,0.017799321562051773,74,False,shared,-0.31180717051029205,False,False
+all_saints,fudge chunk,0.023670822381973267,45.0,False,0.017735444009304047,75,False,shared,-0.593537837266922,False,False
+all_saints,salted caramel ripple,0.02305452711880207,47.0,False,0.01750815473496914,76,False,shared,-0.5546372383832932,False,False
+all_saints,blackcurrant & cream,0.013074285350739956,110.0,False,0.01746368780732155,77,False,shared,0.43894024565815926,False,False
+all_saints,chocolate,0.01914503239095211,66.0,False,0.017204027622938156,78,False,shared,-0.19410047680139542,False,False
+all_saints,"chocolate, raspberry ripple",0.019102318212389946,67.0,False,0.017130201682448387,79,False,shared,-0.19721165299415588,False,False
+all_saints,salted orange blossom,,,,0.017062263563275337,80,False,newly_supported,,False,False
+all_saints,house dulce de leche,0.021800972521305084,53.0,False,0.016790062189102173,81,False,shared,-0.5010910332202911,False,False
+all_saints,brownie dough,0.013233079575002193,106.0,False,0.016296759247779846,82,False,shared,0.3063679672777653,False,False
+all_saints,gooseberry sorbet,0.02171555906534195,54.0,False,0.01617802120745182,83,False,shared,-0.5537537857890129,False,False
+all_saints,chocolate & coconut,0.02200920507311821,52.0,False,0.01608426310122013,84,False,shared,-0.5924941971898079,False,False
+all_saints,chocolate & ginger,0.014787949621677399,86.0,False,0.016048457473516464,85,False,shared,0.12605078518390656,False,False
+all_saints,salted liquorice,0.02103067934513092,55.0,False,0.016034509986639023,86,False,shared,-0.49961693584918976,False,False
+all_saints,baked vanilla,0.01937709003686905,64.0,False,0.015898138284683228,87,False,shared,-0.34789517521858215,False,False
+all_saints,rhubarb sorbet,0.02099449932575226,56.0,False,0.01586507074534893,88,False,shared,-0.5129428580403328,False,False
+all_saints,coconut & pineapple,,,,0.015752693638205528,89,False,newly_supported,,False,False
+all_saints,raspberry & rose,0.020099569112062454,60.0,False,0.015413613058626652,90,False,shared,-0.46859560534358025,False,False
+all_saints,grilled milk chocolate,0.014759361743927002,87.0,False,0.015313593670725822,91,False,shared,0.05542319267988205,False,False
+all_saints,"coconut, raspberry ripple",0.018361549824476242,70.0,False,0.015278221108019352,92,False,shared,-0.308332871645689,False,False
+all_saints,"strawberry, cucumber & gin",,,,0.015143844299018383,93,False,newly_supported,,False,False
+all_saints,chocolate & cinnamon,0.016409773379564285,77.0,False,0.015101500786840916,94,False,shared,-0.13082725927233696,False,False
+all_saints,"chocolate, caramel ripple",0.01945229060947895,63.0,False,0.015045907348394394,95,False,shared,-0.44063832610845566,False,False
+all_saints,brown butter,0.019313575699925423,65.0,False,0.014877669513225555,96,False,shared,-0.4435906186699867,False,False
+all_saints,milk & manuka honey,0.013637855648994446,100.0,False,0.014874936081469059,97,False,shared,0.12370804324746132,False,False
+all_saints,hazelnut,,,,0.014320578426122665,98,False,newly_supported,,False,False
+all_saints,cambridge elderflower sorbet,0.01862465590238571,68.0,False,0.01408350933343172,99,False,shared,-0.4541146568953991,False,False
+all_saints,"house yoghurt, sour cherry ripple",0.018032902851700783,71.0,False,0.014041878283023834,100,False,shared,-0.39910245686769485,False,False
+all_saints,hibiscus sorbet,0.012385126203298569,115.0,False,0.013995352201163769,101,False,shared,0.16102259978652,False,False
+all_saints,basque cheesecake,0.010949497111141682,128.0,False,0.013979543000459671,102,False,shared,0.30300458893179893,False,False
+all_saints,house mascarpone & marsala wine,0.013575092889368534,102.0,False,0.013309946283698082,103,False,shared,-0.026514660567045212,False,False
+all_saints,coconut,0.01635793410241604,78.0,False,0.01322756428271532,104,False,shared,-0.3130369819700718,False,False
+all_saints,"chocolate, sour cherry ripple",0.012360984459519386,116.0,False,0.013144508004188538,105,False,shared,0.07835235446691513,False,False
+all_saints,almond & cherry cake,0.01398755144327879,94.0,False,0.013114833272993565,106,False,shared,-0.08727181702852249,False,False
+all_saints,sugar & spice,0.019479889422655106,62.0,False,0.012993860989809036,107,False,shared,-0.6486028432846069,False,False
+all_saints,raspberry pavlova,0.016546012833714485,76.0,False,0.01293810922652483,108,False,shared,-0.36079036071896553,False,False
+all_saints,fior di latte,0.012233609333634377,118.0,False,0.012851359322667122,109,False,shared,0.061774998903274536,False,False
+all_saints,vicky sponge,0.008341239765286446,167.0,False,0.012804538011550903,110,False,shared,0.44632982462644577,False,False
+all_saints,sticky toffee pudding,0.012705332599580288,113.0,False,0.012695514596998692,111,False,shared,-0.0009818002581596375,False,False
+all_saints,saffron,0.016197536140680313,80.0,False,0.012643382884562016,112,False,shared,-0.35541532561182976,False,False
+all_saints,lemon sorbet,0.012142124585807323,119.0,False,0.012415177188813686,113,False,shared,0.02730526030063629,False,False
+all_saints,caramelised milk,0.014279281720519066,93.0,False,0.012389658950269222,114,False,shared,-0.18896227702498436,False,False
+all_saints,chocolate & hazelnut,,,,0.012316988781094551,115,False,newly_supported,,False,False
+all_saints,chocolate & whole hazelnuts,0.0159089807420969,82.0,False,0.012235194444656372,116,False,shared,-0.3673786297440529,False,False
+all_saints,cashew & manuka honey,0.01629853993654251,79.0,False,0.012141764163970947,117,False,shared,-0.41567757725715637,False,False
+all_saints,pink guava & lime leaf sorbet,0.0167893934994936,74.0,False,0.012008776888251305,118,False,shared,-0.47806166112422943,False,False
+all_saints,caramelised vanilla,0.01602225936949253,81.0,False,0.012000711634755135,119,False,shared,-0.4021547734737396,False,False
+all_saints,cinnamon,0.01559646800160408,83.0,False,0.011991826817393303,120,False,shared,-0.36046411842107773,False,False
+all_saints,miso caramel ripple,,,,0.011713691987097263,121,False,newly_supported,,False,False
+all_saints,rhubarb & lovage sorbet,,,,0.0116892633959651,122,False,newly_supported,,False,False
+all_saints,coconut & rum,0.01362264808267355,101.0,False,0.011660454794764519,123,False,shared,-0.1962193287909031,False,False
+all_saints,spanish saffron,0.015419918112456799,84.0,False,0.01150344219058752,124,False,shared,-0.3916475921869278,False,False
+all_saints,chocolate & cherry,0.005821938160806894,237.0,False,0.011181035079061985,125,False,shared,0.5359096918255091,False,False
+all_saints,rhubarb & rose sorbet,0.015325706452131271,85.0,False,0.011167400516569614,126,False,shared,-0.4158305935561657,False,False
+all_saints,raspberries & cream,0.013081147335469723,109.0,False,0.011104426346719265,127,False,shared,-0.19767209887504578,False,False
+all_saints,gin & lemon tonic,,,,0.011091385036706924,128,False,newly_supported,,False,False
+all_saints,king’s college lavender brownie,0.014359338209033012,92.0,False,0.010995256714522839,129,False,shared,-0.3364081494510174,False,False
+all_saints,lemon curd ripple,,,,0.010937369428575039,130,False,newly_supported,,False,False
+all_saints,vanilla creme patissiere,0.014631680212914944,90.0,False,0.01089197676628828,131,False,shared,-0.3739703446626663,False,False
+all_saints,coconut mint choc chip,0.008167361840605736,172.0,False,0.010871047154068947,132,False,shared,0.2703685313463211,False,False
+all_saints,white chocolate & cardamom,0.009201976470649242,148.0,False,0.010798112489283085,133,False,shared,0.15961360186338425,False,False
+all_saints,lychee & rose sorbet,0.01340493280440569,103.0,False,0.010675345547497272,134,False,shared,-0.2729587256908417,False,False
+all_saints,"coconut, raspberry & lemongrass",,,,0.010468019172549248,135,False,newly_supported,,False,False
+all_saints,"coconut, blueberry ripple",0.013684089295566082,97.0,False,0.010436213575303555,136,False,shared,-0.32478757202625275,False,False
+all_saints,hibiscus & yuzu sorbet,0.012717594392597675,112.0,False,0.010414322838187218,137,False,shared,-0.23032715544104576,False,False
+all_saints,house mascarpone,0.013189315795898438,107.0,False,0.010406885296106339,138,False,shared,-0.2782430499792099,False,False
+all_saints,oftd rum & raisin,0.013300444930791855,104.0,False,0.010378538630902767,139,False,shared,-0.29219062998890877,False,False
+all_saints,"matcha, blueberry ripple",0.009161398746073246,150.0,False,0.010278163477778435,140,False,shared,0.11167647317051888,False,False
+all_saints,black sesame cookie dough,0.013183440081775188,108.0,False,0.010265917517244816,141,False,shared,-0.29175225645303726,False,False
+all_saints,mascarpone,0.01283194962888956,111.0,False,0.010256381705403328,142,False,shared,-0.2575567923486233,False,False
+all_saints,rhubarb & cardamom sorbet,0.013642353005707264,99.0,False,0.010244477540254593,143,False,shared,-0.3397875465452671,False,False
+all_saints,ginger cake,0.008874974213540554,153.0,False,0.010146768763661385,144,False,shared,0.12717945501208305,False,False
+all_saints,double pistachio,0.013239867053925991,105.0,False,0.010058230720460415,145,False,shared,-0.3181636333465576,False,False
+all_saints,chocolate fudge ripple,0.0126224709674716,114.0,False,0.010013069026172161,146,False,shared,-0.26094019412994385,False,False
+all_saints,mascarpone & marsala wine,,,,0.010005178861320019,147,False,newly_supported,,False,False
+all_saints,white miso & manuka honey,0.009356080554425716,142.0,False,0.009697480127215385,148,False,shared,0.034139957278966904,False,False
+all_saints,yuzu sorbet,0.012056414969265461,121.0,False,0.009598948061466217,149,False,shared,-0.2457466907799244,False,False
+all_saints,"white chocolate, cardamom & raspberry ripple",,,,0.009577212855219841,150,False,newly_supported,,False,False
+all_saints,"coconut, passion fruit ripple",0.012322037480771542,117.0,False,0.009564855135977268,151,False,shared,-0.27571823447942734,False,False
+all_saints,marmalade,0.01370089128613472,96.0,False,0.009564552456140518,152,False,shared,-0.41363388299942017,False,False
+all_saints,sea buckthorn sorbet,0.011987256817519665,122.0,False,0.009527668356895447,153,False,shared,-0.2459588460624218,False,False
+all_saints,coconut & yuzu,,,,0.009521775878965855,154,False,newly_supported,,False,False
+all_saints,jgf rhubarb sorbet,0.013672877103090286,98.0,False,0.009431361220777035,155,False,shared,-0.42415158823132515,False,False
+all_saints,orange blossom & pistachios,0.012075318954885006,120.0,False,0.009335529059171677,156,False,shared,-0.27397898957133293,False,False
+all_saints,brown sugar vanilla,0.008380944840610027,163.0,False,0.009120403788983822,157,False,shared,0.07394589483737946,False,False
+all_saints,hazelnut cookie dough,0.011420960538089275,125.0,False,0.00885956920683384,158,False,shared,-0.2561391331255436,False,False
+all_saints,double chocolate mint chip,0.010761572979390621,129.0,False,0.008703062310814857,159,False,shared,-0.20585106685757637,False,False
+all_saints,house yoghurt & lime leaf,0.011886179447174072,123.0,False,0.008675673976540565,160,False,shared,-0.3210505470633507,False,False
+all_saints,white miso,0.004620722029358149,287.0,False,0.008622185327112675,161,False,shared,0.4001463297754526,False,False
+all_saints,coconut & black sesame,0.010598093271255493,130.0,False,0.00861054752022028,162,False,shared,-0.19875457510352135,False,False
+all_saints,grapefruit sorbet,,,,0.008564778603613377,163,False,newly_supported,,False,False
+all_saints,gingerbread,0.010562282986938953,131.0,False,0.008415170013904572,164,False,shared,-0.2147112973034382,False,False
+all_saints,"coconut, strawberry ripple",0.0071912785060703754,186.0,False,0.00817041750997305,165,False,shared,0.09791390039026737,False,False
+all_saints,lime leaf,0.009484028443694115,137.0,False,0.007973226718604565,166,False,shared,-0.151080172508955,False,False
+all_saints,hibiscus & ginger sorbet,0.010026952251791954,132.0,False,0.007738906424492598,167,False,shared,-0.22880458272993565,False,False
+all_saints,salted rose,,,,0.00765487365424633,168,False,newly_supported,,False,False
+all_saints,oftd rum,0.009461809881031513,138.0,False,0.007633962202817202,169,False,shared,-0.18278476782143116,False,False
+all_saints,passion fruit & basil sorbet,0.00817623920738697,171.0,False,0.007578873075544834,170,False,shared,-0.05973661318421364,False,False
+all_saints,brazil nut,0.009384039789438248,141.0,False,0.007539666257798672,171,False,shared,-0.1844373531639576,False,False
+all_saints,panela,0.009454469196498394,139.0,False,0.007537467870861292,172,False,shared,-0.1917001325637102,False,False
+all_saints,coconut sugar,0.0041605583392083645,313.0,False,0.007455059792846441,173,False,shared,0.3294501453638077,False,False
+all_saints,rhubarb & lovage,,,,0.007441181223839521,174,False,newly_supported,,False,False
+all_saints,coffee meringue,0.009561856277287006,135.0,False,0.007434718310832977,175,False,shared,-0.2127137966454029,False,False
+all_saints,apple & almond cake,0.009321137331426144,144.0,False,0.007386070676147938,176,False,shared,-0.1935066655278206,False,False
+all_saints,raspberry,0.009487088769674301,136.0,False,0.007331348489969969,177,False,shared,-0.21557402797043324,False,False
+all_saints,pear & cardamom,0.00943914707750082,140.0,False,0.00729644438251853,178,False,shared,-0.21427026949822903,False,False
+all_saints,house speculaas,0.00918485876172781,149.0,False,0.00729272561147809,179,False,shared,-0.18921331502497196,False,False
+all_saints,salted macadamia,0.011684383265674114,124.0,False,0.007291644811630249,180,False,shared,-0.4392738454043865,False,False
+all_saints,"chocolate, cherry ripple",0.0072111706249415874,185.0,False,0.007279705256223679,181,False,shared,0.006853463128209114,False,False
+all_saints,"chocolate, passion fruit ripple",0.009292664937675,145.0,False,0.007279364392161369,182,False,shared,-0.201330054551363,False,False
+all_saints,house yoghurt & rose,0.009332963265478611,143.0,False,0.007246184628456831,183,False,shared,-0.208677863702178,False,False
+all_saints,milk & peanut butter cookies,0.006638300605118275,203.0,False,0.0071783228777348995,184,False,shared,0.05400222726166248,False,False
+all_saints,coconut & lime leaf,0.011136229149997234,126.0,False,0.007031870540231466,185,False,shared,-0.4104358609765768,False,False
+all_saints,manuka honey & cashew,0.009248933754861355,147.0,False,0.007020120043307543,186,False,shared,-0.2228813711553812,False,False
+all_saints,dark chocolate & orange,0.008882430382072926,152.0,False,0.007010377943515778,187,False,shared,-0.1872052438557148,False,False
+all_saints,coconut & rose,0.0074251811020076275,180.0,False,0.00699578458443284,188,False,shared,-0.042939651757478714,False,False
+all_saints,hazelnut & oreo,0.005266619846224785,260.0,False,0.006966786924749613,189,False,shared,0.1700167078524828,False,False
+all_saints,gin & tonic sorbet,0.006579110398888588,209.0,False,0.006940879393368959,190,False,shared,0.03617689944803715,False,False
+all_saints,pastis,0.008746769279241562,154.0,False,0.006882695481181145,191,False,shared,-0.18640737980604172,False,False
+all_saints,blackcurrant crumble,0.008645792491734028,155.0,False,0.0068765669129788876,192,False,shared,-0.17692255787551403,False,False
+all_saints,blueberry pavlova,0.009040958248078823,151.0,False,0.006872169207781553,193,False,shared,-0.21687890402972698,False,False
+all_saints,salted almond,,,,0.006857169792056084,194,False,newly_supported,,False,False
+all_saints,"house yoghurt, blueberry ripple",,,,0.00685545802116394,195,False,newly_supported,,False,False
+all_saints,lemon stracciatella,0.008595947176218033,158.0,False,0.006844795309007168,196,False,shared,-0.1751151867210865,False,False
+all_saints,pink grapefruit & tarragon sorbet,0.008560875430703163,159.0,False,0.006832770071923733,197,False,shared,-0.17281053587794304,False,False
+all_saints,peppermint brownie,0.00835630763322115,166.0,False,0.006751401349902153,198,False,shared,-0.16049062833189964,False,False
+all_saints,hazelnut & honeycomb,0.008269024081528187,168.0,False,0.006750582717359066,199,False,shared,-0.15184413641691208,False,False
+all_saints,mascarpone & raspberry cake,0.008384162560105324,162.0,False,0.006718730088323355,200,False,shared,-0.1665432471781969,False,False
+all_saints,yuzu,0.008462166413664818,160.0,False,0.006696500815451145,201,False,shared,-0.17656655982136726,False,False
+all_saints,apple & mascarpone cake,0.0040364498272538185,323.0,False,0.006677307188510895,202,False,shared,0.2640857361257076,False,False
+all_saints,"coconut, ube & rose",0.004997767973691225,270.0,False,0.006618793588131666,203,False,shared,0.1621025614440441,False,False
+all_saints,lemon & girton basil sorbet,0.00864189863204956,156.0,False,0.006584298796951771,204,False,shared,-0.20575998350977898,False,False
+all_saints,double hazelnut,0.008371933363378048,165.0,False,0.006574428640305996,205,False,shared,-0.1797504723072052,False,False
+all_saints,house yoghurt & manuka honey,0.025374919176101685,39.0,False,0.0064802332781255245,206,False,shared,-1.889468589797616,False,False
+all_saints,passion fruit & girton thai basil sorbet,0.008613580837845802,157.0,False,0.006477860733866692,207,False,shared,-0.21357201039791107,False,False
+all_saints,apricot & mezcal sorbet,0.008376622572541237,164.0,False,0.006438764743506908,208,False,shared,-0.19378578290343285,False,False
+all_saints,blueberry crumble,0.008210733532905579,169.0,False,0.006427627522498369,209,False,shared,-0.17831060104072094,False,False
+all_saints,brandy butter,0.008186562918126583,170.0,False,0.006363938562572002,210,False,shared,-0.18226243555545807,False,False
+all_saints,chocolate & rose,0.004193224478513002,311.0,False,0.006351160351186991,211,False,shared,0.21579358726739883,False,False
+all_saints,cookie dough,0.0066653406247496605,202.0,False,0.006285301875323057,212,False,shared,-0.03800387494266033,False,False
+all_saints,lemongrass,0.0037947583477944136,341.0,False,0.0062798126600682735,213,False,shared,0.248505431227386,False,False
+all_saints,hazelnut & allspice,0.0070117684081196785,191.0,False,0.006252685561776161,214,False,shared,-0.07590828463435173,False,False
+all_saints,blueberry ripple,0.007796019781380892,176.0,False,0.00620208540931344,215,False,shared,-0.15939343720674515,False,False
+all_saints,salted caramel & almond cake,,,,0.00618231063708663,216,False,newly_supported,,False,False
+all_saints,vanilla & violet,,,,0.006168734282255173,217,False,newly_supported,,False,False
+all_saints,passion fruit & liquorice sorbet,0.008443494327366352,161.0,False,0.006072498392313719,218,False,shared,-0.23709959350526333,False,False
+all_saints,malted dark chocolate,,,,0.006063327193260193,219,False,newly_supported,,False,False
+all_saints,coconut & matcha,,,,0.006026986055076122,220,False,newly_supported,,False,False
+all_saints,choc chip cookie dough,0.00777517119422555,177.0,False,0.00601539108902216,221,False,shared,-0.175978010520339,False,False
+all_saints,double cinnamon biscuit,0.007627274841070175,178.0,False,0.005951988510787487,222,False,shared,-0.16752863302826881,False,False
+all_saints,sour cherry sorbet,0.007501863408833742,179.0,False,0.005925381556153297,223,False,shared,-0.15764818526804447,False,False
+all_saints,cinnamon brownie,0.007833813317120075,175.0,False,0.005873749498277903,224,False,shared,-0.19600638188421726,False,False
+all_saints,cold infused cocoa nib,,,,0.005858230404555798,225,False,newly_supported,,False,False
+all_saints,custard,0.007173182908445597,187.0,False,0.005852243397384882,226,False,shared,-0.13209395110607147,False,False
+all_saints,ginger,0.006503487471491098,212.0,False,0.0058495057746768,227,False,shared,-0.06539816968142986,False,False
+all_saints,blackcurrant & violet,0.005867126397788525,235.0,False,0.005817546043545008,228,False,shared,-0.004958035424351692,False,False
+all_saints,hazelnut brownie,0.007228666450828314,183.0,False,0.005806219298392534,229,False,shared,-0.14224471524357796,False,False
+all_saints,house ricotta,0.007244342006742954,182.0,False,0.005786554887890816,230,False,shared,-0.14577871188521385,False,False
+all_saints,double house pistachio,0.007119820918887854,188.0,False,0.005733640864491463,231,False,shared,-0.1386180054396391,False,False
+all_saints,pump street stracciatella,0.007220981176942587,184.0,False,0.0057275849394500256,232,False,shared,-0.14933962374925613,False,False
+all_saints,coconut vanilla,0.007379826158285141,181.0,False,0.0056978864595294,233,False,shared,-0.1681939698755741,False,False
+all_saints,vanilla custard,0.007114059291779995,189.0,False,0.0056539857760071754,234,False,shared,-0.14600735157728195,False,False
+all_saints,pink grapefruit sorbet,0.0033919038251042366,367.0,False,0.005648811813443899,235,False,shared,0.22569079883396626,False,False
+all_saints,pistachio,0.005715551320463419,242.0,False,0.005640977993607521,236,False,shared,-0.00745733268558979,False,False
+all_saints,"matcha, raspberry ripple",0.0053331488743424416,256.0,False,0.005636047571897507,237,False,shared,0.030289869755506516,False,False
+all_saints,"orange blossom, raspberry ripple",0.005698431748896837,243.0,False,0.005593482870608568,238,False,shared,-0.010494887828826904,False,False
+all_saints,mince pie,0.006809620652347803,195.0,False,0.00551448343321681,239,False,shared,-0.1295137219130993,False,False
+all_saints,kewpie mayo,0.006694477051496506,201.0,False,0.005513839889317751,240,False,shared,-0.11806371621787548,False,False
+all_saints,elderflower sorbet,0.006929250434041023,192.0,False,0.0055131553672254086,241,False,shared,-0.14160950668156147,False,False
+all_saints,kewpie,0.00673729507252574,199.0,False,0.005495226010680199,242,False,shared,-0.1242069061845541,False,False
+all_saints,peanut butter & qin chilli,,,,0.005493292585015297,243,False,newly_supported,,False,False
+all_saints,english whisky; circumstance distillery,0.006773590110242367,196.0,False,0.005478507839143276,244,False,shared,-0.12950822710990906,False,False
+all_saints,chocolate & raspberry,0.007049471605569124,190.0,False,0.005471300799399614,245,False,shared,-0.157817080616951,False,False
+all_saints,jgf rhubarb & rose sorbet,0.0080832215026021,173.0,False,0.005458233878016472,246,False,shared,-0.26249876245856285,False,False
+all_saints,wisconsin pecan pie,0.00688564870506525,193.0,False,0.005433466285467148,247,False,shared,-0.14521824195981026,False,False
+all_saints,salted caramel & bourbon whisky,0.004104945808649063,318.0,False,0.005414819344878197,248,False,shared,0.13098735362291336,False,False
+all_saints,alphonso mango,,,,0.005410267971456051,249,False,newly_supported,,False,False
+all_saints,baileys,0.006771084386855364,197.0,False,0.005362199619412422,250,False,shared,-0.14088847674429417,False,False
+all_saints,pandan,0.0066258893348276615,205.0,False,0.005327953491359949,251,False,shared,-0.12979358434677124,False,False
+all_saints,coconut stracciatella,0.006503561045974493,211.0,False,0.005313807632774115,252,False,shared,-0.11897534132003784,False,False
+all_saints,chocolate & cardamom,0.006630259100347757,204.0,False,0.005297272466123104,253,False,shared,-0.13329866342246532,False,False
+all_saints,blueberry & girton thai basil sorbet,0.006758925970643759,198.0,False,0.005278283730149269,254,False,shared,-0.14806422404944897,False,False
+all_saints,vanilla yoghurt,0.006612507626414299,206.0,False,0.005234234035015106,255,False,shared,-0.13782735913991928,False,False
+all_saints,salted caramel brownie,,,,0.005233131814748049,256,False,newly_supported,,False,False
+all_saints,vegan pistachio,0.006840404588729143,194.0,False,0.005222146864980459,257,False,shared,-0.1618257723748684,False,False
+all_saints,ube brownie,0.00643484853208065,215.0,False,0.005177995655685663,258,False,shared,-0.1256852876394987,False,False
+all_saints,rose stracciatella,0.006470619700849056,213.0,False,0.005157359875738621,259,False,shared,-0.13132598251104355,False,False
+all_saints,hazelnut & chocolate tart,0.006734497379511595,200.0,False,0.005140932742506266,260,False,shared,-0.1593564637005329,False,False
+all_saints,orange blossom & pistachio,,,,0.005107071716338396,261,False,newly_supported,,False,False
+all_saints,grapefruit & aperol sorbet,0.006465596612542868,214.0,False,0.005095170345157385,262,False,shared,-0.13704262673854828,False,False
+all_saints,"caramelised scone, strawberry ripple",0.006312794052064419,219.0,False,0.005090234335511923,263,False,shared,-0.1222559716552496,False,False
+all_saints,hazelnut & brownie,,,,0.00508480379357934,264,False,newly_supported,,False,False
+all_saints,double oreo,0.006396328564733267,216.0,False,0.005048524122685194,265,False,shared,-0.13478044420480728,False,False
+all_saints,gooseberry & gin sorbet,0.006612125318497419,207.0,False,0.004979757592082024,266,False,shared,-0.16323677264153957,False,False
+all_saints,raspberry sorbet,0.006519370246678591,210.0,False,0.004973158240318298,267,False,shared,-0.15462120063602924,False,False
+all_saints,hibiscus & rose sorbet,,,,0.0049661812372505665,268,False,newly_supported,,False,False
+all_saints,"redcurrant, ginger & lemon sorbet",0.006004372611641884,227.0,False,0.004956837743520737,269,False,shared,-0.10475348681211472,False,False
+all_saints,creme patissiere,0.0044390177354216576,297.0,False,0.004928823094815016,270,False,shared,0.04898053593933582,False,False
+all_saints,stem ginger,0.005991301499307156,228.0,False,0.004884353373199701,271,False,shared,-0.11069481261074543,False,False
+all_saints,"yuzu, raspberry ripple",0.006036373786628246,225.0,False,0.004883321933448315,272,False,shared,-0.11530518531799316,False,False
+all_saints,"house yoghurt, strawberry ripple",0.0044743274338543415,295.0,False,0.004869487136602402,273,False,shared,0.03951597027480602,False,False
+all_saints,coconut & lime leaf sorbet,0.006606894079595804,208.0,False,0.004822130315005779,274,False,shared,-0.1784763764590025,False,False
+all_saints,coconut coffee,0.006190111860632896,221.0,False,0.004820569884032011,275,False,shared,-0.13695419766008854,False,False
+all_saints,dark chocolate & coconut,0.006329794880002737,217.0,False,0.004804008640348911,276,False,shared,-0.15257862396538258,False,False
+all_saints,damson & cherry ripple,0.009938046336174011,134.0,False,0.004794957581907511,277,False,shared,-0.51430887542665,False,False
+all_saints,sea buckthorn & rose,,,,0.004760092590004206,278,False,newly_supported,,False,False
+all_saints,coconut & treacle,0.005867593921720982,234.0,False,0.004752614535391331,279,False,shared,-0.11149793863296509,False,False
+all_saints,pistachio brownie,0.006023036781698465,226.0,False,0.004750584717839956,280,False,shared,-0.1272452063858509,False,False
+all_saints,apricot & yuzu sorbet,0.006328088231384754,218.0,False,0.004744639154523611,281,False,shared,-0.1583449076861143,False,False
+all_saints,manuka honey & fig,0.0059273033402860165,232.0,False,0.004733695182949305,282,False,shared,-0.11936081573367119,False,False
+all_saints,gianduia,,,,0.0047066654078662395,283,False,newly_supported,,False,False
+all_saints,dulce de leche & coffee,0.009266643784940243,146.0,False,0.004696294665336609,284,False,shared,-0.4570349119603634,False,False
+all_saints,cherry & mascarpone cake,0.005754517391324043,240.0,False,0.004607297480106354,285,False,shared,-0.11472199112176895,False,False
+all_saints,salted caramel & pecans,,,,0.004590543918311596,286,False,newly_supported,,False,False
+all_saints,maple waffle,0.005791838280856609,239.0,False,0.004588019102811813,287,False,shared,-0.1203819178044796,False,False
+all_saints,"pistachio, raspberry ripple",0.005822763312608004,236.0,False,0.004568709060549736,288,False,shared,-0.12540542520582676,False,False
+all_saints,pineapple & coconut,0.006105664651840925,224.0,False,0.004567143507301807,289,False,shared,-0.15385211445391178,False,False
+all_saints,vanilla & marsala wine,0.005739243235439062,241.0,False,0.004532352089881897,290,False,shared,-0.12068911455571651,False,False
+all_saints,"house yoghurt, cherry ripple",0.005987596698105335,230.0,False,0.004529960453510284,291,False,shared,-0.14576362445950508,False,False
+all_saints,blackcurrant & mascarpone cake,0.004494209308177233,294.0,False,0.004519773181527853,292,False,shared,0.002556387335062027,False,False
+all_saints,almond pie,0.0055623711086809635,245.0,False,0.004503804724663496,293,False,shared,-0.10585663840174675,False,False
+all_saints,almond & raspberry cake,0.005548619665205479,246.0,False,0.004488636273890734,294,False,shared,-0.1059983391314745,False,False
+all_saints,matcha & almond cake (no gluten as an ingredient),,,,0.004486476071178913,295,False,newly_supported,,False,False
+all_saints,"creme patissiere, chocolate fudge ripple",0.0059906113892793655,229.0,False,0.004458171781152487,296,False,shared,-0.15324396081268787,False,False
+all_saints,roasted girton pumpkin brownie,0.005888756830245256,233.0,False,0.004457008093595505,297,False,shared,-0.14317487366497517,False,False
+all_saints,matcha sorbet,0.006152819842100143,223.0,False,0.004428323358297348,298,False,shared,-0.17244964838027954,False,False
+all_saints,"mascarpone, strawberry ripple",,,,0.00442498829215765,299,False,newly_supported,,False,False
+all_saints,double chocolate coconut,,,,0.004423442762345076,300,False,newly_supported,,False,False
+all_saints,"lemongrass, chocolate fudge ripple",0.005563402082771063,244.0,False,0.004414675757288933,301,False,shared,-0.114872632548213,False,False
+all_saints,"matcha sorbet, raspberry ripple",0.0061823902651667595,222.0,False,0.0043611954897642136,302,False,shared,-0.1821194775402546,False,False
+all_saints,yoghurt & rose,0.0054008848965168,251.0,False,0.0043507954105734825,303,False,shared,-0.10500894859433174,False,False
+all_saints,lemon & basil sorbet,0.005366725847125053,253.0,False,0.004333017859607935,304,False,shared,-0.10337079875171185,False,False
+all_saints,raspberry & mascarpone cake,0.005369327962398529,252.0,False,0.004321110900491476,305,False,shared,-0.1048217061907053,False,False
+all_saints,black forest,0.005339341703802347,255.0,False,0.004316491074860096,306,False,shared,-0.10228506289422512,False,False
+all_saints,blueberry & violet sorbet,0.005408926401287317,250.0,False,0.004310740157961845,307,False,shared,-0.10981862433254719,False,False
+all_saints,vegan double hazelnut,0.005517433863133192,247.0,False,0.0043048132210969925,308,False,shared,-0.12126206420361996,False,False
+all_saints,king’s college lavender & oreo,0.005326639395207167,257.0,False,0.004290187731385231,309,False,shared,-0.10364516638219357,False,False
+all_saints,liquorice,0.005211987998336554,263.0,False,0.004278372973203659,310,False,shared,-0.09336150251328945,False,False
+all_saints,almond cookie dough,0.005268611013889313,259.0,False,0.004265964962542057,311,False,shared,-0.10026460513472557,False,False
+all_saints,"cashew, sour cherry ripple",0.005268983542919159,258.0,False,0.004254449624568224,312,False,shared,-0.1014533918350935,False,False
+all_saints,girton apple & cardamom sorbet,0.005422631744295359,249.0,False,0.004197302274405956,313,False,shared,-0.12253294698894024,False,False
+all_saints,"chocolate, salted caramel ripple",0.005233601201325655,262.0,False,0.0041966126300394535,314,False,shared,-0.10369885712862015,False,False
+all_saints,cambridge elderflower & basil sorbet,,,,0.004152550827711821,315,False,newly_supported,,False,False
+all_saints,black sesame cake,0.005128254648298025,265.0,False,0.004099027719348669,316,False,shared,-0.10292269289493561,False,False
+all_saints,dark chocolate & violet,0.005021640565246344,268.0,False,0.0040898872539401054,317,False,shared,-0.09317533113062382,False,False
+all_saints,"yuzu, strawberry ripple",0.005127463489770889,266.0,False,0.0040686167776584625,318,False,shared,-0.10588467121124268,False,False
+all_saints,"matcha & almond cake, strawberry ripple",0.005234159529209137,261.0,False,0.0040614972822368145,319,False,shared,-0.11726622469723225,False,False
+all_saints,aniseed,0.004962405189871788,272.0,False,0.003992028068751097,320,False,shared,-0.09703771211206913,False,False
+all_saints,"salted rose, raspberry ripple",,,,0.003990847151726484,321,False,newly_supported,,False,False
+all_saints,condensed milk,0.0049242437817156315,274.0,False,0.003981844522058964,322,False,shared,-0.09423992596566677,False,False
+all_saints,alphonso mango & mezcal sorbet,0.0050917924381792545,267.0,False,0.003965188283473253,323,False,shared,-0.11266041547060013,False,False
+all_saints,matcha & almond cake,0.004903660621494055,276.0,False,0.003945549484342337,324,False,shared,-0.09581111371517181,False,False
+all_saints,coconut & liquorice,0.004915949422866106,275.0,False,0.0039164600893855095,325,False,shared,-0.09994893334805965,False,False
+all_saints,double honeycomb,0.004787586163729429,278.0,False,0.003903418080881238,326,False,shared,-0.08841680828481913,False,False
+all_saints,"coconut, cardamom & rose",0.004745880141854286,280.0,False,0.003891616128385067,327,False,shared,-0.08542640134692192,False,False
+all_saints,"house mascarpone, cocoa powder",0.0050099920481443405,269.0,False,0.003884046571329236,328,False,shared,-0.11259454768151045,False,False
+all_saints,bronte pistachio,0.004882480949163437,277.0,False,0.0038737603463232517,329,False,shared,-0.10087206028401852,False,False
+all_saints,hazelnut oreo,0.004703211132436991,284.0,False,0.0038723403122276068,330,False,shared,-0.0830870820209384,False,False
+all_saints,gooseberry & lemon sorbet,0.004993929993361235,271.0,False,0.003849599277600646,331,False,shared,-0.11443307157605886,False,False
+all_saints,dark chocolate & chili,0.0038507916033267975,336.0,False,0.0038393328431993723,332,False,shared,-0.0011458760127425194,False,False
+all_saints,english meyer lemon sorbet,0.005191748961806297,264.0,False,0.0038315022829920053,333,False,shared,-0.1360246678814292,False,False
+all_saints,manuka honey & purple fig,0.004758037626743317,279.0,False,0.003831433365121484,334,False,shared,-0.09266042616218328,False,False
+all_saints,vegemite,,,,0.0038125449791550636,335,False,newly_supported,,False,False
+all_saints,sheep’s milk fior di latte,0.0055111004039645195,248.0,False,0.0037938787136226892,336,False,shared,-0.17172216903418303,False,False
+all_saints,"lychee, raspberry ripple",,,,0.0037793361116200686,337,False,newly_supported,,False,False
+all_saints,coconut & lemongrass,,,,0.003778111655265093,338,False,newly_supported,,False,False
+all_saints,fior di panna,0.001693509635515511,460.0,False,0.003751063486561179,339,False,shared,0.2057553851045668,False,False
+all_saints,"house mascarpone, cherry ripple",0.004953230731189251,273.0,False,0.003741835243999958,340,False,shared,-0.12113954871892929,False,False
+all_saints,ube,0.004741051234304905,281.0,False,0.0037412522360682487,341,False,shared,-0.09997989982366562,False,False
+all_saints,caramel ripple,0.004631513729691505,286.0,False,0.0037307594902813435,342,False,shared,-0.0900754239410162,False,False
+all_saints,strawberry & cream,0.0028084898367524147,413.0,False,0.003730559488758445,343,False,shared,0.09220696520060301,False,False
+all_saints,purple fig & manuka honey,0.004591720644384623,288.0,False,0.0037202045787125826,344,False,shared,-0.087151606567204,False,False
+all_saints,coconut & passion fruit ripple,0.0045290058478713036,291.0,False,0.0036858052480965853,345,False,shared,-0.08432005997747183,False,False
+all_saints,genmaicha,0.004559255205094814,290.0,False,0.0036493870429694653,346,False,shared,-0.0909868162125349,False,False
+all_saints,"caramelised scone, raspberry ripple",0.004434080794453621,298.0,False,0.0036249991971999407,347,False,shared,-0.08090815972536802,False,False
+all_saints,milk & nutter butter cookies,0.0045797256752848625,289.0,False,0.0036079837009310722,348,False,shared,-0.09717419743537903,False,False
+all_saints,"hazelnut, chocolate fudge ripple",,,,0.003607882419601083,349,False,newly_supported,,False,False
+all_saints,vanilla creme patisierre,0.004400718491524458,300.0,False,0.0035684939939528704,350,False,shared,-0.08322244975715876,False,False
+all_saints,milk & molasses cookies,0.004441933240741491,296.0,False,0.003552063601091504,351,False,shared,-0.08898696396499872,False,False
+all_saints,milk,0.004382378421723843,303.0,False,0.003538918448612094,352,False,shared,-0.08434599731117487,False,False
+all_saints,oftd rum & apricot,0.0043065669015049934,307.0,False,0.0035374960862100124,353,False,shared,-0.0769070815294981,False,False
+all_saints,coconut & coffee,0.004348333925008774,305.0,False,0.0035243777092546225,354,False,shared,-0.08239562157541513,False,False
+all_saints,"coconut, ube, rose & oreo",0.004393060225993395,301.0,False,0.0035150456242263317,355,False,shared,-0.08780146017670631,False,False
+all_saints,roasted pear & cardamom,0.004329472780227661,306.0,False,0.0034894542768597603,356,False,shared,-0.08400185033679008,False,False
+all_saints,blueberry cobbler,0.004734472371637821,283.0,False,0.0034827440977096558,357,False,shared,-0.12517282739281654,False,False
+all_saints,milk & coconut sugar,,,,0.0034700690302997828,358,False,newly_supported,,False,False
+all_saints,girton pumpkin & almond cake,0.004653393756598234,285.0,False,0.0034658140502870083,359,False,shared,-0.11875797063112259,False,False
+all_saints,maple syrup,,,,0.0034608945716172457,360,False,newly_supported,,False,False
+all_saints,"mascarpone, with a dash of marsala wine",,,,0.003456189762800932,361,False,newly_supported,,False,False
+all_saints,"coconut, cardamom & raspberry",0.0043058330193161964,308.0,False,0.0034501394256949425,362,False,shared,-0.0855693593621254,False,False
+all_saints,"canadian maple syrup, amber grade",0.006259658373892307,220.0,False,0.003445820650085807,363,False,shared,-0.28138377238065004,False,False
+all_saints,double pistachio & rose,0.004526355769485235,292.0,False,0.0034400091972202063,364,False,shared,-0.1086346572265029,False,False
+all_saints,"ginger, raspberry ripple",0.004129273351281881,316.0,False,0.0033661567140370607,365,False,shared,-0.07631166372448206,False,False
+all_saints,hibiscus & lime leaf sorbet,0.00407813023775816,321.0,False,0.0033598500303924084,366,False,shared,-0.07182802073657513,False,False
+all_saints,king’s college lavender stracciatella,0.004090308677405119,320.0,False,0.003351187566295266,367,False,shared,-0.07391211111098528,False,False
+all_saints,jg farm rhubarb sorbet,0.007872768677771091,174.0,False,0.0033475731033831835,368,False,shared,-0.4525195574387908,False,False
+all_saints,coconut matcha,0.004178418777883053,312.0,False,0.0033473039511591196,369,False,shared,-0.08311148267239332,False,False
+all_saints,"house yoghut, cherry ripple",0.0043897973373532295,302.0,False,0.0033334309700876474,370,False,shared,-0.10563663672655821,False,False
+all_saints,sour cherry & mascarpone cake,0.004136367700994015,314.0,False,0.0033281741198152304,371,False,shared,-0.08081935811787844,False,False
+all_saints,chocolate fudge chunk,,,,0.003324252087622881,372,False,newly_supported,,False,False
+all_saints,yuzu & liquorice,0.004199594724923372,310.0,False,0.0033152904361486435,373,False,shared,-0.08843042887747288,False,False
+all_saints,cold-infused cocoa,0.004351266194134951,304.0,False,0.0032953827176243067,374,False,shared,-0.1055883476510644,False,False
+all_saints,tomato & hibiscus sorbet,0.0041346475481987,315.0,False,0.0032797486055642366,375,False,shared,-0.08548989426344633,False,False
+all_saints,matcha & lime leaf,0.004120973404496908,317.0,False,0.0032757993321865797,376,False,shared,-0.08451740723103285,False,False
+all_saints,hazelnut tart,0.004102910868823528,319.0,False,0.0032610916532576084,377,False,shared,-0.08418192155659199,False,False
+all_saints,rose & pistachio,0.004035014193505049,325.0,False,0.0032581710256636143,378,False,shared,-0.07768431678414345,False,False
+all_saints,"passion fruit, basil & mezcal sorbet",0.005342536140233278,254.0,False,0.003253286238759756,379,False,shared,-0.20892499014735222,False,False
+all_saints,cold-infused cacao nib,0.004020776133984327,326.0,False,0.003249283879995346,380,False,shared,-0.07714922539889812,False,False
+all_saints,malted caramel ripple,0.004038727842271328,322.0,False,0.003228934248909354,381,False,shared,-0.08097935933619738,False,False
+all_saints,"rose, raspberry ripple",0.003953476436436176,328.0,False,0.003213489195331931,382,False,shared,-0.07399872411042452,False,False
+all_saints,chocolate pie,0.0027547443751245737,416.0,False,0.003191490890458226,383,False,shared,0.04367465153336525,False,False
+all_saints,"cashew, chocolate chip cookie dough",0.003948286175727844,330.0,False,0.003188684117048979,384,False,shared,-0.07596020586788654,False,False
+all_saints,cashew nut & manuka honey,0.004036419093608856,324.0,False,0.0031872219406068325,385,False,shared,-0.08491971530020237,False,False
+all_saints,earl grey & plum sorbet,0.0035920576192438602,351.0,False,0.003157357219606638,386,False,shared,-0.04347003996372223,False,False
+all_saints,"vanilla, fudge brownie",,,,0.003138688625767827,387,False,newly_supported,,False,False
+all_saints,vanilla house yoghurt,0.004738579038530588,282.0,False,0.003131941659376025,388,False,shared,-0.1606637379154563,False,False
+all_saints,grapefruit & caius tarragon sorbet,0.003931569866836071,332.0,False,0.0031306410674005747,389,False,shared,-0.08009287994354963,False,False
+all_saints,carrot cake & pistachios,0.004511286970227957,293.0,False,0.003127560717985034,390,False,shared,-0.13837262522429228,False,False
+all_saints,cranberry sorbet,0.0038246270269155502,339.0,False,0.0031235921196639538,391,False,shared,-0.07010349072515965,False,False
+all_saints,"brazil nut, sour cherry ripple",0.0038157645612955093,340.0,False,0.003122942056506872,392,False,shared,-0.06928225047886372,False,False
+all_saints,"passion fruit, basil & mezcal",0.003908942919224501,333.0,False,0.003111777827143669,393,False,shared,-0.07971650920808315,False,False
+all_saints,clotted cream fudge chunk,0.0038750357925891876,335.0,False,0.003110832767561078,394,False,shared,-0.07642030250281096,False,False
+all_saints,white miso and manuka honey,0.004016121383756399,327.0,False,0.0031051223631948233,395,False,shared,-0.09109990205615759,False,False
+all_saints,coconut & mint choc chip,0.005796714220196009,238.0,False,0.003101958194747567,396,False,shared,-0.26947560254484415,False,False
+all_saints,"king’s college lavender, raspberry ripple",0.00387582927942276,334.0,False,0.0030971753876656294,397,False,shared,-0.07786538917571306,False,False
+all_saints,cocoa nib brownie,,,,0.0030726271215826273,398,False,newly_supported,,False,False
+all_saints,roasted macadamia nut,0.003950687125325203,329.0,False,0.00305383768863976,399,False,shared,-0.08968494366854429,False,False
+all_saints,"alphonso mango, chili & salt",0.003674172330647707,347.0,False,0.0030492523219436407,400,False,shared,-0.06249200087040663,False,False
+all_saints,bristol whisky; circumstance distillery,0.003828013315796852,338.0,False,0.0030492176301777363,401,False,shared,-0.07787956856191158,False,False
+all_saints,yuzu & apricot sorbet,0.0038421477656811476,337.0,False,0.0030308247078210115,402,False,shared,-0.0811323057860136,False,False
+all_saints,chocolate & whole pistachios,0.0037701032124459743,342.0,False,0.0030293308664113283,403,False,shared,-0.0740772346034646,False,False
+all_saints,coconut & ginger,0.0036898120306432247,346.0,False,0.002987837651744485,404,False,shared,-0.07019743788987398,False,False
+all_saints,"ube, raspberry ripple",0.003692426485940814,345.0,False,0.0029588297475129366,405,False,shared,-0.07335967384278774,False,False
+all_saints,marmite,0.003623318625614047,349.0,False,0.0029449863359332085,406,False,shared,-0.06783322896808386,False,False
+all_saints,"coconut, ginger & chilli",0.003739846870303154,344.0,False,0.0029273387044668198,407,False,shared,-0.08125081658363342,False,False
+all_saints,mascarpone & sour cherry cake,0.0037435900885611773,343.0,False,0.002925258595496416,408,False,shared,-0.08183314930647612,False,False
+all_saints,gingerbread spice,0.0035969659220427275,350.0,False,0.002911072224378586,409,False,shared,-0.06858936976641417,False,False
+all_saints,apricot rum,0.003538489807397127,352.0,False,0.0028943317010998726,410,False,shared,-0.06441581062972546,False,False
+all_saints,chocolate & peanuts,,,,0.0028942585922777653,411,False,newly_supported,,False,False
+all_saints,cherry sorbet,0.0035197152756154537,353.0,False,0.0028934855945408344,412,False,shared,-0.06262296810746193,False,False
+all_saints,strawberry & cucumber sorbet,,,,0.002871726406738162,413,False,newly_supported,,False,False
+all_saints,bronte pistachio & rose,0.0036307063419371843,348.0,False,0.002858149353414774,414,False,shared,-0.07725569885224104,False,False
+all_saints,treacle & ginger,0.0035131589975208044,354.0,False,0.0028547337278723717,415,False,shared,-0.06584252696484327,False,False
+all_saints,salted rose & pistachios,0.004222818184643984,309.0,False,0.0028465455397963524,416,False,shared,-0.13762726448476315,False,False
+all_saints,treacle,0.0034728865139186382,357.0,False,0.002823194023221731,417,False,shared,-0.0649692490696907,False,False
+all_saints,white chocolate,0.0034305506851524115,363.0,False,0.0027886503376066685,418,False,shared,-0.0641900347545743,False,False
+all_saints,pistachio cookie dough,0.0032957568764686584,376.0,False,0.0027881902642548084,419,False,shared,-0.050756661221385,False,False
+all_saints,cadenhead’s whiskey; cognac cask,0.003512060735374689,355.0,False,0.002786897821351886,420,False,shared,-0.07251629140228033,False,False
+all_saints,pistachio (vegan!),0.003512060735374689,356.0,False,0.002786897821351886,421,False,shared,-0.07251629140228033,False,False
+all_saints,coconut choc chip,0.003386611118912697,368.0,False,0.0027726604603230953,422,False,shared,-0.06139506585896015,False,False
+all_saints,roasted banana & cinnamon,0.002201518276706338,452.0,False,0.0027627754025161266,423,False,shared,0.05612571258097887,False,False
+all_saints,"rose, chocolate fudge ripple",0.0034489494282752275,359.0,False,0.002759764436632395,424,False,shared,-0.06891849916428328,False,False
+all_saints,manuka honey,0.0034664710983633995,358.0,False,0.002759562572464347,425,False,shared,-0.07069085258990526,False,False
+all_saints,salted peanut butter,0.003402821021154523,365.0,False,0.0027537434361875057,426,False,shared,-0.06490775849670172,False,False
+all_saints,"chocolate, hazelnut & allspice",0.0033613096456974745,371.0,False,0.0027536049019545317,427,False,shared,-0.06077047437429428,False,False
+all_saints,whisky; torabhaig allt gleann,0.003248579567298293,380.0,False,0.002752878237515688,428,False,shared,-0.04957013297826052,False,False
+all_saints,house panettone,0.0034331518691033125,362.0,False,0.0027401442639529705,429,False,shared,-0.0693007605150342,False,False
+all_saints,hazelnut & coffee,0.0033943643793463707,366.0,False,0.0027258209884166718,430,False,shared,-0.0668543390929699,False,False
+all_saints,raspberry seed & black tea sorbet,0.003437626641243696,360.0,False,0.002723479876294732,431,False,shared,-0.07141467649489641,False,False
+all_saints,strawberry balsamic,0.003415714018046856,364.0,False,0.0027167806401848793,432,False,shared,-0.06989333778619766,False,False
+all_saints,clotted cream fudge,0.0032770263496786356,378.0,False,0.002684741746634245,433,False,shared,-0.05922846030443907,False,False
+all_saints,mint straciatella,0.0033518201671540737,373.0,False,0.002667780267074704,434,False,shared,-0.06840399000793695,False,False
+all_saints,hibiscus & pink peppercorn sorbet,0.003367228666320443,370.0,False,0.002666670363396406,435,False,shared,-0.0700558302924037,False,False
+all_saints,guava sorbet,0.0034360717982053757,361.0,False,0.0026612253859639168,436,False,shared,-0.07748464122414589,False,False
+all_saints,"coconut, rose & cardamom",0.0033359494991600513,374.0,False,0.0026584183797240257,437,False,shared,-0.06775311194360256,False,False
+all_saints,virgin bloody mary sorbet,0.003171270014718175,389.0,False,0.00263077556155622,438,False,shared,-0.05404944531619549,False,False
+all_saints,apricot & lemon water sorbet,0.00336902285926044,369.0,False,0.002630215138196945,439,False,shared,-0.07388077210634947,False,False
+all_saints,earl grey & plum sorbet sorbet,0.003940088674426079,331.0,False,0.0026290707755833864,440,False,shared,-0.13110178988426924,False,False
+all_saints,"cardamom, rose & pistachios",0.003224958898499608,382.0,False,0.002624034183099866,441,False,shared,-0.06009247153997421,False,False
+all_saints,palets bretons,0.003192235715687275,384.0,False,0.0025891587138175964,442,False,shared,-0.06030770018696785,False,False
+all_saints,chocolate & hazelnuts,0.003286499995738268,377.0,False,0.002587728202342987,443,False,shared,-0.06987717933952808,False,False
+all_saints,strawberry pavlova,0.003174678422510624,387.0,False,0.0025869652163237333,444,False,shared,-0.05877132061868906,False,False
+all_saints,strawberry & ginger sorbet,,,,0.0025844478514045477,445,False,newly_supported,,False,False
+all_saints,vanilla & rose,0.0031708977185189724,390.0,False,0.002579363062977791,446,False,shared,-0.059153465554118156,False,False
+all_saints,orange blossom & raspberry,0.0032518762163817883,379.0,False,0.0025731432251632214,447,False,shared,-0.06787329912185669,False,False
+all_saints,macadamia nut,0.0032291170209646225,381.0,False,0.0025695369113236666,448,False,shared,-0.06595801096409559,False,False
+all_saints,strawberry & cardamom,0.003184275235980749,386.0,False,0.002550079021602869,449,False,shared,-0.06341962143778801,False,False
+all_saints,pimm’s sorbet,0.003185507608577609,385.0,False,0.0025406447239220142,450,False,shared,-0.06448628846555948,False,False
+all_saints,ginger stracciatella,0.003173613455146551,388.0,False,0.0025343624874949455,451,False,shared,-0.06392509676516056,False,False
+all_saints,"creme pat, cherry ripple",0.003308964194729924,375.0,False,0.0025138966739177704,452,False,shared,-0.07950675208121538,False,False
+all_saints,jgf rhubarb,0.002986589213833213,400.0,False,0.0025125700049102306,453,False,shared,-0.04740192089229822,False,False
+all_saints,gorgonzola,0.0030834092758595943,393.0,False,0.0024879693519324064,454,False,shared,-0.05954399239271879,False,False
+all_saints,fior di panna (vanilla without the vanilla),,,,0.002479764400050044,455,False,newly_supported,,False,False
+all_saints,"house mascarpone, brownie dough",0.003193272277712822,383.0,False,0.0024775760248303413,456,False,shared,-0.07156962528824806,False,False
+all_saints,dark chocolate & hazelnut,0.0031586603727191687,391.0,False,0.0024728758726269007,457,False,shared,-0.0685784500092268,False,False
+all_saints,girton apple & miso sorbet,0.0030270274728536606,397.0,False,0.0024707268457859755,458,False,shared,-0.05563006270676851,False,False
+all_saints,pistachio & rose,0.0022358661517500877,451.0,False,0.0024532824754714966,459,False,shared,0.021741632372140884,False,False
+all_saints,"cashew, raspberry ripple",0.0030396971851587296,396.0,False,0.002432306529954076,460,False,shared,-0.060739065520465374,False,False
+all_saints,cherry & almond cake,0.0044136024080216885,299.0,False,0.002430215710774064,461,False,shared,-0.19833866972476244,False,False
+all_saints,flourish farm pumpkin,0.0030476581305265427,395.0,False,0.0024284604005515575,462,False,shared,-0.06191977299749851,False,False
+all_saints,roasted girton pumpkin,0.0030482306610792875,394.0,False,0.0024280052166432142,463,False,shared,-0.06202254444360733,False,False
+all_saints,salted carmel ripple,0.003129236400127411,392.0,False,0.0024133173283189535,464,False,shared,-0.07159190718084574,False,False
+all_saints,house mincemeat,0.0030102247837930918,398.0,False,0.0023974573705345392,465,False,shared,-0.061276741325855255,False,False
+all_saints,"chocolate, whole hazelnuts",0.002992406254634261,399.0,False,0.0023963102139532566,466,False,shared,-0.05960960406810045,False,False
+all_saints,"japanese whisky; nikka, from the barrel",0.002916673431172967,405.0,False,0.0023956741206347942,467,False,shared,-0.05209993105381727,False,False
+all_saints,passionfruit & gochujang sorbet,0.0029302265029400587,402.0,False,0.002361082239076495,468,False,shared,-0.056914426386356354,False,False
+all_saints,chocolate & passion fruit ripple,0.0029391772113740444,401.0,False,0.0023582547437399626,469,False,shared,-0.058092246763408184,False,False
+all_saints,"house mascarpone, splash of marsala wine",0.0029197202529758215,404.0,False,0.0023560053668916225,470,False,shared,-0.056371488608419895,False,False
+all_saints,orange blossom & bronte pistachios,0.002924560569226742,403.0,False,0.0023553182836622,471,False,shared,-0.05692422855645418,False,False
+all_saints,1792 full proof bourbon whisky,0.0029135369695723057,406.0,False,0.0023445594124495983,472,False,shared,-0.05689775571227074,False,False
+all_saints,spiced pumpkin,0.0028770631179213524,408.0,False,0.0023408972192555666,473,False,shared,-0.05361658986657858,False,False
+all_saints,cold-infused cocoa nib,,,,0.002335689263418317,474,False,newly_supported,,False,False
+all_saints,milk chocolate & ginger,0.0029063120018690825,407.0,False,0.002332397038117051,475,False,shared,-0.05739149637520313,False,False
+all_saints,manor farm lemon basil & rhubarb sorbet,0.0028176377527415752,411.0,False,0.002281603403389454,476,False,shared,-0.053603434935212135,False,False
+all_saints,coconut & strawberry ripple,0.002764768898487091,415.0,False,0.0022774541284888983,477,False,shared,-0.04873147699981928,False,False
+all_saints,double pistachio (dairy or vegan!),0.0028469448443502188,410.0,False,0.002273921389132738,478,False,shared,-0.057302345521748066,False,False
+all_saints,orange flower & cardamom,0.0028096241876482964,412.0,False,0.0022729220800101757,479,False,shared,-0.053670210763812065,False,False
+all_saints,strawberries & stem ginger,0.002848862437531352,409.0,False,0.002269107149913907,480,False,shared,-0.0579755287617445,False,False
+all_saints,passion fruit & liquorice,0.0033530867658555508,372.0,False,0.0022551976144313812,481,False,shared,-0.10978891514241695,False,False
+all_saints,cardamom rose & pistachios,0.0027308734133839607,418.0,False,0.002243767725303769,482,False,shared,-0.04871056880801916,False,False
+all_saints,baked vanilla (with a splash of marsala wine),0.0028032585978507996,414.0,False,0.0022280102130025625,483,False,shared,-0.057524838484823704,False,False
+all_saints,jgf carrot cake,,,,0.0021908695343881845,484,False,newly_supported,,False,False
+all_saints,iranian polished pistachio,0.0027238205075263977,419.0,False,0.002184986835345626,485,False,shared,-0.05388336721807718,False,False
+all_saints,rhubarb & orange blossom sorbet,0.002738497918471694,417.0,False,0.002179000759497285,486,False,shared,-0.05594971589744091,False,False
+all_saints,"james eadie, 29yr single grain whisky",0.0026593501679599285,424.0,False,0.002177727874368429,487,False,shared,-0.04816222935914993,False,False
+all_saints,chamoy hot sauce,0.0026775773148983717,423.0,False,0.0021762580145150423,488,False,shared,-0.05013193003833294,False,False
+all_saints,vanilla (with a splash of marsala wine),0.002717331051826477,420.0,False,0.0021722440142184496,489,False,shared,-0.054508703760802746,False,False
+all_saints,malted milk (closest flavour to vanilla today),0.0027044974267482758,422.0,False,0.0021664989180862904,490,False,shared,-0.05379985086619854,False,False
+all_saints,pimm’s cup sorbet,0.002120960969477892,453.0,False,0.0021650800481438637,491,False,shared,0.004411907866597176,False,False
+all_saints,hazelnut; tonda gentile delle langhe,0.0026395858731120825,425.0,False,0.002148272469639778,492,False,shared,-0.049131340347230434,False,False
+all_saints,cashew & choc chip cookie dough,0.0027125824708491564,421.0,False,0.0021311501041054726,493,False,shared,-0.05814323667436838,False,False
+all_saints,damson & mezcal,0.002625244902446866,426.0,False,0.002124328399077058,494,False,shared,-0.05009165033698082,False,False
+all_saints,king’s college lavender fudge brownie,0.002612744690850377,428.0,False,0.002112080343067646,495,False,shared,-0.050066434778273106,False,False
+all_saints,fudge,0.0025542753282934427,432.0,False,0.002105019986629486,496,False,shared,-0.044925534166395664,False,False
+all_saints,baileys & cake,0.0026191617362201214,427.0,False,0.0021037764381617308,497,False,shared,-0.05153852980583906,False,False
+all_saints,circumstance whisky & whole hazelnuts,0.0025001135654747486,440.0,False,0.0020926720462739468,498,False,shared,-0.040744151920080185,False,False
+all_saints,"mascarpone, raspberry ripple",0.0025783521123230457,429.0,False,0.002085159532725811,499,False,shared,-0.04931925795972347,False,False
+all_saints,passion fruit & aleppo chili sorbet,0.002568792784586549,431.0,False,0.0020763641223311424,500,False,shared,-0.04924286622554064,False,False
+all_saints,rhubarb & ginger sorbet,0.0025708291213959455,430.0,False,0.002071085851639509,501,False,shared,-0.049974326975643635,False,False
+all_saints,frascati sorbet,0.002542243804782629,434.0,False,0.0020672252867370844,502,False,shared,-0.04750185180455446,False,False
+all_saints,violet,0.002547747688367963,433.0,False,0.002055732300505042,503,False,shared,-0.049201538786292076,False,False
+all_saints,bourbon whisky; eagle rare,0.002541684079915285,435.0,False,0.002048919443041086,504,False,shared,-0.04927646368741989,False,False
+all_saints,rhubarb & rose,0.002516915323212743,437.0,False,0.0020329973194748163,505,False,shared,-0.04839180037379265,False,False
+all_saints,"gooseberry sorbet (textured (skins and seeds),vegan)",0.0024787948932498693,443.0,False,0.002014061203226447,506,False,shared,-0.046473369002342224,False,False
+all_saints,"japanese whisky; nikka, front the barrel",0.002503469120711088,438.0,False,0.002013801597058773,507,False,shared,-0.048966752365231514,False,False
+all_saints,"yoghurt, rose & pistachios",0.0024972991086542606,441.0,False,0.0020121464040130377,508,False,shared,-0.048515270464122295,False,False
+all_saints,guava & pink peppercorn sorbet,0.0025016621220856905,439.0,False,0.0020100101828575134,509,False,shared,-0.04916519392281771,False,False
+all_saints,"girton cucumber, apple & gin sorbet",0.002481667557731271,442.0,False,0.001994821708649397,510,False,shared,-0.04868458490818739,False,False
+all_saints,jgf melon sorbet,,,,0.001985941780731082,511,False,newly_supported,,False,False
+all_saints,"house yoghurt, rose & pistachios",0.0024361880496144295,444.0,False,0.001984921284019947,512,False,shared,-0.04512667655944824,False,False
+all_saints,oftd plantation rum,0.002434052061289549,445.0,False,0.0019508074037730694,513,False,shared,-0.04832446575164795,False,False
+all_saints,lemon & mint sorbet,0.0025282225105911493,436.0,False,0.0019200232345610857,514,False,shared,-0.06081992760300636,False,False
+all_saints,"brazil nut, house cinnamon biscuit",0.0023304116912186146,447.0,False,0.0019056320888921618,515,False,shared,-0.04247796023264527,False,False
+all_saints,"coconut, ube, rose & pistachios",0.002305859001353383,449.0,False,0.0018821159610524774,516,False,shared,-0.04237430403009057,False,False
+all_saints,"white chocolate, raspberry ripple",0.0023102741688489914,448.0,False,0.001859566429629922,517,False,shared,-0.04507077392190695,False,False
+all_saints,vanilla & coconut sugar,0.002267276868224144,450.0,False,0.0018353341147303581,518,False,shared,-0.043194275349378586,False,False
+all_saints,roasted banana & cinnamon stracciatella,0.002412349684163928,446.0,False,0.0018085420597344637,519,False,shared,-0.060380762442946434,False,False
+all_saints,"redcurrant, lemon & ginger sorbet",0.0020520398393273354,455.0,False,0.001671027159318328,520,False,shared,-0.038101268000900745,False,False
+all_saints,strawberries & aged balsamic,0.002064136788249016,454.0,False,0.0015780591638758779,521,False,shared,-0.048607762437313795,False,False
+all_saints,lychee & matcha sorbet,0.0018321519019082189,457.0,False,0.0014583192532882094,522,False,shared,-0.03738326486200094,False,False
+all_saints,burnt sugar & salt,0.0017898209625855088,458.0,False,0.0014182828599587083,523,False,shared,-0.037153810262680054,False,False
+all_saints,blue matcha,0.0017083333805203438,459.0,False,0.0013600379461422563,524,False,shared,-0.03482954343780875,False,False
+all_saints,vanilla treacle,0.0018486670451238751,456.0,False,0.001350580481812358,525,False,shared,-0.049808656331151724,False,False
+all_saints,parsnip cake,0.0014378135092556477,461.0,False,0.0011162040755152702,526,False,shared,-0.03216094337403774,False,False
+benet_street,dark chocolate & sea salt,0.9746446013450623,1.0,True,0.9785189628601074,1,True,shared,0.3874361515045166,False,False
+benet_street,strawberries & cream,0.8988778591156006,2.0,True,0.8999809622764587,2,True,shared,0.11031031608581543,False,False
+benet_street,salted caramel,0.560444712638855,5.0,True,0.6997525095939636,3,True,shared,13.930779695510864,False,False
+benet_street,house vanilla,0.7453876733779907,3.0,True,0.6595475077629089,4,True,shared,-8.584016561508179,False,False
+benet_street,king’s college lavender,0.6149218082427979,4.0,True,0.6509027481079102,5,True,shared,3.5980939865112305,False,False
+benet_street,apricot sorbet,0.5573603510856628,6.0,True,0.6331252455711365,6,True,shared,7.576489448547363,False,False
+benet_street,gin & tonic sorbet,0.448628306388855,8.0,True,0.5680491328239441,7,True,shared,11.942082643508911,False,False
+benet_street,honeycomb,0.5240033268928528,7.0,True,0.5564032196998596,8,True,shared,3.2399892807006836,False,False
+benet_street,coconut sugar,0.3639819622039795,9.0,True,0.4637562334537506,9,True,shared,9.977427124977112,False,False
+benet_street,chocolate,0.24855612218379974,10.0,True,0.26503947377204895,10,True,shared,1.6483351588249207,False,False
+benet_street,coconut & ube,0.23513925075531006,11.0,False,0.2036639302968979,11,False,shared,-3.147532045841217,False,False
+benet_street,vanilla,0.2325664907693863,12.0,False,0.18251514434814453,12,False,shared,-5.005134642124176,False,False
+benet_street,damson sorbet,0.08681105822324753,13.0,False,0.10730494558811188,13,False,shared,2.049388736486435,False,False
+benet_street,blackcurrants & cream,0.06508607417345047,16.0,False,0.07362787425518036,14,False,shared,0.8541800081729889,False,False
+benet_street,house yoghurt,0.0790768563747406,14.0,False,0.06769246608018875,15,False,shared,-1.138439029455185,False,False
+benet_street,mint stracciatella,0.06994753330945969,15.0,False,0.06322085112333298,16,False,shared,-0.6726682186126709,False,False
+benet_street,salted oreo,0.058171339333057404,17.0,False,0.05843653902411461,17,False,shared,0.02651996910572052,False,False
+benet_street,girton apple sorbet,0.058065250515937805,18.0,False,0.05472107231616974,18,False,shared,-0.33441781997680664,False,False
+benet_street,hong kong milk tea,0.047961194068193436,22.0,False,0.05295306816697121,19,False,shared,0.4991874098777771,False,False
+benet_street,roasted banana,0.049180999398231506,21.0,False,0.050751425325870514,20,False,shared,0.15704259276390076,False,False
+benet_street,coffee,0.052707161754369736,19.0,False,0.04914376512169838,21,False,shared,-0.3563396632671356,False,False
+benet_street,salted treacle,0.04533948376774788,24.0,False,0.04799944534897804,22,False,shared,0.26599615812301636,False,False
+benet_street,coconut ube,0.031467583030462265,35.0,False,0.04239358380436897,23,False,shared,1.0926000773906708,False,False
+benet_street,chocolate chip cookie dough,0.040212880820035934,25.0,False,0.04237682744860649,24,False,shared,0.21639466285705566,False,False
+benet_street,passion fruit sorbet,0.03921542316675186,27.0,False,0.04169361665844917,25,False,shared,0.24781934916973114,False,False
+benet_street,double chocolate,0.04602330923080444,23.0,False,0.03798148036003113,26,False,shared,-0.8041828870773315,False,False
+benet_street,raspberry ripple,0.03410666063427925,30.0,False,0.03755798190832138,27,False,shared,0.34513212740421295,False,False
+benet_street,lemon,0.03828711435198784,28.0,False,0.03728612884879112,28,False,shared,-0.10009855031967163,False,False
+benet_street,strawberry,0.04918554052710533,20.0,False,0.03628942370414734,29,False,shared,-1.2896116822957993,False,False
+benet_street,alphonso mango sorbet,0.030483495444059372,39.0,False,0.0347338430583477,30,False,shared,0.425034761428833,False,False
+benet_street,pecan pie,0.027255868539214134,47.0,False,0.03388945385813713,31,False,shared,0.6633585318922997,False,False
+benet_street,jgf melon sorbet,,,,0.032907575368881226,32,False,newly_supported,,False,False
+benet_street,matcha,0.03639554977416992,29.0,False,0.03210776671767235,33,False,shared,-0.4287783056497574,False,False
+benet_street,vanilla brown sugar,0.03215997666120529,33.0,False,0.030979257076978683,34,False,shared,-0.11807195842266083,False,False
+benet_street,stroopwafel,0.02719828486442566,48.0,False,0.02903207391500473,35,False,shared,0.1833789050579071,False,False
+benet_street,cinnamon waffle,0.019846666604280472,68.0,False,0.028783446177840233,36,False,shared,0.8936779573559761,False,False
+benet_street,kiwi sorbet,,,,0.02768390253186226,37,False,newly_supported,,False,False
+benet_street,lychee sorbet,0.029987365007400513,42.0,False,0.02757534570991993,38,False,shared,-0.24120192974805832,False,False
+benet_street,strawberry sorbet,0.020552918314933777,64.0,False,0.026472249999642372,39,False,shared,0.5919331684708595,False,False
+benet_street,tiramisu,0.026224907487630844,49.0,False,0.02632090449333191,40,False,shared,0.009599700570106506,False,False
+benet_street,"chocolate, raspberry ripple",0.030420249328017235,40.0,False,0.02590307593345642,41,False,shared,-0.4517173394560814,False,False
+benet_street,sesame,,,,0.02588791958987713,42,False,newly_supported,,False,False
+benet_street,"chocolate, passion fruit curd",,,,0.025880370289087296,43,False,newly_supported,,False,False
+benet_street,blueberry sorbet,0.03327532112598419,31.0,False,0.025820007547736168,44,False,shared,-0.7455313578248024,False,False
+benet_street,eton mess,0.028439097106456757,44.0,False,0.025758536532521248,45,False,shared,-0.2680560573935509,False,False
+benet_street,chocolate & bourbon whisky,0.017336076125502586,83.0,False,0.025422651320695877,46,False,shared,0.8086575195193291,False,False
+benet_street,dulce de leche,0.03309057280421257,32.0,False,0.025000188499689102,47,False,shared,-0.8090384304523468,False,False
+benet_street,salted peanut,0.02941524051129818,43.0,False,0.024925721809267998,48,False,shared,-0.4489518702030182,False,False
+benet_street,malted milk,0.022950634360313416,58.0,False,0.02464737370610237,49,False,shared,0.16967393457889557,False,False
+benet_street,milk & brownies,0.031207619234919548,37.0,False,0.023903561756014824,50,False,shared,-0.7304057478904724,False,False
+benet_street,vanilla mascarpone,0.031277164816856384,36.0,False,0.023903189226984978,51,False,shared,-0.7373975589871407,False,False
+benet_street,lemongrass & oreo,,,,0.02379406988620758,52,False,newly_supported,,False,False
+benet_street,cardamom & rose,0.03061211109161377,38.0,False,0.023586886003613472,53,False,shared,-0.7025225088000298,False,False
+benet_street,blackcurrant,0.024617157876491547,54.0,False,0.023554041981697083,54,False,shared,-0.10631158947944641,False,False
+benet_street,stracciatella,0.025507628917694092,52.0,False,0.023029940202832222,55,False,shared,-0.24776887148618698,False,False
+benet_street,mascarpone & marsala wine,,,,0.0229715034365654,56,False,newly_supported,,False,False
+benet_street,house lemon yoghurt,0.03975285589694977,26.0,False,0.02295810356736183,57,False,shared,-1.6794752329587936,False,False
+benet_street,miso blondie,0.027938706800341606,45.0,False,0.022952420637011528,58,False,shared,-0.4986286163330078,False,False
+benet_street,gooseberry sorbet,0.029989883303642273,41.0,False,0.02274262346327305,59,False,shared,-0.7247259840369225,False,False
+benet_street,black sesame,0.03196436166763306,34.0,False,0.022168846800923347,60,False,shared,-0.9795514866709709,False,False
+benet_street,pink guava sorbet,0.015906332060694695,94.0,False,0.021773826330900192,61,False,shared,0.5867494270205498,False,False
+benet_street,coconut mint stracciatella,0.024993743747472763,53.0,False,0.021389100700616837,62,False,shared,-0.36046430468559265,False,False
+benet_street,sour cherry ripple,0.02778848446905613,46.0,False,0.021070919930934906,63,False,shared,-0.6717564538121223,False,False
+benet_street,lemon curd ripple,,,,0.020942887291312218,64,False,newly_supported,,False,False
+benet_street,fior di latte,0.01838536746799946,78.0,False,0.020905939862132072,65,False,shared,0.2520572394132614,False,False
+benet_street,grilled white chocolate,0.01845424808561802,75.0,False,0.0206922460347414,66,False,shared,0.22379979491233826,False,False
+benet_street,blackcurrant & cream,0.01943005621433258,71.0,False,0.020455574616789818,67,False,shared,0.10255184024572372,False,False
+benet_street,carrot cake,0.022578617557883263,59.0,False,0.020354367792606354,68,False,shared,-0.2224249765276909,False,False
+benet_street,chocolate & ginger,0.017568716779351234,82.0,False,0.02026357688009739,69,False,shared,0.2694860100746155,False,False
+benet_street,salted caramel ripple,0.026142049580812454,50.0,False,0.02014002576470375,70,False,shared,-0.6002023816108704,False,False
+benet_street,house cinnamon biscuit,0.013137130066752434,114.0,False,0.019388893619179726,71,False,shared,0.6251763552427292,False,False
+benet_street,milk & manuka honey,0.016430342569947243,91.0,False,0.019027765840291977,72,False,shared,0.2597423270344734,False,False
+benet_street,salted peanut stracciatella,0.02178560569882393,62.0,False,0.01873619668185711,73,False,shared,-0.304940901696682,False,False
+benet_street,oftd rum & raisin,0.023940883576869965,55.0,False,0.01866958476603031,74,False,shared,-0.5271298810839653,False,False
+benet_street,fudge chunk,0.023900039494037628,56.0,False,0.018164822831749916,75,False,shared,-0.5735216662287712,False,False
+benet_street,coconut & raspberry ripple,0.021732503548264503,63.0,False,0.01815752685070038,76,False,shared,-0.3574976697564125,False,False
+benet_street,roasted hazelnut,0.014323796145617962,102.0,False,0.017976947128772736,77,False,shared,0.36531509831547737,False,False
+benet_street,rhubarb sorbet,0.022983761504292488,57.0,False,0.01749340444803238,78,False,shared,-0.5490357056260109,False,False
+benet_street,"coconut, raspberry ripple",0.020142165943980217,66.0,False,0.017474394291639328,79,False,shared,-0.2667771652340889,False,False
+benet_street,coconut,0.020352067425847054,65.0,False,0.017472993582487106,80,False,shared,-0.2879073843359947,False,False
+benet_street,house dulce de leche,0.022107144817709923,60.0,False,0.017448950558900833,81,False,shared,-0.46581942588090897,False,False
+benet_street,salted liquorice,0.021835077553987503,61.0,False,0.016991911455988884,82,False,shared,-0.4843166097998619,False,False
+benet_street,brownie dough,0.013798413798213005,105.0,False,0.01685214973986149,83,False,shared,0.3053735941648483,False,False
+benet_street,pbj,0.017673563212156296,81.0,False,0.016823818907141685,84,False,shared,-0.08497443050146103,False,False
+benet_street,coconut & pineapple,,,,0.01620950922369957,85,False,newly_supported,,False,False
+benet_street,butterscotch ripple,0.01899236999452114,73.0,False,0.016100049018859863,86,False,shared,-0.2892320975661278,False,False
+benet_street,hibiscus sorbet,0.013702289201319218,107.0,False,0.01593751832842827,87,False,shared,0.22352291271090508,False,False
+benet_street,vicky sponge,0.010474096052348614,138.0,False,0.015765171498060226,88,False,shared,0.5291075445711613,False,False
+benet_street,chocolate & cinnamon,0.016991471871733665,86.0,False,0.01576356589794159,89,False,shared,-0.12279059737920761,False,False
+benet_street,grilled milk chocolate,0.014998212456703186,99.0,False,0.01575191132724285,90,False,shared,0.07536988705396652,False,False
+benet_street,salted orange blossom,,,,0.015601060353219509,91,False,newly_supported,,False,False
+benet_street,raspberry pavlova,0.0196743942797184,69.0,False,0.015484488569200039,92,False,shared,-0.418990571051836,False,False
+benet_street,sticky toffee pudding,0.014821869321167469,100.0,False,0.0153745636343956,93,False,shared,0.055269431322813034,False,False
+benet_street,cambridge elderflower sorbet,0.01997855119407177,67.0,False,0.015206784009933472,94,False,shared,-0.4771767184138298,False,False
+benet_street,brown butter,0.019216388463974,72.0,False,0.015041625127196312,95,False,shared,-0.4174763336777687,False,False
+benet_street,gianduja,0.012355350889265537,123.0,False,0.014909898862242699,96,False,shared,0.25545479729771614,False,False
+benet_street,chocolate & coconut,0.019536353647708893,70.0,False,0.01476198248565197,97,False,shared,-0.4774371162056923,False,False
+benet_street,marmalade sorbet,0.006768443156033754,209.0,False,0.014570393599569798,98,False,shared,0.7801950443536043,False,False
+benet_street,basque cheesecake,0.01116185076534748,130.0,False,0.014537472277879715,99,False,shared,0.3375621512532234,False,False
+benet_street,chocolate & whole hazelnuts,0.01844458095729351,76.0,False,0.01431906409561634,100,False,shared,-0.412551686167717,False,False
+benet_street,chocolate & peanuts,,,,0.014243573881685734,101,False,newly_supported,,False,False
+benet_street,lemon yoghurt,0.01367968786507845,108.0,False,0.014228656888008118,102,False,shared,0.05489690229296684,False,False
+benet_street,baked vanilla,0.016537100076675415,89.0,False,0.014073369093239307,103,False,shared,-0.24637309834361076,False,False
+benet_street,"house yoghurt, sour cherry ripple",0.017760956659913063,79.0,False,0.013945778831839561,104,False,shared,-0.38151778280735016,False,False
+benet_street,salted rose,,,,0.013675525784492493,105,False,newly_supported,,False,False
+benet_street,"chocolate, caramel ripple",0.017054138705134392,85.0,False,0.013605327345430851,106,False,shared,-0.3448811359703541,False,False
+benet_street,raspberry & rose,0.017159353941679,84.0,False,0.013542533852159977,107,False,shared,-0.3616820089519024,False,False
+benet_street,hazelnut,,,,0.012973274104297161,108,False,newly_supported,,False,False
+benet_street,cinnamon,0.016480762511491776,90.0,False,0.01294851303100586,109,False,shared,-0.3532249480485916,False,False
+benet_street,brown sugar vanilla,0.011002741754055023,133.0,False,0.01282297633588314,110,False,shared,0.18202345818281174,False,False
+benet_street,lemon sorbet,0.012687628157436848,119.0,False,0.012815482914447784,111,False,shared,0.012785475701093674,False,False
+benet_street,salted caramel & bourbon whisky,0.01223831158131361,125.0,False,0.012802613899111748,112,False,shared,0.056430231779813766,False,False
+benet_street,sugar & spice,0.01869347132742405,74.0,False,0.012771512381732464,113,False,shared,-0.5921958945691586,False,False
+benet_street,saffron,0.016032202169299126,93.0,False,0.012723780237138271,114,False,shared,-0.33084219321608543,False,False
+benet_street,spanish saffron,0.016835534945130348,87.0,False,0.012632613070309162,115,False,shared,-0.4202921874821186,False,False
+benet_street,"chocolate, sour cherry ripple",0.010615643113851547,137.0,False,0.012468839064240456,116,False,shared,0.18531959503889084,False,False
+benet_street,lychee & rose sorbet,0.015313333831727505,97.0,False,0.012298949994146824,117,False,shared,-0.3014383837580681,False,False
+benet_street,cashew & manuka honey,0.016155274584889412,92.0,False,0.012192720547318459,118,False,shared,-0.39625540375709534,False,False
+benet_street,apple & almond cake,0.01578083634376526,95.0,False,0.012164783664047718,119,False,shared,-0.3616052679717541,False,False
+benet_street,pink guava & lime leaf sorbet,0.016754770651459694,88.0,False,0.012091701850295067,120,False,shared,-0.4663068801164627,False,False
+benet_street,double pistachio,0.015616635791957378,96.0,False,0.011951263062655926,121,False,shared,-0.36653727293014526,False,False
+benet_street,jgf rhubarb sorbet,0.018439052626490593,77.0,False,0.011897766031324863,122,False,shared,-0.654128659516573,False,False
+benet_street,white chocolate & cardamom,0.009719944559037685,149.0,False,0.011769631877541542,123,False,shared,0.20496873185038567,False,False
+benet_street,raspberries & cream,0.013180109672248363,112.0,False,0.011660498566925526,124,False,shared,-0.15196111053228378,False,False
+benet_street,caramelised vanilla,0.015171825885772705,98.0,False,0.01150063332170248,125,False,shared,-0.3671192564070225,False,False
+benet_street,caramelised milk,0.012872052378952503,117.0,False,0.011236865073442459,126,False,shared,-0.1635187305510044,False,False
+benet_street,sea buckthorn sorbet,0.013891576789319515,104.0,False,0.01111031323671341,127,False,shared,-0.2781263552606106,False,False
+benet_street,oftd rum,0.013723391108214855,106.0,False,0.011096182279288769,128,False,shared,-0.26272088289260864,False,False
+benet_street,white miso & manuka honey,0.010304564610123634,140.0,False,0.010939381085336208,129,False,shared,0.0634816475212574,False,False
+benet_street,house mascarpone,0.013586807064712048,109.0,False,0.010903078131377697,130,False,shared,-0.26837289333343506,False,False
+benet_street,rhubarb & rose sorbet,0.01474867481738329,101.0,False,0.010892120189964771,131,False,shared,-0.3856554627418518,False,False
+benet_street,"coconut, blueberry ripple",0.014116082340478897,103.0,False,0.010869072750210762,132,False,shared,-0.3247009590268135,False,False
+benet_street,hibiscus & yuzu sorbet,0.013028820045292377,115.0,False,0.010810174979269505,133,False,shared,-0.2218645066022873,False,False
+benet_street,matcha & almond cake (no gluten as an ingredient),,,,0.010739072225987911,134,False,newly_supported,,False,False
+benet_street,mascarpone,0.01317420694977045,113.0,False,0.010661721229553223,135,False,shared,-0.2512485720217228,False,False
+benet_street,coconut mint choc chip,0.007753269746899605,187.0,False,0.010615046136081219,136,False,shared,0.2861776389181614,False,False
+benet_street,orange blossom & pistachios,0.013571913354098797,110.0,False,0.01051858440041542,137,False,shared,-0.30533289536833763,False,False
+benet_street,blackcurrant & mascarpone cake,0.009941847994923592,146.0,False,0.01049832534044981,138,False,shared,0.05564773455262184,False,False
+benet_street,maple syrup,,,,0.01044178381562233,139,False,newly_supported,,False,False
+benet_street,ginger cake,0.009303624741733074,157.0,False,0.01038997620344162,140,False,shared,0.10863514617085457,False,False
+benet_street,king’s college lavender brownie,0.013353903777897358,111.0,False,0.010358083061873913,141,False,shared,-0.2995820716023445,False,False
+benet_street,house mascarpone & marsala wine,0.010833916254341602,135.0,False,0.010345171205699444,142,False,shared,-0.04887450486421585,False,False
+benet_street,almond & cherry cake,0.006379670463502407,220.0,False,0.010142817161977291,143,False,shared,0.3763146698474884,False,False
+benet_street,mascarpone vanilla,,,,0.010001910850405693,144,False,newly_supported,,False,False
+benet_street,dark chocolate & orange,0.012635926716029644,120.0,False,0.00993837509304285,145,False,shared,-0.26975516229867935,False,False
+benet_street,chocolate fudge ripple,0.012292689643800259,124.0,False,0.009888138622045517,146,False,shared,-0.24045510217547417,False,False
+benet_street,"coconut, passion fruit ripple",0.01242950838059187,122.0,False,0.009732716716825962,147,False,shared,-0.26967916637659073,False,False
+benet_street,"matcha, blueberry ripple",0.008156592026352882,180.0,False,0.00962186697870493,148,False,shared,0.1465274952352047,False,False
+benet_street,rhubarb & cardamom sorbet,0.012488841079175472,121.0,False,0.009473471902310848,149,False,shared,-0.3015369176864624,False,False
+benet_street,brandy butter,0.012065993621945381,126.0,False,0.009437150321900845,150,False,shared,-0.26288433000445366,False,False
+benet_street,black sesame cookie dough,0.011964874342083931,127.0,False,0.009428688324987888,151,False,shared,-0.25361860170960426,False,False
+benet_street,peppermint brownie,0.01154629047960043,129.0,False,0.009338180534541607,152,False,shared,-0.22081099450588226,False,False
+benet_street,marmalade,0.012971198186278343,116.0,False,0.009202507324516773,153,False,shared,-0.376869086176157,False,False
+benet_street,hazelnut & oreo,0.006974874064326286,200.0,False,0.009117074310779572,154,False,shared,0.21422002464532852,False,False
+benet_street,white miso,0.004545123316347599,301.0,False,0.009072322398424149,155,False,shared,0.45271990820765495,False,False
+benet_street,coconut & black sesame,0.010813000611960888,136.0,False,0.008893519639968872,156,False,shared,-0.19194809719920158,False,False
+benet_street,yuzu sorbet,0.011004345491528511,132.0,False,0.008845757693052292,157,False,shared,-0.21585877984762192,False,False
+benet_street,english whisky; circumstance distillery,0.011704769916832447,128.0,False,0.00879622995853424,158,False,shared,-0.29085399582982063,False,False
+benet_street,cookie dough,0.008975209668278694,166.0,False,0.008748084306716919,159,False,shared,-0.02271253615617752,False,False
+benet_street,"coconut, strawberry ripple",0.007566259242594242,193.0,False,0.008725568652153015,160,False,shared,0.1159309409558773,False,False
+benet_street,blueberry ripple,0.010928458534181118,134.0,False,0.00869746133685112,161,False,shared,-0.2230997197329998,False,False
+benet_street,lime leaf,0.010218811221420765,141.0,False,0.008679362013936043,162,False,shared,-0.1539449207484722,False,False
+benet_street,hazelnut cookie dough,0.011100170202553272,131.0,False,0.008665231056511402,163,False,shared,-0.243493914604187,False,False
+benet_street,ginger,0.009340725839138031,156.0,False,0.008418607525527477,164,False,shared,-0.09221183136105537,False,False
+benet_street,chocolate & cherry,0.004578405991196632,298.0,False,0.008403448387980461,165,False,shared,0.3825042396783829,False,False
+benet_street,double chocolate mint chip,0.010192901827394962,142.0,False,0.008345453068614006,166,False,shared,-0.18474487587809563,False,False
+benet_street,coconut & lime leaf,0.012768255546689034,118.0,False,0.008260855451226234,167,False,shared,-0.4507400095462799,False,False
+benet_street,kewpie mayo,0.010086748749017715,144.0,False,0.00818249024450779,168,False,shared,-0.19042585045099258,False,False
+benet_street,elderflower sorbet,0.01047405693680048,139.0,False,0.008119108155369759,169,False,shared,-0.23549487814307213,False,False
+benet_street,chocolate & hazelnut,,,,0.00809615757316351,170,False,newly_supported,,False,False
+benet_street,gingerbread,0.009948796592652798,145.0,False,0.008009337820112705,171,False,shared,-0.19394587725400925,False,False
+benet_street,yuzu,0.009802677668631077,148.0,False,0.007900172844529152,172,False,shared,-0.1902504824101925,False,False
+benet_street,brazil nut,0.009622535668313503,151.0,False,0.007812532596290112,173,False,shared,-0.18100030720233917,False,False
+benet_street,milk & peanut butter cookies,0.0068204947747290134,206.0,False,0.0077286455780267715,174,False,shared,0.09081508032977581,False,False
+benet_street,vegemite,,,,0.007704759482294321,175,False,newly_supported,,False,False
+benet_street,panela,0.009372208267450333,154.0,False,0.007539052050560713,176,False,shared,-0.18331562168896198,False,False
+benet_street,raspberry,0.009561331942677498,152.0,False,0.007502779830247164,177,False,shared,-0.2058552112430334,False,False
+benet_street,"redcurrant, ginger & lemon sorbet",0.010116897523403168,143.0,False,0.007465984206646681,178,False,shared,-0.2650913316756487,False,False
+benet_street,pump street stracciatella,0.009509209543466568,153.0,False,0.0074540297500789165,179,False,shared,-0.20551797933876514,False,False
+benet_street,coconut & rose,0.007763650268316269,186.0,False,0.007442551665008068,180,False,shared,-0.032109860330820084,False,False
+benet_street,manuka honey & cashew,0.009678133763372898,150.0,False,0.007375740446150303,181,False,shared,-0.23023933172225952,False,False
+benet_street,house yoghurt & lime leaf,0.009884954430162907,147.0,False,0.007361820433288813,182,False,shared,-0.2523133996874094,False,False
+benet_street,pastis,0.009288469329476357,159.0,False,0.007320494391024113,183,False,shared,-0.19679749384522438,False,False
+benet_street,pandan,0.00930028036236763,158.0,False,0.007222194690257311,184,False,shared,-0.2078085672110319,False,False
+benet_street,house yoghurt & rose,0.009253405965864658,162.0,False,0.007221733685582876,185,False,shared,-0.20316722802817822,False,False
+benet_street,blueberry & girton thai basil sorbet,0.009371751919388771,155.0,False,0.007199372164905071,186,False,shared,-0.21723797544836998,False,False
+benet_street,"chocolate, cherry ripple",0.006558788008987904,214.0,False,0.007192585617303848,187,False,shared,0.06337976083159447,False,False
+benet_street,lemon & girton basil sorbet,0.009284310974180698,160.0,False,0.007113816682249308,188,False,shared,-0.21704942919313908,False,False
+benet_street,double hazelnut,0.008971359580755234,167.0,False,0.007112529594451189,189,False,shared,-0.18588299863040447,False,False
+benet_street,salted almond,,,,0.007079561706632376,190,False,newly_supported,,False,False
+benet_street,blueberry pavlova,0.00926315039396286,161.0,False,0.0070638819597661495,191,False,shared,-0.21992684341967106,False,False
+benet_street,pistachio brownie,0.008982019498944283,165.0,False,0.007059996481984854,192,False,shared,-0.19220230169594288,False,False
+benet_street,lemon stracciatella,0.008806446567177773,170.0,False,0.0070182690396904945,193,False,shared,-0.1788177527487278,False,False
+benet_street,coffee meringue,0.008926822803914547,168.0,False,0.0070154848508536816,194,False,shared,-0.19113379530608654,False,False
+benet_street,hibiscus & ginger sorbet,0.008912605233490467,169.0,False,0.006956086959689856,195,False,shared,-0.19565182738006115,False,False
+benet_street,miso caramel ripple,,,,0.006927649490535259,196,False,newly_supported,,False,False
+benet_street,stem ginger,0.009111122228205204,164.0,False,0.006926265545189381,197,False,shared,-0.21848566830158234,False,False
+benet_street,"orange blossom, raspberry ripple",0.006795957218855619,207.0,False,0.006898227147758007,198,False,shared,0.010226992890238762,False,False
+benet_street,house speculaas,0.008636532351374626,171.0,False,0.006892891600728035,199,False,shared,-0.17436407506465912,False,False
+benet_street,mince pie,0.008434581570327282,174.0,False,0.0068552833981812,200,False,shared,-0.1579298172146082,False,False
+benet_street,chocolate & cardamom,0.008593029342591763,172.0,False,0.006764546502381563,201,False,shared,-0.18284828402101994,False,False
+benet_street,hazelnut & honeycomb,0.008255868218839169,178.0,False,0.006715208292007446,202,False,shared,-0.15406599268317223,False,False
+benet_street,"chocolate, passion fruit ripple",0.008462594822049141,173.0,False,0.006698600482195616,203,False,shared,-0.17639943398535252,False,False
+benet_street,mascarpone & raspberry cake,0.008265186101198196,177.0,False,0.006678598001599312,204,False,shared,-0.15865880995988846,False,False
+benet_street,blackcurrant crumble,0.00826740637421608,176.0,False,0.006638791412115097,205,False,shared,-0.16286149621009827,False,False
+benet_street,house yoghurt & manuka honey,0.025923941284418106,51.0,False,0.006627254653722048,206,False,shared,-1.9296686630696058,False,False
+benet_street,hazelnut & allspice,0.007261402904987335,197.0,False,0.006600840017199516,207,False,shared,-0.06605628877878189,False,False
+benet_street,pear & cardamom,0.008412742987275124,175.0,False,0.00656376127153635,208,False,shared,-0.18489817157387733,False,False
+benet_street,passion fruit & basil sorbet,0.007094929460436106,199.0,False,0.006551497150212526,209,False,shared,-0.05434323102235794,False,False
+benet_street,lemongrass,0.0037934535648673773,342.0,False,0.00653126509860158,210,False,shared,0.27378115337342024,False,False
+benet_street,coconut & matcha,,,,0.00651936698704958,211,False,newly_supported,,False,False
+benet_street,chocolate & rose,0.004423270467668772,304.0,False,0.006438746117055416,212,False,shared,0.20154756493866444,False,False
+benet_street,coconut & treacle,0.007903492078185081,183.0,False,0.006352758966386318,213,False,shared,-0.15507331117987633,False,False
+benet_street,sour cherry sorbet,0.007966832257807255,181.0,False,0.0063148075714707375,214,False,shared,-0.16520246863365173,False,False
+benet_street,baileys,0.007825993932783604,185.0,False,0.006204498931765556,215,False,shared,-0.16214950010180473,False,False
+benet_street,apricot & mezcal sorbet,0.007928011938929558,182.0,False,0.006139939185231924,216,False,shared,-0.17880727536976337,False,False
+benet_street,double house pistachio,0.007591791916638613,192.0,False,0.006121495738625526,217,False,shared,-0.14702961780130863,False,False
+benet_street,blueberry crumble,0.007731769233942032,190.0,False,0.006085583940148354,218,False,shared,-0.16461852937936783,False,False
+benet_street,pink grapefruit & tarragon sorbet,0.007506505120545626,194.0,False,0.006052726414054632,219,False,shared,-0.14537787064909935,False,False
+benet_street,choc chip cookie dough,0.007752363570034504,188.0,False,0.006051601842045784,220,False,shared,-0.170076172798872,False,False
+benet_street,apple & mascarpone cake,0.00377876334823668,343.0,False,0.005990009754896164,221,False,shared,0.2211246406659484,False,False
+benet_street,cinnamon brownie,0.007888845168054104,184.0,False,0.005941666197031736,222,False,shared,-0.19471789710223675,False,False
+benet_street,hazelnut brownie,0.007338035386055708,196.0,False,0.005908458027988672,223,False,shared,-0.14295773580670357,False,False
+benet_street,"matcha, raspberry ripple",0.005476689897477627,257.0,False,0.005873290356248617,224,False,shared,0.03966004587709904,False,False
+benet_street,gianduia,,,,0.00582228833809495,225,False,newly_supported,,False,False
+benet_street,"house yoghurt, blueberry ripple",,,,0.005818455945700407,226,False,newly_supported,,False,False
+benet_street,pistachio,0.0058457693085074425,243.0,False,0.005809418857097626,227,False,shared,-0.003635045140981674,False,False
+benet_street,vanilla creme patissiere,0.007187340874224901,198.0,False,0.005783217493444681,228,False,shared,-0.140412338078022,False,False
+benet_street,salted caramel & almond cake,,,,0.005679002031683922,229,False,newly_supported,,False,False
+benet_street,custard,0.006874265149235725,204.0,False,0.005646254401654005,230,False,shared,-0.12280107475817204,False,False
+benet_street,coconut stracciatella,0.00690803024917841,203.0,False,0.005638509523123503,231,False,shared,-0.12695207260549068,False,False
+benet_street,jgf rhubarb & rose sorbet,0.008226992562413216,179.0,False,0.005587423220276833,232,False,shared,-0.2639569342136383,False,False
+benet_street,vanilla custard,0.006969129666686058,201.0,False,0.005561094265431166,233,False,shared,-0.14080354012548923,False,False
+benet_street,house ricotta,0.006872334983199835,205.0,False,0.00552058219909668,234,False,shared,-0.1351752784103155,False,False
+benet_street,ube brownie,0.00676983455196023,208.0,False,0.005518682301044464,235,False,shared,-0.12511522509157658,False,False
+benet_street,maple waffle,0.006914294324815273,202.0,False,0.005512556526809931,236,False,shared,-0.14017377980053425,False,False
+benet_street,strawberry & cucumber sorbet,,,,0.005483519285917282,237,False,newly_supported,,False,False
+benet_street,passion fruit & liquorice sorbet,0.007474458310753107,195.0,False,0.005475591402500868,238,False,shared,-0.19988669082522392,False,False
+benet_street,blackcurrant & violet,0.005436985287815332,258.0,False,0.00543830543756485,239,False,shared,0.00013201497495174408,False,False
+benet_street,strawberry & ginger sorbet,,,,0.005341880023479462,240,False,newly_supported,,False,False
+benet_street,double cinnamon biscuit,0.0067306705750525,211.0,False,0.005306617356836796,241,False,shared,-0.1424053218215704,False,False
+benet_street,double oreo,0.006579497363418341,213.0,False,0.005216507241129875,242,False,shared,-0.13629901222884655,False,False
+benet_street,pink grapefruit sorbet,0.003192199394106865,384.0,False,0.00521475775167346,243,False,shared,0.2022558357566595,False,False
+benet_street,orange blossom & pistachio,,,,0.005197477992624044,244,False,newly_supported,,False,False
+benet_street,"house yoghurt, strawberry ripple",0.0046863555908203125,292.0,False,0.005179049447178841,245,False,shared,0.049269385635852814,False,False
+benet_street,almond pie,0.0063586668111383915,222.0,False,0.005171939730644226,246,False,shared,-0.11867270804941654,False,False
+benet_street,"cashew, sour cherry ripple",0.006371716968715191,221.0,False,0.005166564602404833,247,False,shared,-0.1205152366310358,False,False
+benet_street,black sesame cake,0.006404779851436615,218.0,False,0.0051291570998728275,248,False,shared,-0.12756227515637875,False,False
+benet_street,rose stracciatella,0.006389462389051914,219.0,False,0.005125099793076515,249,False,shared,-0.1264362595975399,False,False
+benet_street,kewpie,0.006200701463967562,224.0,False,0.00509622460231185,250,False,shared,-0.11044768616557121,False,False
+benet_street,coconut vanilla,0.00649306969717145,215.0,False,0.005088751669973135,251,False,shared,-0.14043180271983147,False,False
+benet_street,raspberry sorbet,0.0065909987315535545,212.0,False,0.005034187808632851,252,False,shared,-0.1556810922920704,False,False
+benet_street,chocolate & raspberry,0.006437980104237795,217.0,False,0.005030747503042221,253,False,shared,-0.14072326011955738,False,False
+benet_street,coconut & lemongrass,,,,0.00498700188472867,254,False,newly_supported,,False,False
+benet_street,almond & raspberry cake,0.006087557412683964,231.0,False,0.004942023660987616,255,False,shared,-0.11455337516963482,False,False
+benet_street,wisconsin pecan pie,0.006168164778500795,226.0,False,0.00492083141580224,256,False,shared,-0.1247333362698555,False,False
+benet_street,vanilla yoghurt,0.006145398132503033,227.0,False,0.00491385767236352,257,False,shared,-0.1231540460139513,False,False
+benet_street,"coconut, cardamom & rose",0.006012235302478075,236.0,False,0.004899815656244755,258,False,shared,-0.11124196462333202,False,False
+benet_street,dark chocolate & coconut,0.00648705568164587,216.0,False,0.004898004699498415,259,False,shared,-0.15890509821474552,False,False
+benet_street,coconut & lime leaf sorbet,0.006763475947082043,210.0,False,0.004896538332104683,260,False,shared,-0.18669376149773598,False,False
+benet_street,bronte pistachio,0.006128096953034401,229.0,False,0.004882047884166241,261,False,shared,-0.12460490688681602,False,False
+benet_street,grapefruit sorbet,,,,0.004865442868322134,262,False,newly_supported,,False,False
+benet_street,manuka honey & fig,0.006062556989490986,233.0,False,0.004860124085098505,263,False,shared,-0.12024329043924809,False,False
+benet_street,creme patissiere,0.004313291050493717,309.0,False,0.004836737643927336,264,False,shared,0.052344659343361855,False,False
+benet_street,"yuzu, raspberry ripple",0.005889381747692823,241.0,False,0.004795387852936983,265,False,shared,-0.10939938947558403,False,False
+benet_street,gooseberry & gin sorbet,0.006311893463134766,223.0,False,0.004781351424753666,266,False,shared,-0.15305420383810997,False,False
+benet_street,caramel ripple,0.006169573869556189,225.0,False,0.004780106246471405,267,False,shared,-0.13894676230847836,False,False
+benet_street,coconut coffee,0.006111816968768835,230.0,False,0.004777164664119482,268,False,shared,-0.1334652304649353,False,False
+benet_street,sea buckthorn & rose,,,,0.004775095731019974,269,False,newly_supported,,False,False
+benet_street,hibiscus & rose sorbet,,,,0.0047339871525764465,270,False,newly_supported,,False,False
+benet_street,cherry & mascarpone cake,0.005880731623619795,242.0,False,0.004729044623672962,271,False,shared,-0.11516869999468327,False,False
+benet_street,aniseed,0.006026043556630611,235.0,False,0.004727907013148069,272,False,shared,-0.1298136543482542,False,False
+benet_street,salted caramel brownie,,,,0.004721547942608595,273,False,newly_supported,,False,False
+benet_street,grapefruit & aperol sorbet,0.005920710042119026,240.0,False,0.004703883081674576,274,False,shared,-0.12168269604444504,False,False
+benet_street,"coconut, ube & rose",0.0036653587594628334,348.0,False,0.004684856627136469,275,False,shared,0.10194978676736355,False,False
+benet_street,dulce de leche & coffee,0.009163277223706245,163.0,False,0.004675079137086868,276,False,shared,-0.4488198086619377,False,False
+benet_street,passion fruit & girton thai basil sorbet,0.00592430867254734,239.0,False,0.004671364091336727,277,False,shared,-0.12529445812106133,False,False
+benet_street,coconut & passion fruit ripple,0.006057860795408487,234.0,False,0.0046602520160377026,278,False,shared,-0.13976087793707848,False,False
+benet_street,"caramelised scone, strawberry ripple",0.005713763181120157,246.0,False,0.004656427074223757,279,False,shared,-0.10573361068964005,False,False
+benet_street,manuka honey & purple fig,0.005769787821918726,244.0,False,0.004644651431590319,280,False,shared,-0.11251363903284073,False,False
+benet_street,raspberry & mascarpone cake,0.005711512174457312,248.0,False,0.0045944154262542725,281,False,shared,-0.11170967482030392,False,False
+benet_street,"hazelnut, chocolate fudge ripple",,,,0.0045601921156048775,282,False,newly_supported,,False,False
+benet_street,lemon & basil sorbet,0.005606972612440586,250.0,False,0.004553757142275572,283,False,shared,-0.10532154701650143,False,False
+benet_street,hibiscus & lime leaf sorbet,0.006133849732577801,228.0,False,0.004544853698462248,284,False,shared,-0.1588996034115553,False,False
+benet_street,milk & molasses cookies,0.005993587896227837,237.0,False,0.0045414636842906475,285,False,shared,-0.1452124211937189,False,False
+benet_street,"house yoghurt, cherry ripple",0.0059767961502075195,238.0,False,0.0045369393192231655,286,False,shared,-0.1439856830984354,False,False
+benet_street,victoria sponge,,,,0.004507641773670912,287,False,newly_supported,,False,False
+benet_street,"pistachio, raspberry ripple",0.005711880512535572,247.0,False,0.004500477109104395,288,False,shared,-0.12114034034311771,False,False
+benet_street,ube,0.005729523953050375,245.0,False,0.004487528000026941,289,False,shared,-0.12419959530234337,False,False
+benet_street,condensed milk,0.005505991168320179,255.0,False,0.004476564470678568,290,False,shared,-0.10294266976416111,False,False
+benet_street,maple pecan,,,,0.004441500641405582,291,False,newly_supported,,False,False
+benet_street,double honeycomb,0.005346211604773998,263.0,False,0.004405798390507698,292,False,shared,-0.09404132142663002,False,False
+benet_street,yoghurt & rose,0.005431593395769596,259.0,False,0.004391669295728207,293,False,shared,-0.10399241000413895,False,False
+benet_street,blueberry & violet sorbet,0.005539108533412218,254.0,False,0.00438527949154377,294,False,shared,-0.11538290418684483,False,False
+benet_street,almond cookie dough,0.005380085203796625,261.0,False,0.00436812499538064,295,False,shared,-0.10119602084159851,False,False
+benet_street,"coconut, cardamom & raspberry",0.005659001413732767,249.0,False,0.004354668315500021,296,False,shared,-0.1304333098232746,False,False
+benet_street,pistachio cookie dough,0.007736595813184977,189.0,False,0.00433038966730237,297,False,shared,-0.34062061458826065,False,False
+benet_street,purple fig & manuka honey,0.005303522106260061,266.0,False,0.004322271794080734,298,False,shared,-0.0981250312179327,False,False
+benet_street,king’s college lavender & oreo,0.005352057050913572,262.0,False,0.004321715794503689,299,False,shared,-0.10303412564098835,False,False
+benet_street,vanilla & marsala wine,0.005421202164143324,260.0,False,0.004306677728891373,300,False,shared,-0.11145244352519512,False,False
+benet_street,"matcha sorbet, raspberry ripple",0.006067768204957247,232.0,False,0.004299410618841648,301,False,shared,-0.17683575861155987,False,False
+benet_street,roasted pear & cardamom,0.005541068501770496,253.0,False,0.004290800541639328,302,False,shared,-0.12502679601311684,False,False
+benet_street,"lemongrass, chocolate fudge ripple",0.005331722088158131,264.0,False,0.004256310407072306,303,False,shared,-0.1075411681085825,False,False
+benet_street,coconut & coffee,0.005302798002958298,267.0,False,0.004247837234288454,304,False,shared,-0.10549607686698437,False,False
+benet_street,apricot & yuzu sorbet,0.005486037116497755,256.0,False,0.004175566602498293,305,False,shared,-0.1310470513999462,False,False
+benet_street,salted caramel & pecans,,,,0.004172795452177525,306,False,newly_supported,,False,False
+benet_street,fior di panna,0.0017524808645248413,458.0,False,0.004166461993008852,307,False,shared,0.24139811284840107,False,False
+benet_street,coconut & rum,0.004000697750598192,327.0,False,0.004147988744080067,308,False,shared,0.014729099348187447,False,False
+benet_street,oftd rum & apricot,0.005024266894906759,276.0,False,0.004140191711485386,309,False,shared,-0.08840751834213734,False,False
+benet_street,vegan double hazelnut,0.0052297296933829784,269.0,False,0.004105232190340757,310,False,shared,-0.1124497503042221,False,False
+benet_street,black forest,0.0050529842264950275,274.0,False,0.004100199788808823,311,False,shared,-0.09527844376862049,False,False
+benet_street,king’s college lavender stracciatella,0.005216687452048063,270.0,False,0.004100196063518524,312,False,shared,-0.11164913885295391,False,False
+benet_street,liquorice,0.0049614207819104195,277.0,False,0.004098864272236824,313,False,shared,-0.08625565096735954,False,False
+benet_street,"chocolate, salted caramel ripple",0.0050762067548930645,273.0,False,0.0040974728763103485,314,False,shared,-0.0978733878582716,False,False
+benet_street,girton apple & cardamom sorbet,0.005254403222352266,268.0,False,0.004089621361345053,315,False,shared,-0.11647818610072136,False,False
+benet_street,"rose, raspberry ripple",0.005143323447555304,272.0,False,0.004060497973114252,316,False,shared,-0.10828254744410515,False,False
+benet_street,dark chocolate & violet,0.004957482218742371,278.0,False,0.004058182705193758,317,False,shared,-0.08992995135486126,False,False
+benet_street,"salted rose, raspberry ripple",,,,0.004057308193296194,318,False,newly_supported,,False,False
+benet_street,matcha sorbet,0.005556913558393717,251.0,False,0.004052865318953991,319,False,shared,-0.1504048239439726,False,False
+benet_street,"white chocolate, cardamom & raspberry ripple",,,,0.003975376486778259,320,False,newly_supported,,False,False
+benet_street,coconut & liquorice,0.00492908526211977,280.0,False,0.003938475623726845,321,False,shared,-0.09906096383929253,False,False
+benet_street,"house mascarpone, cherry ripple",0.005201337859034538,271.0,False,0.00393309211358428,322,False,shared,-0.12682457454502583,False,False
+benet_street,"lychee, raspberry ripple",,,,0.003915684763342142,323,False,newly_supported,,False,False
+benet_street,vegan pistachio,0.004867122042924166,283.0,False,0.003907593432813883,324,False,shared,-0.09595286101102829,False,False
+benet_street,hazelnut & chocolate tart,0.00483492249622941,285.0,False,0.0038518214132636786,325,False,shared,-0.09831010829657316,False,False
+benet_street,matcha & almond cake,0.004767186474055052,287.0,False,0.003849802305921912,326,False,shared,-0.09173841681331396,False,False
+benet_street,dark chocolate & chili,0.0038199173286557198,340.0,False,0.0038459384813904762,327,False,shared,0.002602115273475647,False,False
+benet_street,"matcha & almond cake, strawberry ripple",0.004926265217363834,281.0,False,0.0038456753827631474,328,False,shared,-0.1080589834600687,False,False
+benet_street,malted caramel ripple,0.004860838875174522,284.0,False,0.003835080424323678,329,False,shared,-0.10257584508508444,False,False
+benet_street,sheep’s milk fior di latte,0.005543236620724201,252.0,False,0.0038262042216956615,330,False,shared,-0.17170323990285397,False,False
+benet_street,"caramelised scone, raspberry ripple",0.00465054577216506,294.0,False,0.003810547525063157,331,False,shared,-0.0839998247101903,False,False
+benet_street,salted macadamia,0.004550688434392214,299.0,False,0.0038058138452470303,332,False,shared,-0.07448745891451836,False,False
+benet_street,hazelnut oreo,0.004595963750034571,297.0,False,0.0037798513658344746,333,False,shared,-0.08161123842000961,False,False
+benet_street,"yuzu, strawberry ripple",0.004732261877506971,290.0,False,0.0037777796387672424,334,False,shared,-0.09544822387397289,False,False
+benet_street,cold-infused cocoa nib,,,,0.003765632165595889,335,False,newly_supported,,False,False
+benet_street,cold infused cocoa nib,,,,0.003762190230190754,336,False,newly_supported,,False,False
+benet_street,coconut & yuzu,,,,0.0037609587889164686,337,False,newly_supported,,False,False
+benet_street,genmaicha,0.004667539149522781,293.0,False,0.0037483503110706806,338,False,shared,-0.09191888384521008,False,False
+benet_street,whisky; torabhaig allt gleann,0.004946955479681492,279.0,False,0.0037141984794288874,339,False,shared,-0.12327570002526045,False,False
+benet_street,gooseberry & lemon sorbet,0.004778879228979349,286.0,False,0.0036986381746828556,340,False,shared,-0.10802410542964935,False,False
+benet_street,jgf carrot cake,,,,0.003674826817587018,341,False,newly_supported,,False,False
+benet_street,chocolate & whole pistachios,0.0047332546673715115,289.0,False,0.003670346224680543,342,False,shared,-0.10629084426909685,False,False
+benet_street,alphonso mango & mezcal sorbet,0.0046461462043225765,295.0,False,0.003668512450531125,343,False,shared,-0.09776337537914515,False,False
+benet_street,bristol whisky; circumstance distillery,0.004889707546681166,282.0,False,0.0036619389429688454,344,False,shared,-0.12277686037123203,False,False
+benet_street,cashew nut & manuka honey,0.0046873209066689014,291.0,False,0.0036334432661533356,345,False,shared,-0.10538776405155659,False,False
+benet_street,strawberry & cream,0.0027742444071918726,420.0,False,0.0036307720001786947,346,False,shared,0.08565275929868221,False,False
+benet_street,"house mascarpone, cocoa powder",0.004641242325305939,296.0,False,0.0036254902370274067,347,False,shared,-0.1015752088278532,False,False
+benet_street,milk,0.004460024181753397,302.0,False,0.0036194664426147938,348,False,shared,-0.08405577391386032,False,False
+benet_street,"mascarpone, strawberry ripple",,,,0.0035962637048214674,349,False,newly_supported,,False,False
+benet_street,"brazil nut, sour cherry ripple",0.004384438507258892,306.0,False,0.003592328866943717,350,False,shared,-0.0792109640315175,False,False
+benet_street,cranberry sorbet,0.004376622848212719,307.0,False,0.003573088673874736,351,False,shared,-0.08035341743379831,False,False
+benet_street,pineapple & coconut,0.004547557793557644,300.0,False,0.003566880477592349,352,False,shared,-0.09806773159652948,False,False
+benet_street,chocolate fudge chunk,,,,0.0035484940744936466,353,False,newly_supported,,False,False
+benet_street,english meyer lemon sorbet,0.004742300137877464,288.0,False,0.003544109407812357,354,False,shared,-0.11981907300651073,False,False
+benet_street,roasted girton pumpkin brownie,0.004451778717339039,303.0,False,0.0035311030223965645,355,False,shared,-0.09206756949424744,False,False
+benet_street,"cashew, chocolate chip cookie dough",0.004329519812017679,308.0,False,0.003512556431815028,356,False,shared,-0.0816963380202651,False,False
+benet_street,cocoa nib brownie,,,,0.0034830584190785885,357,False,newly_supported,,False,False
+benet_street,milk & nutter butter cookies,0.004390966612845659,305.0,False,0.0034789328929036856,358,False,shared,-0.09120337199419737,False,False
+benet_street,"coconut, ube, rose & oreo",0.004300182219594717,310.0,False,0.003454582067206502,359,False,shared,-0.0845600152388215,False,False
+benet_street,jgf rhubarb,0.005032359156757593,275.0,False,0.003422204637899995,360,False,shared,-0.16101545188575983,False,False
+benet_street,chocolate pie,0.0028686695732176304,411.0,False,0.003399711102247238,361,False,shared,0.05310415290296078,False,False
+benet_street,cherry sorbet,0.004128057509660721,314.0,False,0.003386659547686577,362,False,shared,-0.0741397961974144,False,False
+benet_street,hazelnut & brownie,,,,0.0033839165698736906,363,False,newly_supported,,False,False
+benet_street,"creme patissiere, chocolate fudge ripple",0.00416417745873332,313.0,False,0.003332938300445676,364,False,shared,-0.08312391582876444,False,False
+benet_street,gingerbread spice,0.004085387568920851,316.0,False,0.0033090850338339806,365,False,shared,-0.07763025350868702,False,False
+benet_street,marmite,0.004069008864462376,319.0,False,0.003308545798063278,366,False,shared,-0.07604630663990974,False,False
+benet_street,apricot rum,0.004017584957182407,326.0,False,0.003306811908259988,367,False,shared,-0.07107730489224195,False,False
+benet_street,bronte pistachio & rose,0.0042672413401305676,311.0,False,0.00329604372382164,368,False,shared,-0.09711976163089275,False,False
+benet_street,coconut & ginger,0.004054786637425423,321.0,False,0.0032960218377411366,369,False,shared,-0.07587647996842861,False,False
+benet_street,"vanilla, fudge brownie",,,,0.0032946451101452112,370,False,newly_supported,,False,False
+benet_street,"strawberry, cucumber & gin",,,,0.0032914194744080305,371,False,newly_supported,,False,False
+benet_street,cold-infused cacao nib,0.004049850627779961,322.0,False,0.003283370053395629,372,False,shared,-0.07664805743843317,False,False
+benet_street,alphonso mango,,,,0.003275431925430894,373,False,newly_supported,,False,False
+benet_street,jg farm rhubarb sorbet,0.007665613666176796,191.0,False,0.003268926404416561,374,False,shared,-0.4396687261760235,False,False
+benet_street,sour cherry & mascarpone cake,0.004036120139062405,324.0,False,0.0032598008401691914,375,False,shared,-0.07763192988932133,False,False
+benet_street,hazelnut tart,0.004064775537699461,320.0,False,0.003248755820095539,376,False,shared,-0.08160197176039219,False,False
+benet_street,"passion fruit, basil & mezcal sorbet",0.005310661159455776,265.0,False,0.003247140906751156,377,False,shared,-0.20635202527046204,False,False
+benet_street,virgin bloody mary sorbet,0.0039201341569423676,333.0,False,0.0032303619664162397,378,False,shared,-0.06897721905261278,False,False
+benet_street,"ginger, raspberry ripple",0.003938034176826477,331.0,False,0.0032298199366778135,379,False,shared,-0.07082142401486635,False,False
+benet_street,clotted cream fudge chunk,0.003985034301877022,328.0,False,0.003210838884115219,380,False,shared,-0.07741954177618027,False,False
+benet_street,salted peanut butter,0.004082123748958111,317.0,False,0.0032044430263340473,381,False,shared,-0.08776807226240635,False,False
+benet_street,matcha & lime leaf,0.003954776097089052,329.0,False,0.0031784202437847853,382,False,shared,-0.07763558533042669,False,False
+benet_street,"coconut, lemongrass & raspberry ripple",,,,0.0031728593166917562,383,False,newly_supported,,False,False
+benet_street,"rose, chocolate fudge ripple",0.004024396650493145,325.0,False,0.0031720674596726894,384,False,shared,-0.08523291908204556,False,False
+benet_street,tomato & hibiscus sorbet,0.003938498441129923,330.0,False,0.003152306657284498,385,False,shared,-0.07861917838454247,False,False
+benet_street,"cardamom, rose & pistachios",0.004074479453265667,318.0,False,0.003151484066620469,386,False,shared,-0.09229953866451979,False,False
+benet_street,pimm’s cup sorbet,0.01769592985510826,80.0,False,0.0031431259121745825,387,False,shared,-1.4552803942933679,False,False
+benet_street,treacle,0.0038457850459963083,337.0,False,0.00312483380548656,388,False,shared,-0.07209512405097485,False,False
+benet_street,mint straciatella,0.0040936218574643135,315.0,False,0.0031160747166723013,389,False,shared,-0.09775471407920122,False,False
+benet_street,damson & cherry ripple,0.003609989769756794,353.0,False,0.0031103312503546476,390,False,shared,-0.049965851940214634,False,False
+benet_street,rose & pistachio,0.0038336741272360086,338.0,False,0.0031069417018443346,391,False,shared,-0.0726732425391674,False,False
+benet_street,white chocolate,0.003800085512921214,341.0,False,0.003099200315773487,392,False,shared,-0.0700885197147727,False,False
+benet_street,yuzu & liquorice,0.0038818151224404573,335.0,False,0.0030889210756868124,393,False,shared,-0.0792894046753645,False,False
+benet_street,yuzu & apricot sorbet,0.0039049717597663403,334.0,False,0.0030876100063323975,394,False,shared,-0.08173617534339428,False,False
+benet_street,grapefruit & caius tarragon sorbet,0.0038329476956278086,339.0,False,0.0030643357895314693,395,False,shared,-0.07686119060963392,False,False
+benet_street,earl grey & plum sorbet,0.003475835081189871,358.0,False,0.0030530556105077267,396,False,shared,-0.042277947068214417,False,False
+benet_street,vanilla creme patisierre,0.0037182343658059835,345.0,False,0.0030453454237431288,397,False,shared,-0.06728889420628548,False,False
+benet_street,apricot & lemon water sorbet,0.0039363098330795765,332.0,False,0.003038196125999093,398,False,shared,-0.08981137070804834,False,False
+benet_street,"house mascarpone, splash of marsala wine",0.004048811737447977,323.0,False,0.0030348876025527716,399,False,shared,-0.10139241348952055,False,False
+benet_street,"alphonso mango, chili & salt",0.003642912022769451,350.0,False,0.00301479478366673,400,False,shared,-0.06281172391027212,False,False
+benet_street,gin & lemon tonic sorbet,,,,0.003001185366883874,401,False,newly_supported,,False,False
+benet_street,"coconut, rose & cardamom",0.003861046629026532,336.0,False,0.0029942092951387167,402,False,shared,-0.08668373338878155,False,False
+benet_street,house panettone,0.003742805914953351,344.0,False,0.002987123094499111,403,False,shared,-0.07556828204542398,False,False
+benet_street,clotted cream fudge,0.0036213980056345463,351.0,False,0.0029500899836421013,404,False,shared,-0.0671308021992445,False,False
+benet_street,dark chocolate & hazelnut,0.0037136212922632694,346.0,False,0.00290169776417315,405,False,shared,-0.08119235280901194,False,False
+benet_street,"ube, raspberry ripple",0.0035771485418081284,355.0,False,0.0028733694925904274,406,False,shared,-0.0703779049217701,False,False
+benet_street,double pistachio & rose,0.0036432286724448204,349.0,False,0.002871953183785081,407,False,shared,-0.07712754886597395,False,False
+benet_street,fior di panna (vanilla without the vanilla),,,,0.0028597016353160143,408,False,newly_supported,,False,False
+benet_street,pimm’s sorbet,0.0036027845926582813,354.0,False,0.002842575777322054,409,False,shared,-0.07602088153362274,False,False
+benet_street,blueberry cobbler,0.0035420050844550133,357.0,False,0.002835366176441312,410,False,shared,-0.07066389080137014,False,False
+benet_street,strawberry pavlova,0.0034348394256085157,361.0,False,0.0028150654397904873,411,False,shared,-0.061977398581802845,False,False
+benet_street,coconut & strawberry ripple,0.003680816385895014,347.0,False,0.0027859120164066553,412,False,shared,-0.08949043694883585,False,False
+benet_street,coconut choc chip,0.0033889294136315584,369.0,False,0.0027798658702522516,413,False,shared,-0.06090635433793068,False,False
+benet_street,palets bretons,0.003411215962842107,366.0,False,0.0027720225043594837,414,False,shared,-0.06391934584826231,False,False
+benet_street,circumstance whisky & whole hazelnuts,0.004206905607134104,312.0,False,0.002764034317806363,415,False,shared,-0.14428712893277407,False,False
+benet_street,"chocolate, hazelnut & allspice",0.0033716047182679176,370.0,False,0.002762969583272934,416,False,shared,-0.06086351349949837,False,False
+benet_street,roasted banana & cinnamon,0.0022025357466191053,452.0,False,0.002759117865934968,417,False,shared,0.055658211931586266,False,False
+benet_street,1792 full proof bourbon whisky,0.003561314195394516,356.0,False,0.002735852962359786,418,False,shared,-0.082546123303473,False,False
+benet_street,manuka honey,0.0034250598400831223,364.0,False,0.002734909765422344,419,False,shared,-0.0690150074660778,False,False
+benet_street,"house yoghut, cherry ripple",0.0034296480007469654,362.0,False,0.002727724611759186,420,False,shared,-0.07019233889877796,False,False
+benet_street,"passion fruit, basil & mezcal",0.0033348649740219116,373.0,False,0.0027249683625996113,421,False,shared,-0.060989661142230034,False,False
+benet_street,roasted macadamia nut,0.00341820134781301,365.0,False,0.0027181608602404594,422,False,shared,-0.07000404875725508,False,False
+benet_street,cold-infused cocoa,0.003425146220251918,363.0,False,0.002714936388656497,423,False,shared,-0.07102098315954208,False,False
+benet_street,girton pumpkin & almond cake,0.00339787476696074,367.0,False,0.0026995043735951185,424,False,shared,-0.06983703933656216,False,False
+benet_street,chocolate & passion fruit ripple,0.003448105650022626,360.0,False,0.0026961916591972113,425,False,shared,-0.07519139908254147,False,False
+benet_street,orange blossom & bronte pistachios,0.003357944078743458,371.0,False,0.0026859932113438845,426,False,shared,-0.06719508673995733,False,False
+benet_street,vanilla & violet,,,,0.002681940793991089,427,False,newly_supported,,False,False
+benet_street,fudge,0.0036167351063340902,352.0,False,0.0026337560266256332,428,False,shared,-0.0982979079708457,False,False
+benet_street,hazelnut & coffee,0.00325908325612545,378.0,False,0.002631313633173704,429,False,shared,-0.0627769622951746,False,False
+benet_street,roasted girton pumpkin,0.0033445165026932955,372.0,False,0.0026298374868929386,430,False,shared,-0.07146790158003569,False,False
+benet_street,flourish farm pumpkin,0.0033034016378223896,374.0,False,0.0026296547148376703,431,False,shared,-0.06737469229847193,False,False
+benet_street,"cashew, raspberry ripple",0.0032779984176158905,377.0,False,0.002621797611936927,432,False,shared,-0.06562008056789637,False,False
+benet_street,passionfruit & gochujang sorbet,0.0032823244109749794,376.0,False,0.0026187817566096783,433,False,shared,-0.06635426543653011,False,False
+benet_street,cardamom rose & pistachios,0.003396834945306182,368.0,False,0.0026091320905834436,434,False,shared,-0.07877028547227383,False,False
+benet_street,gorgonzola,0.0032309177331626415,380.0,False,0.0026085874997079372,435,False,shared,-0.06223302334547043,False,False
+benet_street,coconut matcha,0.003210248425602913,383.0,False,0.0025977434124797583,436,False,shared,-0.061250501312315464,False,False
+benet_street,"japanese whisky; nikka, from the barrel",0.003153963014483452,388.0,False,0.002592399250715971,437,False,shared,-0.056156376376748085,False,False
+benet_street,manor farm lemon basil & rhubarb sorbet,0.0032942909747362137,375.0,False,0.0025784282479435205,438,False,shared,-0.07158627267926931,False,False
+benet_street,house mincemeat,0.0032288653310388327,381.0,False,0.0025706894230097532,439,False,shared,-0.06581759080290794,False,False
+benet_street,mascarpone & sour cherry cake,0.0031861101742833853,385.0,False,0.002562725218012929,440,False,shared,-0.06233849562704563,False,False
+benet_street,white miso and manuka honey,0.0032258187420666218,382.0,False,0.0025578984059393406,441,False,shared,-0.06679203361272812,False,False
+benet_street,double chocolate coconut,,,,0.0025403848849236965,442,False,newly_supported,,False,False
+benet_street,vanilla & rose,0.003118776250630617,389.0,False,0.002537391148507595,443,False,shared,-0.05813851021230221,False,False
+benet_street,"coconut, ginger & chilli",0.0031745699234306812,386.0,False,0.0025291196070611477,444,False,shared,-0.06454503163695335,False,False
+benet_street,pistachio & rose,0.002299506450071931,445.0,False,0.002523125382140279,445,False,shared,0.022361893206834793,False,False
+benet_street,macadamia nut,0.003155006328597665,387.0,False,0.002519578207284212,446,False,shared,-0.06354281213134527,False,False
+benet_street,cadenhead’s whiskey; cognac cask,0.003098789369687438,392.0,False,0.002501505194231868,447,False,shared,-0.05972841754555702,False,False
+benet_street,pistachio (vegan!),0.003098789369687438,393.0,False,0.002501505194231868,448,False,shared,-0.05972841754555702,False,False
+benet_street,"james eadie, 29yr single grain whisky",0.0032391224522143602,379.0,False,0.002500535687431693,449,False,shared,-0.07385867647826672,False,False
+benet_street,milk chocolate & ginger,0.0031106641981750727,391.0,False,0.0024944189935922623,450,False,shared,-0.06162452045828104,False,False
+benet_street,treacle & ginger,0.0030074839014559984,400.0,False,0.002475445158779621,451,False,shared,-0.05320387426763773,False,False
+benet_street,vanilla (with a splash of marsala wine),0.0031176821794360876,390.0,False,0.002471553161740303,452,False,shared,-0.06461290176957846,False,False
+benet_street,spiced pumpkin,0.003020705422386527,399.0,False,0.0024579265154898167,453,False,shared,-0.05627789068967104,False,False
+benet_street,violet,0.003046860219910741,396.0,False,0.0024566876236349344,454,False,shared,-0.05901725962758064,False,False
+benet_street,rhubarb & lovage sorbet,,,,0.0024551316164433956,455,False,newly_supported,,False,False
+benet_street,double pistachio (dairy or vegan!),0.0030943278688937426,394.0,False,0.002454677363857627,456,False,shared,-0.06396505050361156,False,False
+benet_street,"king’s college lavender, raspberry ripple",0.0030269643757492304,398.0,False,0.0024516095872968435,457,False,shared,-0.057535478845238686,False,False
+benet_street,"canadian maple syrup, amber grade",0.0029006991535425186,406.0,False,0.0024480833671987057,458,False,shared,-0.045261578634381294,False,False
+benet_street,gin & lemon tonic,,,,0.0024187371600419283,459,False,newly_supported,,False,False
+benet_street,hibiscus & pink peppercorn sorbet,0.003006323240697384,401.0,False,0.0024098046123981476,460,False,shared,-0.05965186282992363,False,False
+benet_street,rhubarb & orange blossom sorbet,0.003065164666622877,395.0,False,0.002404106082394719,461,False,shared,-0.0661058584228158,False,False
+benet_street,girton apple & miso sorbet,0.0029306167270988226,402.0,False,0.0023993602953851223,462,False,shared,-0.05312564317137003,False,False
+benet_street,peanut butter & qin chilli,,,,0.002399182179942727,463,False,newly_supported,,False,False
+benet_street,cambridge elderflower & basil sorbet,,,,0.002391727641224861,464,False,newly_supported,,False,False
+benet_street,"coconut, raspberry & lemongrass",,,,0.002388176042586565,465,False,newly_supported,,False,False
+benet_street,vanilla house yoghurt,0.0028832091484218836,409.0,False,0.002380090532824397,466,False,shared,-0.05031186155974865,False,False
+benet_street,guava sorbet,0.0030449070036411285,397.0,False,0.002380027435719967,467,False,shared,-0.06648795679211617,False,False
+benet_street,"mascarpone, with a dash of marsala wine",,,,0.0023592375218868256,468,False,newly_supported,,False,False
+benet_street,strawberries sorbet,,,,0.0023519950918853283,469,False,newly_supported,,False,False
+benet_street,raspberry seed & black tea sorbet,0.0029246287886053324,403.0,False,0.0023501787800341845,470,False,shared,-0.05744500085711479,False,False
+benet_street,orange blossom & raspberry,0.0029070668388158083,405.0,False,0.002340947510674596,471,False,shared,-0.056611932814121246,False,False
+benet_street,chocolate & hazelnuts,0.00289114098995924,407.0,False,0.0023276207502931356,472,False,shared,-0.05635202396661043,False,False
+benet_street,strawberry balsamic,0.002885173074901104,408.0,False,0.0023234908003360033,473,False,shared,-0.05616822745651007,False,False
+benet_street,coconut & mint choc chip,0.0027509427163749933,423.0,False,0.0023092390038073063,474,False,shared,-0.0441703712567687,False,False
+benet_street,passion fruit & aleppo chili sorbet,0.002873434918001294,410.0,False,0.0022963806986808777,475,False,shared,-0.057705421932041645,False,False
+benet_street,iranian polished pistachio,0.0028675729408860207,412.0,False,0.002295835642144084,476,False,shared,-0.05717372987419367,False,False
+benet_street,baileys & cake,0.002922400599345565,404.0,False,0.002295771148055792,477,False,shared,-0.0626629451289773,False,False
+benet_street,chamoy hot sauce,0.0028150612488389015,418.0,False,0.002294840756803751,478,False,shared,-0.05202204920351505,False,False
+benet_street,strawberry & cardamom,0.002834690734744072,413.0,False,0.0022893776185810566,479,False,shared,-0.05453131161630154,False,False
+benet_street,ginger stracciatella,0.0028327936306595802,415.0,False,0.0022843871265649796,480,False,shared,-0.05484065040946007,False,False
+benet_street,damson & mezcal,0.0028246226720511913,416.0,False,0.002283287700265646,481,False,shared,-0.054133497178554535,False,False
+benet_street,rhubarb & lovage,,,,0.0022777575068175793,482,False,newly_supported,,False,False
+benet_street,salted rose & pistachios,0.002739100717008114,424.0,False,0.0022653047926723957,483,False,shared,-0.047379592433571815,False,False
+benet_street,vanilla & coconut sugar,0.003449829760938883,359.0,False,0.0022647303994745016,484,False,shared,-0.11850993614643812,False,False
+benet_street,hazelnut; tonda gentile delle langhe,0.002785084303468466,419.0,False,0.002260806504637003,485,False,shared,-0.052427779883146286,False,False
+benet_street,baked vanilla (with a splash of marsala wine),0.002833297476172447,414.0,False,0.002252734499052167,486,False,shared,-0.05805629771202803,False,False
+benet_street,carrot cake & pistachios,0.0027323190588504076,425.0,False,0.0022522008512169123,487,False,shared,-0.04801182076334953,False,False
+benet_street,"girton cucumber, apple & gin sorbet",0.002821719041094184,417.0,False,0.002244789618998766,488,False,shared,-0.0576929422095418,False,False
+benet_street,frascati sorbet,0.002768757985904813,421.0,False,0.002244111616164446,489,False,shared,-0.052464636974036694,False,False
+benet_street,rhubarb & rose,0.002767882775515318,422.0,False,0.002224991098046303,490,False,shared,-0.05428916774690151,False,False
+benet_street,bourbon whisky; eagle rare,0.002732307417318225,426.0,False,0.0022033804561942816,491,False,shared,-0.05289269611239433,False,False
+benet_street,"japanese whisky; nikka, front the barrel",0.002705014543607831,427.0,False,0.0021734682377427816,492,False,shared,-0.053154630586504936,False,False
+benet_street,"gooseberry sorbet (textured (skins and seeds),vegan)",0.002664274536073208,430.0,False,0.002159874653443694,493,False,shared,-0.050439988262951374,False,False
+benet_street,"house mascarpone, brownie dough",0.0026858181226998568,428.0,False,0.0021562541369348764,494,False,shared,-0.05295639857649803,False,False
+benet_street,strawberries & stem ginger,0.00268328795209527,429.0,False,0.0021437827963382006,495,False,shared,-0.05395051557570696,False,False
+benet_street,"chocolate, whole hazelnuts",0.002597816288471222,432.0,False,0.0021078456193208694,496,False,shared,-0.04899706691503525,False,False
+benet_street,"creme pat, cherry ripple",0.002575648482888937,434.0,False,0.0021018721163272858,497,False,shared,-0.04737763665616512,False,False
+benet_street,salted carmel ripple,0.002611628733575344,431.0,False,0.0020857201889157295,498,False,shared,-0.052590854465961456,False,False
+benet_street,malted dark chocolate,,,,0.002085351850837469,499,False,newly_supported,,False,False
+benet_street,earl grey & plum sorbet sorbet,0.0025138931814581156,436.0,False,0.0020759354811161757,500,False,shared,-0.04379577003419399,False,False
+benet_street,oftd plantation rum,0.0025580015499144793,435.0,False,0.0020441319793462753,501,False,shared,-0.05138695705682039,False,False
+benet_street,"brazil nut, house cinnamon biscuit",0.0024771811440587044,437.0,False,0.0020269695669412613,502,False,shared,-0.04502115771174431,False,False
+benet_street,"redcurrant, lemon & ginger sorbet",0.002578050596639514,433.0,False,0.001998770982027054,503,False,shared,-0.057927961461246014,False,False
+benet_street,orange flower & cardamom,0.002445818390697241,438.0,False,0.0019986433908343315,504,False,shared,-0.04471749998629093,False,False
+benet_street,king’s college lavender fudge brownie,0.002433409448713064,439.0,False,0.0019726876635104418,505,False,shared,-0.04607217852026224,False,False
+benet_street,malted milk (closest flavour to vanilla today),0.0024165634531527758,441.0,False,0.001966808456927538,506,False,shared,-0.044975499622523785,False,False
+benet_street,guava & pink peppercorn sorbet,0.002421752316877246,440.0,False,0.001955632586032152,507,False,shared,-0.04661197308450937,False,False
+benet_street,rhubarb & ginger sorbet,0.0023585911840200424,442.0,False,0.0019194073975086212,508,False,shared,-0.04391837865114212,False,False
+benet_street,milk & coconut sugar,,,,0.0019030653638765216,509,False,newly_supported,,False,False
+benet_street,cherry & almond cake,0.002242404967546463,448.0,False,0.0018913130043074489,510,False,shared,-0.035109196323901415,False,False
+benet_street,"house yoghurt, rose & pistachios",0.002301533240824938,444.0,False,0.0018886026227846742,511,False,shared,-0.041293061804026365,False,False
+benet_street,cashew & choc chip cookie dough,0.0023407882545143366,443.0,False,0.0018545788479968905,512,False,shared,-0.048620940651744604,False,False
+benet_street,"mascarpone, raspberry ripple",0.0022648994345217943,447.0,False,0.0018536574207246304,513,False,shared,-0.041124201379716396,False,False
+benet_street,"white chocolate, raspberry ripple",0.002292810007929802,446.0,False,0.0018503175815567374,514,False,shared,-0.04424924263730645,False,False
+benet_street,"yoghurt, rose & pistachios",0.0022313264198601246,449.0,False,0.001816529780626297,515,False,shared,-0.04147966392338276,False,False
+benet_street,passion fruit & liquorice,0.0022034035064280033,451.0,False,0.001814315328374505,516,False,shared,-0.03890881780534983,False,False
+benet_street,pink guava & mezcal,,,,0.0017862311797216535,517,False,newly_supported,,False,False
+benet_street,lemon & mint sorbet,0.0022157453931868076,450.0,False,0.0016968108247965574,518,False,shared,-0.05189345683902502,False,False
+benet_street,"coconut, ube, rose & pistachios",0.0020480158273130655,453.0,False,0.0016935718012973666,519,False,shared,-0.03544440260156989,False,False
+benet_street,burnt sugar & salt,0.0019965246319770813,454.0,False,0.0015788315795361996,520,False,shared,-0.04176930524408817,False,False
+benet_street,lychee & matcha sorbet,0.0019182550022378564,455.0,False,0.0015254769241437316,521,False,shared,-0.03927780780941248,False,False
+benet_street,roasted banana & cinnamon stracciatella,0.0018186173401772976,457.0,False,0.001489944290369749,522,False,shared,-0.03286730498075485,False,False
+benet_street,strawberries & aged balsamic,0.0018313785549253225,456.0,False,0.0014101013075560331,523,False,shared,-0.04212772473692894,False,False
+benet_street,blue matcha,0.0015197665197774768,460.0,False,0.0012143909698352218,524,False,shared,-0.030537554994225502,False,False
+benet_street,parsnip cake,0.0015531206736341119,459.0,False,0.0012028012424707413,525,False,shared,-0.03503194311633706,False,False
+benet_street,vanilla treacle,0.0013723843730986118,461.0,False,0.001099948538467288,526,False,shared,-0.02724358346313238,False,False

@@ -1,0 +1,23 @@
+{
+  "original_artifact_hashes": {
+    "artifacts/validation/metrics.json": "d1e3575d3febb237d0453ccafb90ed4698e6a221770f422b3f7a47ba811757ee",
+    "artifacts/validation/validation_2.npz": "117d6f902146852d11ffdfb6beb4223615720a3a49b484f521db5efa452e6402",
+    "artifacts/validation/validation_3.npz": "e86489de5d34d577e0292fe104d477a428a2c2e0f4589bf9ab7771ab2f410ec4",
+    "artifacts/validation/validation_1.npz": "696d17e2c9b274eb631493eb0cdc6b81485194eb641bd125e2d857ea2d672aa0",
+    "artifacts/validation/regularisation-search.json": "d055336ab58c61eded1f6e8234506ccd0a86b1990bb64990ec4b72570fb79bfc",
+    "artifacts/validation/manifest.json": "31719dc07da162af9a0e3c17a57b5c82650afb4d6e22fd99538bee999422752c",
+    "artifacts/validation/selection.json": "e5df471ce5f48b27a304b828bc1d4206fd7b301e7c90017a8fabd4257aa2dcca",
+    "artifacts/validation/per-flavour.csv": "64a897fbfa9f511ed71675ddfafd6cb3e87a1cacfdd3479fd40bb65dc2f4966a",
+    "artifacts/final/metrics.json": "96e25619b4c046ef801930e5c8266e8211798c89a354b0ed46e23fdbe41be59f",
+    "artifacts/final/model.joblib": "f4fa36b933a3193b98d525135b1373380e450c2d06b380792b46ab4a9168615f",
+    "artifacts/final/predictions.npz": "d518653e7878767f6fb4e1d0483aec7e7b145c7cc72d979a689750a14046640f",
+    "artifacts/final/started.json": "d21b1d154837ad95afe6ae15344eb97e68451fa6339aa78732bf6be6d1c6f318",
+    "artifacts/final/manifest.json": "719fdb4354782fe59e8d761b65493855e1010d90442caf1e623f45abb1735ceb",
+    "artifacts/final/per-flavour.csv": "9fce4c7a813c0286fc47c6efa5ad14103e65e410475f3540324d85188454a398"
+  },
+  "config_hash": "cb618728603ace81bed9acb7534bd8635bc32dd32f2dbf4fab854a602e0f306d",
+  "script_hash": "af9a1cf7f13b94278e04cdaaf13ad67d159f8a3a48fbf9c15faa1ff4f6aecee5",
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "original_artifacts_unchanged": true,
+  "final_period_independent": false
+}

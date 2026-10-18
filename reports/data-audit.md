@@ -1,0 +1,47 @@
+# Data audit
+
+Pinned source: `fba48c936c059625f399353e5afa8b071fc51457`.
+
+```json
+{
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "source_files": 1417,
+  "first_date": "2024-10-04",
+  "last_date": "2026-10-17",
+  "status_counts": {
+    "valid": 1222,
+    "suspect": 195,
+    "missing": 71
+  },
+  "reason_counts": {
+    "no_menu_date": 81,
+    "missing_file": 71,
+    "menu_date_mismatch": 50,
+    "closure_notice": 49,
+    "duplicate_flavour": 10,
+    "unexpected_menu_line": 5
+  },
+  "per_shop": {
+    "all_saints": {
+      "valid": 543,
+      "suspect": 153,
+      "missing": 48
+    },
+    "benet_street": {
+      "valid": 679,
+      "suspect": 42,
+      "missing": 23
+    }
+  },
+  "appearances": 16273,
+  "unique_names": 1588,
+  "duplicates": 0,
+  "unrecognized_files": [],
+  "menu_size_min": 8,
+  "menu_size_max": 16
+}
+```
+
+All missing, suspect and failed snapshots are excluded, not labelled empty. Full exclusions are in ignored `data/processed/excluded-snapshots.csv`. Canonical names remove only dietary/surcharge annotations, normalize Unicode/whitespace and case; no semantic alias merges. Raw names remain preserved locally.
+
+Coverage and format inspection includes the eventual test period; outcome-driven tuning does not. Historical snapshot availability is assumed after collection, not proven from commit timestamps. This is a backtest limitation.

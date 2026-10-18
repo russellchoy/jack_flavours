@@ -1,0 +1,27 @@
+{
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "selection_sha256": "e5df471ce5f48b27a304b828bc1d4206fd7b301e7c90017a8fabd4257aa2dcca",
+  "scientific_inputs": {
+    "src/jack_flavours/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "src/jack_flavours/__main__.py": "4078242b76af52b76f9d5008d0b2166ed3569a6128d61a94ac4f66dbc4a6248e",
+    "src/jack_flavours/data.py": "a7b5bcdffc5605cdc56f8feb23a2fdfb7445cd7cc3368c24b7d86384c969a755",
+    "src/jack_flavours/evaluation.py": "e269249f4efd2f2ad9724e1a5aa72345f1a4dada1b47bd7e0429c350d0f6904a",
+    "src/jack_flavours/experiment.py": "1701db7a6efa902c5a893cc3420d6b95e986a17422833cfa5ef67d458ddc82f9",
+    "src/jack_flavours/features.py": "5bbec35835fca097c8e04ec9f198a10df414208a85eee3f36c5647952102b07d",
+    "src/jack_flavours/final.py": "d28c4314a005df5006fb7553a6c79c8865651c76b9fd3e2fdb1cd162123b19b6",
+    "src/jack_flavours/models.py": "c51005a2a152274160d43f956647e4fb1ba2ba9698f7f330f94c5687e34a68c0",
+    "uv.lock": "1dac21309873e0f9387a399776eb884234470c5044488929258031d6149d7926",
+    "configs/experiment.json": "a5fae658a758900f406bd34496fecc63df85eb1a4536f27e36b29f7189499c05",
+    "configs/splits.json": "d339849bd1eed7e15b4fccb4c64b12e9d727fe0b7de04489ddcb441eb32a0d66"
+  },
+  "new_stage_files": {
+    "src/jack_flavours/final.py": "d28c4314a005df5006fb7553a6c79c8865651c76b9fd3e2fdb1cd162123b19b6",
+    "configs/continuation.json": "9d6d1648a42bee960e88ace1fe5728edbb42ec13dbd7a08a15f2291659ca8083"
+  },
+  "processed_data": {
+    "data/processed/snapshots.parquet": "7ce6751ac99ab1a0748e0b1f58ba078d249822c70433c68953a32de4a46470b9",
+    "data/processed/appearances.parquet": "3214156d86b1d4d0ee1d221637c14652883d497c6c8bb2bbceb13255e1999530"
+  },
+  "started_utc": "2026-10-17T17:43:58.289637+00:00",
+  "availability_assumption": "After issue-date snapshot collection completes; availability is assumed, not timestamp-verified. Never use target-day observations."
+}

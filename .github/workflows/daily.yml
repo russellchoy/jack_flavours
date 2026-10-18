@@ -1,0 +1,71 @@
+name: Daily menu forecast
+on:
+  workflow_dispatch:
+  schedule:
+    # Both GMT/BST offsets; Python accepts only 11:xx, 13:xx, 16:xx London.
+    - cron: '37 10,11,12,13,15,16 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: daily-menu-writer
+  cancel-in-progress: false
+jobs:
+  daily:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      UV_NO_PROGRESS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.9.2'
+          enable-cache: false
+      - name: Install reproducible environments
+        run: |
+          uv sync --locked
+          uv sync --locked --project integrations/menu-collector
+      - uses: actions/checkout@v4
+        with:
+          ref: daily-data
+          path: daily-state
+      - name: Restore interrupted current-day model if published
+        shell: bash
+        run: |
+          DAY=$(TZ=Europe/London date +%F)
+          if [ -f "daily-state/issuance/$DAY.json" ] && [ ! -f "daily-state/issued/$DAY.json" ]; then
+            mkdir -p daily-state/models
+            gh release download "daily-model-$DAY" --pattern "$DAY.joblib" --dir daily-state/models
+          fi
+      - name: Collect, score and forecast
+        id: pipeline
+        run: uv run --locked python -m jack_flavours.daily run --state daily-state ${{ github.event_name == 'schedule' && '--scheduled' || '' }}
+      - name: Publish models and durable records, including partial progress
+        if: always() && steps.pipeline.outcome != 'skipped'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -d daily-state/.git ]; then exit 1; fi
+          for model in daily-state/models/*.joblib; do
+            [ -f "$model" ] || continue
+            DAY=$(basename "$model" .joblib)
+            TAG="daily-model-$DAY"
+            if gh release view "$TAG" >/dev/null 2>&1; then
+              mkdir -p "$RUNNER_TEMP/verify-$DAY"
+              gh release download "$TAG" --pattern "$DAY.joblib" --dir "$RUNNER_TEMP/verify-$DAY" --clobber
+              cmp "$model" "$RUNNER_TEMP/verify-$DAY/$DAY.joblib"
+            else
+              gh release create "$TAG" "$model" --target "$GITHUB_SHA" --title "Daily model $DAY" --notes "Versioned daily-refit model. Checksums and input provenance are recorded on the daily-data branch." --latest=false
+            fi
+          done
+          cd daily-state
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A .
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record daily menus, forecasts and accuracy'
+            git push origin HEAD:daily-data
+          fi

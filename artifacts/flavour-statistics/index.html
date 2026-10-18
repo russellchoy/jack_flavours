@@ -1,0 +1,1239 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Jack’s flavour field notes</title><style>body{font:16px/1.6 system-ui;color:#20333c;background:#faf8f3;max-width:1200px;margin:50px auto;padding:0 24px}h1{font-size:44px}h2{margin-top:48px}img{max-width:100%;background:white;border-radius:8px}.wide{overflow-x:auto}img.all{max-width:none;width:auto;height:1000px}table{border-collapse:collapse;background:white;font-size:13px;white-space:nowrap}td,th{padding:9px 12px;text-align:left;border-bottom:1px solid #ddd}summary{cursor:pointer;color:#176c80;font-weight:bold}a{color:#176c80}.note{padding:20px;background:#e9f0eb;border-radius:10px}</style></head><body>
+    <h1>Jack’s flavour field notes</h1><p>Descriptive menu history · 2024-10-04 to 2026-10-17</p>
+    <div class="note"><b>1,222 valid shop menus · 1,550 distinct recorded flavour labels · 16,273 flavour appearances.</b><br>These describe the recorded menus, not sales or predictions. Matching removes standalone “and” and ampersands from all titles and collapses whitespace. Three user-confirmed ingredient-order aliases are also merged: vanilla mascarpone, vanilla brown sugar and coconut pineapple. Original names are preserved; other spelling variants can remain separate.</div>
+    <h2>How similar is a menu to itself later?</h2><p>For each shop and calendar-day lag x, compare the sets of flavours at t and t + x using Jaccard similarity, then average equally over valid date pairs. Lag zero is 100%. Missing endpoints are excluded; intervening missing days do not change the calendar lag. The lower panel counts the menu comparisons used in the average above. For example, at a seven-day lag, Monday’s menu compared with the following Monday’s menu is one comparison. Both menus must be recorded and parsed successfully; otherwise that comparison is excluded.</p><img src="menu-autocorrelogram.png"><p>This is a menu-similarity correlogram, not a Pearson autocorrelation or fitted AR(1). Repeated favourites can produce a positive long-run floor, and seasonal or weekly recurrence can produce bumps. No declining shape is imposed. Overlapping pairs are dependent; no independent-pair confidence intervals are shown. <a href="menu-autocorrelogram.csv">Download lag statistics</a> · <a href="title-mapping.csv">Inspect title matching</a>.</p>
+    <h2>Do the shops serve the same flavours?</h2><p>Daily similarity = shared flavours ÷ distinct flavours across both menus × 100 (Jaccard similarity). Identical nonempty menus score 100%; menus with no overlap score 0%. Dates missing either valid menu are gaps, not zeros. Conjunction-normalized flavour labels are compared; other unmerged naming variants can reduce measured overlap.</p><img src="daily-menu-similarity.png"><p>Across 526 comparable dates, mean similarity is <b>7.9%</b> and median is <b>8.0%</b>. Each date has equal weight. <a href="daily-menu-similarity.csv">Download daily counts and percentages</a>.</p>
+    <p>The 100% spike on 7 October 2025 reflects identical sets of 14 canonical labels in the two recorded menus. It is retained as recorded; these data alone cannot distinguish a genuinely identical menu from a collection duplication.</p><h2>The regulars</h2><img src="most-common.png"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>flavour</th>
+      <th>Recorded appearances</th>
+      <th>Share of valid shop menus (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>1024</td>
+      <td>83.8</td>
+    </tr>
+    <tr>
+      <td>strawberries cream</td>
+      <td>611</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <td>vanilla</td>
+      <td>575</td>
+      <td>47.1</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>464</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <td>honeycomb</td>
+      <td>302</td>
+      <td>24.7</td>
+    </tr>
+    <tr>
+      <td>house yoghurt</td>
+      <td>296</td>
+      <td>24.2</td>
+    </tr>
+    <tr>
+      <td>king’s college lavender</td>
+      <td>211</td>
+      <td>17.3</td>
+    </tr>
+    <tr>
+      <td>strawberry</td>
+      <td>201</td>
+      <td>16.4</td>
+    </tr>
+    <tr>
+      <td>girton apple sorbet</td>
+      <td>165</td>
+      <td>13.5</td>
+    </tr>
+    <tr>
+      <td>alphonso mango sorbet</td>
+      <td>163</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>vanilla mascarpone</td>
+      <td>159</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>vanilla brown sugar</td>
+      <td>156</td>
+      <td>12.8</td>
+    </tr>
+    <tr>
+      <td>lychee sorbet</td>
+      <td>155</td>
+      <td>12.7</td>
+    </tr>
+    <tr>
+      <td>roasted banana</td>
+      <td>140</td>
+      <td>11.5</td>
+    </tr>
+    <tr>
+      <td>damson sorbet</td>
+      <td>136</td>
+      <td>11.1</td>
+    </tr>
+  </tbody>
+</table>
+    <h2 id="cooccurrence">Which flavours appear alongside each other?</h2>
+<p>Each observation is one valid menu at one shop on one date. Flavours are complete menu items, not ingredients inside a recipe. Missing menus are excluded. The left panels show the 12 pairs seen together most often; the right panels adjust for how common each flavour is.</p>
+<img src="flavour-cooccurrence.png" alt="Most frequent flavour pairs and strongest relative associations by shop">
+<p><b>Conditional probability:</b> “B given A” is the percentage of menus containing A that also contain B. Its reverse can differ. <b>Lift</b> = P(A and B) ÷ [P(A) × P(B)]. A lift of 2 means twice the co-occurrence expected if their appearances were independent within that shop; 1 means that independence benchmark. It is not a twofold probability of tomorrow’s appearance.</p>
+<p>Relative-association rankings require each flavour on at least <b>20 valid menus</b> and the pair together on at least <b>10</b>. These are descriptive support filters, not significance tests. Consecutive menu days are dependent, and seasonal availability or long shared runs can drive high lift; the calculation does not adjust for these. It does not establish intentional pairing or customer preferences.</p>
+<details><summary>Pair counts and conditional probabilities</summary><h3>All Saints: most frequent pairs</h3><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour A</th>
+      <th>Flavour B</th>
+      <th>A menus</th>
+      <th>B menus</th>
+      <th>Together</th>
+      <th>B given A (%)</th>
+      <th>A given B (%)</th>
+      <th>Lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>strawberries cream</td>
+      <td>416</td>
+      <td>181</td>
+      <td>151</td>
+      <td>36.30</td>
+      <td>83.43</td>
+      <td>1.09</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>dark chocolate sea salt</td>
+      <td>141</td>
+      <td>416</td>
+      <td>137</td>
+      <td>97.16</td>
+      <td>32.93</td>
+      <td>1.27</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>vanilla</td>
+      <td>416</td>
+      <td>165</td>
+      <td>135</td>
+      <td>32.45</td>
+      <td>81.82</td>
+      <td>1.07</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>house yoghurt</td>
+      <td>416</td>
+      <td>145</td>
+      <td>123</td>
+      <td>29.57</td>
+      <td>84.83</td>
+      <td>1.11</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>strawberry</td>
+      <td>416</td>
+      <td>124</td>
+      <td>119</td>
+      <td>28.61</td>
+      <td>95.97</td>
+      <td>1.25</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>vanilla mascarpone</td>
+      <td>416</td>
+      <td>107</td>
+      <td>92</td>
+      <td>22.12</td>
+      <td>85.98</td>
+      <td>1.12</td>
+    </tr>
+    <tr>
+      <td>strawberry</td>
+      <td>vanilla</td>
+      <td>124</td>
+      <td>165</td>
+      <td>85</td>
+      <td>68.55</td>
+      <td>51.52</td>
+      <td>2.26</td>
+    </tr>
+    <tr>
+      <td>alphonso mango sorbet</td>
+      <td>dark chocolate sea salt</td>
+      <td>97</td>
+      <td>416</td>
+      <td>69</td>
+      <td>71.13</td>
+      <td>16.59</td>
+      <td>0.93</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>lychee sorbet</td>
+      <td>416</td>
+      <td>108</td>
+      <td>66</td>
+      <td>15.87</td>
+      <td>61.11</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>strawberries cream</td>
+      <td>141</td>
+      <td>181</td>
+      <td>65</td>
+      <td>46.10</td>
+      <td>35.91</td>
+      <td>1.38</td>
+    </tr>
+    <tr>
+      <td>house yoghurt</td>
+      <td>vanilla</td>
+      <td>145</td>
+      <td>165</td>
+      <td>65</td>
+      <td>44.83</td>
+      <td>39.39</td>
+      <td>1.48</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>vanilla brown sugar</td>
+      <td>416</td>
+      <td>60</td>
+      <td>60</td>
+      <td>14.42</td>
+      <td>100.00</td>
+      <td>1.31</td>
+    </tr>
+  </tbody>
+</table></div><h3>All Saints: strongest relative associations</h3><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour A</th>
+      <th>Flavour B</th>
+      <th>A menus</th>
+      <th>B menus</th>
+      <th>Together</th>
+      <th>B given A (%)</th>
+      <th>A given B (%)</th>
+      <th>Lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>guava sorbet</td>
+      <td>pear cardamom</td>
+      <td>21</td>
+      <td>23</td>
+      <td>18</td>
+      <td>85.71</td>
+      <td>78.26</td>
+      <td>20.24</td>
+    </tr>
+    <tr>
+      <td>house yoghurt, sour cherry ripple</td>
+      <td>rhubarb cardamom sorbet</td>
+      <td>28</td>
+      <td>27</td>
+      <td>20</td>
+      <td>71.43</td>
+      <td>74.07</td>
+      <td>14.37</td>
+    </tr>
+    <tr>
+      <td>house cinnamon biscuit</td>
+      <td>lemon yoghurt</td>
+      <td>22</td>
+      <td>23</td>
+      <td>13</td>
+      <td>59.09</td>
+      <td>56.52</td>
+      <td>13.95</td>
+    </tr>
+    <tr>
+      <td>house mascarpone marsala wine</td>
+      <td>raspberry ripple</td>
+      <td>25</td>
+      <td>20</td>
+      <td>12</td>
+      <td>48.00</td>
+      <td>60.00</td>
+      <td>13.03</td>
+    </tr>
+    <tr>
+      <td>raspberries cream</td>
+      <td>salted macadamia</td>
+      <td>24</td>
+      <td>23</td>
+      <td>13</td>
+      <td>54.17</td>
+      <td>56.52</td>
+      <td>12.79</td>
+    </tr>
+    <tr>
+      <td>caramelised vanilla</td>
+      <td>rhubarb cardamom sorbet</td>
+      <td>35</td>
+      <td>27</td>
+      <td>20</td>
+      <td>57.14</td>
+      <td>74.07</td>
+      <td>11.49</td>
+    </tr>
+    <tr>
+      <td>carrot cake</td>
+      <td>guava sorbet</td>
+      <td>26</td>
+      <td>21</td>
+      <td>11</td>
+      <td>42.31</td>
+      <td>52.38</td>
+      <td>10.94</td>
+    </tr>
+    <tr>
+      <td>baked vanilla</td>
+      <td>salted macadamia</td>
+      <td>33</td>
+      <td>23</td>
+      <td>15</td>
+      <td>45.45</td>
+      <td>65.22</td>
+      <td>10.73</td>
+    </tr>
+    <tr>
+      <td>caramelised vanilla</td>
+      <td>house yoghurt, sour cherry ripple</td>
+      <td>35</td>
+      <td>28</td>
+      <td>19</td>
+      <td>54.29</td>
+      <td>67.86</td>
+      <td>10.53</td>
+    </tr>
+    <tr>
+      <td>fudge chunk</td>
+      <td>rhubarb cardamom sorbet</td>
+      <td>31</td>
+      <td>27</td>
+      <td>16</td>
+      <td>51.61</td>
+      <td>59.26</td>
+      <td>10.38</td>
+    </tr>
+    <tr>
+      <td>fudge chunk</td>
+      <td>house yoghurt, sour cherry ripple</td>
+      <td>31</td>
+      <td>28</td>
+      <td>16</td>
+      <td>51.61</td>
+      <td>57.14</td>
+      <td>10.01</td>
+    </tr>
+    <tr>
+      <td>brown butter</td>
+      <td>rhubarb cardamom sorbet</td>
+      <td>21</td>
+      <td>27</td>
+      <td>10</td>
+      <td>47.62</td>
+      <td>37.04</td>
+      <td>9.58</td>
+    </tr>
+  </tbody>
+</table></div><h3>Bene’t Street: most frequent pairs</h3><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour A</th>
+      <th>Flavour B</th>
+      <th>A menus</th>
+      <th>B menus</th>
+      <th>Together</th>
+      <th>B given A (%)</th>
+      <th>A given B (%)</th>
+      <th>Lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>strawberries cream</td>
+      <td>608</td>
+      <td>430</td>
+      <td>386</td>
+      <td>63.49</td>
+      <td>89.77</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>vanilla</td>
+      <td>608</td>
+      <td>410</td>
+      <td>367</td>
+      <td>60.36</td>
+      <td>89.51</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>strawberries cream</td>
+      <td>vanilla</td>
+      <td>430</td>
+      <td>410</td>
+      <td>319</td>
+      <td>74.19</td>
+      <td>77.80</td>
+      <td>1.23</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>dark chocolate sea salt</td>
+      <td>323</td>
+      <td>608</td>
+      <td>296</td>
+      <td>91.64</td>
+      <td>48.68</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>honeycomb</td>
+      <td>608</td>
+      <td>299</td>
+      <td>264</td>
+      <td>43.42</td>
+      <td>88.29</td>
+      <td>0.99</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>strawberries cream</td>
+      <td>323</td>
+      <td>430</td>
+      <td>233</td>
+      <td>72.14</td>
+      <td>54.19</td>
+      <td>1.14</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>vanilla</td>
+      <td>323</td>
+      <td>410</td>
+      <td>201</td>
+      <td>62.23</td>
+      <td>49.02</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <td>honeycomb</td>
+      <td>vanilla</td>
+      <td>299</td>
+      <td>410</td>
+      <td>190</td>
+      <td>63.55</td>
+      <td>46.34</td>
+      <td>1.05</td>
+    </tr>
+    <tr>
+      <td>honeycomb</td>
+      <td>strawberries cream</td>
+      <td>299</td>
+      <td>430</td>
+      <td>185</td>
+      <td>61.87</td>
+      <td>43.02</td>
+      <td>0.98</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>king’s college lavender</td>
+      <td>608</td>
+      <td>171</td>
+      <td>157</td>
+      <td>25.82</td>
+      <td>91.81</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>house yoghurt</td>
+      <td>608</td>
+      <td>151</td>
+      <td>139</td>
+      <td>22.86</td>
+      <td>92.05</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>honeycomb</td>
+      <td>323</td>
+      <td>299</td>
+      <td>134</td>
+      <td>41.49</td>
+      <td>44.82</td>
+      <td>0.94</td>
+    </tr>
+  </tbody>
+</table></div><h3>Bene’t Street: strongest relative associations</h3><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour A</th>
+      <th>Flavour B</th>
+      <th>A menus</th>
+      <th>B menus</th>
+      <th>Together</th>
+      <th>B given A (%)</th>
+      <th>A given B (%)</th>
+      <th>Lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>brandy butter</td>
+      <td>sugar spice</td>
+      <td>29</td>
+      <td>21</td>
+      <td>13</td>
+      <td>44.83</td>
+      <td>61.90</td>
+      <td>14.49</td>
+    </tr>
+    <tr>
+      <td>brandy butter</td>
+      <td>dark chocolate orange</td>
+      <td>29</td>
+      <td>30</td>
+      <td>14</td>
+      <td>48.28</td>
+      <td>46.67</td>
+      <td>10.93</td>
+    </tr>
+    <tr>
+      <td>cinnamon</td>
+      <td>rhubarb sorbet</td>
+      <td>23</td>
+      <td>53</td>
+      <td>11</td>
+      <td>47.83</td>
+      <td>20.75</td>
+      <td>6.13</td>
+    </tr>
+    <tr>
+      <td>chocolate, raspberry ripple</td>
+      <td>oftd rum raisin</td>
+      <td>26</td>
+      <td>54</td>
+      <td>11</td>
+      <td>42.31</td>
+      <td>20.37</td>
+      <td>5.32</td>
+    </tr>
+    <tr>
+      <td>oftd rum raisin</td>
+      <td>vanilla mascarpone</td>
+      <td>54</td>
+      <td>52</td>
+      <td>21</td>
+      <td>38.89</td>
+      <td>40.38</td>
+      <td>5.08</td>
+    </tr>
+    <tr>
+      <td>girton apple sorbet</td>
+      <td>sugar spice</td>
+      <td>106</td>
+      <td>21</td>
+      <td>13</td>
+      <td>12.26</td>
+      <td>61.90</td>
+      <td>3.97</td>
+    </tr>
+    <tr>
+      <td>lychee sorbet</td>
+      <td>vanilla mascarpone</td>
+      <td>47</td>
+      <td>52</td>
+      <td>14</td>
+      <td>29.79</td>
+      <td>26.92</td>
+      <td>3.89</td>
+    </tr>
+    <tr>
+      <td>chocolate</td>
+      <td>rhubarb sorbet</td>
+      <td>63</td>
+      <td>53</td>
+      <td>19</td>
+      <td>30.16</td>
+      <td>35.85</td>
+      <td>3.86</td>
+    </tr>
+    <tr>
+      <td>jgf rhubarb sorbet</td>
+      <td>strawberry</td>
+      <td>23</td>
+      <td>77</td>
+      <td>10</td>
+      <td>43.48</td>
+      <td>12.99</td>
+      <td>3.83</td>
+    </tr>
+    <tr>
+      <td>blackcurrant</td>
+      <td>rhubarb sorbet</td>
+      <td>58</td>
+      <td>53</td>
+      <td>17</td>
+      <td>29.31</td>
+      <td>32.08</td>
+      <td>3.76</td>
+    </tr>
+    <tr>
+      <td>damson sorbet</td>
+      <td>english whisky; circumstance distillery</td>
+      <td>87</td>
+      <td>21</td>
+      <td>10</td>
+      <td>11.49</td>
+      <td>47.62</td>
+      <td>3.72</td>
+    </tr>
+    <tr>
+      <td>house yoghurt</td>
+      <td>lychee rose sorbet</td>
+      <td>151</td>
+      <td>20</td>
+      <td>16</td>
+      <td>10.60</td>
+      <td>80.00</td>
+      <td>3.60</td>
+    </tr>
+  </tbody>
+</table></div></details><p><a href="flavour-cooccurrence.csv">Download all observed pair counts, conditional probabilities and lift</a>. Unobserved pairs have zero co-occurrences and are omitted from this file; self-pairs are excluded. All names use the latest confirmed cleaning.</p>
+    <h2>Time on the menu</h2><p>Completed stays only: both arrival and departure must be observed, without any missing days. Each panel shows its shop’s 30 most common flavours, sorted by median duration; blank columns mean no qualifying events. Orange = mean; teal = median. Counts are in the tables and CSV.</p><img src="stay-common.png"><details><summary>Explore every flavour (scroll horizontally)</summary><p>Includes rare flavours with very little evidence. An estimate based on one event is not a reliable typical duration.</p><div class="wide"><img class="all" src="stay-all.png"></div><a href="stay-all.png">Open full-resolution chart</a></details><h2>Time off the menu</h2><p>Completed absences with every intervening day observed. This favours shorter gaps; flavours with no observed return are excluded. Each panel shows its shop’s 30 most common flavours, sorted by median duration; blank columns mean no qualifying events. Orange = mean; teal = median. Counts are in the tables and CSV.</p><img src="absence-common.png"><details><summary>Explore every flavour (scroll horizontally)</summary><p>Includes rare flavours with very little evidence. An estimate based on one event is not a reliable typical duration.</p><div class="wide"><img class="all" src="absence-all.png"></div><a href="absence-all.png">Open full-resolution chart</a></details><h2>Longer gaps between recorded returns</h2><p>After a confirmed departure, elapsed off-menu days until the next recorded appearance. Missing menus may hide an earlier return, so this is not proven continuous absence. Each panel shows its shop’s 30 most common flavours, sorted by median duration; blank columns mean no qualifying events. Orange = mean; teal = median. Counts are in the tables and CSV.</p><img src="recorded_return-common.png"><details><summary>Explore every flavour (scroll horizontally)</summary><p>Includes rare flavours with very little evidence. An estimate based on one event is not a reliable typical duration.</p><div class="wide"><img class="all" src="recorded_return-all.png"></div><a href="recorded_return-all.png">Open full-resolution chart</a></details><h2>A view of the whole distribution</h2><p>The curves pool completed events within each shop; frequently recurring flavours contribute more events. For example, a curve at 0.8 means 80% of included events lasted that many days or less.</p><img src="duration-distributions.png">
+    <h2>All Saints: the 20 most common</h2><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour</th>
+      <th>Menus</th>
+      <th>Menu %</th>
+      <th>Stays n</th>
+      <th>Stay mean</th>
+      <th>Stay median</th>
+      <th>Strict returns n</th>
+      <th>Strict gap mean</th>
+      <th>Strict gap median</th>
+      <th>Recorded returns n</th>
+      <th>Recorded gap mean</th>
+      <th>Recorded gap median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>416</td>
+      <td>76.6</td>
+      <td>8</td>
+      <td>7.2</td>
+      <td>3.0</td>
+      <td>7</td>
+      <td>5.4</td>
+      <td>4.0</td>
+      <td>9</td>
+      <td>7.9</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>strawberries cream</td>
+      <td>181</td>
+      <td>33.3</td>
+      <td>9</td>
+      <td>9.7</td>
+      <td>5.0</td>
+      <td>5</td>
+      <td>18.0</td>
+      <td>9.0</td>
+      <td>9</td>
+      <td>24.7</td>
+      <td>25.0</td>
+    </tr>
+    <tr>
+      <td>vanilla</td>
+      <td>165</td>
+      <td>30.4</td>
+      <td>5</td>
+      <td>4.8</td>
+      <td>2.0</td>
+      <td>4</td>
+      <td>18.0</td>
+      <td>14.5</td>
+      <td>8</td>
+      <td>30.4</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <td>house yoghurt</td>
+      <td>145</td>
+      <td>26.7</td>
+      <td>17</td>
+      <td>6.7</td>
+      <td>4.0</td>
+      <td>11</td>
+      <td>5.7</td>
+      <td>1.0</td>
+      <td>18</td>
+      <td>25.9</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>141</td>
+      <td>26.0</td>
+      <td>8</td>
+      <td>7.5</td>
+      <td>5.0</td>
+      <td>6</td>
+      <td>20.7</td>
+      <td>10.0</td>
+      <td>12</td>
+      <td>26.7</td>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <td>strawberry</td>
+      <td>124</td>
+      <td>22.8</td>
+      <td>4</td>
+      <td>13.5</td>
+      <td>1.5</td>
+      <td>3</td>
+      <td>6.3</td>
+      <td>2.0</td>
+      <td>5</td>
+      <td>53.4</td>
+      <td>16.0</td>
+    </tr>
+    <tr>
+      <td>lychee sorbet</td>
+      <td>108</td>
+      <td>19.9</td>
+      <td>9</td>
+      <td>5.7</td>
+      <td>3.0</td>
+      <td>7</td>
+      <td>7.3</td>
+      <td>6.0</td>
+      <td>10</td>
+      <td>27.1</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <td>vanilla mascarpone</td>
+      <td>107</td>
+      <td>19.7</td>
+      <td>7</td>
+      <td>6.3</td>
+      <td>8.0</td>
+      <td>5</td>
+      <td>8.0</td>
+      <td>3.0</td>
+      <td>9</td>
+      <td>52.1</td>
+      <td>25.0</td>
+    </tr>
+    <tr>
+      <td>alphonso mango sorbet</td>
+      <td>97</td>
+      <td>17.9</td>
+      <td>10</td>
+      <td>7.0</td>
+      <td>7.0</td>
+      <td>6</td>
+      <td>4.3</td>
+      <td>2.5</td>
+      <td>11</td>
+      <td>41.9</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>tiramisu</td>
+      <td>74</td>
+      <td>13.6</td>
+      <td>25</td>
+      <td>2.7</td>
+      <td>2.0</td>
+      <td>17</td>
+      <td>8.4</td>
+      <td>4.0</td>
+      <td>28</td>
+      <td>18.1</td>
+      <td>9.5</td>
+    </tr>
+    <tr>
+      <td>blackcurrants cream</td>
+      <td>73</td>
+      <td>13.4</td>
+      <td>11</td>
+      <td>4.5</td>
+      <td>5.0</td>
+      <td>10</td>
+      <td>13.3</td>
+      <td>8.0</td>
+      <td>15</td>
+      <td>33.7</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>chocolate chip cookie dough</td>
+      <td>67</td>
+      <td>12.3</td>
+      <td>18</td>
+      <td>3.1</td>
+      <td>2.5</td>
+      <td>13</td>
+      <td>11.4</td>
+      <td>5.0</td>
+      <td>19</td>
+      <td>30.6</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <td>roasted banana</td>
+      <td>66</td>
+      <td>12.2</td>
+      <td>11</td>
+      <td>3.8</td>
+      <td>3.0</td>
+      <td>7</td>
+      <td>10.4</td>
+      <td>11.0</td>
+      <td>11</td>
+      <td>32.9</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <td>chocolate coconut</td>
+      <td>65</td>
+      <td>12.0</td>
+      <td>2</td>
+      <td>5.0</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>21.5</td>
+      <td>21.5</td>
+      <td>2</td>
+      <td>21.5</td>
+      <td>21.5</td>
+    </tr>
+    <tr>
+      <td>double chocolate</td>
+      <td>63</td>
+      <td>11.6</td>
+      <td>9</td>
+      <td>4.3</td>
+      <td>4.0</td>
+      <td>7</td>
+      <td>18.9</td>
+      <td>16.0</td>
+      <td>10</td>
+      <td>45.7</td>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <td>grilled white chocolate</td>
+      <td>60</td>
+      <td>11.0</td>
+      <td>7</td>
+      <td>5.3</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>10.5</td>
+      <td>10.5</td>
+      <td>7</td>
+      <td>23.4</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <td>vanilla brown sugar</td>
+      <td>60</td>
+      <td>11.0</td>
+      <td>3</td>
+      <td>3.7</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>4</td>
+      <td>85.8</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <td>girton apple sorbet</td>
+      <td>59</td>
+      <td>10.9</td>
+      <td>6</td>
+      <td>8.3</td>
+      <td>3.0</td>
+      <td>3</td>
+      <td>10.3</td>
+      <td>6.0</td>
+      <td>6</td>
+      <td>61.7</td>
+      <td>23.5</td>
+    </tr>
+    <tr>
+      <td>passion fruit sorbet</td>
+      <td>58</td>
+      <td>10.7</td>
+      <td>7</td>
+      <td>3.9</td>
+      <td>2.0</td>
+      <td>5</td>
+      <td>19.0</td>
+      <td>5.0</td>
+      <td>7</td>
+      <td>50.9</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <td>salted oreo</td>
+      <td>55</td>
+      <td>10.1</td>
+      <td>12</td>
+      <td>4.0</td>
+      <td>4.5</td>
+      <td>5</td>
+      <td>6.8</td>
+      <td>4.0</td>
+      <td>12</td>
+      <td>45.5</td>
+      <td>38.0</td>
+    </tr>
+  </tbody>
+</table></div><h2>Bene’t Street: the 20 most common</h2><div class="wide"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Flavour</th>
+      <th>Menus</th>
+      <th>Menu %</th>
+      <th>Stays n</th>
+      <th>Stay mean</th>
+      <th>Stay median</th>
+      <th>Strict returns n</th>
+      <th>Strict gap mean</th>
+      <th>Strict gap median</th>
+      <th>Recorded returns n</th>
+      <th>Recorded gap mean</th>
+      <th>Recorded gap median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dark chocolate sea salt</td>
+      <td>608</td>
+      <td>89.5</td>
+      <td>6</td>
+      <td>17.0</td>
+      <td>12.5</td>
+      <td>11</td>
+      <td>5.0</td>
+      <td>2.0</td>
+      <td>12</td>
+      <td>4.8</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>strawberries cream</td>
+      <td>430</td>
+      <td>63.3</td>
+      <td>9</td>
+      <td>8.7</td>
+      <td>4.0</td>
+      <td>11</td>
+      <td>8.2</td>
+      <td>4.0</td>
+      <td>16</td>
+      <td>16.8</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>vanilla</td>
+      <td>410</td>
+      <td>60.4</td>
+      <td>19</td>
+      <td>6.3</td>
+      <td>6.0</td>
+      <td>17</td>
+      <td>4.7</td>
+      <td>2.0</td>
+      <td>22</td>
+      <td>10.5</td>
+      <td>3.5</td>
+    </tr>
+    <tr>
+      <td>coconut ube</td>
+      <td>323</td>
+      <td>47.6</td>
+      <td>50</td>
+      <td>4.1</td>
+      <td>3.0</td>
+      <td>49</td>
+      <td>5.2</td>
+      <td>4.0</td>
+      <td>56</td>
+      <td>5.6</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>honeycomb</td>
+      <td>299</td>
+      <td>44.0</td>
+      <td>123</td>
+      <td>2.2</td>
+      <td>2.0</td>
+      <td>116</td>
+      <td>2.3</td>
+      <td>2.0</td>
+      <td>132</td>
+      <td>3.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>king’s college lavender</td>
+      <td>171</td>
+      <td>25.2</td>
+      <td>35</td>
+      <td>4.1</td>
+      <td>3.0</td>
+      <td>26</td>
+      <td>8.6</td>
+      <td>7.0</td>
+      <td>38</td>
+      <td>13.7</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>house yoghurt</td>
+      <td>151</td>
+      <td>22.2</td>
+      <td>34</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>29</td>
+      <td>8.4</td>
+      <td>3.0</td>
+      <td>38</td>
+      <td>10.9</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <td>girton apple sorbet</td>
+      <td>106</td>
+      <td>15.6</td>
+      <td>15</td>
+      <td>3.7</td>
+      <td>2.0</td>
+      <td>10</td>
+      <td>8.1</td>
+      <td>4.0</td>
+      <td>20</td>
+      <td>29.7</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td>vanilla brown sugar</td>
+      <td>96</td>
+      <td>14.1</td>
+      <td>16</td>
+      <td>4.7</td>
+      <td>4.5</td>
+      <td>10</td>
+      <td>10.6</td>
+      <td>5.0</td>
+      <td>15</td>
+      <td>35.1</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>damson sorbet</td>
+      <td>87</td>
+      <td>12.8</td>
+      <td>11</td>
+      <td>4.3</td>
+      <td>5.0</td>
+      <td>8</td>
+      <td>5.6</td>
+      <td>4.5</td>
+      <td>14</td>
+      <td>43.1</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>mint stracciatella</td>
+      <td>86</td>
+      <td>12.7</td>
+      <td>30</td>
+      <td>2.4</td>
+      <td>2.0</td>
+      <td>19</td>
+      <td>12.5</td>
+      <td>7.0</td>
+      <td>34</td>
+      <td>17.9</td>
+      <td>13.5</td>
+    </tr>
+    <tr>
+      <td>coffee</td>
+      <td>80</td>
+      <td>11.8</td>
+      <td>21</td>
+      <td>3.2</td>
+      <td>3.0</td>
+      <td>12</td>
+      <td>18.8</td>
+      <td>9.5</td>
+      <td>21</td>
+      <td>27.2</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <td>strawberry</td>
+      <td>77</td>
+      <td>11.3</td>
+      <td>9</td>
+      <td>4.2</td>
+      <td>5.0</td>
+      <td>5</td>
+      <td>17.0</td>
+      <td>7.0</td>
+      <td>10</td>
+      <td>45.7</td>
+      <td>22.5</td>
+    </tr>
+    <tr>
+      <td>roasted banana</td>
+      <td>74</td>
+      <td>10.9</td>
+      <td>30</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>21</td>
+      <td>9.3</td>
+      <td>6.0</td>
+      <td>32</td>
+      <td>19.4</td>
+      <td>10.5</td>
+    </tr>
+    <tr>
+      <td>salted oreo</td>
+      <td>74</td>
+      <td>10.9</td>
+      <td>35</td>
+      <td>1.9</td>
+      <td>2.0</td>
+      <td>23</td>
+      <td>11.7</td>
+      <td>5.0</td>
+      <td>37</td>
+      <td>16.3</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <td>passion fruit sorbet</td>
+      <td>71</td>
+      <td>10.5</td>
+      <td>13</td>
+      <td>3.9</td>
+      <td>3.0</td>
+      <td>8</td>
+      <td>12.1</td>
+      <td>9.5</td>
+      <td>15</td>
+      <td>26.6</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <td>blueberry sorbet</td>
+      <td>68</td>
+      <td>10.0</td>
+      <td>17</td>
+      <td>2.4</td>
+      <td>2.0</td>
+      <td>9</td>
+      <td>6.9</td>
+      <td>4.0</td>
+      <td>18</td>
+      <td>28.4</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <td>alphonso mango sorbet</td>
+      <td>66</td>
+      <td>9.7</td>
+      <td>10</td>
+      <td>4.3</td>
+      <td>3.5</td>
+      <td>8</td>
+      <td>7.0</td>
+      <td>5.5</td>
+      <td>12</td>
+      <td>38.3</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>chocolate</td>
+      <td>63</td>
+      <td>9.3</td>
+      <td>15</td>
+      <td>3.5</td>
+      <td>3.0</td>
+      <td>10</td>
+      <td>14.3</td>
+      <td>9.5</td>
+      <td>18</td>
+      <td>30.7</td>
+      <td>14.5</td>
+    </tr>
+    <tr>
+      <td>salted treacle</td>
+      <td>63</td>
+      <td>9.3</td>
+      <td>19</td>
+      <td>2.7</td>
+      <td>2.0</td>
+      <td>11</td>
+      <td>20.1</td>
+      <td>18.0</td>
+      <td>21</td>
+      <td>26.3</td>
+      <td>19.0</td>
+    </tr>
+  </tbody>
+</table></div>
+    <h2>Reading the gaps correctly</h2><p>Present on Monday, absent Tuesday and Wednesday, back Thursday = two days off-menu. Consecutive daily appearances are not separate returns. CSV columns <code>between_snapshots_mean/median</code> additionally give elapsed days between every consecutive recorded appearance, including one-day intervals within a stay; these answer a different question.</p><p>Missing/failed menus are unknown, never absence. Stays crossing a missing day or ending at the history boundary are censored and excluded from completed-stay means. Strict absence estimates have the same limitation. Recorded-return estimates allow intervening unknown days but exclude departures with no later recorded return. None of these conditional means estimates an unconditional expected wait, and rare flavours have noisy averages. First recorded appearance is not necessarily a recipe’s launch date.</p>
+    <h2>Download and reproduce</h2><p><a href="flavour-statistics.csv">All per-flavour/shop statistics</a> · <a href="duration-events.csv">Underlying duration events</a></p><p>Run <code>.venv/bin/python scripts/flavour_descriptives.py</code> from the project. Source commit: <code>fba48c936c059625f399353e5afa8b071fc51457</code>. Mean and median are calculated per flavour/shop; combined popularity counts each shop/date separately. Model artifacts are unchanged.</p></body></html>

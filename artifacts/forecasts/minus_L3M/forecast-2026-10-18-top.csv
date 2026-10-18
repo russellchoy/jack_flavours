@@ -1,0 +1,21 @@
+issue_date,target_date,shop,flavour,probability,rank,top_k,above_threshold,model,model_train_end
+2026-10-17,2026-10-18,all_saints,lemon yoghurt,0.9990550875663757,1,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & sea salt,0.9561029076576233,2,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut ube,0.8903396129608154,3,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,alphonso mango sorbet,0.8735994696617126,4,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hong kong milk tea,0.8435851335525513,5,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,grilled white chocolate,0.8006089925765991,6,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,girton apple sorbet,0.6882715225219727,7,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrants & cream,0.6340582370758057,8,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,tiramisu,0.2804625332355499,9,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & ube,0.1478978395462036,10,True,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & sea salt,0.9746446013450623,1,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberries & cream,0.8988778591156006,2,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house vanilla,0.7453876733779907,3,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender,0.6149218082427979,4,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted caramel,0.560444712638855,5,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot sorbet,0.5573603510856628,6,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,honeycomb,0.5240033268928528,7,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gin & tonic sorbet,0.448628306388855,8,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut sugar,0.3639819622039795,9,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate,0.24855612218379974,10,True,True,logit,2026-07-19

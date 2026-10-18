@@ -1,0 +1,43 @@
+# Local environments, caches and credentials
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+.local-tools/
+*.egg-info/
+build/
+dist/
+
+# Local assistant notes and setup history
+/AGENTS.md
+/CLAUDE.md
+/global.md
+/memory.md
+/log.md
+/loop.md
+/setup.md
+/implementation-plan.md
+
+# Publish only audited processed history, not the upstream checkout
+/data/*
+!/data/processed/
+
+# Reproducibility artifacts and gallery are deliberately included
+/artifacts/*
+!/artifacts/latest/
+!/artifacts/final/
+!/artifacts/validation/
+!/artifacts/baselines/
+!/artifacts/forecasts/
+!/artifacts/menu-durations/
+!/artifacts/flavour-statistics/
+!/artifacts/novelty-experiment/
+
+# Prospective data is published separately on the daily-data branch
+/daily-state/

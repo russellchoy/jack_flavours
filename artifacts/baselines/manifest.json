@@ -1,0 +1,18 @@
+{
+  "stage": "validation_baselines",
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "files": {
+    "src/jack_flavours/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "src/jack_flavours/__main__.py": "e145a8782750ce30f09f2580c5defe95a3a04d173ed60158e9774d6afcf0ddf0",
+    "src/jack_flavours/data.py": "a7b5bcdffc5605cdc56f8feb23a2fdfb7445cd7cc3368c24b7d86384c969a755",
+    "src/jack_flavours/evaluation.py": "e269249f4efd2f2ad9724e1a5aa72345f1a4dada1b47bd7e0429c350d0f6904a",
+    "src/jack_flavours/experiment.py": "d9e54433819c64ab8fccc73d6e56e185ce5600a5c4715e56a8c18cd832b9dbe1",
+    "src/jack_flavours/features.py": "5bbec35835fca097c8e04ec9f198a10df414208a85eee3f36c5647952102b07d",
+    "uv.lock": "1dac21309873e0f9387a399776eb884234470c5044488929258031d6149d7926",
+    "configs/experiment.json": "a5fae658a758900f406bd34496fecc63df85eb1a4536f27e36b29f7189499c05",
+    "configs/splits.json": "d339849bd1eed7e15b4fccb4c64b12e9d727fe0b7de04489ddcb441eb32a0d66"
+  },
+  "test_scored": false,
+  "eligible_validation_forecasts": 176,
+  "availability_assumption": "After issue-date snapshot collection completes; availability is assumed, not timestamp-verified. Never use target-day observations."
+}

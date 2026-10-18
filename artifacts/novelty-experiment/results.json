@@ -1,0 +1,676 @@
+{
+  "known": {
+    "validation": {
+      "current": {
+        "ap": 0.5758442839162435,
+        "brier": 0.01190642897527212,
+        "pairs": 75784,
+        "positive_rate": 0.020136176501636228,
+        "menu_recall_at_10": 0.441357616499662
+      },
+      "status_only": {
+        "ap": 0.5549266101661761,
+        "brier": 0.012336465487315155,
+        "pairs": 75784,
+        "positive_rate": 0.020136176501636228,
+        "menu_recall_at_10": 0.42140596934631025
+      },
+      "integrated": {
+        "ap": 0.5550739973028013,
+        "brier": 0.012338824668194467,
+        "pairs": 75784,
+        "positive_rate": 0.020136176501636228,
+        "menu_recall_at_10": 0.4218576010479419
+      }
+    },
+    "exploratory_final": {
+      "current": {
+        "ap": 0.6386162646281818,
+        "brier": 0.00997864116536568,
+        "pairs": 82058,
+        "positive_rate": 0.01871846742547954,
+        "menu_recall_at_10": 0.45045939547344044
+      },
+      "status_only": {
+        "ap": 0.6221031381386407,
+        "brier": 0.010311589093039166,
+        "pairs": 82058,
+        "positive_rate": 0.01871846742547954,
+        "menu_recall_at_10": 0.43435349762596953
+      },
+      "integrated": {
+        "ap": 0.621026817791898,
+        "brier": 0.010330199549407575,
+        "pairs": 82058,
+        "positive_rate": 0.01871846742547954,
+        "menu_recall_at_10": 0.43475889746957164
+      }
+    }
+  },
+  "novelty": {
+    "validation": {
+      "frequency": {
+        "ap": 0.8295628827566855,
+        "brier": 0.18154386660534325,
+        "pairs": 176,
+        "positive_rate": 0.6988636363636364
+      },
+      "recent30": {
+        "ap": 0.8199334442335175,
+        "brier": 0.18957156326254107,
+        "pairs": 176,
+        "positive_rate": 0.6988636363636364
+      },
+      "novelty_logit": {
+        "ap": 0.8514185592619492,
+        "brier": 0.17745163731405134,
+        "pairs": 176,
+        "positive_rate": 0.6988636363636364
+      }
+    },
+    "exploratory_final": {
+      "frequency": {
+        "ap": 0.7244503893942096,
+        "brier": 0.2043043854827415,
+        "pairs": 178,
+        "positive_rate": 0.5898876404494382
+      },
+      "recent30": {
+        "ap": 0.764527810117974,
+        "brier": 0.20827056251029855,
+        "pairs": 178,
+        "positive_rate": 0.5898876404494382
+      },
+      "novelty_logit": {
+        "ap": 0.7578214028897479,
+        "brier": 0.20200394938377367,
+        "pairs": 178,
+        "positive_rate": 0.5898876404494382
+      }
+    }
+  },
+  "folds": {
+    "validation_1": {
+      "known": {
+        "current": {
+          "ap": 0.5983199118638355,
+          "brier": 0.011814897870698627,
+          "pairs": 24600,
+          "positive_rate": 0.020975609756097562
+        },
+        "status_only": {
+          "ap": 0.5759705150179077,
+          "brier": 0.012392439796905862,
+          "pairs": 24600,
+          "positive_rate": 0.020975609756097562
+        },
+        "integrated": {
+          "ap": 0.5762902672984217,
+          "brier": 0.012389871444305521,
+          "pairs": 24600,
+          "positive_rate": 0.020975609756097562
+        }
+      },
+      "novelty": {
+        "frequency": {
+          "ap": 0.8540650406504066,
+          "brier": 0.16456618252226818,
+          "pairs": 60,
+          "positive_rate": 0.6833333333333333
+        },
+        "recent30": {
+          "ap": 0.8532284198051214,
+          "brier": 0.18033474384730366,
+          "pairs": 60,
+          "positive_rate": 0.6833333333333333
+        },
+        "novelty_logit": {
+          "ap": 0.8684321437110435,
+          "brier": 0.16695292888682262,
+          "pairs": 60,
+          "positive_rate": 0.6833333333333333
+        }
+      },
+      "by_shop": {
+        "all_saints": {
+          "known": {
+            "current": {
+              "ap": 0.620871532530455,
+              "brier": 0.010550142426461266,
+              "pairs": 12300,
+              "positive_rate": 0.01983739837398374
+            },
+            "status_only": {
+              "ap": 0.5922782618437102,
+              "brier": 0.011390468364510674,
+              "pairs": 12300,
+              "positive_rate": 0.01983739837398374
+            },
+            "integrated": {
+              "ap": 0.5924527609587483,
+              "brier": 0.011396113236809226,
+              "pairs": 12300,
+              "positive_rate": 0.01983739837398374
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.43333333333333335,
+              "brier": 0.24573161152480597,
+              "pairs": 30,
+              "positive_rate": 0.43333333333333335
+            },
+            "recent30": {
+              "ap": 0.346680475020556,
+              "brier": 0.26685267653118794,
+              "pairs": 30,
+              "positive_rate": 0.43333333333333335
+            },
+            "novelty_logit": {
+              "ap": 0.5291722027507981,
+              "brier": 0.24902085576017452,
+              "pairs": 30,
+              "positive_rate": 0.43333333333333335
+            }
+          }
+        },
+        "benet_street": {
+          "known": {
+            "current": {
+              "ap": 0.5914434567115827,
+              "brier": 0.013079653314935989,
+              "pairs": 12300,
+              "positive_rate": 0.022113821138211382
+            },
+            "status_only": {
+              "ap": 0.5764613491411043,
+              "brier": 0.01339441122930105,
+              "pairs": 12300,
+              "positive_rate": 0.022113821138211382
+            },
+            "integrated": {
+              "ap": 0.5768021302263239,
+              "brier": 0.013383629651801817,
+              "pairs": 12300,
+              "positive_rate": 0.022113821138211382
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.9333333333333333,
+              "brier": 0.08340075351973028,
+              "pairs": 30,
+              "positive_rate": 0.9333333333333333
+            },
+            "recent30": {
+              "ap": 0.9190056566104702,
+              "brier": 0.09381681116341936,
+              "pairs": 30,
+              "positive_rate": 0.9333333333333333
+            },
+            "novelty_logit": {
+              "ap": 0.9103963831655798,
+              "brier": 0.08488500201347073,
+              "pairs": 30,
+              "positive_rate": 0.9333333333333333
+            }
+          }
+        }
+      }
+    },
+    "validation_2": {
+      "known": {
+        "current": {
+          "ap": 0.6061309674184765,
+          "brier": 0.011368330004421898,
+          "pairs": 26040,
+          "positive_rate": 0.019969278033794162
+        },
+        "status_only": {
+          "ap": 0.5681885541980688,
+          "brier": 0.012024146929873598,
+          "pairs": 26040,
+          "positive_rate": 0.019969278033794162
+        },
+        "integrated": {
+          "ap": 0.5676471370462396,
+          "brier": 0.012033627847427307,
+          "pairs": 26040,
+          "positive_rate": 0.019969278033794162
+        }
+      },
+      "novelty": {
+        "frequency": {
+          "ap": 0.7793650793650794,
+          "brier": 0.20020555804828483,
+          "pairs": 60,
+          "positive_rate": 0.7
+        },
+        "recent30": {
+          "ap": 0.8036285976410371,
+          "brier": 0.20633333333333334,
+          "pairs": 60,
+          "positive_rate": 0.7
+        },
+        "novelty_logit": {
+          "ap": 0.8328369113465336,
+          "brier": 0.18786949118071536,
+          "pairs": 60,
+          "positive_rate": 0.7
+        }
+      },
+      "by_shop": {
+        "all_saints": {
+          "known": {
+            "current": {
+              "ap": 0.5898041572762684,
+              "brier": 0.010623297133256276,
+              "pairs": 13020,
+              "positive_rate": 0.01904761904761905
+            },
+            "status_only": {
+              "ap": 0.5381195998326211,
+              "brier": 0.011610413919615845,
+              "pairs": 13020,
+              "positive_rate": 0.01904761904761905
+            },
+            "integrated": {
+              "ap": 0.5374662510475744,
+              "brier": 0.011627514815424846,
+              "pairs": 13020,
+              "positive_rate": 0.01904761904761905
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.5666666666666667,
+              "brier": 0.26025443565579837,
+              "pairs": 30,
+              "positive_rate": 0.5666666666666667
+            },
+            "recent30": {
+              "ap": 0.621596648985982,
+              "brier": 0.2682222222222222,
+              "pairs": 30,
+              "positive_rate": 0.5666666666666667
+            },
+            "novelty_logit": {
+              "ap": 0.7137845825522496,
+              "brier": 0.23682009483952668,
+              "pairs": 30,
+              "positive_rate": 0.5666666666666667
+            }
+          }
+        },
+        "benet_street": {
+          "known": {
+            "current": {
+              "ap": 0.6034382308663296,
+              "brier": 0.012113362875587522,
+              "pairs": 13020,
+              "positive_rate": 0.020890937019969278
+            },
+            "status_only": {
+              "ap": 0.5898717637111329,
+              "brier": 0.01243787994013135,
+              "pairs": 13020,
+              "positive_rate": 0.020890937019969278
+            },
+            "integrated": {
+              "ap": 0.5894666957630961,
+              "brier": 0.01243974087942977,
+              "pairs": 13020,
+              "positive_rate": 0.020890937019969278
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.8333333333333334,
+              "brier": 0.14015668044077137,
+              "pairs": 30,
+              "positive_rate": 0.8333333333333334
+            },
+            "recent30": {
+              "ap": 0.8416410256410256,
+              "brier": 0.14444444444444443,
+              "pairs": 30,
+              "positive_rate": 0.8333333333333334
+            },
+            "novelty_logit": {
+              "ap": 0.8601687022134984,
+              "brier": 0.13891888752190412,
+              "pairs": 30,
+              "positive_rate": 0.8333333333333334
+            }
+          }
+        }
+      }
+    },
+    "validation_3": {
+      "known": {
+        "current": {
+          "ap": 0.5208295947728927,
+          "brier": 0.012553253759453138,
+          "pairs": 25144,
+          "positive_rate": 0.019487750556792874
+        },
+        "status_only": {
+          "ap": 0.5184474649758325,
+          "brier": 0.01260515015243792,
+          "pairs": 25144,
+          "positive_rate": 0.019487750556792874
+        },
+        "integrated": {
+          "ap": 0.5192456857026106,
+          "brier": 0.012604954739799815,
+          "pairs": 25144,
+          "positive_rate": 0.019487750556792874
+        }
+      },
+      "novelty": {
+        "frequency": {
+          "ap": 0.8258928571428572,
+          "brier": 0.17973957300548618,
+          "pairs": 56,
+          "positive_rate": 0.7142857142857143
+        },
+        "recent30": {
+          "ap": 0.8146374866963102,
+          "brier": 0.18150911613158938,
+          "pairs": 56,
+          "positive_rate": 0.7142857142857143
+        },
+        "novelty_logit": {
+          "ap": 0.892177131380283,
+          "brier": 0.1775382672003706,
+          "pairs": 56,
+          "positive_rate": 0.7142857142857143
+        }
+      },
+      "by_shop": {
+        "all_saints": {
+          "known": {
+            "current": {
+              "ap": 0.4725336155883625,
+              "brier": 0.011444067528748724,
+              "pairs": 12572,
+              "positive_rate": 0.017181037225580655
+            },
+            "status_only": {
+              "ap": 0.47313238576830025,
+              "brier": 0.01143576971988483,
+              "pairs": 12572,
+              "positive_rate": 0.017181037225580655
+            },
+            "integrated": {
+              "ap": 0.47312121323625583,
+              "brier": 0.011456746394498354,
+              "pairs": 12572,
+              "positive_rate": 0.017181037225580655
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.5357142857142857,
+              "brier": 0.255193431725258,
+              "pairs": 28,
+              "positive_rate": 0.5357142857142857
+            },
+            "recent30": {
+              "ap": 0.4370546120546121,
+              "brier": 0.2616281165656909,
+              "pairs": 28,
+              "positive_rate": 0.5357142857142857
+            },
+            "novelty_logit": {
+              "ap": 0.6060491928474384,
+              "brier": 0.2538725422838389,
+              "pairs": 28,
+              "positive_rate": 0.5357142857142857
+            }
+          }
+        },
+        "benet_street": {
+          "known": {
+            "current": {
+              "ap": 0.5477428572900653,
+              "brier": 0.013662439990157555,
+              "pairs": 12572,
+              "positive_rate": 0.02179446388800509
+            },
+            "status_only": {
+              "ap": 0.5433772646514448,
+              "brier": 0.013774530584991005,
+              "pairs": 12572,
+              "positive_rate": 0.02179446388800509
+            },
+            "integrated": {
+              "ap": 0.5447784769680865,
+              "brier": 0.013753163085101277,
+              "pairs": 12572,
+              "positive_rate": 0.02179446388800509
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.8928571428571429,
+              "brier": 0.1042857142857143,
+              "pairs": 28,
+              "positive_rate": 0.8928571428571429
+            },
+            "recent30": {
+              "ap": 0.8756022408963585,
+              "brier": 0.1013901156974879,
+              "pairs": 28,
+              "positive_rate": 0.8928571428571429
+            },
+            "novelty_logit": {
+              "ap": 0.9531190524033035,
+              "brier": 0.10120399211690238,
+              "pairs": 28,
+              "positive_rate": 0.8928571428571429
+            }
+          }
+        }
+      }
+    },
+    "exploratory_final": {
+      "known": {
+        "current": {
+          "ap": 0.6386162646281818,
+          "brier": 0.00997864116536568,
+          "pairs": 82058,
+          "positive_rate": 0.01871846742547954
+        },
+        "status_only": {
+          "ap": 0.6221031381386407,
+          "brier": 0.010311589093039166,
+          "pairs": 82058,
+          "positive_rate": 0.01871846742547954
+        },
+        "integrated": {
+          "ap": 0.621026817791898,
+          "brier": 0.010330199549407575,
+          "pairs": 82058,
+          "positive_rate": 0.01871846742547954
+        }
+      },
+      "novelty": {
+        "frequency": {
+          "ap": 0.7244503893942096,
+          "brier": 0.2043043854827415,
+          "pairs": 178,
+          "positive_rate": 0.5898876404494382
+        },
+        "recent30": {
+          "ap": 0.764527810117974,
+          "brier": 0.20827056251029855,
+          "pairs": 178,
+          "positive_rate": 0.5898876404494382
+        },
+        "novelty_logit": {
+          "ap": 0.7578214028897479,
+          "brier": 0.20200394938377367,
+          "pairs": 178,
+          "positive_rate": 0.5898876404494382
+        }
+      },
+      "by_shop": {
+        "all_saints": {
+          "known": {
+            "current": {
+              "ap": 0.6581944561806707,
+              "brier": 0.008194379300683141,
+              "pairs": 40568,
+              "positive_rate": 0.015973180832183003
+            },
+            "status_only": {
+              "ap": 0.6290782848444767,
+              "brier": 0.008611877610252826,
+              "pairs": 40568,
+              "positive_rate": 0.015973180832183003
+            },
+            "integrated": {
+              "ap": 0.6260805598698396,
+              "brier": 0.008653462566289846,
+              "pairs": 40568,
+              "positive_rate": 0.015973180832183003
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.38636363636363635,
+              "brier": 0.24265097343887254,
+              "pairs": 88,
+              "positive_rate": 0.38636363636363635
+            },
+            "recent30": {
+              "ap": 0.3857493626668195,
+              "brier": 0.24411874391957628,
+              "pairs": 88,
+              "positive_rate": 0.38636363636363635
+            },
+            "novelty_logit": {
+              "ap": 0.544356592752225,
+              "brier": 0.23395677826980865,
+              "pairs": 88,
+              "positive_rate": 0.38636363636363635
+            }
+          }
+        },
+        "benet_street": {
+          "known": {
+            "current": {
+              "ap": 0.6220721506082509,
+              "brier": 0.011723252766388605,
+              "pairs": 41490,
+              "positive_rate": 0.021402747650036153
+            },
+            "status_only": {
+              "ap": 0.6184863888304192,
+              "brier": 0.011973529209541362,
+              "pairs": 41490,
+              "positive_rate": 0.021402747650036153
+            },
+            "integrated": {
+              "ap": 0.6187687291708676,
+              "brier": 0.011969675710678243,
+              "pairs": 41490,
+              "positive_rate": 0.021402747650036153
+            }
+          },
+          "novelty": {
+            "frequency": {
+              "ap": 0.7888888888888889,
+              "brier": 0.16680994392563558,
+              "pairs": 90,
+              "positive_rate": 0.7888888888888889
+            },
+            "recent30": {
+              "ap": 0.8125452181135641,
+              "brier": 0.17321900735456025,
+              "pairs": 90,
+              "positive_rate": 0.7888888888888889
+            },
+            "novelty_logit": {
+              "ap": 0.7821263719286715,
+              "brier": 0.17076118336187285,
+              "pairs": 90,
+              "positive_rate": 0.7888888888888889
+            }
+          }
+        }
+      }
+    }
+  },
+  "intervals": {
+    "status_only_vs_current": {
+      "ap_gain_ci95": [
+        -0.024915752321288478,
+        -0.0073015243160234255
+      ],
+      "brier_reduction_ci95": [
+        -0.0004770165267411773,
+        -0.00020668614461655187
+      ],
+      "replicates": 200
+    },
+    "integrated_vs_current": {
+      "ap_gain_ci95": [
+        -0.026012956638080488,
+        -0.00793976823000367
+      ],
+      "brier_reduction_ci95": [
+        -0.0005090685399678456,
+        -0.00020990028452084385
+      ],
+      "replicates": 200
+    },
+    "novelty_vs_frequency": {
+      "ap_gain_ci95": [
+        -0.01299203394047512,
+        0.069000871775906
+      ],
+      "brier_reduction_ci95": [
+        -0.005550698726036657,
+        0.010034471602749616
+      ],
+      "replicates": 200
+    },
+    "novelty_vs_recent30": {
+      "ap_gain_ci95": [
+        -0.034615292010290975,
+        0.019837121276205474
+      ],
+      "brier_reduction_ci95": [
+        -0.0015626524992661533,
+        0.018374876548300723
+      ],
+      "replicates": 200
+    }
+  },
+  "settings": {
+    "started_utc": "2026-10-17T18:22:47+00:00",
+    "deadline_utc": "2026-10-17T19:22:47+00:00",
+    "max_attempts": 6,
+    "max_no_progress": 2,
+    "novelty_definition": "A flavour observed at the target shop that has never been recorded at either shop before the target date. Simultaneous first appearances count at both shops.",
+    "burn_in_days": 90,
+    "inner_block_days": 30,
+    "min_novelty_training_rows": 60,
+    "logistic_C": 0.01,
+    "seed": 42,
+    "bootstrap_replicates": 200,
+    "comparison": [
+      "current",
+      "status_only",
+      "status_plus_predicted_novelty"
+    ],
+    "test_status": "exploratory: all evaluation periods have already been inspected",
+    "hyperparameter_search": false,
+    "known_flavour_point": {
+      "threshold": 0.2,
+      "k": 10
+    }
+  }
+}

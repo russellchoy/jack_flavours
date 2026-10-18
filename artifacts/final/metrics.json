@@ -1,0 +1,1323 @@
+{
+  "period": {
+    "train_end": "2026-07-19",
+    "start": "2026-07-20",
+    "end": "2026-10-17"
+  },
+  "decision": {
+    "recommended": "logit",
+    "test_gate_passed": true,
+    "uncertainty": "inconclusive improvement; do not claim statistically established superiority"
+  },
+  "metrics": {
+    "frequency": {
+      "forecasts": 178,
+      "label_count": 461,
+      "label_forecast_pairs": 82058,
+      "positive_labels_for_macro": 128,
+      "micro_ap": 0.23162332954284368,
+      "macro_ap": 0.08469742210119176,
+      "brier": 0.016421276808640632,
+      "precision": 0.33506044905008636,
+      "recall": 0.2526041666666667,
+      "f1": 0.28804751299183373,
+      "threshold": 0.2,
+      "k": 10,
+      "precision_at_k": 0.25,
+      "recall_at_k_all_flavours": 0.18124069282777147,
+      "menu_f1_at_k": 0.20939739953907024,
+      "in_vocabulary_positives": 1536,
+      "all_flavour_positives": 2410,
+      "vocabulary_positive_coverage": 0.6373443983402489,
+      "empty_target_menus": 0,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "count": 78942,
+          "mean_probability": 0.01628150423187626,
+          "observed_rate": 0.012350839857110283
+        },
+        {
+          "lower": 0.1,
+          "count": 1958,
+          "mean_probability": 0.12746213782295082,
+          "observed_rate": 0.08835546475995915
+        },
+        {
+          "lower": 0.2,
+          "count": 356,
+          "mean_probability": 0.23844379212755054,
+          "observed_rate": 0.18820224719101122
+        },
+        {
+          "lower": 0.3,
+          "count": 354,
+          "mean_probability": 0.33514442430840774,
+          "observed_rate": 0.19491525423728814
+        },
+        {
+          "lower": 0.4,
+          "count": 90,
+          "mean_probability": 0.43112701252236124,
+          "observed_rate": 0.5222222222222223
+        },
+        {
+          "lower": 0.5,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.6,
+          "count": 180,
+          "mean_probability": 0.6529516994633272,
+          "observed_rate": 0.39444444444444443
+        },
+        {
+          "lower": 0.7,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "count": 178,
+          "mean_probability": 0.8483420832420037,
+          "observed_rate": 0.7528089887640449
+        },
+        {
+          "lower": 0.9,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    },
+    "persistence": {
+      "forecasts": 178,
+      "label_count": 461,
+      "label_forecast_pairs": 82058,
+      "positive_labels_for_macro": 128,
+      "micro_ap": 0.5321747353609887,
+      "macro_ap": 0.4012391280187261,
+      "brier": 0.010248848375539252,
+      "precision": 0.7266797129810828,
+      "recall": 0.7252604166666666,
+      "f1": 0.7259693711306614,
+      "threshold": 0.8,
+      "k": 10,
+      "precision_at_k": 0.6022471910112359,
+      "recall_at_k_all_flavours": 0.44499730138775084,
+      "menu_f1_at_k": 0.5096000831931462,
+      "in_vocabulary_positives": 1536,
+      "all_flavour_positives": 2410,
+      "vocabulary_positive_coverage": 0.6373443983402489,
+      "empty_target_menus": 0,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "count": 80525,
+          "mean_probability": 0.0,
+          "observed_rate": 0.005240608506674946
+        },
+        {
+          "lower": 0.1,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.4,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.5,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.6,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.7,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "count": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "count": 1533,
+          "mean_probability": 1.0,
+          "observed_rate": 0.7266797129810828
+        }
+      ]
+    },
+    "logit": {
+      "forecasts": 178,
+      "label_count": 461,
+      "label_forecast_pairs": 82058,
+      "positive_labels_for_macro": 128,
+      "micro_ap": 0.6386162646281818,
+      "macro_ap": 0.4124472863886838,
+      "brier": 0.00997864116536568,
+      "precision": 0.6767546683837733,
+      "recall": 0.6842447916666666,
+      "f1": 0.6804791194561347,
+      "threshold": 0.2,
+      "k": 10,
+      "precision_at_k": 0.6089887640449437,
+      "recall_at_k_all_flavours": 0.45045939547344044,
+      "menu_f1_at_k": 0.5156154584708567,
+      "in_vocabulary_positives": 1536,
+      "all_flavour_positives": 2410,
+      "vocabulary_positive_coverage": 0.6373443983402489,
+      "empty_target_menus": 0,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "count": 79899,
+          "mean_probability": 0.010475132847583633,
+          "observed_rate": 0.004505688431644951
+        },
+        {
+          "lower": 0.1,
+          "count": 606,
+          "mean_probability": 0.13772826304923583,
+          "observed_rate": 0.20627062706270627
+        },
+        {
+          "lower": 0.2,
+          "count": 241,
+          "mean_probability": 0.2482869550276594,
+          "observed_rate": 0.5477178423236515
+        },
+        {
+          "lower": 0.3,
+          "count": 187,
+          "mean_probability": 0.35086305017139824,
+          "observed_rate": 0.5775401069518716
+        },
+        {
+          "lower": 0.4,
+          "count": 240,
+          "mean_probability": 0.4490110971033573,
+          "observed_rate": 0.6125
+        },
+        {
+          "lower": 0.5,
+          "count": 216,
+          "mean_probability": 0.5484418896613298,
+          "observed_rate": 0.6574074074074074
+        },
+        {
+          "lower": 0.6,
+          "count": 200,
+          "mean_probability": 0.6468657311797142,
+          "observed_rate": 0.685
+        },
+        {
+          "lower": 0.7,
+          "count": 134,
+          "mean_probability": 0.7472169323643642,
+          "observed_rate": 0.7238805970149254
+        },
+        {
+          "lower": 0.8,
+          "count": 134,
+          "mean_probability": 0.8475806148194555,
+          "observed_rate": 0.7761194029850746
+        },
+        {
+          "lower": 0.9,
+          "count": 201,
+          "mean_probability": 0.952061395443494,
+          "observed_rate": 0.9154228855721394
+        }
+      ]
+    }
+  },
+  "by_shop": {
+    "frequency": {
+      "all_saints": {
+        "forecasts": 88,
+        "label_count": 461,
+        "label_forecast_pairs": 40568,
+        "positive_labels_for_macro": 73,
+        "micro_ap": 0.11375319343507151,
+        "macro_ap": 0.10087173100871731,
+        "brier": 0.015538788609111221,
+        "precision": 0.1856060606060606,
+        "recall": 0.15123456790123457,
+        "f1": 0.16666666666666666,
+        "threshold": 0.2,
+        "k": 10,
+        "precision_at_k": 0.15227272727272725,
+        "recall_at_k_all_flavours": 0.12040710236732964,
+        "menu_f1_at_k": 0.13382136638065492,
+        "in_vocabulary_positives": 648,
+        "all_flavour_positives": 1114,
+        "vocabulary_positive_coverage": 0.5816876122082585,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 39072,
+            "mean_probability": 0.0171299565598853,
+            "observed_rate": 0.01225941850941851
+          },
+          {
+            "lower": 0.1,
+            "count": 968,
+            "mean_probability": 0.136903476570935,
+            "observed_rate": 0.07334710743801653
+          },
+          {
+            "lower": 0.2,
+            "count": 176,
+            "mean_probability": 0.2517814726840855,
+            "observed_rate": 0.03977272727272727
+          },
+          {
+            "lower": 0.3,
+            "count": 264,
+            "mean_probability": 0.32620744259699125,
+            "observed_rate": 0.17424242424242425
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 88,
+            "mean_probability": 0.8194774346793351,
+            "observed_rate": 0.5113636363636364
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ]
+      },
+      "benet_street": {
+        "forecasts": 90,
+        "label_count": 461,
+        "label_forecast_pairs": 41490,
+        "positive_labels_for_macro": 108,
+        "micro_ap": 0.31160074103688984,
+        "macro_ap": 0.09135802469135801,
+        "brier": 0.01728415415929161,
+        "precision": 0.4603174603174603,
+        "recall": 0.32657657657657657,
+        "f1": 0.3820816864295125,
+        "threshold": 0.2,
+        "k": 10,
+        "precision_at_k": 0.34555555555555556,
+        "recall_at_k_all_flavours": 0.24072242572242572,
+        "menu_f1_at_k": 0.2832939652939653,
+        "in_vocabulary_positives": 888,
+        "all_flavour_positives": 1296,
+        "vocabulary_positive_coverage": 0.6851851851851852,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 39870,
+            "mean_probability": 0.015450033718709238,
+            "observed_rate": 0.012440431402056685
+          },
+          {
+            "lower": 0.1,
+            "count": 990,
+            "mean_probability": 0.11823060660269961,
+            "observed_rate": 0.10303030303030303
+          },
+          {
+            "lower": 0.2,
+            "count": 180,
+            "mean_probability": 0.22540250447227195,
+            "observed_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.3,
+            "count": 90,
+            "mean_probability": 0.3613595706618962,
+            "observed_rate": 0.25555555555555554
+          },
+          {
+            "lower": 0.4,
+            "count": 90,
+            "mean_probability": 0.43112701252236124,
+            "observed_rate": 0.5222222222222223
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 180,
+            "mean_probability": 0.6529516994633272,
+            "observed_rate": 0.39444444444444443
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 90,
+            "mean_probability": 0.8765652951699462,
+            "observed_rate": 0.9888888888888889
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ]
+      }
+    },
+    "persistence": {
+      "all_saints": {
+        "forecasts": 88,
+        "label_count": 461,
+        "label_forecast_pairs": 40568,
+        "positive_labels_for_macro": 73,
+        "micro_ap": 0.6050943876117175,
+        "macro_ap": 0.5130811162575147,
+        "brier": 0.007148491421810294,
+        "precision": 0.7779503105590062,
+        "recall": 0.7731481481481481,
+        "f1": 0.7755417956656346,
+        "threshold": 0.8,
+        "k": 10,
+        "precision_at_k": 0.5693181818181817,
+        "recall_at_k_all_flavours": 0.45036469212605573,
+        "menu_f1_at_k": 0.5003880770086304,
+        "in_vocabulary_positives": 648,
+        "all_flavour_positives": 1114,
+        "vocabulary_positive_coverage": 0.5816876122082585,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 39924,
+            "mean_probability": 0.0,
+            "observed_rate": 0.003681995792004809
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "count": 644,
+            "mean_probability": 1.0,
+            "observed_rate": 0.7779503105590062
+          }
+        ]
+      },
+      "benet_street": {
+        "forecasts": 90,
+        "label_count": 461,
+        "label_forecast_pairs": 41490,
+        "positive_labels_for_macro": 108,
+        "micro_ap": 0.4826273025817836,
+        "macro_ap": 0.3519987421294334,
+        "brier": 0.013280308508074235,
+        "precision": 0.6895388076490439,
+        "recall": 0.6903153153153153,
+        "f1": 0.6899268429938098,
+        "threshold": 0.8,
+        "k": 10,
+        "precision_at_k": 0.6344444444444444,
+        "recall_at_k_all_flavours": 0.43974918599918605,
+        "menu_f1_at_k": 0.5186073781291173,
+        "in_vocabulary_positives": 888,
+        "all_flavour_positives": 1296,
+        "vocabulary_positive_coverage": 0.6851851851851852,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 40601,
+            "mean_probability": 0.0,
+            "observed_rate": 0.00677323218639935
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "count": 889,
+            "mean_probability": 1.0,
+            "observed_rate": 0.6895388076490439
+          }
+        ]
+      }
+    },
+    "logit": {
+      "all_saints": {
+        "forecasts": 88,
+        "label_count": 461,
+        "label_forecast_pairs": 40568,
+        "positive_labels_for_macro": 73,
+        "micro_ap": 0.6581944561806707,
+        "macro_ap": 0.5051390575044229,
+        "brier": 0.008194379300683141,
+        "precision": 0.6987951807228916,
+        "recall": 0.7160493827160493,
+        "f1": 0.7073170731707317,
+        "threshold": 0.2,
+        "k": 10,
+        "precision_at_k": 0.5704545454545454,
+        "recall_at_k_all_flavours": 0.4520338562952199,
+        "menu_f1_at_k": 0.5018448382974076,
+        "in_vocabulary_positives": 648,
+        "all_flavour_positives": 1114,
+        "vocabulary_positive_coverage": 0.5816876122082585,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 39611,
+            "mean_probability": 0.010321742926726088,
+            "observed_rate": 0.003307162151927495
+          },
+          {
+            "lower": 0.1,
+            "count": 293,
+            "mean_probability": 0.13494608495320884,
+            "observed_rate": 0.18088737201365188
+          },
+          {
+            "lower": 0.2,
+            "count": 103,
+            "mean_probability": 0.2471339139834191,
+            "observed_rate": 0.5631067961165048
+          },
+          {
+            "lower": 0.3,
+            "count": 84,
+            "mean_probability": 0.3510716947771254,
+            "observed_rate": 0.6071428571428571
+          },
+          {
+            "lower": 0.4,
+            "count": 88,
+            "mean_probability": 0.44663296707651834,
+            "observed_rate": 0.7045454545454546
+          },
+          {
+            "lower": 0.5,
+            "count": 100,
+            "mean_probability": 0.5445044809579849,
+            "observed_rate": 0.68
+          },
+          {
+            "lower": 0.6,
+            "count": 82,
+            "mean_probability": 0.6448282977429832,
+            "observed_rate": 0.6951219512195121
+          },
+          {
+            "lower": 0.7,
+            "count": 68,
+            "mean_probability": 0.7474105550962336,
+            "observed_rate": 0.7647058823529411
+          },
+          {
+            "lower": 0.8,
+            "count": 76,
+            "mean_probability": 0.8442737271911219,
+            "observed_rate": 0.7894736842105263
+          },
+          {
+            "lower": 0.9,
+            "count": 63,
+            "mean_probability": 0.951563991251446,
+            "observed_rate": 0.8888888888888888
+          }
+        ]
+      },
+      "benet_street": {
+        "forecasts": 90,
+        "label_count": 461,
+        "label_forecast_pairs": 41490,
+        "positive_labels_for_macro": 108,
+        "micro_ap": 0.6220721506082509,
+        "macro_ap": 0.3583791534437992,
+        "brier": 0.011723252766388605,
+        "precision": 0.6602924634420697,
+        "recall": 0.661036036036036,
+        "f1": 0.6606640405177265,
+        "threshold": 0.2,
+        "k": 10,
+        "precision_at_k": 0.6466666666666667,
+        "recall_at_k_all_flavours": 0.4489199226699227,
+        "menu_f1_at_k": 0.5290800648626737,
+        "in_vocabulary_positives": 888,
+        "all_flavour_positives": 1296,
+        "vocabulary_positive_coverage": 0.6851851851851852,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 40288,
+            "mean_probability": 0.010625945202505399,
+            "observed_rate": 0.0056840746624305
+          },
+          {
+            "lower": 0.1,
+            "count": 313,
+            "mean_probability": 0.14033266618705023,
+            "observed_rate": 0.23003194888178913
+          },
+          {
+            "lower": 0.2,
+            "count": 138,
+            "mean_probability": 0.24914755812589673,
+            "observed_rate": 0.5362318840579711
+          },
+          {
+            "lower": 0.3,
+            "count": 103,
+            "mean_probability": 0.3506928934055625,
+            "observed_rate": 0.5533980582524272
+          },
+          {
+            "lower": 0.4,
+            "count": 152,
+            "mean_probability": 0.45038790922415883,
+            "observed_rate": 0.5592105263157895
+          },
+          {
+            "lower": 0.5,
+            "count": 116,
+            "mean_probability": 0.5518362075090408,
+            "observed_rate": 0.6379310344827587
+          },
+          {
+            "lower": 0.6,
+            "count": 118,
+            "mean_probability": 0.6482815747543916,
+            "observed_rate": 0.6779661016949152
+          },
+          {
+            "lower": 0.7,
+            "count": 66,
+            "mean_probability": 0.7470174422769835,
+            "observed_rate": 0.6818181818181818
+          },
+          {
+            "lower": 0.8,
+            "count": 58,
+            "mean_probability": 0.8519137779186512,
+            "observed_rate": 0.7586206896551724
+          },
+          {
+            "lower": 0.9,
+            "count": 138,
+            "mean_probability": 0.9522884712702986,
+            "observed_rate": 0.927536231884058
+          }
+        ]
+      }
+    }
+  },
+  "coverage": {
+    "expected_shop_day_forecasts": 180,
+    "scored": 178,
+    "invalid_or_missing_target": 1,
+    "valid_target_invalid_previous_day": 1,
+    "supported_flavours": 461,
+    "all_target_appearances": 2410,
+    "supported_appearances": 1536,
+    "unseen_flavour_appearances": 580,
+    "seen_but_below_support_appearances": 294
+  },
+  "paired_bootstrap": {
+    "frequency": {
+      "ap_gain": {
+        "ci95": [
+          0.35006609092362057,
+          0.4514954346242489
+        ],
+        "replicates": 200,
+        "positive_means_candidate_better": true
+      },
+      "brier_reduction": {
+        "ci95": [
+          0.005370162823133366,
+          0.00752699101747596
+        ],
+        "replicates": 200,
+        "positive_means_candidate_better": true
+      }
+    },
+    "persistence": {
+      "ap_gain": {
+        "ci95": [
+          0.08378946980797912,
+          0.12349867402197248
+        ],
+        "replicates": 200,
+        "positive_means_candidate_better": true
+      },
+      "brier_reduction": {
+        "ci95": [
+          -0.0003872361537795028,
+          0.0009410722678765327
+        ],
+        "replicates": 200,
+        "positive_means_candidate_better": true
+      }
+    }
+  },
+  "support_groups": {
+    "support_5_to_10": {
+      "frequency": {
+        "forecasts": 178,
+        "label_count": 241,
+        "label_forecast_pairs": 42898,
+        "positive_labels_for_macro": 33,
+        "micro_ap": 0.004710846683654093,
+        "macro_ap": 0.041064294408383925,
+        "brier": 0.004838025464872667,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.007303370786516854,
+        "recall_at_k_all_flavours": 0.02387640449438202,
+        "menu_f1_at_k": 0.011071325678067252,
+        "in_vocabulary_positives": 206,
+        "all_flavour_positives": 206,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 50,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 42898,
+            "mean_probability": 0.00711374006326751,
+            "observed_rate": 0.004802088675462725
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ]
+      },
+      "persistence": {
+        "forecasts": 178,
+        "label_count": 241,
+        "label_forecast_pairs": 42898,
+        "positive_labels_for_macro": 33,
+        "micro_ap": 0.4226278484807489,
+        "macro_ap": 0.30876027901715425,
+        "brier": 0.0033567998508088957,
+        "precision": 0.6519607843137255,
+        "recall": 0.6456310679611651,
+        "f1": 0.6487804878048781,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.07640449438202246,
+        "recall_at_k_all_flavours": 0.4897003745318351,
+        "menu_f1_at_k": 0.12837443455420985,
+        "in_vocabulary_positives": 206,
+        "all_flavour_positives": 206,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 50,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 42694,
+            "mean_probability": 0.0,
+            "observed_rate": 0.0017098421323839415
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "count": 204,
+            "mean_probability": 1.0,
+            "observed_rate": 0.6519607843137255
+          }
+        ]
+      },
+      "logit": {
+        "forecasts": 178,
+        "label_count": 241,
+        "label_forecast_pairs": 42898,
+        "positive_labels_for_macro": 33,
+        "micro_ap": 0.4662225651314247,
+        "macro_ap": 0.31701822919667144,
+        "brier": 0.003313606731298123,
+        "precision": 0.7023809523809523,
+        "recall": 0.28640776699029125,
+        "f1": 0.4068965517241379,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.08707865168539326,
+        "recall_at_k_all_flavours": 0.5491573033707865,
+        "menu_f1_at_k": 0.14603187075097188,
+        "in_vocabulary_positives": 206,
+        "all_flavour_positives": 206,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 50,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 42657,
+            "mean_probability": 0.004807858888458216,
+            "observed_rate": 0.0019223105234779756
+          },
+          {
+            "lower": 0.1,
+            "count": 73,
+            "mean_probability": 0.14539619269844603,
+            "observed_rate": 0.3424657534246575
+          },
+          {
+            "lower": 0.2,
+            "count": 30,
+            "mean_probability": 0.2522106145819028,
+            "observed_rate": 0.6333333333333333
+          },
+          {
+            "lower": 0.3,
+            "count": 23,
+            "mean_probability": 0.36684997444567474,
+            "observed_rate": 0.30434782608695654
+          },
+          {
+            "lower": 0.4,
+            "count": 31,
+            "mean_probability": 0.42635030323459255,
+            "observed_rate": 0.45161290322580644
+          },
+          {
+            "lower": 0.5,
+            "count": 14,
+            "mean_probability": 0.5478325613907405,
+            "observed_rate": 0.7142857142857143
+          },
+          {
+            "lower": 0.6,
+            "count": 17,
+            "mean_probability": 0.6355235611691195,
+            "observed_rate": 0.5882352941176471
+          },
+          {
+            "lower": 0.7,
+            "count": 11,
+            "mean_probability": 0.7488529790531505,
+            "observed_rate": 0.6363636363636364
+          },
+          {
+            "lower": 0.8,
+            "count": 13,
+            "mean_probability": 0.852420605145968,
+            "observed_rate": 0.6153846153846154
+          },
+          {
+            "lower": 0.9,
+            "count": 29,
+            "mean_probability": 0.9684441336270037,
+            "observed_rate": 0.8275862068965517
+          }
+        ]
+      }
+    },
+    "support_above_10": {
+      "frequency": {
+        "forecasts": 178,
+        "label_count": 220,
+        "label_forecast_pairs": 39160,
+        "positive_labels_for_macro": 95,
+        "micro_ap": 0.26479871481490636,
+        "macro_ap": 0.09985419277343024,
+        "brier": 0.02911020214431372,
+        "precision": 0.5726256983240223,
+        "recall": 0.15413533834586465,
+        "f1": 0.24289099526066352,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.25,
+        "recall_at_k_all_flavours": 0.3287528170955137,
+        "menu_f1_at_k": 0.2780912692533905,
+        "in_vocabulary_positives": 1330,
+        "all_flavour_positives": 1330,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 36044,
+            "mean_probability": 0.027192578122259635,
+            "observed_rate": 0.021335034957274443
+          },
+          {
+            "lower": 0.1,
+            "count": 1958,
+            "mean_probability": 0.12746213782295082,
+            "observed_rate": 0.08835546475995915
+          },
+          {
+            "lower": 0.2,
+            "count": 356,
+            "mean_probability": 0.23844379212755054,
+            "observed_rate": 0.18820224719101122
+          },
+          {
+            "lower": 0.3,
+            "count": 354,
+            "mean_probability": 0.33514442430840774,
+            "observed_rate": 0.19491525423728814
+          },
+          {
+            "lower": 0.4,
+            "count": 90,
+            "mean_probability": 0.43112701252236124,
+            "observed_rate": 0.5222222222222223
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 180,
+            "mean_probability": 0.6529516994633272,
+            "observed_rate": 0.39444444444444443
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 178,
+            "mean_probability": 0.8483420832420037,
+            "observed_rate": 0.7528089887640449
+          },
+          {
+            "lower": 0.9,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ]
+      },
+      "persistence": {
+        "forecasts": 178,
+        "label_count": 220,
+        "label_forecast_pairs": 39160,
+        "positive_labels_for_macro": 95,
+        "micro_ap": 0.5533664060115009,
+        "macro_ap": 0.43336335977716667,
+        "brier": 0.017798774259448417,
+        "precision": 0.7381489841986456,
+        "recall": 0.737593984962406,
+        "f1": 0.7378713802181271,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.5449438202247191,
+        "recall_at_k_all_flavours": 0.734841391442515,
+        "menu_f1_at_k": 0.611809483704377,
+        "in_vocabulary_positives": 1330,
+        "all_flavour_positives": 1330,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 37831,
+            "mean_probability": 0.0,
+            "observed_rate": 0.009225238560968518
+          },
+          {
+            "lower": 0.1,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "count": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "count": 1329,
+            "mean_probability": 1.0,
+            "observed_rate": 0.7381489841986456
+          }
+        ]
+      },
+      "logit": {
+        "forecasts": 178,
+        "label_count": 220,
+        "label_forecast_pairs": 39160,
+        "positive_labels_for_macro": 95,
+        "micro_ap": 0.6653681311773882,
+        "macro_ap": 0.4455963273080143,
+        "brier": 0.017279883431776045,
+        "precision": 0.7553058676654182,
+        "recall": 0.4548872180451128,
+        "f1": 0.5678085405912717,
+        "threshold": 0.5,
+        "k": 10,
+        "precision_at_k": 0.5674157303370787,
+        "recall_at_k_all_flavours": 0.7659321951456782,
+        "menu_f1_at_k": 0.6372659450180582,
+        "in_vocabulary_positives": 1330,
+        "all_flavour_positives": 1330,
+        "vocabulary_positive_coverage": 1.0,
+        "empty_target_menus": 0,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "count": 37242,
+            "mean_probability": 0.016966430449066178,
+            "observed_rate": 0.007464690403308093
+          },
+          {
+            "lower": 0.1,
+            "count": 533,
+            "mean_probability": 0.13667805880084494,
+            "observed_rate": 0.18761726078799248
+          },
+          {
+            "lower": 0.2,
+            "count": 211,
+            "mean_probability": 0.2477290887403262,
+            "observed_rate": 0.5355450236966824
+          },
+          {
+            "lower": 0.3,
+            "count": 164,
+            "mean_probability": 0.3486209815231765,
+            "observed_rate": 0.6158536585365854
+          },
+          {
+            "lower": 0.4,
+            "count": 209,
+            "mean_probability": 0.45237226748580567,
+            "observed_rate": 0.6363636363636364
+          },
+          {
+            "lower": 0.5,
+            "count": 202,
+            "mean_probability": 0.5484841203335489,
+            "observed_rate": 0.6534653465346535
+          },
+          {
+            "lower": 0.6,
+            "count": 183,
+            "mean_probability": 0.6479193753883487,
+            "observed_rate": 0.6939890710382514
+          },
+          {
+            "lower": 0.7,
+            "count": 123,
+            "mean_probability": 0.7470706192458548,
+            "observed_rate": 0.7317073170731707
+          },
+          {
+            "lower": 0.8,
+            "count": 121,
+            "mean_probability": 0.8470606158587558,
+            "observed_rate": 0.7933884297520661
+          },
+          {
+            "lower": 0.9,
+            "count": 172,
+            "mean_probability": 0.9492991895869721,
+            "observed_rate": 0.9302325581395349
+          }
+        ]
+      }
+    }
+  },
+  "bootstrap_method": "Moving blocks of 7 calendar days; both shops kept together; 200 replicates; percentile 95% intervals; seed 42. Conditional on this fitted model and test period; does not measure training or model-selection uncertainty."
+}

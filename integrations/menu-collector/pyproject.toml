@@ -1,0 +1,8 @@
+[project]
+name = "jack-menu-collector"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = ["jacks-menu"]
+
+[tool.uv.sources]
+jacks-menu = { git = "https://github.com/EdmundGoodman/jacks-menu", rev = "ccdfca95d4eef554052ebab63d0c9733bc96624f" }

@@ -1,0 +1,923 @@
+issue_date,target_date,shop,flavour,probability,rank,top_k,above_threshold,model,model_train_end
+2026-10-17,2026-10-18,all_saints,lemon yoghurt,0.9990550875663757,1,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & sea salt,0.9561029076576233,2,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut ube,0.8903396129608154,3,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,alphonso mango sorbet,0.8735994696617126,4,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hong kong milk tea,0.8435851335525513,5,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,grilled white chocolate,0.8006089925765991,6,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,girton apple sorbet,0.6882715225219727,7,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrants & cream,0.6340582370758057,8,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,tiramisu,0.2804625332355499,9,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & ube,0.1478978395462036,10,True,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberries & cream,0.11946926265954971,11,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla,0.11867073178291321,12,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house lemon yoghurt,0.10712333023548126,13,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house yoghurt,0.09388604015111923,14,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,honeycomb,0.07743090391159058,15,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,king’s college lavender,0.07029680907726288,16,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double chocolate,0.050667036324739456,17,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry,0.04944353178143501,18,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pecan pie,0.04914376512169838,19,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted oreo,0.04856453463435173,20,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted banana,0.04583325982093811,21,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coffee,0.04557931423187256,22,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit sorbet,0.03999027609825134,23,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,matcha,0.039355237036943436,24,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted treacle,0.0393231064081192,25,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate chip cookie dough,0.03923585265874863,26,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lychee sorbet,0.03902357444167137,27,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dulce de leche,0.032039303332567215,28,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,black sesame,0.031417641788721085,29,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted peanut,0.03126358240842819,30,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla mascarpone,0.030687810853123665,31,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,stroopwafel,0.030528541654348373,32,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cardamom & rose,0.029035421088337898,33,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,miso blondie,0.028976578265428543,34,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,damson sorbet,0.0271501075476408,35,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry ripple,0.026877235621213913,36,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk & brownies,0.02667633630335331,37,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mint stracciatella,0.026084084063768387,38,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house yoghurt & manuka honey,0.025374919176101685,39,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,eton mess,0.024988019838929176,40,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon,0.024762775748968124,41,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sour cherry ripple,0.024706661701202393,42,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & raspberry ripple,0.02454758994281292,43,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry sorbet,0.024267932400107384,44,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,fudge chunk,0.023670822381973267,45,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted caramel,0.0234664436429739,46,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted caramel ripple,0.02305452711880207,47,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,butterscotch ripple,0.022801732644438744,48,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,stracciatella,0.02248428948223591,49,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,carrot cake,0.022165462374687195,50,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut mint stracciatella,0.02216189168393612,51,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & coconut,0.02200920507311821,52,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house dulce de leche,0.021800972521305084,53,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gooseberry sorbet,0.02171555906534195,54,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted liquorice,0.02103067934513092,55,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb sorbet,0.02099449932575226,56,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted peanut stracciatella,0.020917393267154694,57,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrant,0.020802056416869164,58,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla brown sugar,0.020756183192133904,59,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry & rose,0.020099569112062454,60,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pbj,0.01969956047832966,61,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sugar & spice,0.019479889422655106,62,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, caramel ripple",0.01945229060947895,63,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,baked vanilla,0.01937709003686905,64,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,brown butter,0.019313575699925423,65,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate,0.01914503239095211,66,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, raspberry ripple",0.019102318212389946,67,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cambridge elderflower sorbet,0.01862465590238571,68,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apricot sorbet,0.018497783690690994,69,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, raspberry ripple",0.018361549824476242,70,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house yoghurt, sour cherry ripple",0.018032902851700783,71,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry sorbet,0.017945894971489906,72,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,malted milk,0.01781390607357025,73,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pink guava & lime leaf sorbet,0.0167893934994936,74,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cinnamon waffle,0.01675122044980526,75,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry pavlova,0.016546012833714485,76,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & cinnamon,0.016409773379564285,77,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut,0.01635793410241604,78,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cashew & manuka honey,0.01629853993654251,79,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,saffron,0.016197536140680313,80,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,caramelised vanilla,0.01602225936949253,81,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & whole hazelnuts,0.0159089807420969,82,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cinnamon,0.01559646800160408,83,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,spanish saffron,0.015419918112456799,84,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb & rose sorbet,0.015325706452131271,85,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & ginger,0.014787949621677399,86,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,grilled milk chocolate,0.014759361743927002,87,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house cinnamon biscuit,0.014728648588061333,88,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pink guava sorbet,0.014724710956215858,89,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla creme patissiere,0.014631680212914944,90,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gianduja,0.014486715197563171,91,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,king’s college lavender brownie,0.014359338209033012,92,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,caramelised milk,0.014279281720519066,93,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,almond & cherry cake,0.01398755144327879,94,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted hazelnut,0.01398024708032608,95,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,marmalade,0.01370089128613472,96,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, blueberry ripple",0.013684089295566082,97,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,jgf rhubarb sorbet,0.013672877103090286,98,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb & cardamom sorbet,0.013642353005707264,99,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk & manuka honey,0.013637855648994446,100,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & rum,0.01362264808267355,101,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house mascarpone & marsala wine,0.013575092889368534,102,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lychee & rose sorbet,0.01340493280440569,103,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,oftd rum & raisin,0.013300444930791855,104,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double pistachio,0.013239867053925991,105,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,brownie dough,0.013233079575002193,106,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house mascarpone,0.013189315795898438,107,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,black sesame cookie dough,0.013183440081775188,108,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberries & cream,0.013081147335469723,109,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrant & cream,0.013074285350739956,110,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mascarpone,0.01283194962888956,111,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hibiscus & yuzu sorbet,0.012717594392597675,112,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sticky toffee pudding,0.012705332599580288,113,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate fudge ripple,0.0126224709674716,114,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hibiscus sorbet,0.012385126203298569,115,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, sour cherry ripple",0.012360984459519386,116,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, passion fruit ripple",0.012322037480771542,117,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,fior di latte,0.012233609333634377,118,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon sorbet,0.012142124585807323,119,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,orange blossom & pistachios,0.012075318954885006,120,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,yuzu sorbet,0.012056414969265461,121,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sea buckthorn sorbet,0.011987256817519665,122,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house yoghurt & lime leaf,0.011886179447174072,123,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted macadamia,0.011684383265674114,124,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut cookie dough,0.011420960538089275,125,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & lime leaf,0.011136229149997234,126,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & bourbon whisky,0.011125437915325165,127,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,basque cheesecake,0.010949497111141682,128,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double chocolate mint chip,0.010761572979390621,129,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & black sesame,0.010598093271255493,130,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gingerbread,0.010562282986938953,131,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hibiscus & ginger sorbet,0.010026952251791954,132,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,marmalade sorbet,0.009995383210480213,133,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,damson & cherry ripple,0.009938046336174011,134,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coffee meringue,0.009561856277287006,135,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry,0.009487088769674301,136,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lime leaf,0.009484028443694115,137,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,oftd rum,0.009461809881031513,138,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,panela,0.009454469196498394,139,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pear & cardamom,0.00943914707750082,140,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,brazil nut,0.009384039789438248,141,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,white miso & manuka honey,0.009356080554425716,142,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house yoghurt & rose,0.009332963265478611,143,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apple & almond cake,0.009321137331426144,144,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, passion fruit ripple",0.009292664937675,145,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dulce de leche & coffee,0.009266643784940243,146,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,manuka honey & cashew,0.009248933754861355,147,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,white chocolate & cardamom,0.009201976470649242,148,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house speculaas,0.00918485876172781,149,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"matcha, blueberry ripple",0.009161398746073246,150,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry pavlova,0.009040958248078823,151,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & orange,0.008882430382072926,152,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,ginger cake,0.008874974213540554,153,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pastis,0.008746769279241562,154,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrant crumble,0.008645792491734028,155,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon & girton basil sorbet,0.00864189863204956,156,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit & girton thai basil sorbet,0.008613580837845802,157,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon stracciatella,0.008595947176218033,158,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pink grapefruit & tarragon sorbet,0.008560875430703163,159,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,yuzu,0.008462166413664818,160,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit & liquorice sorbet,0.008443494327366352,161,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mascarpone & raspberry cake,0.008384162560105324,162,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,brown sugar vanilla,0.008380944840610027,163,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apricot & mezcal sorbet,0.008376622572541237,164,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double hazelnut,0.008371933363378048,165,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,peppermint brownie,0.00835630763322115,166,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vicky sponge,0.008341239765286446,167,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut & honeycomb,0.008269024081528187,168,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry crumble,0.008210733532905579,169,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,brandy butter,0.008186562918126583,170,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit & basil sorbet,0.00817623920738697,171,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut mint choc chip,0.008167361840605736,172,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,jgf rhubarb & rose sorbet,0.0080832215026021,173,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,jg farm rhubarb sorbet,0.007872768677771091,174,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cinnamon brownie,0.007833813317120075,175,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry ripple,0.007796019781380892,176,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,choc chip cookie dough,0.00777517119422555,177,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double cinnamon biscuit,0.007627274841070175,178,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sour cherry sorbet,0.007501863408833742,179,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & rose,0.0074251811020076275,180,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut vanilla,0.007379826158285141,181,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house ricotta,0.007244342006742954,182,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut brownie,0.007228666450828314,183,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pump street stracciatella,0.007220981176942587,184,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, cherry ripple",0.0072111706249415874,185,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, strawberry ripple",0.0071912785060703754,186,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,custard,0.007173182908445597,187,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double house pistachio,0.007119820918887854,188,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla custard,0.007114059291779995,189,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & raspberry,0.007049471605569124,190,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut & allspice,0.0070117684081196785,191,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,elderflower sorbet,0.006929250434041023,192,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,wisconsin pecan pie,0.00688564870506525,193,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vegan pistachio,0.006840404588729143,194,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mince pie,0.006809620652347803,195,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,english whisky; circumstance distillery,0.006773590110242367,196,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,baileys,0.006771084386855364,197,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry & girton thai basil sorbet,0.006758925970643759,198,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,kewpie,0.00673729507252574,199,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut & chocolate tart,0.006734497379511595,200,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,kewpie mayo,0.006694477051496506,201,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cookie dough,0.0066653406247496605,202,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk & peanut butter cookies,0.006638300605118275,203,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & cardamom,0.006630259100347757,204,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pandan,0.0066258893348276615,205,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla yoghurt,0.006612507626414299,206,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gooseberry & gin sorbet,0.006612125318497419,207,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & lime leaf sorbet,0.006606894079595804,208,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gin & tonic sorbet,0.006579110398888588,209,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry sorbet,0.006519370246678591,210,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut stracciatella,0.006503561045974493,211,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,ginger,0.006503487471491098,212,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rose stracciatella,0.006470619700849056,213,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,grapefruit & aperol sorbet,0.006465596612542868,214,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,ube brownie,0.00643484853208065,215,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double oreo,0.006396328564733267,216,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & coconut,0.006329794880002737,217,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apricot & yuzu sorbet,0.006328088231384754,218,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"caramelised scone, strawberry ripple",0.006312794052064419,219,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"canadian maple syrup, amber grade",0.006259658373892307,220,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut coffee,0.006190111860632896,221,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"matcha sorbet, raspberry ripple",0.0061823902651667595,222,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,matcha sorbet,0.006152819842100143,223,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pineapple & coconut,0.006105664651840925,224,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"yuzu, raspberry ripple",0.006036373786628246,225,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pistachio brownie,0.006023036781698465,226,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"redcurrant, ginger & lemon sorbet",0.006004372611641884,227,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,stem ginger,0.005991301499307156,228,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"creme patissiere, chocolate fudge ripple",0.0059906113892793655,229,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house yoghurt, cherry ripple",0.005987596698105335,230,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house vanilla,0.0059693725779652596,231,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,manuka honey & fig,0.0059273033402860165,232,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted girton pumpkin brownie,0.005888756830245256,233,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & treacle,0.005867593921720982,234,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrant & violet,0.005867126397788525,235,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"pistachio, raspberry ripple",0.005822763312608004,236,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & cherry,0.005821938160806894,237,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & mint choc chip,0.005796714220196009,238,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,maple waffle,0.005791838280856609,239,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cherry & mascarpone cake,0.005754517391324043,240,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla & marsala wine,0.005739243235439062,241,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pistachio,0.005715551320463419,242,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"orange blossom, raspberry ripple",0.005698431748896837,243,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"lemongrass, chocolate fudge ripple",0.005563402082771063,244,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,almond pie,0.0055623711086809635,245,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,almond & raspberry cake,0.005548619665205479,246,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vegan double hazelnut,0.005517433863133192,247,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sheep’s milk fior di latte,0.0055111004039645195,248,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,girton apple & cardamom sorbet,0.005422631744295359,249,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry & violet sorbet,0.005408926401287317,250,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,yoghurt & rose,0.0054008848965168,251,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry & mascarpone cake,0.005369327962398529,252,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon & basil sorbet,0.005366725847125053,253,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"passion fruit, basil & mezcal sorbet",0.005342536140233278,254,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,black forest,0.005339341703802347,255,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"matcha, raspberry ripple",0.0053331488743424416,256,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,king’s college lavender & oreo,0.005326639395207167,257,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"cashew, sour cherry ripple",0.005268983542919159,258,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,almond cookie dough,0.005268611013889313,259,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut & oreo,0.005266619846224785,260,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"matcha & almond cake, strawberry ripple",0.005234159529209137,261,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, salted caramel ripple",0.005233601201325655,262,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,liquorice,0.005211987998336554,263,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,english meyer lemon sorbet,0.005191748961806297,264,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,black sesame cake,0.005128254648298025,265,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"yuzu, strawberry ripple",0.005127463489770889,266,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,alphonso mango & mezcal sorbet,0.0050917924381792545,267,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & violet,0.005021640565246344,268,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house mascarpone, cocoa powder",0.0050099920481443405,269,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, ube & rose",0.004997767973691225,270,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gooseberry & lemon sorbet,0.004993929993361235,271,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,aniseed,0.004962405189871788,272,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house mascarpone, cherry ripple",0.004953230731189251,273,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,condensed milk,0.0049242437817156315,274,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & liquorice,0.004915949422866106,275,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,matcha & almond cake,0.004903660621494055,276,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,bronte pistachio,0.004882480949163437,277,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double honeycomb,0.004787586163729429,278,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,manuka honey & purple fig,0.004758037626743317,279,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, cardamom & rose",0.004745880141854286,280,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,ube,0.004741051234304905,281,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla house yoghurt,0.004738579038530588,282,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blueberry cobbler,0.004734472371637821,283,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut oreo,0.004703211132436991,284,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,girton pumpkin & almond cake,0.004653393756598234,285,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,caramel ripple,0.004631513729691505,286,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,white miso,0.004620722029358149,287,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,purple fig & manuka honey,0.004591720644384623,288,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk & nutter butter cookies,0.0045797256752848625,289,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,genmaicha,0.004559255205094814,290,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & passion fruit ripple,0.0045290058478713036,291,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double pistachio & rose,0.004526355769485235,292,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,carrot cake & pistachios,0.004511286970227957,293,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blackcurrant & mascarpone cake,0.004494209308177233,294,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house yoghurt, strawberry ripple",0.0044743274338543415,295,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk & molasses cookies,0.004441933240741491,296,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,creme patissiere,0.0044390177354216576,297,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"caramelised scone, raspberry ripple",0.004434080794453621,298,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cherry & almond cake,0.0044136024080216885,299,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla creme patisierre,0.004400718491524458,300,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, ube, rose & oreo",0.004393060225993395,301,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house yoghut, cherry ripple",0.0043897973373532295,302,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk,0.004382378421723843,303,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cold-infused cocoa,0.004351266194134951,304,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & coffee,0.004348333925008774,305,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted pear & cardamom,0.004329472780227661,306,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,oftd rum & apricot,0.0043065669015049934,307,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, cardamom & raspberry",0.0043058330193161964,308,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted rose & pistachios,0.004222818184643984,309,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,yuzu & liquorice,0.004199594724923372,310,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & rose,0.004193224478513002,311,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut matcha,0.004178418777883053,312,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut sugar,0.0041605583392083645,313,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,sour cherry & mascarpone cake,0.004136367700994015,314,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,tomato & hibiscus sorbet,0.0041346475481987,315,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"ginger, raspberry ripple",0.004129273351281881,316,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,matcha & lime leaf,0.004120973404496908,317,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted caramel & bourbon whisky,0.004104945808649063,318,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut tart,0.004102910868823528,319,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,king’s college lavender stracciatella,0.004090308677405119,320,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hibiscus & lime leaf sorbet,0.00407813023775816,321,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,malted caramel ripple,0.004038727842271328,322,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apple & mascarpone cake,0.0040364498272538185,323,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cashew nut & manuka honey,0.004036419093608856,324,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rose & pistachio,0.004035014193505049,325,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cold-infused cacao nib,0.004020776133984327,326,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,white miso and manuka honey,0.004016121383756399,327,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"rose, raspberry ripple",0.003953476436436176,328,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted macadamia nut,0.003950687125325203,329,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"cashew, chocolate chip cookie dough",0.003948286175727844,330,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,earl grey & plum sorbet sorbet,0.003940088674426079,331,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,grapefruit & caius tarragon sorbet,0.003931569866836071,332,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"passion fruit, basil & mezcal",0.003908942919224501,333,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"king’s college lavender, raspberry ripple",0.00387582927942276,334,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,clotted cream fudge chunk,0.0038750357925891876,335,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & chili,0.0038507916033267975,336,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,yuzu & apricot sorbet,0.0038421477656811476,337,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,bristol whisky; circumstance distillery,0.003828013315796852,338,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cranberry sorbet,0.0038246270269155502,339,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"brazil nut, sour cherry ripple",0.0038157645612955093,340,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemongrass,0.0037947583477944136,341,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & whole pistachios,0.0037701032124459743,342,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mascarpone & sour cherry cake,0.0037435900885611773,343,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, ginger & chilli",0.003739846870303154,344,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"ube, raspberry ripple",0.003692426485940814,345,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & ginger,0.0036898120306432247,346,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"alphonso mango, chili & salt",0.003674172330647707,347,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,bronte pistachio & rose,0.0036307063419371843,348,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,marmite,0.003623318625614047,349,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gingerbread spice,0.0035969659220427275,350,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,earl grey & plum sorbet,0.0035920576192438602,351,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apricot rum,0.003538489807397127,352,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cherry sorbet,0.0035197152756154537,353,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,treacle & ginger,0.0035131589975208044,354,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cadenhead’s whiskey; cognac cask,0.003512060735374689,355,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pistachio (vegan!),0.003512060735374689,356,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,treacle,0.0034728865139186382,357,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,manuka honey,0.0034664710983633995,358,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"rose, chocolate fudge ripple",0.0034489494282752275,359,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,raspberry seed & black tea sorbet,0.003437626641243696,360,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,guava sorbet,0.0034360717982053757,361,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house panettone,0.0034331518691033125,362,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,white chocolate,0.0034305506851524115,363,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry balsamic,0.003415714018046856,364,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted peanut butter,0.003402821021154523,365,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut & coffee,0.0033943643793463707,366,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pink grapefruit sorbet,0.0033919038251042366,367,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut choc chip,0.003386611118912697,368,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,apricot & lemon water sorbet,0.00336902285926044,369,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hibiscus & pink peppercorn sorbet,0.003367228666320443,370,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, hazelnut & allspice",0.0033613096456974745,371,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit & liquorice,0.0033530867658555508,372,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,mint straciatella,0.0033518201671540737,373,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, rose & cardamom",0.0033359494991600513,374,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"creme pat, cherry ripple",0.003308964194729924,375,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pistachio cookie dough,0.0032957568764686584,376,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & hazelnuts,0.003286499995738268,377,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,clotted cream fudge,0.0032770263496786356,378,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,orange blossom & raspberry,0.0032518762163817883,379,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,whisky; torabhaig allt gleann,0.003248579567298293,380,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,macadamia nut,0.0032291170209646225,381,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"cardamom, rose & pistachios",0.003224958898499608,382,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house mascarpone, brownie dough",0.003193272277712822,383,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,palets bretons,0.003192235715687275,384,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pimm’s sorbet,0.003185507608577609,385,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry & cardamom,0.003184275235980749,386,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry pavlova,0.003174678422510624,387,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,ginger stracciatella,0.003173613455146551,388,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,virgin bloody mary sorbet,0.003171270014718175,389,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla & rose,0.0031708977185189724,390,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,dark chocolate & hazelnut,0.0031586603727191687,391,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,salted carmel ripple,0.003129236400127411,392,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,gorgonzola,0.0030834092758595943,393,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted girton pumpkin,0.0030482306610792875,394,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,flourish farm pumpkin,0.0030476581305265427,395,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"cashew, raspberry ripple",0.0030396971851587296,396,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,girton apple & miso sorbet,0.0030270274728536606,397,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,house mincemeat,0.0030102247837930918,398,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"chocolate, whole hazelnuts",0.002992406254634261,399,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,jgf rhubarb,0.002986589213833213,400,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate & passion fruit ripple,0.0029391772113740444,401,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passionfruit & gochujang sorbet,0.0029302265029400587,402,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,orange blossom & bronte pistachios,0.002924560569226742,403,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house mascarpone, splash of marsala wine",0.0029197202529758215,404,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"japanese whisky; nikka, from the barrel",0.002916673431172967,405,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,1792 full proof bourbon whisky,0.0029135369695723057,406,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,milk chocolate & ginger,0.0029063120018690825,407,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,spiced pumpkin,0.0028770631179213524,408,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberries & stem ginger,0.002848862437531352,409,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,double pistachio (dairy or vegan!),0.0028469448443502188,410,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,manor farm lemon basil & rhubarb sorbet,0.0028176377527415752,411,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,orange flower & cardamom,0.0028096241876482964,412,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberry & cream,0.0028084898367524147,413,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,baked vanilla (with a splash of marsala wine),0.0028032585978507996,414,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,coconut & strawberry ripple,0.002764768898487091,415,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chocolate pie,0.0027547443751245737,416,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb & orange blossom sorbet,0.002738497918471694,417,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cardamom rose & pistachios,0.0027308734133839607,418,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,iranian polished pistachio,0.0027238205075263977,419,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla (with a splash of marsala wine),0.002717331051826477,420,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,cashew & choc chip cookie dough,0.0027125824708491564,421,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,malted milk (closest flavour to vanilla today),0.0027044974267482758,422,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,chamoy hot sauce,0.0026775773148983717,423,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"james eadie, 29yr single grain whisky",0.0026593501679599285,424,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,hazelnut; tonda gentile delle langhe,0.0026395858731120825,425,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,damson & mezcal,0.002625244902446866,426,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,baileys & cake,0.0026191617362201214,427,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,king’s college lavender fudge brownie,0.002612744690850377,428,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"mascarpone, raspberry ripple",0.0025783521123230457,429,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb & ginger sorbet,0.0025708291213959455,430,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,passion fruit & aleppo chili sorbet,0.002568792784586549,431,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,fudge,0.0025542753282934427,432,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,violet,0.002547747688367963,433,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,frascati sorbet,0.002542243804782629,434,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,bourbon whisky; eagle rare,0.002541684079915285,435,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lemon & mint sorbet,0.0025282225105911493,436,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,rhubarb & rose,0.002516915323212743,437,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"japanese whisky; nikka, front the barrel",0.002503469120711088,438,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,guava & pink peppercorn sorbet,0.0025016621220856905,439,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,circumstance whisky & whole hazelnuts,0.0025001135654747486,440,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"yoghurt, rose & pistachios",0.0024972991086542606,441,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"girton cucumber, apple & gin sorbet",0.002481667557731271,442,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"gooseberry sorbet (textured (skins and seeds),vegan)",0.0024787948932498693,443,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"house yoghurt, rose & pistachios",0.0024361880496144295,444,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,oftd plantation rum,0.002434052061289549,445,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted banana & cinnamon stracciatella,0.002412349684163928,446,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"brazil nut, house cinnamon biscuit",0.0023304116912186146,447,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"white chocolate, raspberry ripple",0.0023102741688489914,448,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"coconut, ube, rose & pistachios",0.002305859001353383,449,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla & coconut sugar,0.002267276868224144,450,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pistachio & rose,0.0022358661517500877,451,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,roasted banana & cinnamon,0.002201518276706338,452,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,pimm’s cup sorbet,0.002120960969477892,453,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,strawberries & aged balsamic,0.002064136788249016,454,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,"redcurrant, lemon & ginger sorbet",0.0020520398393273354,455,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,vanilla treacle,0.0018486670451238751,456,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,lychee & matcha sorbet,0.0018321519019082189,457,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,burnt sugar & salt,0.0017898209625855088,458,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,blue matcha,0.0017083333805203438,459,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,fior di panna,0.001693509635515511,460,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,all_saints,parsnip cake,0.0014378135092556477,461,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & sea salt,0.9746446013450623,1,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberries & cream,0.8988778591156006,2,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house vanilla,0.7453876733779907,3,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender,0.6149218082427979,4,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted caramel,0.560444712638855,5,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot sorbet,0.5573603510856628,6,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,honeycomb,0.5240033268928528,7,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gin & tonic sorbet,0.448628306388855,8,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut sugar,0.3639819622039795,9,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate,0.24855612218379974,10,True,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & ube,0.23513925075531006,11,False,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla,0.2325664907693863,12,False,True,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,damson sorbet,0.08681105822324753,13,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house yoghurt,0.0790768563747406,14,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mint stracciatella,0.06994753330945969,15,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrants & cream,0.06508607417345047,16,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted oreo,0.058171339333057404,17,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,girton apple sorbet,0.058065250515937805,18,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coffee,0.052707161754369736,19,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry,0.04918554052710533,20,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted banana,0.049180999398231506,21,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hong kong milk tea,0.047961194068193436,22,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double chocolate,0.04602330923080444,23,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted treacle,0.04533948376774788,24,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate chip cookie dough,0.040212880820035934,25,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house lemon yoghurt,0.03975285589694977,26,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit sorbet,0.03921542316675186,27,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon,0.03828711435198784,28,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,matcha,0.03639554977416992,29,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry ripple,0.03410666063427925,30,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry sorbet,0.03327532112598419,31,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dulce de leche,0.03309057280421257,32,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla brown sugar,0.03215997666120529,33,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,black sesame,0.03196436166763306,34,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut ube,0.031467583030462265,35,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla mascarpone,0.031277164816856384,36,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk & brownies,0.031207619234919548,37,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cardamom & rose,0.03061211109161377,38,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,alphonso mango sorbet,0.030483495444059372,39,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, raspberry ripple",0.030420249328017235,40,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gooseberry sorbet,0.029989883303642273,41,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lychee sorbet,0.029987365007400513,42,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted peanut,0.02941524051129818,43,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,eton mess,0.028439097106456757,44,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,miso blondie,0.027938706800341606,45,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sour cherry ripple,0.02778848446905613,46,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pecan pie,0.027255868539214134,47,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,stroopwafel,0.02719828486442566,48,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,tiramisu,0.026224907487630844,49,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted caramel ripple,0.026142049580812454,50,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house yoghurt & manuka honey,0.025923941284418106,51,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,stracciatella,0.025507628917694092,52,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut mint stracciatella,0.024993743747472763,53,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrant,0.024617157876491547,54,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,oftd rum & raisin,0.023940883576869965,55,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,fudge chunk,0.023900039494037628,56,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb sorbet,0.022983761504292488,57,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,malted milk,0.022950634360313416,58,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,carrot cake,0.022578617557883263,59,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house dulce de leche,0.022107144817709923,60,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted liquorice,0.021835077553987503,61,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted peanut stracciatella,0.02178560569882393,62,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & raspberry ripple,0.021732503548264503,63,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry sorbet,0.020552918314933777,64,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut,0.020352067425847054,65,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, raspberry ripple",0.020142165943980217,66,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cambridge elderflower sorbet,0.01997855119407177,67,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cinnamon waffle,0.019846666604280472,68,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry pavlova,0.0196743942797184,69,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & coconut,0.019536353647708893,70,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrant & cream,0.01943005621433258,71,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,brown butter,0.019216388463974,72,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,butterscotch ripple,0.01899236999452114,73,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sugar & spice,0.01869347132742405,74,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,grilled white chocolate,0.01845424808561802,75,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & whole hazelnuts,0.01844458095729351,76,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,jgf rhubarb sorbet,0.018439052626490593,77,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,fior di latte,0.01838536746799946,78,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house yoghurt, sour cherry ripple",0.017760956659913063,79,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pimm’s cup sorbet,0.01769592985510826,80,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pbj,0.017673563212156296,81,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & ginger,0.017568716779351234,82,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & bourbon whisky,0.017336076125502586,83,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry & rose,0.017159353941679,84,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, caramel ripple",0.017054138705134392,85,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & cinnamon,0.016991471871733665,86,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,spanish saffron,0.016835534945130348,87,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pink guava & lime leaf sorbet,0.016754770651459694,88,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,baked vanilla,0.016537100076675415,89,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cinnamon,0.016480762511491776,90,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk & manuka honey,0.016430342569947243,91,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cashew & manuka honey,0.016155274584889412,92,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,saffron,0.016032202169299126,93,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pink guava sorbet,0.015906332060694695,94,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apple & almond cake,0.01578083634376526,95,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double pistachio,0.015616635791957378,96,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lychee & rose sorbet,0.015313333831727505,97,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,caramelised vanilla,0.015171825885772705,98,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,grilled milk chocolate,0.014998212456703186,99,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sticky toffee pudding,0.014821869321167469,100,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb & rose sorbet,0.01474867481738329,101,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted hazelnut,0.014323796145617962,102,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, blueberry ripple",0.014116082340478897,103,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sea buckthorn sorbet,0.013891576789319515,104,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,brownie dough,0.013798413798213005,105,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,oftd rum,0.013723391108214855,106,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hibiscus sorbet,0.013702289201319218,107,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon yoghurt,0.01367968786507845,108,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house mascarpone,0.013586807064712048,109,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,orange blossom & pistachios,0.013571913354098797,110,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender brownie,0.013353903777897358,111,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberries & cream,0.013180109672248363,112,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mascarpone,0.01317420694977045,113,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house cinnamon biscuit,0.013137130066752434,114,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hibiscus & yuzu sorbet,0.013028820045292377,115,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,marmalade,0.012971198186278343,116,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,caramelised milk,0.012872052378952503,117,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & lime leaf,0.012768255546689034,118,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon sorbet,0.012687628157436848,119,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & orange,0.012635926716029644,120,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb & cardamom sorbet,0.012488841079175472,121,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, passion fruit ripple",0.01242950838059187,122,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gianduja,0.012355350889265537,123,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate fudge ripple,0.012292689643800259,124,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted caramel & bourbon whisky,0.01223831158131361,125,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,brandy butter,0.012065993621945381,126,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,black sesame cookie dough,0.011964874342083931,127,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,english whisky; circumstance distillery,0.011704769916832447,128,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,peppermint brownie,0.01154629047960043,129,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,basque cheesecake,0.01116185076534748,130,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut cookie dough,0.011100170202553272,131,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,yuzu sorbet,0.011004345491528511,132,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,brown sugar vanilla,0.011002741754055023,133,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry ripple,0.010928458534181118,134,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house mascarpone & marsala wine,0.010833916254341602,135,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & black sesame,0.010813000611960888,136,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, sour cherry ripple",0.010615643113851547,137,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vicky sponge,0.010474096052348614,138,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,elderflower sorbet,0.01047405693680048,139,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,white miso & manuka honey,0.010304564610123634,140,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lime leaf,0.010218811221420765,141,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double chocolate mint chip,0.010192901827394962,142,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"redcurrant, ginger & lemon sorbet",0.010116897523403168,143,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,kewpie mayo,0.010086748749017715,144,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gingerbread,0.009948796592652798,145,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrant & mascarpone cake,0.009941847994923592,146,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house yoghurt & lime leaf,0.009884954430162907,147,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,yuzu,0.009802677668631077,148,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,white chocolate & cardamom,0.009719944559037685,149,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,manuka honey & cashew,0.009678133763372898,150,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,brazil nut,0.009622535668313503,151,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry,0.009561331942677498,152,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pump street stracciatella,0.009509209543466568,153,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,panela,0.009372208267450333,154,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry & girton thai basil sorbet,0.009371751919388771,155,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,ginger,0.009340725839138031,156,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,ginger cake,0.009303624741733074,157,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pandan,0.00930028036236763,158,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pastis,0.009288469329476357,159,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon & girton basil sorbet,0.009284310974180698,160,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry pavlova,0.00926315039396286,161,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house yoghurt & rose,0.009253405965864658,162,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dulce de leche & coffee,0.009163277223706245,163,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,stem ginger,0.009111122228205204,164,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pistachio brownie,0.008982019498944283,165,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cookie dough,0.008975209668278694,166,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double hazelnut,0.008971359580755234,167,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coffee meringue,0.008926822803914547,168,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hibiscus & ginger sorbet,0.008912605233490467,169,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon stracciatella,0.008806446567177773,170,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house speculaas,0.008636532351374626,171,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & cardamom,0.008593029342591763,172,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, passion fruit ripple",0.008462594822049141,173,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mince pie,0.008434581570327282,174,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pear & cardamom,0.008412742987275124,175,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrant crumble,0.00826740637421608,176,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mascarpone & raspberry cake,0.008265186101198196,177,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut & honeycomb,0.008255868218839169,178,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,jgf rhubarb & rose sorbet,0.008226992562413216,179,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"matcha, blueberry ripple",0.008156592026352882,180,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sour cherry sorbet,0.007966832257807255,181,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot & mezcal sorbet,0.007928011938929558,182,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & treacle,0.007903492078185081,183,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cinnamon brownie,0.007888845168054104,184,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,baileys,0.007825993932783604,185,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & rose,0.007763650268316269,186,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut mint choc chip,0.007753269746899605,187,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,choc chip cookie dough,0.007752363570034504,188,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pistachio cookie dough,0.007736595813184977,189,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry crumble,0.007731769233942032,190,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,jg farm rhubarb sorbet,0.007665613666176796,191,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double house pistachio,0.007591791916638613,192,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, strawberry ripple",0.007566259242594242,193,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pink grapefruit & tarragon sorbet,0.007506505120545626,194,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit & liquorice sorbet,0.007474458310753107,195,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut brownie,0.007338035386055708,196,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut & allspice,0.007261402904987335,197,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla creme patissiere,0.007187340874224901,198,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit & basil sorbet,0.007094929460436106,199,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut & oreo,0.006974874064326286,200,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla custard,0.006969129666686058,201,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,maple waffle,0.006914294324815273,202,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut stracciatella,0.00690803024917841,203,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,custard,0.006874265149235725,204,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house ricotta,0.006872334983199835,205,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk & peanut butter cookies,0.0068204947747290134,206,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"orange blossom, raspberry ripple",0.006795957218855619,207,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,ube brownie,0.00676983455196023,208,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,marmalade sorbet,0.006768443156033754,209,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & lime leaf sorbet,0.006763475947082043,210,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double cinnamon biscuit,0.0067306705750525,211,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry sorbet,0.0065909987315535545,212,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double oreo,0.006579497363418341,213,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, cherry ripple",0.006558788008987904,214,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut vanilla,0.00649306969717145,215,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & coconut,0.00648705568164587,216,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & raspberry,0.006437980104237795,217,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,black sesame cake,0.006404779851436615,218,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rose stracciatella,0.006389462389051914,219,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,almond & cherry cake,0.006379670463502407,220,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"cashew, sour cherry ripple",0.006371716968715191,221,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,almond pie,0.0063586668111383915,222,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gooseberry & gin sorbet,0.006311893463134766,223,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,kewpie,0.006200701463967562,224,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,caramel ripple,0.006169573869556189,225,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,wisconsin pecan pie,0.006168164778500795,226,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla yoghurt,0.006145398132503033,227,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hibiscus & lime leaf sorbet,0.006133849732577801,228,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,bronte pistachio,0.006128096953034401,229,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut coffee,0.006111816968768835,230,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,almond & raspberry cake,0.006087557412683964,231,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"matcha sorbet, raspberry ripple",0.006067768204957247,232,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,manuka honey & fig,0.006062556989490986,233,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & passion fruit ripple,0.006057860795408487,234,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,aniseed,0.006026043556630611,235,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, cardamom & rose",0.006012235302478075,236,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk & molasses cookies,0.005993587896227837,237,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house yoghurt, cherry ripple",0.0059767961502075195,238,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit & girton thai basil sorbet,0.00592430867254734,239,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,grapefruit & aperol sorbet,0.005920710042119026,240,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"yuzu, raspberry ripple",0.005889381747692823,241,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cherry & mascarpone cake,0.005880731623619795,242,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pistachio,0.0058457693085074425,243,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,manuka honey & purple fig,0.005769787821918726,244,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,ube,0.005729523953050375,245,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"caramelised scone, strawberry ripple",0.005713763181120157,246,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"pistachio, raspberry ripple",0.005711880512535572,247,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry & mascarpone cake,0.005711512174457312,248,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, cardamom & raspberry",0.005659001413732767,249,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon & basil sorbet,0.005606972612440586,250,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,matcha sorbet,0.005556913558393717,251,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sheep’s milk fior di latte,0.005543236620724201,252,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted pear & cardamom,0.005541068501770496,253,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry & violet sorbet,0.005539108533412218,254,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,condensed milk,0.005505991168320179,255,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot & yuzu sorbet,0.005486037116497755,256,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"matcha, raspberry ripple",0.005476689897477627,257,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blackcurrant & violet,0.005436985287815332,258,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,yoghurt & rose,0.005431593395769596,259,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla & marsala wine,0.005421202164143324,260,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,almond cookie dough,0.005380085203796625,261,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender & oreo,0.005352057050913572,262,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double honeycomb,0.005346211604773998,263,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"lemongrass, chocolate fudge ripple",0.005331722088158131,264,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"passion fruit, basil & mezcal sorbet",0.005310661159455776,265,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,purple fig & manuka honey,0.005303522106260061,266,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & coffee,0.005302798002958298,267,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,girton apple & cardamom sorbet,0.005254403222352266,268,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vegan double hazelnut,0.0052297296933829784,269,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender stracciatella,0.005216687452048063,270,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house mascarpone, cherry ripple",0.005201337859034538,271,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"rose, raspberry ripple",0.005143323447555304,272,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, salted caramel ripple",0.0050762067548930645,273,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,black forest,0.0050529842264950275,274,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,jgf rhubarb,0.005032359156757593,275,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,oftd rum & apricot,0.005024266894906759,276,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,liquorice,0.0049614207819104195,277,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & violet,0.004957482218742371,278,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,whisky; torabhaig allt gleann,0.004946955479681492,279,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & liquorice,0.00492908526211977,280,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"matcha & almond cake, strawberry ripple",0.004926265217363834,281,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,bristol whisky; circumstance distillery,0.004889707546681166,282,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vegan pistachio,0.004867122042924166,283,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,malted caramel ripple,0.004860838875174522,284,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut & chocolate tart,0.00483492249622941,285,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gooseberry & lemon sorbet,0.004778879228979349,286,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,matcha & almond cake,0.004767186474055052,287,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,english meyer lemon sorbet,0.004742300137877464,288,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & whole pistachios,0.0047332546673715115,289,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"yuzu, strawberry ripple",0.004732261877506971,290,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cashew nut & manuka honey,0.0046873209066689014,291,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house yoghurt, strawberry ripple",0.0046863555908203125,292,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,genmaicha,0.004667539149522781,293,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"caramelised scone, raspberry ripple",0.00465054577216506,294,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,alphonso mango & mezcal sorbet,0.0046461462043225765,295,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house mascarpone, cocoa powder",0.004641242325305939,296,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut oreo,0.004595963750034571,297,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & cherry,0.004578405991196632,298,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted macadamia,0.004550688434392214,299,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pineapple & coconut,0.004547557793557644,300,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,white miso,0.004545123316347599,301,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk,0.004460024181753397,302,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted girton pumpkin brownie,0.004451778717339039,303,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & rose,0.004423270467668772,304,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk & nutter butter cookies,0.004390966612845659,305,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"brazil nut, sour cherry ripple",0.004384438507258892,306,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cranberry sorbet,0.004376622848212719,307,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"cashew, chocolate chip cookie dough",0.004329519812017679,308,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,creme patissiere,0.004313291050493717,309,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, ube, rose & oreo",0.004300182219594717,310,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,bronte pistachio & rose,0.0042672413401305676,311,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,circumstance whisky & whole hazelnuts,0.004206905607134104,312,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"creme patissiere, chocolate fudge ripple",0.00416417745873332,313,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cherry sorbet,0.004128057509660721,314,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mint straciatella,0.0040936218574643135,315,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gingerbread spice,0.004085387568920851,316,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted peanut butter,0.004082123748958111,317,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"cardamom, rose & pistachios",0.004074479453265667,318,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,marmite,0.004069008864462376,319,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut tart,0.004064775537699461,320,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & ginger,0.004054786637425423,321,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cold-infused cacao nib,0.004049850627779961,322,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house mascarpone, splash of marsala wine",0.004048811737447977,323,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,sour cherry & mascarpone cake,0.004036120139062405,324,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"rose, chocolate fudge ripple",0.004024396650493145,325,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot rum,0.004017584957182407,326,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & rum,0.004000697750598192,327,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,clotted cream fudge chunk,0.003985034301877022,328,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,matcha & lime leaf,0.003954776097089052,329,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,tomato & hibiscus sorbet,0.003938498441129923,330,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"ginger, raspberry ripple",0.003938034176826477,331,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apricot & lemon water sorbet,0.0039363098330795765,332,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,virgin bloody mary sorbet,0.0039201341569423676,333,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,yuzu & apricot sorbet,0.0039049717597663403,334,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,yuzu & liquorice,0.0038818151224404573,335,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, rose & cardamom",0.003861046629026532,336,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,treacle,0.0038457850459963083,337,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rose & pistachio,0.0038336741272360086,338,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,grapefruit & caius tarragon sorbet,0.0038329476956278086,339,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & chili,0.0038199173286557198,340,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,white chocolate,0.003800085512921214,341,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemongrass,0.0037934535648673773,342,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,apple & mascarpone cake,0.00377876334823668,343,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house panettone,0.003742805914953351,344,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla creme patisierre,0.0037182343658059835,345,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,dark chocolate & hazelnut,0.0037136212922632694,346,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & strawberry ripple,0.003680816385895014,347,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, ube & rose",0.0036653587594628334,348,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double pistachio & rose,0.0036432286724448204,349,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"alphonso mango, chili & salt",0.003642912022769451,350,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,clotted cream fudge,0.0036213980056345463,351,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,fudge,0.0036167351063340902,352,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,damson & cherry ripple,0.003609989769756794,353,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pimm’s sorbet,0.0036027845926582813,354,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"ube, raspberry ripple",0.0035771485418081284,355,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,1792 full proof bourbon whisky,0.003561314195394516,356,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blueberry cobbler,0.0035420050844550133,357,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,earl grey & plum sorbet,0.003475835081189871,358,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla & coconut sugar,0.003449829760938883,359,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & passion fruit ripple,0.003448105650022626,360,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry pavlova,0.0034348394256085157,361,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house yoghut, cherry ripple",0.0034296480007469654,362,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cold-infused cocoa,0.003425146220251918,363,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,manuka honey,0.0034250598400831223,364,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted macadamia nut,0.00341820134781301,365,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,palets bretons,0.003411215962842107,366,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,girton pumpkin & almond cake,0.00339787476696074,367,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cardamom rose & pistachios,0.003396834945306182,368,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut choc chip,0.0033889294136315584,369,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, hazelnut & allspice",0.0033716047182679176,370,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,orange blossom & bronte pistachios,0.003357944078743458,371,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted girton pumpkin,0.0033445165026932955,372,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"passion fruit, basil & mezcal",0.0033348649740219116,373,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,flourish farm pumpkin,0.0033034016378223896,374,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,manor farm lemon basil & rhubarb sorbet,0.0032942909747362137,375,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passionfruit & gochujang sorbet,0.0032823244109749794,376,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"cashew, raspberry ripple",0.0032779984176158905,377,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut & coffee,0.00325908325612545,378,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"james eadie, 29yr single grain whisky",0.0032391224522143602,379,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,gorgonzola,0.0032309177331626415,380,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,house mincemeat,0.0032288653310388327,381,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,white miso and manuka honey,0.0032258187420666218,382,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut matcha,0.003210248425602913,383,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pink grapefruit sorbet,0.003192199394106865,384,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,mascarpone & sour cherry cake,0.0031861101742833853,385,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, ginger & chilli",0.0031745699234306812,386,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,macadamia nut,0.003155006328597665,387,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"japanese whisky; nikka, from the barrel",0.003153963014483452,388,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla & rose,0.003118776250630617,389,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla (with a splash of marsala wine),0.0031176821794360876,390,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,milk chocolate & ginger,0.0031106641981750727,391,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cadenhead’s whiskey; cognac cask,0.003098789369687438,392,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pistachio (vegan!),0.003098789369687438,393,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,double pistachio (dairy or vegan!),0.0030943278688937426,394,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb & orange blossom sorbet,0.003065164666622877,395,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,violet,0.003046860219910741,396,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,guava sorbet,0.0030449070036411285,397,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"king’s college lavender, raspberry ripple",0.0030269643757492304,398,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,spiced pumpkin,0.003020705422386527,399,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,treacle & ginger,0.0030074839014559984,400,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hibiscus & pink peppercorn sorbet,0.003006323240697384,401,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,girton apple & miso sorbet,0.0029306167270988226,402,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,raspberry seed & black tea sorbet,0.0029246287886053324,403,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,baileys & cake,0.002922400599345565,404,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,orange blossom & raspberry,0.0029070668388158083,405,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"canadian maple syrup, amber grade",0.0029006991535425186,406,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate & hazelnuts,0.00289114098995924,407,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry balsamic,0.002885173074901104,408,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla house yoghurt,0.0028832091484218836,409,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit & aleppo chili sorbet,0.002873434918001294,410,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chocolate pie,0.0028686695732176304,411,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,iranian polished pistachio,0.0028675729408860207,412,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry & cardamom,0.002834690734744072,413,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,baked vanilla (with a splash of marsala wine),0.002833297476172447,414,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,ginger stracciatella,0.0028327936306595802,415,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,damson & mezcal,0.0028246226720511913,416,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"girton cucumber, apple & gin sorbet",0.002821719041094184,417,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,chamoy hot sauce,0.0028150612488389015,418,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,hazelnut; tonda gentile delle langhe,0.002785084303468466,419,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberry & cream,0.0027742444071918726,420,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,frascati sorbet,0.002768757985904813,421,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb & rose,0.002767882775515318,422,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,coconut & mint choc chip,0.0027509427163749933,423,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted rose & pistachios,0.002739100717008114,424,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,carrot cake & pistachios,0.0027323190588504076,425,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,bourbon whisky; eagle rare,0.002732307417318225,426,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"japanese whisky; nikka, front the barrel",0.002705014543607831,427,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house mascarpone, brownie dough",0.0026858181226998568,428,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberries & stem ginger,0.00268328795209527,429,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"gooseberry sorbet (textured (skins and seeds),vegan)",0.002664274536073208,430,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,salted carmel ripple,0.002611628733575344,431,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"chocolate, whole hazelnuts",0.002597816288471222,432,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"redcurrant, lemon & ginger sorbet",0.002578050596639514,433,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"creme pat, cherry ripple",0.002575648482888937,434,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,oftd plantation rum,0.0025580015499144793,435,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,earl grey & plum sorbet sorbet,0.0025138931814581156,436,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"brazil nut, house cinnamon biscuit",0.0024771811440587044,437,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,orange flower & cardamom,0.002445818390697241,438,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,king’s college lavender fudge brownie,0.002433409448713064,439,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,guava & pink peppercorn sorbet,0.002421752316877246,440,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,malted milk (closest flavour to vanilla today),0.0024165634531527758,441,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,rhubarb & ginger sorbet,0.0023585911840200424,442,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cashew & choc chip cookie dough,0.0023407882545143366,443,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"house yoghurt, rose & pistachios",0.002301533240824938,444,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,pistachio & rose,0.002299506450071931,445,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"white chocolate, raspberry ripple",0.002292810007929802,446,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"mascarpone, raspberry ripple",0.0022648994345217943,447,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,cherry & almond cake,0.002242404967546463,448,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"yoghurt, rose & pistachios",0.0022313264198601246,449,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lemon & mint sorbet,0.0022157453931868076,450,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,passion fruit & liquorice,0.0022034035064280033,451,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted banana & cinnamon,0.0022025357466191053,452,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,"coconut, ube, rose & pistachios",0.0020480158273130655,453,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,burnt sugar & salt,0.0019965246319770813,454,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,lychee & matcha sorbet,0.0019182550022378564,455,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,strawberries & aged balsamic,0.0018313785549253225,456,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,roasted banana & cinnamon stracciatella,0.0018186173401772976,457,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,fior di panna,0.0017524808645248413,458,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,parsnip cake,0.0015531206736341119,459,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,blue matcha,0.0015197665197774768,460,False,False,logit,2026-07-19
+2026-10-17,2026-10-18,benet_street,vanilla treacle,0.0013723843730986118,461,False,False,logit,2026-07-19

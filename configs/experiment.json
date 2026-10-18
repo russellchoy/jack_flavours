@@ -1,0 +1,50 @@
+{
+  "source_url": "https://github.com/EdmundGoodman/jacks-menu-history",
+  "source_commit": "fba48c936c059625f399353e5afa8b071fc51457",
+  "shops": [
+    "all_saints",
+    "benet_street"
+  ],
+  "target": "next_calendar_day_snapshot_presence",
+  "cutoff": "After issue-date snapshot collection completes; availability is assumed, not timestamp-verified. Never use target-day observations.",
+  "test_days": 90,
+  "validation_folds": 3,
+  "validation_days": 30,
+  "seed": 42,
+  "min_support": 5,
+  "logistic_C": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "thresholds": [
+    0.2,
+    0.35,
+    0.5,
+    0.65,
+    0.8
+  ],
+  "top_k": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "bootstrap_block_days": 7,
+  "bootstrap_replicates": 200,
+  "boosting": {
+    "max_iter": 100,
+    "max_leaf_nodes": 7,
+    "learning_rate": 0.05,
+    "l2_regularization": 10.0,
+    "min_samples_leaf": 20,
+    "early_stopping": false
+  },
+  "session": {
+    "start_utc": "2026-10-17T17:30:56+00:00",
+    "deadline_utc": "2026-10-17T19:30:56+00:00",
+    "max_attempts": 6,
+    "max_no_progress": 2
+  }
+}

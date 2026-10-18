@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-17T18:22:47+00:00",
+  "deadline_utc": "2026-10-17T19:22:47+00:00",
+  "max_attempts": 6,
+  "max_no_progress": 2,
+  "novelty_definition": "A flavour observed at the target shop that has never been recorded at either shop before the target date. Simultaneous first appearances count at both shops.",
+  "burn_in_days": 90,
+  "inner_block_days": 30,
+  "min_novelty_training_rows": 60,
+  "logistic_C": 0.01,
+  "seed": 42,
+  "bootstrap_replicates": 200,
+  "comparison": [
+    "current",
+    "status_only",
+    "status_plus_predicted_novelty"
+  ],
+  "test_status": "exploratory: all evaluation periods have already been inspected",
+  "hyperparameter_search": false,
+  "known_flavour_point": {
+    "threshold": 0.2,
+    "k": 10
+  }
+}

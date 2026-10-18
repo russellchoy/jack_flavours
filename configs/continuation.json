@@ -1,0 +1,9 @@
+{
+  "start_utc": "2026-10-17T17:41:10+00:00",
+  "deadline_utc": "2026-10-17T19:11:10+00:00",
+  "max_attempts": 6,
+  "max_no_progress": 2,
+  "attempt": 1,
+  "authorization": "User goal: continue",
+  "validation_selection_sha256": "e5df471ce5f48b27a304b828bc1d4206fd7b301e7c90017a8fabd4257aa2dcca"
+}

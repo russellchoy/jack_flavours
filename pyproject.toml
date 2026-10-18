@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jack-flavours"
+version = "0.1.0"
+description = "Reproducible next-day gelato menu forecasts"
+requires-python = ">=3.13,<3.14"
+dependencies = ["numpy>=2.2,<3", "pandas>=2.2,<4", "scikit-learn>=1.6,<2", "pyarrow>=19,<30", "matplotlib>=3.10,<4"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+jack-flavours = "jack_flavours.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

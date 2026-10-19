@@ -1,0 +1,11 @@
+{
+  "status": "issued",
+  "date": "2026-10-19",
+  "model_sha256": "7f7abfbc51d45b19b3f4019dbfbfb89e9a29396a37a3dfbfef038fc1724c9fbc",
+  "model_asset": "v5-2026-10-19.joblib",
+  "history_sha256": "167bcd0876f145b4bf537931d6e94914e6ec575c14589d3bf849ddd3d16ce8b7",
+  "shops": [
+    "all_saints",
+    "benet_street"
+  ]
+}

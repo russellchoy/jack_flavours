@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "shop": "all_saints",
+  "normalization": "v4",
+  "shared_labels": 521,
+  "shared_brier": {
+    "adaptive-v4": 0.00433895837426552,
+    "frozen-v4": 0.004104773038236257,
+    "persistence-v4": 0.0019193857965451055
+  },
+  "forecast_hashes": [
+    "327658b3322bc4d35a59d1f096d2fccc0a582e49675bef288e26ad2553d30062",
+    "f6ea6ede4e65f176982d58ce64229fb7780603c43754d2d17d9be22e5a3f2f9f",
+    "aac59a64fd5b0da8427ae774d66b965672e3a94b18a10cbec0e14fa6340785cc"
+  ]
+}

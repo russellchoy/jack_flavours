@@ -201,3 +201,29 @@ def test_dashboard_publishes_animation_assets_with_daily_refresh(tmp_path):
         assert (tmp_path/'site/assets'/asset).read_bytes() == (Path('web/assets')/asset).read_bytes()
     assert (tmp_path/'site/index.html').read_text() == Path('web/daily.html').read_text()
     assert json.loads((tmp_path/'site/data.json').read_text())['scores'] == []
+
+
+@pytest.mark.parametrize('instant,allowed', [
+    ('2026-10-19T09:59:00+00:00', False),
+    ('2026-10-19T10:00:00+00:00', True),
+    ('2026-10-19T18:15:00+00:00', True),
+    ('2026-10-26T10:59:00+00:00', False),
+    ('2026-10-26T11:00:00+00:00', True),
+    ('2026-10-26T22:00:00+00:00', True),
+])
+def test_daily_opening_and_delayed_start(tmp_path, monkeypatch, instant, allowed):
+    now = datetime.fromisoformat(instant)
+    monkeypatch.setattr(daily, 'now_utc', lambda: now)
+    monkeypatch.setattr(daily, 'production_model', lambda: {})
+    monkeypatch.setattr(daily, 'bootstrap', lambda state: None)
+    monkeypatch.setattr(daily, 'collect', lambda *args: None)
+    monkeypatch.setattr(daily, 'score_pending', lambda state: None)
+    monkeypatch.setattr(daily, 'dashboard', lambda state: None)
+    issued = []
+    def issue(state, day, *args):
+        issued.append(day)
+        return {'status': 'issued'}
+    monkeypatch.setattr(daily, 'issue', issue)
+    result = daily.run(tmp_path, scheduled=True)
+    assert result['status'] == ('issued' if allowed else 'outside_schedule')
+    assert issued == ([now.astimezone(daily.LONDON).date().isoformat()] if allowed else [])

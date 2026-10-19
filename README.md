@@ -188,3 +188,7 @@ Hosting uses **free GitHub Actions on a public repository and Cloudflare Pages F
 See [implementation plan](reports/daily-learning-implementation-plan.md) for the evaluation policy, provenance and bounded runtime. Original validation/test results do not validate the daily refits.
 
 The current live version is **v5**: conjunction cleaning, the earlier confirmed aliases, `house vanilla → vanilla`, and all 83 candidate groups explicitly approved on 18 October. The [approved review list](https://github.com/russellchoy/jack_flavours/blob/main/reports/alias-review.md) records the decisions. Only these exact aliases are merged; ingredient order is not globally sorted. Earlier model versions remain archived with their original naming rules. The frozen v5 reference supports 513 labels; prospective v5 accuracy begins with 19 October outcomes.
+
+### Daily update time
+
+The live pipeline is scheduled for **11:00 am Europe/London every day**, automatically following GMT/BST. GitHub Actions may start late; delayed same-day runs remain eligible. Each scheduled run scores available menus and issues forecasts for shops with valid observations, without waiting for an afternoon run. Missing menus remain unknown. Manual recovery is available, with at most three collection attempts per London date and immutable issued forecasts.

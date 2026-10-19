@@ -320,7 +320,8 @@ def run(state, scheduled=False):
     day = local.date().isoformat()
     if day < START:
         raise ValueError('Before prospective start')
-    if scheduled and local.hour not in (11, 13, 16):
+    # Accept delayed same-day starts; never discard an afternoon catch-up.
+    if scheduled and local.hour < 11:
         return {'status': 'outside_schedule'}
     state.mkdir(parents=True, exist_ok=True)
     frozen = production_model()
@@ -337,7 +338,7 @@ def run(state, scheduled=False):
         collect(state, day, attempt, now.isoformat())
         score_pending(state)
         complete = all((state/'observations'/day/f'{s}.json').exists() for s in SHOPS)
-        if complete or (local.hour, local.minute) >= (16, 37) or attempt == 3:
+        if complete or scheduled or (local.hour, local.minute) >= (16, 37) or attempt == 3:
             result.update(issue(state, day, read('configs/experiment.json'), frozen, check))
     except Exception as error:
         result.update(status='failed', error=type(error).__name__, message=str(error))

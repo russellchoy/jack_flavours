@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "date": "2026-10-20",
+  "shop": "benet_street",
+  "fetched_utc": "2026-10-20T14:34:45.699506+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nOctober 20th, 2026\n-\nCoconut Sugar \nVanilla\nHouse Mascarpone & Cherry Ripple\nApricot Sorbet (vegan)\nDouble Honeycomb\nChocolate\nBlackcurrants & Cream\nCoconut, Lemongrass & Raspberry (vegan)\nGin & Tonic Sorbet (+£1)(vegan)\nGirton Apple Sorbet (vegan)\nKing’s College Lavender & Oreo\nVictoria Sponge\nStrawberry Sorbet (vegan)\nMaple Syrup & Pecans\nCoffee\n\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "94c32a094db4a5bc10fbc1eb262541fdd238d9f7072f0873a9fe0b7d3559871b",
+  "menu_date": "2026-10-20",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "apricot sorbet",
+    "blackcurrants & cream",
+    "chocolate",
+    "coconut sugar",
+    "coconut, lemongrass & raspberry",
+    "coffee",
+    "double honeycomb",
+    "gin & tonic sorbet",
+    "girton apple sorbet",
+    "house mascarpone & cherry ripple",
+    "king’s college lavender & oreo",
+    "maple syrup & pecans",
+    "strawberry sorbet",
+    "vanilla",
+    "victoria sponge"
+  ],
+  "items": [
+    {
+      "raw_name": "Coconut Sugar",
+      "canonical_name": "coconut sugar",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla",
+      "canonical_name": "vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "House Mascarpone & Cherry Ripple",
+      "canonical_name": "house mascarpone & cherry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Apricot Sorbet (vegan)",
+      "canonical_name": "apricot sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Double Honeycomb",
+      "canonical_name": "double honeycomb",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Chocolate",
+      "canonical_name": "chocolate",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Blackcurrants & Cream",
+      "canonical_name": "blackcurrants & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut, Lemongrass & Raspberry (vegan)",
+      "canonical_name": "coconut, lemongrass & raspberry",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Gin & Tonic Sorbet (+£1)(vegan)",
+      "canonical_name": "gin & tonic sorbet",
+      "annotations": "[\"(+£1)\", \"(vegan)\"]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "King’s College Lavender & Oreo",
+      "canonical_name": "king’s college lavender & oreo",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Victoria Sponge",
+      "canonical_name": "victoria sponge",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Strawberry Sorbet (vegan)",
+      "canonical_name": "strawberry sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Maple Syrup & Pecans",
+      "canonical_name": "maple syrup & pecans",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coffee",
+      "canonical_name": "coffee",
+      "annotations": "[]"
+    }
+  ]
+}

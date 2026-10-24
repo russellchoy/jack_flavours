@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "shop": "all_saints",
+  "fetched_utc": "2026-10-24T13:43:35.129099+00:00",
+  "document_id": "1kDBSxPb8X4L2TKXWUmm2A-VGuPVTyxmfbq9iwUQQ2nc",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿October 24th, 2026\n\n\n-\nMascarpone Vanilla\nSalted Peanut Straccietalla (vegan)\nCold-Infused Cocoa Nib\nApricot & Lemon Sorbet (vegan)\nCoconut Ube (vegan)\nChocolate & Cherry Ripple\nGirton Apple Sorbet (vegan)\nDark Chocolate & Sea Salt (vegan)\nStrawberry Sorbet (vegan)\nLemon Yoghurt\nPink Guava & Rose Sorbet (vegan)\nBlackcurrants & Cream\nLemongrass & Oreo\nSingle Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£80p  |  Pint £10\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves, in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "fdf7dcbe4e9cf7677ffa2c5f903d26f5b4468f027f06553ab90fa358642ac5ba",
+  "menu_date": "2026-10-24",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "apricot & lemon sorbet",
+    "blackcurrants & cream",
+    "chocolate & cherry ripple",
+    "coconut ube",
+    "cold-infused cocoa nib",
+    "dark chocolate & sea salt",
+    "girton apple sorbet",
+    "lemon yoghurt",
+    "lemongrass & oreo",
+    "mascarpone vanilla",
+    "pink guava & rose sorbet",
+    "salted peanut straccietalla",
+    "strawberry sorbet"
+  ],
+  "items": [
+    {
+      "raw_name": "Mascarpone Vanilla",
+      "canonical_name": "mascarpone vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Salted Peanut Straccietalla (vegan)",
+      "canonical_name": "salted peanut straccietalla",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Cold-Infused Cocoa Nib",
+      "canonical_name": "cold-infused cocoa nib",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Apricot & Lemon Sorbet (vegan)",
+      "canonical_name": "apricot & lemon sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Coconut Ube (vegan)",
+      "canonical_name": "coconut ube",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Chocolate & Cherry Ripple",
+      "canonical_name": "chocolate & cherry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Strawberry Sorbet (vegan)",
+      "canonical_name": "strawberry sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Lemon Yoghurt",
+      "canonical_name": "lemon yoghurt",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Pink Guava & Rose Sorbet (vegan)",
+      "canonical_name": "pink guava & rose sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Blackcurrants & Cream",
+      "canonical_name": "blackcurrants & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Lemongrass & Oreo",
+      "canonical_name": "lemongrass & oreo",
+      "annotations": "[]"
+    }
+  ]
+}

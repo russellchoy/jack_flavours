@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-25",
+  "shop": "all_saints",
+  "model": "frozen-v5",
+  "metric_version": 1,
+  "normalization": "v5",
+  "hits": 8,
+  "predicted": 10,
+  "actual": 14,
+  "precision_at_10": 0.8,
+  "recall_at_10": 0.5714285714285714,
+  "brier": 0.0074439013222861875,
+  "average_precision": 0.742875816993464,
+  "supported_labels": 513,
+  "supported_actual": 10,
+  "unsupported_actual": 4,
+  "observation_sha256": "fa82ff313e201baa66e80b9449d02051f0e0caf434c89c76171aba540311ce53",
+  "model_sha256": "5ef618bef1ade66ccf81fe2db8f280c6745443bbc128052dedf0559b0cf43037",
+  "forecast_sha256": "fa93ba49d27865d833435f47d1d24a6bf22561109a226efbc3b042f9a7c4bb34",
+  "scored_utc": "2026-10-25T14:41:31.744466+00:00"
+}

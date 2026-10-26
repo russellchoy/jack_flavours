@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "date": "2026-10-26",
+  "shop": "benet_street",
+  "fetched_utc": "2026-10-26T17:04:17.667762+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nOctober 26th, 2026\n-\nCam Film Festival Flavour: Not-popped-corn!\n-\nHouse Vanilla\nDark Chocolate & Sea Salt (vegan)\nCoconut Stracciatella (vegan)\nCold-Infuse Coffee\nChocolate Chip Cookie Dough\nPink Guava & Lime Leaf (vegan)\nRose, Raspberry Ripple\nGinger Cake\nBlackcurrants & Cream\nOrange Blossom & Pistachios (+£1)\nStrawberry Sorbet (vegan)\nWasabi & Coconut (vegan)\nSalted Caramel\nChocolate\nHazelnut\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "9d7fd6702b9d9bf5258864290e08216652af5326b8d36a7bb0a42460083d405c",
+  "menu_date": "2026-10-26",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "blackcurrants & cream",
+    "cam film festival flavour: not-popped-corn!",
+    "chocolate",
+    "chocolate chip cookie dough",
+    "coconut stracciatella",
+    "cold-infuse coffee",
+    "dark chocolate & sea salt",
+    "ginger cake",
+    "hazelnut",
+    "house vanilla",
+    "orange blossom & pistachios",
+    "pink guava & lime leaf",
+    "rose, raspberry ripple",
+    "salted caramel",
+    "strawberry sorbet",
+    "wasabi & coconut"
+  ],
+  "items": [
+    {
+      "raw_name": "Cam Film Festival Flavour: Not-popped-corn!",
+      "canonical_name": "cam film festival flavour: not-popped-corn!",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "House Vanilla",
+      "canonical_name": "house vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Coconut Stracciatella (vegan)",
+      "canonical_name": "coconut stracciatella",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Cold-Infuse Coffee",
+      "canonical_name": "cold-infuse coffee",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Chocolate Chip Cookie Dough",
+      "canonical_name": "chocolate chip cookie dough",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Pink Guava & Lime Leaf (vegan)",
+      "canonical_name": "pink guava & lime leaf",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Rose, Raspberry Ripple",
+      "canonical_name": "rose, raspberry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Ginger Cake",
+      "canonical_name": "ginger cake",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Blackcurrants & Cream",
+      "canonical_name": "blackcurrants & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Orange Blossom & Pistachios (+£1)",
+      "canonical_name": "orange blossom & pistachios",
+      "annotations": "[\"(+£1)\"]"
+    },
+    {
+      "raw_name": "Strawberry Sorbet (vegan)",
+      "canonical_name": "strawberry sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Wasabi & Coconut (vegan)",
+      "canonical_name": "wasabi & coconut",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Salted Caramel",
+      "canonical_name": "salted caramel",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Chocolate",
+      "canonical_name": "chocolate",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Hazelnut",
+      "canonical_name": "hazelnut",
+      "annotations": "[]"
+    }
+  ]
+}

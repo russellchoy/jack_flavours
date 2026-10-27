@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "date": "2026-10-27",
+  "shop": "all_saints",
+  "fetched_utc": "2026-10-27T16:07:12.467022+00:00",
+  "document_id": "1kDBSxPb8X4L2TKXWUmm2A-VGuPVTyxmfbq9iwUQQ2nc",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿October 27th, 2026\n\n\n-\nHouse Vanilla\nGirton Apple Sorbet (vegan)\nRose, Chocolate Fudge Ripple\nCold-Infused Coffee\nBrownie Dough\nApricot & Lemon Sorbet (vegan)\nCoconut Ube (vegan)\nChocolate & Cherry Ripple\nVanilla & Violet\nStrawberry Sorbet (vegan)\nPink Guava & Rose Sorbet (vegan)\nBlackcurrants & Cream\nDark Chocolate & Sea Salt (vegan)\nHazelnut & Oreo\nSingle Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£80p  |  Pint £10\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves, in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "e81b30efacc03d54e7ff4289fa20cddc961fd9797c906c740889eba0dcf6faf7",
+  "menu_date": "2026-10-27",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "apricot & lemon sorbet",
+    "blackcurrants & cream",
+    "brownie dough",
+    "chocolate & cherry ripple",
+    "coconut ube",
+    "cold-infused coffee",
+    "dark chocolate & sea salt",
+    "girton apple sorbet",
+    "hazelnut & oreo",
+    "house vanilla",
+    "pink guava & rose sorbet",
+    "rose, chocolate fudge ripple",
+    "strawberry sorbet",
+    "vanilla & violet"
+  ],
+  "items": [
+    {
+      "raw_name": "House Vanilla",
+      "canonical_name": "house vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Rose, Chocolate Fudge Ripple",
+      "canonical_name": "rose, chocolate fudge ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Cold-Infused Coffee",
+      "canonical_name": "cold-infused coffee",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Brownie Dough",
+      "canonical_name": "brownie dough",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Apricot & Lemon Sorbet (vegan)",
+      "canonical_name": "apricot & lemon sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Coconut Ube (vegan)",
+      "canonical_name": "coconut ube",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Chocolate & Cherry Ripple",
+      "canonical_name": "chocolate & cherry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla & Violet",
+      "canonical_name": "vanilla & violet",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Strawberry Sorbet (vegan)",
+      "canonical_name": "strawberry sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Pink Guava & Rose Sorbet (vegan)",
+      "canonical_name": "pink guava & rose sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Blackcurrants & Cream",
+      "canonical_name": "blackcurrants & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Hazelnut & Oreo",
+      "canonical_name": "hazelnut & oreo",
+      "annotations": "[]"
+    }
+  ]
+}

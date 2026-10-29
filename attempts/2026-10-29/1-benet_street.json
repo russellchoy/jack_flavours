@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "date": "2026-10-29",
+  "shop": "benet_street",
+  "fetched_utc": "2026-10-29T17:11:59.980821+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nOctober 29th, 2026\n-\nCam Film Fest Flavour: Spiced Unpopped-Corn\n-\nHouse Vanilla\nDark Chocolate & Sea Salt (vegan)\nCoconut Stracciatella (vegan)\nCold-Infuse Coffee\nApricot Sorbet (vegan)\nAmaretto & Lemon Tiramisu\nCaramelised Yoghurt \nHibiscus & Lime Leaf Sorbet (vegan)\nChocolate\nRose, Raspberry Ripple\nSalted Oreo\nOrange Blossom & Pistachios (+£1)\nMascarpone, Cherry Ripple\nStrawberry & Cream \n\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "60407d0c61cc9065651acce279594faac8b9690c2bb5a8d57efabd346a7cd3c4",
+  "menu_date": "2026-10-29",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "amaretto & lemon tiramisu",
+    "apricot sorbet",
+    "cam film fest flavour: spiced unpopped-corn",
+    "caramelised yoghurt",
+    "chocolate",
+    "coconut stracciatella",
+    "cold-infuse coffee",
+    "dark chocolate & sea salt",
+    "hibiscus & lime leaf sorbet",
+    "house vanilla",
+    "mascarpone, cherry ripple",
+    "orange blossom & pistachios",
+    "rose, raspberry ripple",
+    "salted oreo",
+    "strawberry & cream"
+  ],
+  "items": [
+    {
+      "raw_name": "Cam Film Fest Flavour: Spiced Unpopped-Corn",
+      "canonical_name": "cam film fest flavour: spiced unpopped-corn",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "House Vanilla",
+      "canonical_name": "house vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Coconut Stracciatella (vegan)",
+      "canonical_name": "coconut stracciatella",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Cold-Infuse Coffee",
+      "canonical_name": "cold-infuse coffee",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Apricot Sorbet (vegan)",
+      "canonical_name": "apricot sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Amaretto & Lemon Tiramisu",
+      "canonical_name": "amaretto & lemon tiramisu",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Caramelised Yoghurt",
+      "canonical_name": "caramelised yoghurt",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Hibiscus & Lime Leaf Sorbet (vegan)",
+      "canonical_name": "hibiscus & lime leaf sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Chocolate",
+      "canonical_name": "chocolate",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Rose, Raspberry Ripple",
+      "canonical_name": "rose, raspberry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Salted Oreo",
+      "canonical_name": "salted oreo",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Orange Blossom & Pistachios (+£1)",
+      "canonical_name": "orange blossom & pistachios",
+      "annotations": "[\"(+£1)\"]"
+    },
+    {
+      "raw_name": "Mascarpone, Cherry Ripple",
+      "canonical_name": "mascarpone, cherry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Strawberry & Cream",
+      "canonical_name": "strawberry & cream",
+      "annotations": "[]"
+    }
+  ]
+}

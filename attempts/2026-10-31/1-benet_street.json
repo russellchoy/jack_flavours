@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "date": "2026-10-31",
+  "shop": "benet_street",
+  "fetched_utc": "2026-10-31T15:55:36.027810+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nHalloween, 2026\n-\nCam Film Fest Flavour: Spiced Unpopped-Corn\n-\nJack’s Gelato Farm Pumpkin\nHalloween Mix \nDark Chocolate & Sea Salt (vegan)\nKing’s College Lavender\nHoneycomb\nGirton Apple Sorbet (vegan)\nHouse Cinnamon Biscuit \nPink Guava & Rose (vegan)\nStrawberry & Cream \nCoconut, Pineapple & Chilli (vegan)\nCaramelised Yoghurt\nHazelnut, Chocolate Fudge Ripple\nVanilla\n\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "fb2f7208eeb71957fdee948c77c18b0c2cffe37ebbd8a545a34e9cf5275cf375",
+  "menu_date": "2026-10-31",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "cam film fest flavour: spiced unpopped-corn",
+    "caramelised yoghurt",
+    "coconut, pineapple & chilli",
+    "dark chocolate & sea salt",
+    "girton apple sorbet",
+    "halloween mix",
+    "hazelnut, chocolate fudge ripple",
+    "honeycomb",
+    "house cinnamon biscuit",
+    "jack’s gelato farm pumpkin",
+    "king’s college lavender",
+    "pink guava & rose",
+    "strawberry & cream",
+    "vanilla"
+  ],
+  "items": [
+    {
+      "raw_name": "Cam Film Fest Flavour: Spiced Unpopped-Corn",
+      "canonical_name": "cam film fest flavour: spiced unpopped-corn",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Jack’s Gelato Farm Pumpkin",
+      "canonical_name": "jack’s gelato farm pumpkin",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Halloween Mix",
+      "canonical_name": "halloween mix",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "King’s College Lavender",
+      "canonical_name": "king’s college lavender",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Honeycomb",
+      "canonical_name": "honeycomb",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "House Cinnamon Biscuit",
+      "canonical_name": "house cinnamon biscuit",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Pink Guava & Rose (vegan)",
+      "canonical_name": "pink guava & rose",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Strawberry & Cream",
+      "canonical_name": "strawberry & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut, Pineapple & Chilli (vegan)",
+      "canonical_name": "coconut, pineapple & chilli",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Caramelised Yoghurt",
+      "canonical_name": "caramelised yoghurt",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Hazelnut, Chocolate Fudge Ripple",
+      "canonical_name": "hazelnut, chocolate fudge ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla",
+      "canonical_name": "vanilla",
+      "annotations": "[]"
+    }
+  ]
+}

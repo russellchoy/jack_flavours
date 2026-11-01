@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "shop": "benet_street",
+  "fetched_utc": "2026-11-01T16:57:37.741851+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nNovember 1st, 2026\n-\nJack’s Gelato Farm Pumpkin\nDark Chocolate & Sea Salt (vegan)\nKing’s College Lavender\nHoneycomb\nGirton Apple Sorbet (vegan)\nSpiced Caramelised Scones, Caramel Ripple \nPink Guava & Rose (vegan)\nHouse Yoghurt\nStrawberry & Cream \nCoconut Ube (vegan)\nSalted Caramel\nVanilla\nWhisky: Glenmorangie 12yr old (+£2) \n\n\n\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "e0c16680324b2b0dd0538b7c9985ae2877fa76efc536e7bb6627cc67b2b62e12",
+  "menu_date": "2026-11-01",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "coconut ube",
+    "dark chocolate & sea salt",
+    "girton apple sorbet",
+    "honeycomb",
+    "house yoghurt",
+    "jack’s gelato farm pumpkin",
+    "king’s college lavender",
+    "pink guava & rose",
+    "salted caramel",
+    "spiced caramelised scones, caramel ripple",
+    "strawberry & cream",
+    "vanilla",
+    "whisky: glenmorangie 12yr old"
+  ],
+  "items": [
+    {
+      "raw_name": "Jack’s Gelato Farm Pumpkin",
+      "canonical_name": "jack’s gelato farm pumpkin",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "King’s College Lavender",
+      "canonical_name": "king’s college lavender",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Honeycomb",
+      "canonical_name": "honeycomb",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Spiced Caramelised Scones, Caramel Ripple",
+      "canonical_name": "spiced caramelised scones, caramel ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Pink Guava & Rose (vegan)",
+      "canonical_name": "pink guava & rose",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "House Yoghurt",
+      "canonical_name": "house yoghurt",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Strawberry & Cream",
+      "canonical_name": "strawberry & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut Ube (vegan)",
+      "canonical_name": "coconut ube",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Salted Caramel",
+      "canonical_name": "salted caramel",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla",
+      "canonical_name": "vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Whisky: Glenmorangie 12yr old (+£2)",
+      "canonical_name": "whisky: glenmorangie 12yr old",
+      "annotations": "[\"(+£2)\"]"
+    }
+  ]
+}

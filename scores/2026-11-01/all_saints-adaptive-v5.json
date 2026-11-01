@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "shop": "all_saints",
+  "model": "adaptive-v5",
+  "metric_version": 1,
+  "normalization": "v5",
+  "hits": 10,
+  "predicted": 10,
+  "actual": 14,
+  "precision_at_10": 1.0,
+  "recall_at_10": 0.7142857142857143,
+  "brier": 0.0022276790812445794,
+  "average_precision": 0.9935897435897436,
+  "supported_labels": 522,
+  "supported_actual": 12,
+  "unsupported_actual": 2,
+  "observation_sha256": "90d66fb3ce6c02dd952f66ab8c2038189821db91be02e898bfd9371081237280",
+  "model_sha256": "478e89f42624c6919c7cfdc25e92a03cab6145c0bd52b6bfef616a3e2f522c86",
+  "forecast_sha256": "e0625779db6d06b1ee6536e9702dc753406e4424a036eba2eded463584227d93",
+  "scored_utc": "2026-11-01T16:57:42.657877+00:00"
+}

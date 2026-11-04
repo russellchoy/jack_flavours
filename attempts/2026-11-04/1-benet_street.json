@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "date": "2026-11-04",
+  "shop": "benet_street",
+  "fetched_utc": "2026-11-04T18:20:47.644672+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nNovember 4th, 2026\n-\nJack’s Gelato Farm Pumpkin, Caramel Ripple\nDark Chocolate & Sea Salt (vegan)\nPalets Bretons\nGirton Apple Sorbet (vegan)\nPink Guava & Wasabi (vegan)\nCarrot Cake\nStrawberry & Cream \nCoconut Ube (vegan)\nSalted Caramel\nChocolate, Raspberry Ripple\nWhisky: Glenmorangie 12yr old (+£2) \nKing’s College Lavender\nVanilla\nAlmond & Cherry (vegan)\nDamson Sorbet (vegan)\n\n\n\n\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "4dab357e9b666b85adda17023b14748355eb7fb6fe9fc934619a1b25700f7af9",
+  "menu_date": "2026-11-04",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "almond & cherry",
+    "carrot cake",
+    "chocolate, raspberry ripple",
+    "coconut ube",
+    "damson sorbet",
+    "dark chocolate & sea salt",
+    "girton apple sorbet",
+    "jack’s gelato farm pumpkin, caramel ripple",
+    "king’s college lavender",
+    "palets bretons",
+    "pink guava & wasabi",
+    "salted caramel",
+    "strawberry & cream",
+    "vanilla",
+    "whisky: glenmorangie 12yr old"
+  ],
+  "items": [
+    {
+      "raw_name": "Jack’s Gelato Farm Pumpkin, Caramel Ripple",
+      "canonical_name": "jack’s gelato farm pumpkin, caramel ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Palets Bretons",
+      "canonical_name": "palets bretons",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Pink Guava & Wasabi (vegan)",
+      "canonical_name": "pink guava & wasabi",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Carrot Cake",
+      "canonical_name": "carrot cake",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Strawberry & Cream",
+      "canonical_name": "strawberry & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut Ube (vegan)",
+      "canonical_name": "coconut ube",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Salted Caramel",
+      "canonical_name": "salted caramel",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Chocolate, Raspberry Ripple",
+      "canonical_name": "chocolate, raspberry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Whisky: Glenmorangie 12yr old (+£2)",
+      "canonical_name": "whisky: glenmorangie 12yr old",
+      "annotations": "[\"(+£2)\"]"
+    },
+    {
+      "raw_name": "King’s College Lavender",
+      "canonical_name": "king’s college lavender",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla",
+      "canonical_name": "vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Almond & Cherry (vegan)",
+      "canonical_name": "almond & cherry",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Damson Sorbet (vegan)",
+      "canonical_name": "damson sorbet",
+      "annotations": "[\"(vegan)\"]"
+    }
+  ]
+}

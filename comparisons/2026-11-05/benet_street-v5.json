@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "shop": "benet_street",
+  "normalization": "v5",
+  "shared_labels": 513,
+  "shared_brier": {
+    "adaptive-v5": 0.014157839038025921,
+    "frozen-v5": 0.014293451839290306,
+    "persistence-v5": 0.01364522417153996
+  },
+  "forecast_hashes": [
+    "3c2e3af0cbcdd8a91dac789299538f78778aed07127635f492e8b0d9569512e5",
+    "53866096ec40d62f67c4a3631bd2e895a18a96ea529466e04ff48b89b709cc95",
+    "e24122f1f5ed5c0b1c2f69ee6642494957b6b691753214e06fdc24cc1eff7005"
+  ]
+}

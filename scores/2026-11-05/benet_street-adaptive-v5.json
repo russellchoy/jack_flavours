@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "shop": "benet_street",
+  "model": "adaptive-v5",
+  "metric_version": 1,
+  "normalization": "v5",
+  "hits": 8,
+  "predicted": 10,
+  "actual": 16,
+  "precision_at_10": 0.8,
+  "recall_at_10": 0.5,
+  "brier": 0.013862788122452977,
+  "average_precision": 0.7667225132573284,
+  "supported_labels": 524,
+  "supported_actual": 14,
+  "unsupported_actual": 2,
+  "observation_sha256": "0e304295fb7a78f10db4fcb3785fa458c88c37ef5201bd764d6fd478e17da5f7",
+  "model_sha256": "44784bb41d5f8eea83cb4174e33de808c05eb217c6ec1dd1df095a60fff033bd",
+  "forecast_sha256": "3c2e3af0cbcdd8a91dac789299538f78778aed07127635f492e8b0d9569512e5",
+  "scored_utc": "2026-11-05T18:23:55.227723+00:00"
+}

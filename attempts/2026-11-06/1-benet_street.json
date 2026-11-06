@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "date": "2026-11-06",
+  "shop": "benet_street",
+  "fetched_utc": "2026-11-06T17:44:42.019841+00:00",
+  "document_id": "1dVYB7lnBgWE0bPhc9SFz0aLrkDfSCulrMctW1gDfCA8",
+  "scraper_commit": "ccdfca95d4eef554052ebab63d0c9733bc96624f",
+  "normalization": "original-v1",
+  "raw": "﻿Gelato \nNovember 6th, 2026\n-\nCinnamon Waffle\nJGF Pumpkin & Pine Nuts\nDark Chocolate & Sea Salt (vegan)\nPalets Bretons\nGirton Apple Sorbet (vegan)\nHibiscus & Rose (vegan)\nStrawberry & Cream \nCoconut Stracciatella (vegan)\nChocolate, Raspberry Ripple\nKing’s College Lavender\nVanilla\nGirton Apple Crumble\nAlmond & Cherry (vegan)\nHoneycomb\nBlackcurrants & Cream\nHouse Yoghurt\nHot Chocolate!\nSee inside for today’s selection!\n\n\n Single Scoop £2.90  |  Double Scoop £4.90  |  Triple Scoop £6.90 \nTiny Scoop £1.80  |  Double Tiny Scoop £3.30  |  Triple Tiny Scoop £4.80\nGF Cone +£0.80  |  Chocolate Dipped Cone +£1.40\nPint £10  |  Thickshake (Estate Dairy or House Oat Milk) £6\n\n\n  \n\n\n\nScan the QR code to order online                           Collect at the window once ordered                            \n________________\n\n\n\n\nPlease note that this menu might be a few hours old and certain flavours may have sold out.\nWe make everything ourselves in a kitchen that contains dairy, nuts, gluten, eggs, soy, sesame and alcohol and other allergens. Please ask for more details.",
+  "sha256": "d425366fa5c0afe2a9009a3b13ccdaa36ca0b4422436ea3f369cef6c14b01c2b",
+  "menu_date": "2026-11-06",
+  "status": "valid",
+  "warnings": [],
+  "flavours": [
+    "almond & cherry",
+    "blackcurrants & cream",
+    "chocolate, raspberry ripple",
+    "cinnamon waffle",
+    "coconut stracciatella",
+    "dark chocolate & sea salt",
+    "girton apple crumble",
+    "girton apple sorbet",
+    "hibiscus & rose",
+    "honeycomb",
+    "house yoghurt",
+    "jgf pumpkin & pine nuts",
+    "king’s college lavender",
+    "palets bretons",
+    "strawberry & cream",
+    "vanilla"
+  ],
+  "items": [
+    {
+      "raw_name": "Cinnamon Waffle",
+      "canonical_name": "cinnamon waffle",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "JGF Pumpkin & Pine Nuts",
+      "canonical_name": "jgf pumpkin & pine nuts",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Dark Chocolate & Sea Salt (vegan)",
+      "canonical_name": "dark chocolate & sea salt",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Palets Bretons",
+      "canonical_name": "palets bretons",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Sorbet (vegan)",
+      "canonical_name": "girton apple sorbet",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Hibiscus & Rose (vegan)",
+      "canonical_name": "hibiscus & rose",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Strawberry & Cream",
+      "canonical_name": "strawberry & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Coconut Stracciatella (vegan)",
+      "canonical_name": "coconut stracciatella",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Chocolate, Raspberry Ripple",
+      "canonical_name": "chocolate, raspberry ripple",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "King’s College Lavender",
+      "canonical_name": "king’s college lavender",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Vanilla",
+      "canonical_name": "vanilla",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Girton Apple Crumble",
+      "canonical_name": "girton apple crumble",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Almond & Cherry (vegan)",
+      "canonical_name": "almond & cherry",
+      "annotations": "[\"(vegan)\"]"
+    },
+    {
+      "raw_name": "Honeycomb",
+      "canonical_name": "honeycomb",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "Blackcurrants & Cream",
+      "canonical_name": "blackcurrants & cream",
+      "annotations": "[]"
+    },
+    {
+      "raw_name": "House Yoghurt",
+      "canonical_name": "house yoghurt",
+      "annotations": "[]"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-08",
+  "shop": "benet_street",
+  "status": "failed",
+  "fetched_utc": "2026-11-08T16:51:41.352671+00:00",
+  "warnings": [
+    "CalledProcessError"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-24",
+  "shop": "all_saints",
+  "status": "failed",
+  "fetched_utc": "2026-11-24T20:56:29.649504+00:00",
+  "warnings": [
+    "CalledProcessError"
+  ]
+}
